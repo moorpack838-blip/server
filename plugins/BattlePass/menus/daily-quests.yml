@@ -1,0 +1,213 @@
+menu-title: '§e☀ §6§lЕЖЕДНЕВНЫЕ ЗАДАНИЯ §e☀ '
+menu-rows: 6
+
+quest-slots:
+  slots: '11...15, 20...24'
+
+menu:
+  '0':
+    item:
+      material: stained_glass_pane:4
+      name: '§7'
+      lore: []
+  '1':
+    item:
+      material: stained_glass_pane:4
+      name: '§7'
+      lore: []
+  '2':
+    item:
+      material: stained_glass_pane:1
+      name: '§7'
+      lore: []
+  '3':
+    item:
+      material: stained_glass_pane:1
+      name: '§7'
+      lore: []
+  '4':
+    item:
+      material: stained_glass_pane:1
+      name: '§7'
+      lore: []
+  '5':
+    item:
+      material: stained_glass_pane:1
+      name: '§7'
+      lore: []
+  '6':
+    item:
+      material: stained_glass_pane:1
+      name: '§7'
+      lore: []
+  '7':
+    item:
+      material: stained_glass_pane:4
+      name: '§7'
+      lore: []
+  '8':
+    item:
+      material: stained_glass_pane:4
+      name: '§7'
+      lore: []
+  '9':
+    item:
+      material: stained_glass_pane:4
+      name: '§7'
+      lore: []
+  '10':
+    item:
+      material: stained_glass_pane:1
+      name: '§7'
+      lore: []
+  '16':
+    item:
+      material: stained_glass_pane:1
+      name: '§7'
+      lore: []
+  '17':
+    item:
+      material: stained_glass_pane:4
+      name: '§7'
+      lore: []
+  '18':
+    item:
+      material: stained_glass_pane:4
+      name: '§7'
+      lore: []
+  '19':
+    item:
+      material: stained_glass_pane:7
+      name: '§7'
+      lore: []
+  '25':
+    item:
+      material: stained_glass_pane:7
+      name: '§7'
+      lore: []
+  '26':
+    item:
+      material: stained_glass_pane:4
+      name: '§7'
+      lore: []
+  '27':
+    item:
+      material: stained_glass_pane:4
+      name: '§7'
+      lore: []
+  '28':
+    item:
+      material: stained_glass_pane:7
+      name: '§7'
+      lore: []
+  '34':
+    item:
+      material: stained_glass_pane:7
+      name: '§7'
+      lore: []
+  '35':
+    item:
+      material: stained_glass_pane:4
+      name: '§7'
+      lore: []
+  '36':
+    item:
+      material: stained_glass_pane:4
+      name: '§7'
+      lore: []
+  '37':
+    item:
+      material: stained_glass_pane:1
+      name: '§7'
+      lore: []
+  '43':
+    item:
+      material: stained_glass_pane:1
+      name: '§7'
+      lore: []
+  '44':
+    item:
+      material: stained_glass_pane:4
+      name: '§7'
+      lore: []
+  '45':
+    item:
+      material: stained_glass_pane:4
+      name: '§7'
+      lore: []
+  '46':
+    item:
+      material: stained_glass_pane:4
+      name: '§7'
+      lore: []
+  '47':
+    item:
+      material: stained_glass_pane:1
+      name: '§7'
+      lore: []
+  '51':
+    item:
+      material: stained_glass_pane:1
+      name: '§7'
+      lore: []
+  '52':
+    item:
+      material: stained_glass_pane:4
+      name: '§7'
+      lore: []
+  '53':
+    item:
+      material: stained_glass_pane:4
+      name: '§7'
+      lore: []
+
+
+
+
+
+
+
+
+  '48':
+    item:
+      material: spectral_arrow:0
+      name: '§e☀ §6§lНАЗАД §e☀'
+      lore:
+        - ''
+    actions:
+      - '[menu](page = 1) {portal}'
+      - '[menu](page ! 1) {previous-page}'
+  '50':
+    item:
+      material: spectral_arrow:0
+      name: '§e☀ §6§lНАЗАД §e☀'
+      lore:
+        - ''
+    actions:
+      - '[menu](page = 1) {portal}'
+      - '[menu](page ! 1) {previous-page}'
+  '40':
+    item:
+      material: clock:0
+      name: '§e☀ §6§lТАЙМЕР §e☀'
+      lore:
+        - ''
+        - '§fДо обновления заданий: §6%daily_time_left%' # %daily_time_left%
+        - ''
+  '49':
+    item:
+      material: barrier:0
+      name: '§e☀ §6§lВЫЙТИ §e☀'
+      lore: []
+    actions:
+      - '[menu] {close}'
+  #'50':
+  #  item:
+  #    material: arrow:0
+  #    name: '§e§lϟ &6Следующая страница §e§lϟ'
+  #    lore:
+  #      - ''
+  #      - '&7  Для того чтобы перейти на следующую страницу'
+  #      - '&a  ➥ &eнажми&7 на меня'
+  #  actions:
+  #    - '[menu] {next-page}'

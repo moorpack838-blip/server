@@ -1,0 +1,11 @@
+uuid: fc5b1c9f-6293-3c19-8db3-d4f357c9c817
+name: PlayGame7721
+primary-group: yt
+parents:
+- yt
+prefixes:
+- §c§lЮ§f§lТ §7:
+    priority: 22
+    context:
+      server: grief
+      world: lobby

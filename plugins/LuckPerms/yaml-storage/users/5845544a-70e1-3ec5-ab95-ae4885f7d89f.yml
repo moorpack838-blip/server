@@ -1,0 +1,11 @@
+uuid: 5845544a-70e1-3ec5-ab95-ae4885f7d89f
+name: Zer1xx
+primary-group: default
+parents:
+- default
+prefixes:
+- §7§lИГРОК §7:
+    priority: 11
+    context:
+      server: grief
+      world: lobby

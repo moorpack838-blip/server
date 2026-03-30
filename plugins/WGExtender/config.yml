@@ -1,0 +1,66 @@
+claim:
+  vertexpand:
+    enabled: false
+  blocklimits:
+    enabled: true
+    limits:
+      default: 250000
+      voin: 300000
+      elay: 350000
+      hero: 400000
+      gladiator: 450000
+      legend: 500000
+      ares: 600000
+      wise: 650000
+      frost: 650000
+      dhelper: 750000
+      yt: 3500000
+      yt+: 3500000
+      tiktok: 3500000
+      helper: 350000
+      sthelper: 450000
+      moder: 550000
+      stmoder: 650000
+      admin: 700000
+      vlad: 9999999
+regionprotect:
+  flow:
+    lava:
+      enabled: true
+    water:
+      enabled: false
+    otherliquid:
+      enabled: false
+  ignitebyplayer:
+    enabled: true
+  fire:
+    spread:
+      toregion:
+        enabled: false
+      inregion:
+        enabled: false
+    burn:
+      enabled: false
+  explosion:
+    block:
+      enabled: false
+    entity:
+      enabled: false
+  pistonmove:
+    enabled: true
+autoflags:
+  enabled: true
+  flags:
+    lightning: DENY
+    pvp: ALLOW
+restrictcommands:
+  enabled: false
+  commands:
+  - rg info
+  - sethome
+  - rg i
+  - clan setbase
+extendedwewand:
+  enabled: false
+misc:
+  pvpmode: allow

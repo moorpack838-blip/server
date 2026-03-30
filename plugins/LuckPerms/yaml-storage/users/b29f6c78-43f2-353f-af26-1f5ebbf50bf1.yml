@@ -1,0 +1,8 @@
+uuid: b29f6c78-43f2-353f-af26-1f5ebbf50bf1
+name: Freeze
+primary-group: dhelper
+parents:
+- dhelper
+suffixes:
+- '&6&nЯ Бы Дал ☡':
+    priority: 1

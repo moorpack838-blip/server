@@ -1,0 +1,124 @@
+#
+# Слил сборку Extrimity_ проекта HoweCube.
+# Нашли баг/ошибку? Обращайтесь - vk.com/astorskiy_tema
+# На Канале Extrimity очень много интересных сборок
+# YT: https://www.youtube.com/channel/UCkQjlZ0TAPFI0L_4aCLG1vQ
+#
+Menu-Name: '&0&lＷＧ ∫ ДОН.ЗАРПЛАТА'
+Rows: 6
+Command: 
+  Name: salary
+  Fallback: '123'
+Items:
+- Slot: 4, 3
+  Material: skull:1:3
+  Skull-Owner: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGNiZjU1ODY4MzZiN2IzNDI5MzJlMWQyM2VmYzI0OTBjZjU5YzY5YWNjZjFlMDVlOWVkNTc2Y2FlZDhiNzg3NyJ9fX0='
+  Name: '&e&lＷ&6&lＩＳＥ'
+  Lore:
+  - '&e• &7Описание:'
+  - ''
+  - '&e&l╔ &fЗарплата доступна только для &e&lＷ&6&lＩＳＥ'
+  - '&e&l╚ &fЗарплата составляет &e&L200 &E&Lⓗ &fраз в &e&l1 &fдень'
+  - ''
+  - '&aНажмите, что-бы получить'
+  Click-Delay: 1d
+  Delay-Message: '&6&lЗАРПЛАТА&7: &fПодождите &a&a\{delay_days\} &fдень &a\{delay_hours\} &fчасов &a\{delay_minutes\} &fминут!'  
+  Permission: 'nte.wise'
+  Permission-message: '&6&lЗАРПЛАТА&7: &fУ вас недостаточно прав'
+  Commands:
+  - 'console: p give %player_name% 200'
+- Slot: 5, 3
+  Material: skull:1:3
+  Skull-Owner: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzIxY2RlYzJjZjRlYmVlZjM1ZDU4YjE4NGI4MzI1OThiYzg5MGEwYWU1YzJkNTRlZTliZTU4NmQwIn19fQ=='
+  Name: '§b§lＦ§3§lＲＯＳＴ'
+  Lore:
+  - '&e• &7Описание:'
+  - ''
+  - '&e&l╔ &fЗарплата доступна только для §b§lＦ§3§lＲＯＳＴ'
+  - '&e&l╚ &fЗарплата составляет &3&L300 &3&Lⓗ &fраз в &3&l1 &fдень'
+  - ''
+  - '&aНажмите, что-бы получить'
+  Click-Delay: 1d
+  Delay-Message: '&6&lЗАРПЛАТА&7: &fПодождите &a&a\{delay_days\} &fдень &a\{delay_hours\} &fчасов &a\{delay_minutes\} &fминут!'   
+  Permission: 'nte.frost'
+  Permission-message: '&6&lЗАРПЛАТА&7: &fУ вас недостаточно прав'
+  Commands:
+  - 'console: p give %player_name% 300'
+- Slot: 6, 3
+  Material: skull:1:3
+  Skull-Owner: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjlmZTI5MTY3NmM3YjNmOTZmM2NkZjYzYzQ3YjUzZmI0NWQ3M2JkNmZlMmNlMjJkZTEwNzQ5ZWIxNDI2YSJ9fX0='
+  Name: '§5§l§nＤ.ＨＥＬＰＥＲ'
+  Lore:
+  - '&e• &7Описание:'
+  - ''
+  - '&e&l╔ &fЗарплата доступна только для §5§l§nＤ.ＨＥＬＰＥＲ'
+  - '&e&l╚ &fЗарплата составляет &5&L350 &5&Lⓗ &fраз в &5&l1 &fдень'
+  - ''
+  - '&aНажмите, что-бы получить'
+  Click-Delay: 1d
+  Delay-Message: '&6&lЗАРПЛАТА&7: &fПодождите &a&a\{delay_days\} &fдень &a\{delay_hours\} &fчасов &a\{delay_minutes\} &fминут!'   
+  Permission: 'nte.dhelper'
+  Permission-message: '&6&lЗАРПЛАТА&7: &fУ вас недостаточно прав'
+  Commands:
+  - 'console: p give %player_name% 350'
+- Slot:
+  - 1, 1
+  - 1, 2 
+  - 1, 3 
+  - 1, 4 
+  - 1, 5
+  - 1, 6
+  - 2, 1
+  - 2, 6
+  - 9, 1 
+  - 9, 2 
+  - 9, 3  
+  - 9, 4 
+  - 9, 5
+  - 9, 6
+  - 8, 6
+  - 8, 1
+  - 9, 2
+  Material: stained_glass_pane:1:4
+  Name: '&r'
+- Slot:
+  - 2, 5
+  - 2, 2
+  - 3, 1
+  - 4, 1
+  - 5, 1
+  - 6, 1
+  - 7, 1
+  - 8, 2
+  - 3, 6
+  - 7, 6
+  - 8, 5
+  Material: stained_glass_pane:1:1
+  Name: '&r'
+- Slot:
+  - 2, 3
+  - 2, 4
+  - 8, 3 
+  - 8, 4
+  Material: stained_glass_pane:1:7
+  Name: '&r'
+- Slot: 4, 6
+  Material: 'barrier'
+  Name: '§cПУСТО'   
+  Hide-Flags: 63
+- Slot: 6, 6
+  Material: 'barrier'
+  Name: '§cПУСТО'   
+  Hide-Flags: 63
+  Name: '&r'
+- Slot: 5, 6
+  Material: 'arrow'
+  Name: '&4&lП&c&lЕРЕХОД'
+  Lore:
+  - ''
+  - '&e• &fВы перейдете на предыдущию страницу'   
+  - ''
+  - '&aНажми, чтобы перейти на предыдущию страницу'
+  Hide-Flags: 63
+  Commands:
+  - 'menu: BGmenu'

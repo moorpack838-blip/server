@@ -1,0 +1,12 @@
+uuid: d343d1d7-40e1-3385-a38f-60984f76ea81
+name: FaNtaZeR_of_
+primary-group: helper
+parents:
+- ares
+- helper
+- legend
+- povel
+- wise
+suffixes:
+- '&d&nДед Инсайд ☡':
+    priority: 1

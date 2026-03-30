@@ -1,0 +1,11 @@
+uuid: d5b94251-19d6-359d-b8e2-197dc6449214
+name: VoodSainara
+primary-group: default
+parents:
+- default
+prefixes:
+- §7§lИГРОК §7:
+    priority: 11
+    context:
+      server: grief
+      world: lobby

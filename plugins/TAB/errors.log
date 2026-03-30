@@ -1,0 +1,20 @@
+09.01.2023 - 14:41:46 - [TAB v3.1.5] An error was thrown when executing task
+09.01.2023 - 14:41:46 - java.lang.NullPointerException: null
+09.01.2023 - 14:41:46 - 	at me.neznamy.tab.platforms.bukkit.features.unlimitedtags.PacketListener.lambda$onEntityMove$0(PacketListener.java:123)
+09.01.2023 - 14:41:46 - 	at me.neznamy.tab.shared.CpuManager.lambda$runMeasuredTask$8(CpuManager.java:350)
+09.01.2023 - 14:41:46 - 	at me.neznamy.tab.shared.CpuManager.lambda$submit$1(CpuManager.java:112)
+09.01.2023 - 14:41:46 - 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+09.01.2023 - 14:41:46 - 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+09.01.2023 - 14:41:46 - 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+09.01.2023 - 14:41:46 - 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+09.01.2023 - 14:41:46 - 	at java.lang.Thread.run(Thread.java:748)
+09.01.2023 - 14:41:46 - [TAB v3.1.5] An error was thrown when executing task
+09.01.2023 - 14:41:46 - java.lang.NullPointerException: null
+09.01.2023 - 14:41:46 - 	at me.neznamy.tab.platforms.bukkit.features.unlimitedtags.PacketListener.lambda$onEntityMove$0(PacketListener.java:123)
+09.01.2023 - 14:41:46 - 	at me.neznamy.tab.shared.CpuManager.lambda$runMeasuredTask$8(CpuManager.java:350)
+09.01.2023 - 14:41:46 - 	at me.neznamy.tab.shared.CpuManager.lambda$submit$1(CpuManager.java:112)
+09.01.2023 - 14:41:46 - 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+09.01.2023 - 14:41:46 - 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+09.01.2023 - 14:41:46 - 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+09.01.2023 - 14:41:46 - 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+09.01.2023 - 14:41:46 - 	at java.lang.Thread.run(Thread.java:748)

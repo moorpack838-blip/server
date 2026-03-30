@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 1.1.1.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1680990316901
+  login: 1680990316822
+money: '0'
+last-account-name: slowv
+logoutlocation:
+  world: 50e83d7b-bd31-4b59-b085-d04edc199449
+  world-name: world
+  x: 84.5
+  y: 81.0
+  z: 248.5
+  yaw: 5.0812788009643555
+  pitch: 0.0

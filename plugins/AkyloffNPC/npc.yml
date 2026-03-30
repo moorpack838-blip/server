@@ -1,0 +1,256 @@
+NPC:
+  '1':
+    name: §c§l↯ §6§lП§e§lомощник
+    command: /help
+    yaw: 19.917572
+    pitch: 26.699997
+    positionx: 999.5039883584781
+    positiony: 69.5
+    positionz: -334.70300177966897
+    world: lobby
+    skintexturedata: ewogICJ0aW1lc3RhbXAiIDogMTY3MzgwMDY0OTA5MCwKICAicHJvZmlsZUlkIiA6ICJmOTc2ZmQyODhlZTE0NzhmOTFlOTU4YWIwMjkzNTcxMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJLZXl6ZXIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWE1ZDk5MzVlNGUwYTc2MGM1YTA0MjA2OWY3NGQ4ZjBhMGMzNDY2MGI3ZWQyOWVmNGRkMmFjZjBjYTI0YWM1YyIKICAgIH0KICB9Cn0=
+    skintexturesignature: NEL0TOgUClif2wZ9NT9Us8TegzLcJyKKVmmkJkIvANUisOJswS+tTMD+/rzSvnBDuB32N1Ik/Sx2ltYIgXa880Fqgiqxmi6/FNUOHIEmktopq7IUkKe1uB2qO/12LTobeiDAJR6gbKTsIJf4Ip+4HsSK8iFNA0I/Zy0DqpNu5ItA8yz2rclG9c5SJgl3XJr4fFpWClElU13FUhqZdjcP+jK8TYtEdk1ZayTAoAFQN+UTABhcyDZ4es3FXAamh/lXn0spTec0jOhRVzdASP6y6RHke01PQlqlX63zmRkzQ/BfeQKov/8dfiw6tydYXim2+6L7BKnCr6m7Y3xGK8amhtjv3n3e3m9TWxJsyLSsUSNQbExIE0iqrsa8QRWpQkUXmC1S1vr0WsYk4cmvalY9Ea5senHgbYwiygTf41vd9+fqlpY7PaPtGQgjb7T5Eu2uJ42IheQmHVMvkyR0EG1IixB4uLD48cPr7e9Zpcm8rXuic+VebjUsBXmxuVbR9cCe/8f+pMSxBZQMqMuD0kct5B1gm7nQ+c5z2wMhdJ0rYi/mmL6VzoKob9oan8RV55UKtFYAl42eG6IZwJWcjxStMiTDGv19imOXilT3K8TgJIYgVTzqixApa/wWrgG5vfd5o6mLEXKePJ3txvgiWQDtn8DZ7iudLNXP7WyXAMwKoqE=
+    setglowing: true
+    setglowingcolor: YELLOW
+    lookclose: false
+    setparrot: true
+    setanimation: false
+    setanimationtype: ''
+  '2':
+    name: §c§l↯ §6§lК§e§lвесты
+    command: /quests
+    yaw: -2.1379395
+    pitch: 2.699994
+    positionx: 1030.4886465999618
+    positiony: 68.0
+    positionz: -300.48449760140846
+    world: lobby
+    skintexturedata: ewogICJ0aW1lc3RhbXAiIDogMTY3MzgwMTQyOTQxNywKICAicHJvZmlsZUlkIiA6ICI2NDBlOTZkNTA2YWE0ZDU0YTEzMjZlYjhlYTZhYWY5YyIsCiAgInByb2ZpbGVOYW1lIiA6ICJLYWFzIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2NiYjc4ZDQ4MTkxZmM1NjE2NGRkMzVmMGI5Zjc5M2Y5ODhlM2U5NzQ1MzYzYTdlMWIyYTFjOTg5ZTE1MTUxYmMiCiAgICB9LAogICAgIkNBUEUiIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzIzNDBjMGUwM2RkMjRhMTFiMTVhOGIzM2MyYTdlOWUzMmFiYjIwNTFiMjQ4MWQwYmE3ZGVmZDYzNWNhN2E5MzMiCiAgICB9CiAgfQp9
+    skintexturesignature: eA70y15N/vNyp7WnKmFGWwLSaL4ht+NokEiCDVHba7ews6Y4PXC+W8uew533gmyheQxMqxy7amTzbqpZ2YyKPDARwt7C27rSBwkYo82Mc/ulF5hk7Zp52nkijEp+2Fwy5wClaoKEbslKk131yzhWi+/KcrxV6eLhyGb2dfuNxetz6HuZlLV0YkzhxKF86BJNn2l3FyALbtTj4pQgWVjcnlhC9DmVgsrdAFYeVT/XEACYaRiLKWY5/TBBU5u6+NY3H3a0v2R2oW/WX0Uvss/2TSY3hHVR1ljonmRsI1R7ucZA5Rc3dA+joI2Xsv5LBYFJoRLCDXbVb2nHLjHmYlxR3Ga+SS+HO8Vbl0H8eAqAXFRJODnQdAuDWBJo4ysruQu58HGAw4PWkT59zZVM+pGIZ2kuph0kNt+aDmAnmyhtJ2qlpS2IXFMQaNMTTMFYjeykyn/IHViWsypwSdtJImzemGU0m6PSG1HgCv/8AzzEUvOhkBWqmqv9D4pGSoNj1G1ToT0yjO/+Fqxd0iIlA7SSPEBlk22igZmCG5q7bsO8HE4gwyWiPfNvQmMAjCy+piqnBl4xtECi+QeV8KLw4PRtEP7UH/BMwLY2PeKW+lObWBYvwtu7M7YcGjKs5Cjy38SBwgQX4o3zh7kU1+WU66osjDGYqxpQJcX0V/AxjC8QCSg=
+    setglowing: true
+    setglowingcolor: YELLOW
+    lookclose: false
+    setparrot: true
+    setanimation: false
+    setanimationtype: ''
+  '3':
+    name: §c§l↯ §6§lС§e§lтакер
+    command: /truststack
+    yaw: -358.54053
+    pitch: 2.6999638
+    positionx: 1030.5224657799665
+    positiony: 68.0
+    positionz: -292.4852497624485
+    world: lobby
+    skintexturedata: ewogICJ0aW1lc3RhbXAiIDogMTY3Mzg3NzA2OTIyNSwKICAicHJvZmlsZUlkIiA6ICI3MjRkMTU3NGVmMGE0NGY2YTA0NjcyYmM2NjViZmI0NCIsCiAgInByb2ZpbGVOYW1lIiA6ICJMYVp6ZXIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGQ5NzA1MTdiNmM0MTc5ODgwNzViZTk0Yzk4ZmJiOWM0ZThjZmI2NDAyODc5MWYwZmE5NTk3MzM0OTkxZTYzMiIKICAgIH0KICB9Cn0=
+    skintexturesignature: VDuh2PzJ5XUdbxBI1uzgKTq8IhkEuxgaZhErWzz5pN6xYQBfjZJBWhFPb923X3l1pIed7Bp5cysL6pb/EJLO+8j3gwCfKO+GhJ+wwva6m7KPrSDGcSwcSie+DZ63504zYd4LeR+KmERmsnSUpwjlcZYfRj60pKQ2pvQzTi8KX/+zFNsThonbhftJLZ+kwxX7CVhdVFJ44GE1ZEIvUm4QMV/1hAThoZPanZI6eTztQ43d7bEw6I54ZIq0wdo0tkIUgbrn6qZSUXWTRYLkH49wk9JkEknBca4FPiDuetbHPbjFZU+dkXMRkOGDG92p5X5WmIBI+X5U4+8mQJj99+BlWY3SUyHhB6zx4Svq39bLcAY4CHtsyjqic0ZEx9W2vHxS6pj5v63ylSu813WYOgomZv30P2HXUSCif/0j+z0g8BDLff0WSJzZB1TdzO/xFt4MrLFewK3Bvwvz71TUoUYg1dyuWZG6cZUzn0MpSv+yP7c3sOnEJ0s84lugxYYGGLouzGqa/dSYPxVik+S7oLD69DBcxROEwpymkIpjfVUHPHYqqYWvKENXHzQgicjgk6hcV29kYhZ/JYfTdT7zI15DOU3+0FmVdJuPyOaxffQamyiNai9NQCkPr+QSZ3vdwQi3FfpgpqoJ3heCn/b4e4E7KWxTFsIKY4U1QP3a8qoVCek=
+    setglowing: true
+    setglowingcolor: YELLOW
+    lookclose: false
+    setparrot: true
+    setanimation: false
+    setanimationtype: ''
+  '4':
+    name: §c§l↯ §6§lА§e§lлхимик
+    command: /trustpotion
+    yaw: -268.09125
+    pitch: -0.4500145
+    positionx: 1028.9100402169295
+    positiony: 68.0
+    positionz: -288.63491930683784
+    world: lobby
+    skintexturedata: ewogICJ0aW1lc3RhbXAiIDogMTY3Mzg3NzI4MTI5MSwKICAicHJvZmlsZUlkIiA6ICI1NWQwMDQ5NDk3NjU0M2ZmOTM1MDA0YmQ0YWQzYWNiYSIsCiAgInByb2ZpbGVOYW1lIiA6ICJDb2l1IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzM5MzE5NWMwZjU2YzRmNzAwOWUyMWJkNTJjZWE3NDhiODE4NjU1OTAwYzc4Nzc1NmExNzVjYWEwNDlkN2E3YzgiCiAgICB9CiAgfQp9
+    skintexturesignature: UTanOdtOUMvc7b39mQDsiKsySvLvc3dxYpQTW1GOk0KbT7GyfMjkgvrgvqVn/Mgn32oej3+xJCplwJS6GDxcA+yrl1IQihWmeHukEw8R/hePUdUi7SrKJclzsBVe0ZIdZCn6++Zh/ll9Mzq44p98+0onl3jjFptBQD9BVs7O5L7JquFYxpMxBZkToF7lvoeA4X+RzEqv2vEy1udhtZnk7B7ZUpkOAJpmTgF75wOS07fhBd1OvgtrOpbyx2IPe+mK3B5xSvmQ91+YOHVAlK5qpuZqWuc29nnSnSJs68ow1aTccBTZasgvCA6ru/vqUz48kzLvFzruM3YR28QPjZOS/awgYAGXQbm6EXtprByPm6vrhuqgy8gU/tTcnhqhCxZu8QWyWuLwak3jjWJDioo60IOfD3VAb6/NuRl0J/MWmAJC47J3mlmdca3FjrxjbapSkBhMClfjo+KOk4kGWvKmEcPcXgRfty7x85BsFdwmuDfEVNal5jW5Zojt1wF4srqoS5mvDXGq+wKfe4WIAgW3/lkZPAXaGwChCvp5CFnJVad92GLc7AWgkqlDC0yKCcddkYX9juHYUKAhxlfqrsVNpuH3fv4BkAvz/MmOaMicYoCoGRs4WQjZh0UXJbg4HgGbq7nQSvmw19rJYW5XU/9ghEObFTwzbpoKi33bNlvpZkw=
+    setglowing: true
+    setglowingcolor: YELLOW
+    lookclose: false
+    setparrot: true
+    setanimation: false
+    setanimationtype: ''
+  '5':
+    name: §c§l↯ §6§lА§e§lукцион
+    command: /ah
+    yaw: -179.74359
+    pitch: 3.4500096
+    positionx: 999.4663414156375
+    positiony: 69.5
+    positionz: -320.4897993530411
+    world: lobby
+    skintexturedata: ewogICJ0aW1lc3RhbXAiIDogMTY3Mzg3NjU5OTU5MiwKICAicHJvZmlsZUlkIiA6ICJhNDdkZjY2NzhiZTk0NzU1YmYyYzk4NWExZmRhOTY0YiIsCiAgInByb2ZpbGVOYW1lIiA6ICJBdWN0aW9uIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2M5NTA0N2ExMjI1ZGRhYmQxYjgxMGFhZjIzNjY5NTY3OGQ0MmIxZmY4NDQ3MWM4ODMxOGMyMDRhNTU3YzdjZCIKICAgIH0KICB9Cn0=
+    skintexturesignature: dIfp4muW0SCa/Y7vIqELDS2LHFm4uYM+ouXoRvEFJTvaf/aEtDUw2Nab5gIMu53IqeSCDQQESfV6M0jA7roQxX6KZUjdtXC5R5bGWmRNElWmTRboggVvCuNmao3VD5Y/nT6mt53vPnxIJvQZSZX4EzYQy+cA5snxIAflRcgmZlz3eJSwBXlwD3Pra8SRyS8g7p6evDBMxrcaH/rdyXnGv2rTzAqGGliTpkWfmFZ3+2xdLdS0dZpe9IWe+2+pc0+Pe7YbPEh2LG6e5usn6Nitunp1NuLUYyF4KC9mlkSnB/QL6jiOabWqj4zLgaUcbZLt3t+h5POPhcch8FBA547PPRzyDVyp88RqAm4uusFhreO/Yps2ilrF7gKsD7MPml9lMDvZpKALTQ6CVkuOxpqU7ECBXyW+gESMxRp59yKCppBD/3GSJUv4br/BRtRwJQAYNqfetcFOGwumH0odRoCjgn58e7Wx+GUI+JBweZWeB7p3QMm0oGldRJqU8ku6FenAaXjcjNnLzZxQ00S7W5ssGsvprGM+FjY3OlQWPtldBU+jRrV17uYz4qvggSGm7o6HAmcNFzB9GbA07fYE0zIsHXyQHqLz+Foi9MQOq2UPgZuuRUF0kEIXlZ2k0It/YnI2syqNkHgFddUq7fth/bHtiC7oXTcroME/SQq5C5rxtq8=
+    setglowing: true
+    setglowingcolor: YELLOW
+    lookclose: false
+    setparrot: true
+    setanimation: false
+    setanimationtype: ''
+  '6':
+    name: §c§l↯ §6§lЧ§e§lокнутый
+    command: /WaterCrazyTrader
+    yaw: 87.78339
+    pitch: 2.549996
+    positionx: 992.3376534094714
+    positiony: 69.5
+    positionz: -326.42119134861997
+    world: lobby
+    skintexturedata: ewogICJ0aW1lc3RhbXAiIDogMTY3NjA1MjgyMTQ5NCwKICAicHJvZmlsZUlkIiA6ICIwNDQ5Nzg2NDlmMjQ0MmNmYWFiMDllZjc4MTA5ZGE2NiIsCiAgInByb2ZpbGVOYW1lIiA6ICJSYXkiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWE0YWY3MTg0NTVkNGFhYjUyOGU3YTYxZjg2ZmEyNWU2YTM2OWQxNzY4ZGNiMTNmN2RmMzE5YTcxM2ViODEwYiIKICAgIH0KICB9Cn0=
+    skintexturesignature: prJnyR+KgA9K4UhXtk+Rom7fJP45S5kGffPxAdIz9f/e73d1aJ1K8Vcyq/wiOyTnfFShzTnVQDXNRFjjn01I43gHRYmqHMEEZQUNCcn/P76gLdTFyVZbLAqLN16QTCZrK8E42U0GIgJ3ATKunCKMZCWpAaJB4wgI1sbVgIqlfvuS8EUGDRLqL2DHbwSHLJTFJqIHO+AazFobSH5jxdKrAxXygloYd9ZHYS4zgB/11+uGr24UeCpV8XUmsUmJXAHs1iW4RUS4fakGs6fHB8Z6kbrKEkJzDnGaD3D8wEHYeLb0YmH/msQTPwJC+UjVjoKzXoV8yFWbN4mqFkMuNpocB4/CN2xfHonBEywNS/HbZ5M4pRR74XVEDT7mG+27KUPuIFwfU0rUkRA6m48LSKAUDpTMPmlniA47Db5Mt/qsxbD/w6n/mDli2Lm+CxjT5Dq9X1EpT6CuADwgHv0k/OPspFZEi7iKyQ6jsI6cUaTTyi14Dcn/OvPdBw/sSOYlc3XQvOXKerRj30WKjGcPYPBgJHlnveF/cnSI/NIs8imP2MC4kOcrnEcB3pIRhcsS3JcCdqCzDmUKNYofY5NQ1Q0GRZAAWK8AoDnZioO0isfu+M9nY1AWKJa3GeuDVynYACPgdOhse5O0YjLrkW/UCzBm2qFDBS3QyFZqMSLPfSx+8hA=
+    setglowing: true
+    setglowingcolor: YELLOW
+    lookclose: false
+    setparrot: true
+    setanimation: false
+    setanimationtype: ''
+  '7':
+    name: §c§l↯ §6§lВ§e§lХОД НА ПВП
+    command: /warp pvp
+    yaw: 267.48087
+    pitch: 0.14998873
+    positionx: 1012.4947910440824
+    positiony: 69.0
+    positionz: -360.3677649162845
+    world: lobby
+    skintexturedata: ewogICJ0aW1lc3RhbXAiIDogMTY1MzE1ODU2MTA5OSwKICAicHJvZmlsZUlkIiA6ICI1MjA2YmU1YmMxMDM0M2U5Yjg2NmY5ZGZjMWNlOTg3MiIsCiAgInByb2ZpbGVOYW1lIiA6ICJHdWFyZCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS81MTE4MmNmNjVkMTgwZWNmMDhmYWIyMzExYWJlZDBjZmNlZTk2MGU2ZGY1YTNiYTUyOGY3ZWE0N2NjNDFmMGEyIgogICAgfQogIH0KfQ==
+    skintexturesignature: VaLU4xjVHkcCHSE5TVQdfSig/ez+XDtMIlZ6LXreP/09OP8hEaFwdQe/nz2sl9lQitlYprYBh64ctlKTLU87Os6Spl6bhWy2MnxWk5W1R4tmRxHO7WlHgd1VFcTAaHCKkFHQoqVMGy1oCndFNox/jNjTo4tlkX2ONkboerP/uzU7KLMtimm2tDd3AjQnl8bcDM96+5NiVCbgtHqQuafaJr+YIuA8BFGWEX6bo/RUpLLaxXSBec0abe/jASXGW540p33o17WkYuhVHvrB50W9kFzIwMyT8kGU2exaXVy7xvai+vXm6mBDMsaHvZiCAP+3kLqfaEBSvAvzdL5NZs+HQA+XJYM2hEHIcm53E9YCBYf3Faey9TgHvc0Ei/DNGJV+bHi/Z9PPn24tOseF7ew0icZEcpaymu+12x2f/2xMkO0QEB+FrGeVeV++i+z4XBvbIZ4m4yCp2nFK2aSl0LBb7uvW5rEPNSnV9r32cAjSLooraH3nwBmfhU3TCh5jJEOjLG8HXsejPy2RHgJkWpNkb6eE9C6ydH+0eNw4ycMGQz27ZkdjoAuNaz+vaXrk09vs9308nIB4+AFS4klBeJGdUwxSvaqYQwPaVn32Qt1a7WlIwzf5WEOmisHlkUVvWLAzd2rIka8V/f+pRiJWt+XvdIgfiDEbi8s85NpHEzqCzVk=
+    setglowing: true
+    setglowingcolor: YELLOW
+    lookclose: false
+    setparrot: true
+    setanimation: false
+    setanimationtype: ''
+  '8':
+    name: §c§l↯ §6§lС§e§lкупщик
+    command: /seller
+    yaw: -0.48235252
+    pitch: -3.4500103
+    positionx: 1030.5384184610539
+    positiony: 68.0
+    positionz: -296.49937985774267
+    world: lobby
+    skintexturedata: ewogICJ0aW1lc3RhbXAiIDogMTY3Mzg3NjgwNzY0MywKICAicHJvZmlsZUlkIiA6ICIyZDM1NTI5NmFhMjk0NDhjYTUyMDU0YjgyODZiODJjNyIsCiAgInByb2ZpbGVOYW1lIiA6ICJDYW5zZXIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODAzMzEzMzgxMGY2YzkyMmM2YWMyNDRlMjEwYTg0ODlkOGMyMTU0ZjhiNDczODAxMzliYjlhY2MyMjkzMzk3NyIKICAgIH0sCiAgICAiQ0FQRSIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjM0MGMwZTAzZGQyNGExMWIxNWE4YjMzYzJhN2U5ZTMyYWJiMjA1MWIyNDgxZDBiYTdkZWZkNjM1Y2E3YTkzMyIKICAgIH0KICB9Cn0=
+    skintexturesignature: n4WV9JDYBCVbdKNsGW8eMnEnwQ80gs8Jh7SVoH0BsTa9OTYq4PwT7tOOt6GdodC1ZRA8JswGP3io2/lILNQNuy8a5wcNXky7ctmg5mBvbFMcBmRzTdaOjtKRFKNwFF+D4r3zk8RvgmP7a8AAhjRTWX9nBxXCiy3p7cxn6ctmznNXbCgtn2+DzeVUbLwR1tRxQfFqOagxiLlEjy1eE1+7nyloq+JsVNPSPOVKN3+eoINwBpbeX5fE6qE6XcZcbRadUBowrIYL9mLamdTRtAR8047j3KdwwF2I2syNDzpKRx7d1ea93g1kI75JdsM5jPaJog04FPqtjfmA0y2i0DKcLAURlsneNxLAJxUrQ00V8NptHuwNHSp8Wn4WTU9RLuZSK4xp2Js2pOF78yU7u3oKbPDD/yIKjU2AVq/5LGvMivOO1EFqrRNso7YR0jF/2hqCJZb/Dm0huv/IyuPeNjzNVDJAySqzI520MD/AoSGH3A2pXdMQY17WDFJGRaO/WulR9lBscTJWfzg0T7TN/eMcIFjMhTkhJxyL4AuyQu7JXYPkHZggQEp78RS/BAgBGt13K0AaiKH6pu22oNPvHdd7LsYsNo+6uCHrxdzyVCcCG96smHrYwIKp0lcFXEyhRdNtV7W2T+QkmQ60As9p3nWeV/SDxV4uQ0ezQW2/Y6YsMJw=
+    setglowing: true
+    setglowingcolor: YELLOW
+    lookclose: false
+    setparrot: true
+    setanimation: false
+    setanimationtype: ''
+  '9':
+    name: §c§l↯ §6§lК§e§lазино
+    command: /croupier
+    yaw: 355.16788
+    pitch: -1.3500038
+    positionx: 980.975096910665
+    positiony: 72.0625
+    positionz: -345.0776286381925
+    world: lobby
+    skintexturedata: ewogICJ0aW1lc3RhbXAiIDogMTY3Mzc4OTA0MjMyOCwKICAicHJvZmlsZUlkIiA6ICI2ZThlZWUzZDM4NjU0NDhkYThkYzM4YWNlODk3YzZkOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJDYXMiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzgwOGJmY2IzOTQ1NDZlZjNiY2Q4MjRjZjcyMGNmZDExZjAxZmQ5N2I4ZjZkN2YwNzU4MWRkNjBiZjlmZjZhOSIKICAgIH0sCiAgICAiQ0FQRSIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjM0MGMwZTAzZGQyNGExMWIxNWE4YjMzYzJhN2U5ZTMyYWJiMjA1MWIyNDgxZDBiYTdkZWZkNjM1Y2E3YTkzMyIKICAgIH0KICB9Cn0=
+    skintexturesignature: OA+JZ8PNN79+xNEBfCbY7TL0fv71+YQYSLLjXffyN+yl/MVsrdXLWDnoBIsQkS1x9t44Sv6FaDR4EZpPHkOPQw65ZntDG/WHUd0ANC+rDc4+i1XFqCAOtqw3UCW9WYhM9vU7EhFaPnqXC0t8FzvBEaH4rcqN9Ga9IyF1daEcLThYqvPxqVv2Hmyx0strkoegbKVX6GuGgmckJcD+La5moSp8cvFb6G0W4SdJrcgHSub/j837CDEcPOrshLEqoKMgclFKcVh1w8ksBYIbrrbKgXv6SLxXu3F0oTMgFBggjQP9sdm1WMKd3zbuR655U8JkhCsF9X/xXbLjDgd0AJXNKV9+UAV8/KZVVzGyRYWjxB/o0y9WV+mA4hQI8w+KVjR3x39SG6ck2v3mKpR+/vK3gsi99guP0/k2vVxy0PvkgXP9gewoXQVHDyQGjoRGZaV4FADh6WwjZLTIraXr/HwsBf10Mw/1HWoQWMcblpKK0PFF5o7IGmFbLDSz5CSfKR28rGh8gT50C01DOthwGsAI1c7JlJ9f9IDnIEVTRtnWbKTJb7+3US0VyS/JpDMAVKSxSkAWe1SLwwj5ubMilft3lWdpv8CEkHrjFscDQebD91XSZvXbxN2P9qXvjhtQRS0vQr9uSdBVGlkpVipYkvKJObtbFaXUzFqgfg3NS/SwxYw=
+    setglowing: true
+    setglowingcolor: YELLOW
+    lookclose: false
+    setparrot: true
+    setanimation: false
+    setanimationtype: ''
+  '10':
+    name: §c§l↯ §6§lИ§e§lспытания
+    command: /bp
+    yaw: -3.3316956
+    pitch: -3.7500072
+    positionx: 1028.6219783190913
+    positiony: 68.0
+    positionz: -304.43039459061447
+    world: lobby
+    skintexturedata: ewogICJ0aW1lc3RhbXAiIDogMTY3Mzc4NjU4MTA5MCwKICAicHJvZmlsZUlkIiA6ICI3MjQyMDQzMTY4MGQ0ZGRmODE5ZWM5NWQ2NTYxN2ZlMSIsCiAgInByb2ZpbGVOYW1lIiA6ICJFbm55IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzE3NTBlOWZkN2MyYmU5ZWJiYjA4MzlkYWY4YjQ5OWIyYTYzMGIyN2FmNTY2OGQ2OGQ5YzU2ZGRiMTkxZWI3NDQiCiAgICB9CiAgfQp9
+    skintexturesignature: I65YdMqZPRaguT8VKNjbMwdgBm9GEAoKV2+rK5VV3EeNiEI/q/qt9fE/Fu49LonV4Zo0ppk2G/NG7b3sfEnCXAJ2TxPBrB+6Kr7/RgpbJDNDBmqhN8QHxozsvF8wlao/moPS0vqabTMVmnfZ2GomQ1nscSvQhu4fUhs5Kwf/MZO0NMbgVYa+qam8nzP/w4yZ1dKYkY2PNmRIFCJTncHroepI2OWCvDr/SwXw2C/q3sqxUmP9CtQHzDt659UeGsSYXDJALSjfMIbORKan8BTyrJwX3cB6mh812W3y7utEz15MlTYieiN4Y/zoiT4P5pSR2JOKKJbRb+Qhzc510+kvDQ6eXi/xDT4uTx4E5iFOeFE71Si6cQc8lQu7gGhIrOKw2pvUUdO7Rrp3r79tWKb/tBmQAjj6Fq/afxRI4VGnG4zmSi9+NrNrBBs4sfdMdGyBCSzeAhWludLx0HTFZYwnr6XDF3DnaE/19HG+KVtGLTAMKlXBi1DXofcWe8DS/mkIeqmoqxSfyg/QfAEwDt/2fhxqAtkRqa+lHS7IJcs4/oVy6sNwSacedGe0byPOKBQHpdPaRmhG/Imum0nO1yf7IWL/LhYjp2rv2u5sXWcg1bAzAA6iawKm3MjWMmcK7tVBWIgPSxWUh9FkSBAUaATjtJnrCHhj3pyns8jc+vvCynA=
+    setglowing: true
+    setglowingcolor: YELLOW
+    lookclose: false
+    setparrot: true
+    setanimation: false
+    setanimationtype: ''
+  '11':
+    name: §c§l↯ §6§lМ§e§lеняло
+    command: /dm open obmen
+    yaw: -0.6321631
+    pitch: -6.450015
+    positionx: 1031.7567697821394
+    positiony: 72.0625
+    positionz: -320.98132779029476
+    world: lobby
+    skintexturedata: ewogICJ0aW1lc3RhbXAiIDogMTY3Mzc4OTQ2MDcxNywKICAicHJvZmlsZUlkIiA6ICJjNTUxMDQ4NmQxYTU0NzczOGY0ZDZkYjhkN2M2OGIxMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJGYXdlciIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9mYjI5YmJhZTJmYzJlODY3OGVlMmQwOWVlMTAyZWI4MzY1MDQyMGQxYTA2YTRmNzhlM2U3NzkxNjFjZjQ1YzY3IgogICAgfQogIH0KfQ==
+    skintexturesignature: ECAQr/Vq9a5qzz+oHAoHjljWh4F1fbbdBcNiZqWesBK0LoLRyDCKyrR2XlzEXEqhi0EHxcMsoWKc+Arif3aIz4XeiLU4N18wMSvleLweqXOsGUvVSdCYvuWG0CQY46UGrMTsShPzATb7J3zrcaiSg29yLI8vjBk9qUHKeLG9XY464vepg83VcHsM3NZKQfJY1MpL4pJyPL1A2EQvLs0w6T3Wt6VHNRFu+QAS5NRV72L96i7K9fO7rw/1mU8Q+9hucG5i+Q8YI673G52oFx/11RaoZcr8UZSByorBxkn0OOGc9C0KSU2rkSMtfvcnzpM9DJ/0WDqKIlITuohfV6FB3s9P/Ad5ghquxNS9WfTAivKKMRPp3pn5xeM93a9O+wVcmHJVz97IApzGAhq6dKxAXlaMimr80SGGGJCOvIr+sUgoKX1aPnzss5dSinjT5h+EHNbRv2CpV4vmVmZ2bk5AcURXNOnxpTFqi70vy5kw5Q/TQV10Q5QW7KK5Ui5xMA75kEkgmg2v0ZwnWm6XQyvCpHp/ulS8VYzG17JMKbPt9Cx2ZJcgE9Ii60UEbkIsWKzqcoGzUh2wYEiS/IewW6BeuGKwookFE5dl1RD4IoS00uOBRoVEnTsb30NLBEIj/UBuqOzKkVMy+GTkRfgGuxdRWbO8NtgMEHbr3zQQCW1bkck=
+    setglowing: true
+    setglowingcolor: YELLOW
+    lookclose: false
+    setparrot: true
+    setanimation: false
+    setanimationtype: ''
+  '12':
+    name: §c§l↯ §6§lВ§e§lЫХОД
+    command: /warp pvpon
+    yaw: -4.35553
+    pitch: 2.2499952
+    positionx: 1037.5076560555553
+    positiony: 112.5
+    positionz: -567.5565065593777
+    world: lobby
+    skintexturedata: ewogICJ0aW1lc3RhbXAiIDogMTY1MzE1ODYxMjI1MywKICAicHJvZmlsZUlkIiA6ICI1MjA2YmU1YmMxMDM0M2U5Yjg2NmY5ZGZjMWNlOTg3MiIsCiAgInByb2ZpbGVOYW1lIiA6ICJHdWFyZCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS81MTE4MmNmNjVkMTgwZWNmMDhmYWIyMzExYWJlZDBjZmNlZTk2MGU2ZGY1YTNiYTUyOGY3ZWE0N2NjNDFmMGEyIgogICAgfQogIH0KfQ==
+    skintexturesignature: swIAsRv1hP98gtye8Nd5+Kmi2xKww+Ss6An52SHmygqnwnC5Cd5IZYDgqY6DggHFBv7CU/YFR4KOSjKZewg1Rd+8oL/43C7YqinWiDt+FHIcC7FwiBr/nqdH+QhwyDZ4p3okHPgKePesmAm3U29QtyspSQgKtn+YHQXhxiVJX2J7F81qiWnsfxJWNOl1tF4VqEKKT0qspTPl//sm6zv0/yKREcqIOeFi+OrtiD32GRpSPqT4HUYRBkOBGDi/fc38GaK/yAWWwsTyP44AB8yMKMW/KQWgsACAyhfB+C2TQ9tcfuWQAbt9M6igoNxwvQOTTogCn4jZWarYvwj/wHPHWgpmWeGXf4UiPLVdxqYjFrSd13H12WC3FPMXa439haoh2ktBKBh9A66wSO+3EMzh/p1SNQnSw0K45NExtgLvLG2modxVvCz0rNYbQj+FJPR5SrBdpGI6ottR92Nb/iFWiWStrmwjB//NUVKuPy8zkT/Q++6uF2F3QXJ5+QpeBMpysHM/Hyz2dciFY4UcE/fMWGFBNOe66/koSfaXQWiBud1+Fd9d22n6qCYygktRZqNEFSNAZUqQLPOvhJA7/XBiB6sFtX6PSl1h/VY1o9IYaoTvcO+v0f7DfJcX1Yno4i53Zq9kReUkbEy9ol82GChxgFMeSeg7FU2A5DVRJU6Cnfo=
+    setglowing: true
+    setglowingcolor: YELLOW
+    lookclose: false
+    setparrot: true
+    setanimation: false
+    setanimationtype: ''
+  '13':
+    name: §c§l↯ §6§lШ§e§lахтер
+    command: /pick
+    yaw: 44.367554
+    pitch: 7.200101
+    positionx: 992.5375400650075
+    positiony: 69.5
+    positionz: -328.51456440394435
+    world: lobby
+    skintexturedata: ewogICJ0aW1lc3RhbXAiIDogMTY3Mzc4OTQ2MDcxNywKICAicHJvZmlsZUlkIiA6ICJjNTUxMDQ4NmQxYTU0NzczOGY0ZDZkYjhkN2M2OGIxMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJGYXdlciIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9mYjI5YmJhZTJmYzJlODY3OGVlMmQwOWVlMTAyZWI4MzY1MDQyMGQxYTA2YTRmNzhlM2U3NzkxNjFjZjQ1YzY3IgogICAgfQogIH0KfQ==
+    skintexturesignature: ECAQr/Vq9a5qzz+oHAoHjljWh4F1fbbdBcNiZqWesBK0LoLRyDCKyrR2XlzEXEqhi0EHxcMsoWKc+Arif3aIz4XeiLU4N18wMSvleLweqXOsGUvVSdCYvuWG0CQY46UGrMTsShPzATb7J3zrcaiSg29yLI8vjBk9qUHKeLG9XY464vepg83VcHsM3NZKQfJY1MpL4pJyPL1A2EQvLs0w6T3Wt6VHNRFu+QAS5NRV72L96i7K9fO7rw/1mU8Q+9hucG5i+Q8YI673G52oFx/11RaoZcr8UZSByorBxkn0OOGc9C0KSU2rkSMtfvcnzpM9DJ/0WDqKIlITuohfV6FB3s9P/Ad5ghquxNS9WfTAivKKMRPp3pn5xeM93a9O+wVcmHJVz97IApzGAhq6dKxAXlaMimr80SGGGJCOvIr+sUgoKX1aPnzss5dSinjT5h+EHNbRv2CpV4vmVmZ2bk5AcURXNOnxpTFqi70vy5kw5Q/TQV10Q5QW7KK5Ui5xMA75kEkgmg2v0ZwnWm6XQyvCpHp/ulS8VYzG17JMKbPt9Cx2ZJcgE9Ii60UEbkIsWKzqcoGzUh2wYEiS/IewW6BeuGKwookFE5dl1RD4IoS00uOBRoVEnTsb30NLBEIj/UBuqOzKkVMy+GTkRfgGuxdRWbO8NtgMEHbr3zQQCW1bkck=
+    setglowing: true
+    setglowingcolor: YELLOW
+    lookclose: false
+    setparrot: true
+    setanimation: false
+    setanimationtype: ''
+  '14':
+    name: §c§l↯ §6§lЛ§e§lесоруб
+    command: /cj opennpc forest
+    yaw: -89.96934
+    pitch: -1.2000197
+    positionx: 979.531476595287
+    positiony: 67.0
+    positionz: -282.15402395414924
+    world: lobby
+    skintexturedata: ewogICJ0aW1lc3RhbXAiIDogMTY3Njg5NjA4MjkxNiwKICAicHJvZmlsZUlkIiA6ICJlZTg4M2RmMjM0ZWI0YWM1YTFlNDEwODhhYzZkZWIxNyIsCiAgInByb2ZpbGVOYW1lIiA6ICJUdW5lc0Jsb2NrIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2E0OThlMzA4MmE3YmMwMDczYTE0ZGEwYWI2N2NmZmMyMDVkNjI2MWYzZmYyNmE5Yzc2ZDI4OTgyMzY5YTk1MWIiCiAgICB9CiAgfQp9
+    skintexturesignature: OUJuwwQxlEPtPyYeU4BJsbipvkSboqFLl/CpTYHdLDiIzU5Da9qbEEmZaeG272nlm5NUG6u7GnXvd81MC08KT9plDVl1dzxP8y2r2j8RWNnoQmAIjxrnI43A7EutiboJ1NQ8u1xDB6W986MEwzfEN2SGUJ3R3PDEX49vp5fhvWkRax1lI8SBehuOxQY05DqagkVrYfwCmCF+N4OlkysBr1HvfUxun3AMh/UIzuuoVWIu0NnvrxdZXagCoPi5xcOut5drCE57hFtohlPf6ECURA4iJ6ZPZVVMsc+mF7m64AsEmO39819aoHIDxBPRJuaw0v0hizXDd4m2Om8dnh/4CBifAoutxuUk4DEMD1Zo04SKzpffhPhIfsCmWV4dOSf4jCWsExeo/EYL37jQH/hsM58/msLOMkjJyizBiF9ZC8CsTdPtu/vSGlYhgpEkwg1rg/cTJDm6Z6eBElObb3tG8Ldx2ADosC2gpRA2wWrL/xMTMvzbIiHaKJPMpKxhOq6WiS+3eKX84LxreSQfOIcas2ty19ZNHO2ACX4pfs2rnJjZ/mAhvN37xVDcugh96jbRY6bq1R7d4rWYDq7r4xVovG0hT8b7VbEgD2UDs13YF5N3yglmVlE3/7tj/NIBYcQxRJQ47+gnBlAu4BGQv1uJyIxte1oZ2dXrgnT6AtJDtCQ=
+    setglowing: true
+    setglowingcolor: YELLOW
+    lookclose: false
+    setparrot: true
+    setanimation: false
+    setanimationtype: ''
+  '15':
+    name: §c§l↯ §6§lФ§e§lермер
+    command: /cj opennpc ferm
+    yaw: -177.41827
+    pitch: 0.8999792
+    positionx: 976.5763392611817
+    positiony: 68.0
+    positionz: -244.53594010079098
+    world: lobby
+    skintexturedata: ewogICJ0aW1lc3RhbXAiIDogMTY3Njg5NTE1MTc3MywKICAicHJvZmlsZUlkIiA6ICIzY2MxMTY3MWU0MTM0ODM0YjhjMmZjMTY1OGE4OWU3OCIsCiAgInByb2ZpbGVOYW1lIiA6ICJSb3NzaTU2IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzUyY2ZlM2ViNDAwNTVhYzRmMWE2OWY2YTZkOGY3ZGY1ZjljNDk0YjFjNmViOGM2ZWQ4MzdlZjU3M2I5YmI4MDUiCiAgICB9CiAgfQp9
+    skintexturesignature: Z+d2KOvYcxOfXtio7XY1lKLGMELk0rz7Qh1yoJZJSNNJaHVwCZCyntz/qJ1MM163MKkoZ6BlBuvqJuPm58F0wNlV+wtnjC940uNHpTbx25NJGHwNOkpZNgAhfz2WJIRCoIndfVxkkVK85EImUHgZBQz/7mHDBuSOIOVV+d1vWYC+kAB1EK09uJ7fxgbrIeqtGnQYMIjsIGqtZoNljHPeNsxESQ8KQRybGDEa08Nb5kUFG2jPyrHarmyioCN/Sm32Y8540KmVzY0AYnw4MCdmP0RwM+UWZmE0NPzwAoY5UTj7ChR/QzHPqQx9z7t4sz5UJpnSNZ9NtFlGY/5ThckwkGHyr23LvH2w+EuhjjWLLRAS0huk8FXeMQaoYSSuD3mXw3f4WUEda8uRmM7ymC4+1aMAhs6Mm7su65XYFkB+kdFP3yYZVlK+xWrfV4uqohomjgDrYkvgD86xujHQxWGyje2qrjy56FYRuxnEyZpy7kjueEiypVJTqq3321y6M+514xcm7NtUOu7vhkdJMtTUAAARGh6j9FBv4f64huKfc2BCt6Dja6f6wfkfiOz4ewJiGcLw4N5Py8kotQ6G6/bQOot6W0Bv/CEMfchxJp9wZ7ra3Be7hp0+QlSYgM20rZv4/0maXKg/nkVDXY+9XETueGNjIOPboPEkjrpJIJNM48Q=
+    setglowing: true
+    setglowingcolor: YELLOW
+    lookclose: false
+    setparrot: true
+    setanimation: false
+    setanimationtype: ''

@@ -1,0 +1,11 @@
+uuid: 2d8bc9da-17e6-32c6-b00a-58bf113b50f1
+name: Andreu_2276
+primary-group: default
+parents:
+- default
+prefixes:
+- §7§lИГРОК §7:
+    priority: 11
+    context:
+      server: grief
+      world: lobby

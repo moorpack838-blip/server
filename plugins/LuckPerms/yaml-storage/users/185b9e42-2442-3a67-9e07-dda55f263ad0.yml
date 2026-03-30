@@ -1,0 +1,11 @@
+uuid: 185b9e42-2442-3a67-9e07-dda55f263ad0
+name: DamirLox
+primary-group: default
+parents:
+- default
+prefixes:
+- §7§lИГРОК §7:
+    priority: 11
+    context:
+      server: grief
+      world: lobby

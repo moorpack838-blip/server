@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 95.215.116.99
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1680629357247
+  login: 1680629351671
+money: '0'
+last-account-name: LenBlogerYT
+lastlocation:
+  world: 50e83d7b-bd31-4b59-b085-d04edc199449
+  world-name: world
+  x: 98.5
+  y: 68.0
+  z: 265.5
+  yaw: 6.258729934692383
+  pitch: 0.0
+logoutlocation:
+  world: f426770c-0cf2-4454-94e7-0f4170382838
+  world-name: lobby
+  x: 999.5100097820105
+  y: 68.0
+  z: -293.001115184844
+  yaw: 175.55270385742188
+  pitch: 1.7416951656341553

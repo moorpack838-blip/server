@@ -1,0 +1,11 @@
+uuid: b363556a-e4b4-339b-b2fa-d0825e6d3921
+name: Clonex
+primary-group: default
+parents:
+- default
+prefixes:
+- §7§lИГРОК §7:
+    priority: 11
+    context:
+      server: grief
+      world: world

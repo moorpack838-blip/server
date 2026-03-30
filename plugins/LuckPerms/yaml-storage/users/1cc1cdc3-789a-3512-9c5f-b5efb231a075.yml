@@ -1,0 +1,13 @@
+uuid: 1cc1cdc3-789a-3512-9c5f-b5efb231a075
+name: ImNotSokit
+primary-group: default
+parents:
+- default
+- elay
+- gladiator
+prefixes:
+- §2§lЭЛЕЙ §7:
+    priority: 13
+    context:
+      server: grief
+      world: world

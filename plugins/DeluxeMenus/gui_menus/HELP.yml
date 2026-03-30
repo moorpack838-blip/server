@@ -1,0 +1,350 @@
+menu_title: '&0&lFC ∫ НУЖНА ПОМОЩЬ?'
+open_command:
+- help
+- /help
+- помощь
+- помочь
+- какприватить
+- info
+- einfo
+- ifo
+- eifo
+open_commands:
+  - '[sound] BLOCK_NOTE_BELL 2 5'
+size: 53
+items:
+  1:
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWYxOGI5YTQzNmEyN2Y4MTNjMjg3ZWI2NzM3OWVmOGFkYmZkYzcwYWZhZjMwNGM0M2IxNjZjZTk4NmRkOCJ9fX0=
+    slot: 12
+    display_name: '&6&lКАК &6&lНАЧАТЬ &6&lИГРУ? &7&l[ПКМ]'
+    lore:
+    - ''
+    - '&e&l ╔ §fНажмите, чтобы получить'
+    - '&e&l ╚ §fинформацию в чате'
+    - ''
+    hide_enchantments: true
+    hide_attributes: true
+    left_click_commands:
+    - '[message] &r' 
+    - '[message] &fПривет, новичок! Добро пожаловать на гриферский сервер.' 
+    - '[message] &fНа этом сервере игроки выживают и развиваются.' 
+    - '[message] &r' 
+    - '[message] &fНа сервере есть 3 мира: &aобычный&f, &cнижний &fи &5эндер&f.' 
+    - '[message] &fДля того, чтобы начать выживать - пропиши &6&l/rtp' 
+    - '[message] &r' 
+    - '[close]'
+  2:
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTk5MzQ5OGVhYzE5NzE1Mjg1NzEwNjdkNWIxMTBiZmU1MmIyNjkzYjYyMmEzYjY3N2FkNTcxMGYxZmEzMWNlIn19fQ==
+    slot: 20
+    display_name: '&6&lКАК &6&lЗАПРИВАТИТЬ &6&lРЕГИОН &7&l[ПКМ]'
+    lore:
+    - ''
+    - '&e&l ╔ §fНажмите, чтобы получить'
+    - '&e&l ╚ §fинформацию в чате'
+    - ''
+    hide_enchantments: true
+    hide_attributes: true
+    left_click_commands:
+    - '[message] &r' 
+    - '[message] &7 &l1.&f Пропиши команду &6//wand' 
+    - '[message] &7 &l2.&f Этим деревянным топориком выдели первую точку' 
+    - '[message] &f    региона левой кнопкой мыши (ЛКМ) и вторую точку' 
+    - '[message] &f    правой кнопкой (ПКМ)' 
+    - '[message] &7 &l3.&f Пропиши команду &6/rg claim (название)' 
+    - '[message] &7 &l4.&f Не забудь поставить &6/sethome'
+    - '[message] &r' 
+    - '[message] &fСвои лимиты на регионы ты можешь узнать в &6/donate&f:' 
+    - '[message] &fкликни на свой донат и прочитай описание для сервера &6&lГРИФ' 
+    - '[message] &r' 
+    - '[message] &6 /rg info [название] &7-&f получить информацию об регионе' 
+    - '[message] &6 /rg list &7-&f список ваших регионов' 
+    - '[message] &6 /rg remove &7-&f удалить регион' 
+    - '[message] &6 /rg addowner &7-&f добавить игрока во владельцы региона'
+    - '[message] &6 /rg addmember &7-&f добавить игрока в участники региона' 
+    - '[message] &6 /rg removeowner &7-&f убрать владельца региона' 
+    - '[message] &6 /rg removemember &7-&f убрать участника региона' 
+    - '[message] &r' 
+    - '[close]'
+  3:
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmQwZjQwNjFiZmI3NjdhN2Y5MjJhNmNhNzE3NmY3YTliMjA3MDliZDA1MTI2OTZiZWIxNWVhNmZhOThjYTU1YyJ9fX0=
+    slot: 21
+    display_name: '&6&lСПИСОК &6&lДОСТУПНЫХ &6&lКОМАНД &7&l[ПКМ]'
+    lore:
+    - ''
+    - '&e&l ╔ §fНажмите, чтобы получить'
+    - '&e&l ╚ §fинформацию в чате'
+    - ''
+    hide_enchantments: true
+    hide_attributes: true
+    left_click_commands:
+    - '[message] &r' 
+    - '[message] &6 /menu &7-&f игровое меню' 
+    - '[message] &6 /sethome &7-&f поставить свою точку телепорта' 
+    - '[message] &6 /home &7-&f телепортация на свою точку телепорта' 
+    - '[message] &6 /spawn &7-&f телепорт на спавн' 
+    - '[message] &6 /rtp &7-&f случайная телепортация в обычном мире' 
+    - '[message] &6 /tpa &7-&f отправить запрос на телепортацию к игроку'
+    - '[message] &6 /warp &7-&f публичные точки телепорта от донатеров' 
+    - '[message] &6 /ingore &7-&f отправить игрока в игнор' 
+    - '[message] &6 /pay &7-&f перевести монеты игроку' 
+    - '[message] &6 /msg &7-&f отправить сообщение игроку' 
+    - '[message] &6 /kit &7-&f дополнительные наборы с вещами' 
+    - '[message] &6 /jobs &7-&f информация о работах' 
+    - '[message] &6 /ah help &7-&f аукционы с товарами' 
+    - '[message] &6 /titles &7-&f титулы после ника'
+    - '[message] &r' 
+    - '[close]'
+  4:
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWM5NmJlNzg4NmViN2RmNzU1MjVhMzYzZTVmNTQ5NjI2YzIxMzg4ZjBmZGE5ODhhNmU4YmY0ODdhNTMifX19
+    slot: 22
+    display_name: '&6&lЧТО &6&lТАКОЕ &6&lКИТЫ? &7&l[ПКМ]'
+    lore:
+    - ''
+    - '&e&l ╔ §fНажмите, чтобы получить'
+    - '&e&l ╚ §fинформацию в чате'
+    - ''
+    hide_enchantments: true
+    hide_attributes: true
+    left_click_commands:
+    - '[message] &r' 
+    - '[message] &6Кит-наборы &7- &fэто дополнительные наборы вещей,' 
+    - '[message] &fкоторые помогут вам с выживанием. Кит-набор можно' 
+    - '[message] &fзабрать сначала один раз, после он пополнится за' 
+    - '[message] &fопределённое вермя и его можно будет забрать ещё раз.' 
+    - '[message] &r' 
+    - '[message] &fПолучить наборы можно в меню &6/kits&f.'
+    - '[message] &6Клик &lПКМ/ЛКМ &7-&f забрать набор.' 
+    - '[message] &r' 
+    - '[close]'
+  5:
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTQ1ZjQ3ZmViNGQ3NWNiMzMzOTE0YmZkYjk5OWE0ODljOWQwZTMyMGQ1NDhmMzEwNDE5YWQ3MzhkMWUyNGI5In19fQ==
+    slot: 23
+    display_name: '&6&lКАК &6&lЗАРАБАТЫВАТЬ &6&lДЕНЬГИ? &7&l[ПКМ]'
+    lore:
+    - ''
+    - '&e&l ╔ §fНажмите, чтобы получить'
+    - '&e&l ╚ §fинформацию в чате'
+    - ''
+    hide_enchantments: true
+    hide_attributes: true
+    left_click_commands:
+    - '[message] &r' 
+    - '[message] &6Монеты &7-&f за них можно покупать товары на &6/ah&f,' 
+    - '[message] &fобмениваться с игроками, также вы можете их' 
+    - '[message] &fзарабатывать.' 
+    - '[message] &r' 
+    - '[message] &f Монеты можно зарабатывать:' 
+    - '[message] &7 &l1. &fРаботая на спавне.' 
+    - '[message] &7 &l3. &fПродавать ресурсы на аукционе. Подробнее &6/ah help' 
+    - '[message] &7 &l4. &fУбивая мобов.' 
+    - '[message] &r' 
+    - '[message] &f Стартапы от игроков:' 
+    - '[message] &7 &l1. &fСоздать клан, сделать знаменитым, собирать налоги' 
+    - '[message] &f    &fза вступление или повышение.' 
+    - '[message] &7 &l2. &fСтроить дома, базы под заказ' 
+    - '[message] &7 &l3. &fСоздать свою качалку на мобах и продавать пропуски' 
+    - '[close]'
+  6:
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTE4N2JhZDEwZGRiOGZjNGNiMzMzN2Y1OTMzMjBhODQ5MzNiMzI0YzZiOGM3OWYwYzYzZmIwNzE1ZTAwYTA5NCJ9fX0=
+    slot: 24
+    display_name: '&6&lКАК &6&lПРОДАВАТЬ &6&lВЕЩИ НА &6&lАУКЦИОНЕ &7&l[ПКМ]'
+    lore:
+    - ''
+    - '&e&l ╔ §fНажмите, чтобы получить'
+    - '&e&l ╚ §fинформацию в чате'
+    - ''
+    hide_enchantments: true
+    hide_attributes: true
+    left_click_commands:
+    - '[message] &r' 
+    - '[message] &6Аукционы &7- &fэто рынок игроков с их товарами. Экономика' 
+    - '[message] &f сервера в основном держится на этом рынке.' 
+    - '[message] &r' 
+    - '[message] &6 /ah &7-&f открыть аукционы' 
+    - '[message] &6 /ah sell (стоимость) &7[кол-во] &7-&f продать предмет(ы) в руке' 
+    - '[message] &r' 
+    - '[close]'
+  7:
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjk3NWUwMzg3MjA3ZWM3MzM4OGRhYjFiNGQ1MDMwMzBjNGMyNmFhOGFlMThmMmNmMjJjNGZhOWVkNDY1ZmRmNCJ9fX0=
+    slot: 14
+    display_name: '&6&lПРОЧЕЕ &7&l[ПКМ]'
+    lore:
+    - ''
+    - '&e&l ╔ §fНажмите, чтобы получить'
+    - '&e&l ╚ §fинформацию в чате'
+    - ''
+    hide_enchantments: true
+    hide_attributes: true
+    left_click_commands:
+    - '[message] &r' 
+    - '[message] &f Группа ВКонтакте: &6vk.com/Forumcraft_Offical' 
+    - '[message] &f Telegram канал : &6t.me/ForumCraft_Offical' 
+    - '[message] &f Создатель проекта: &cFoxs'
+    - '[message] &r' 
+    - '[message] &f Обновления и вайп: 02.4.23' 
+    - '[message] &r' 
+    - '[message] &f Магазин: &6https://Forumcraft.ru' 
+    - '[message] &r' 
+    - '[close]'
+#################################### FOOTER ####################################
+  'ramka':
+    material: stained_glass_pane
+    data: 4
+    slot: 0
+    display_name: ''       
+  'ramka1':
+    material: stained_glass_pane
+    data: 4
+    slot: 1
+    display_name: ''
+  'ramka2':
+    material: stained_glass_pane
+    data: 4
+    slot: 2
+    display_name: ''
+  'ramka3':
+    material: stained_glass_pane
+    data: 4
+    slot: 3
+    display_name: ''
+  'ramka4':
+    material: stained_glass_pane
+    data: 4
+    slot: 4
+    display_name: ''
+  'ramka5':
+    material: stained_glass_pane
+    data: 4
+    slot: 5
+    display_name: ''
+  'ramka6':
+    material: stained_glass_pane
+    data: 4
+    slot: 6
+    display_name: ''
+  'ramka7':
+    material: stained_glass_pane
+    data: 4
+    slot: 7
+    display_name: ''
+  'ramka8':
+    material: stained_glass_pane
+    data: 4
+    slot: 8
+    display_name: ''
+  'ramka9':
+    material: stained_glass_pane
+    data: 4
+    slot: 9
+    display_name: ''
+  'ramka10':
+    material: stained_glass_pane
+    data: 4
+    slot: 18
+    display_name: ''
+  'ramka11':
+    material: stained_glass_pane
+    data: 4
+    slot: 27
+    display_name: ''
+  'ramka12':
+    material: stained_glass_pane
+    data: 4
+    slot: 36
+    display_name: ''
+  'ramka19':
+    material: stained_glass_pane
+    data: 4
+    slot: 46
+    display_name: ''
+  'ramka20':
+    material: stained_glass_pane
+    data: 4
+    slot: 52
+    display_name: ''
+  'ramka21':
+    material: stained_glass_pane
+    data: 1
+    slot: 47
+    display_name: ''
+  'ramka23':
+    material: stained_glass_pane
+    data: 1
+    slot: 38
+    display_name: ''
+  'ramka24':
+    material: stained_glass_pane
+    data: 1
+    slot: 42
+    display_name: ''
+  'ramka25':
+    material: stained_glass_pane
+    data: 1
+    slot: 39
+    display_name: ''
+  'barrier1':
+    material: barrier
+    data: 1
+    slot: 48
+    display_name: ''
+  'arr':
+    material: arrow
+    slot: 49
+    display_name: "&4&LЗ&c&lАКРЫТЬ"
+    lore: 
+     - ''
+     - '&e• &fВы закроете меню помощи.'   
+     - ''
+     - '&aНажми, чтобы закрыть меню'
+    left_click_commands:
+    - '[close]' 
+  'barrier2':
+    material: barrier
+    data: 1
+    slot: 50
+    display_name: ''
+  'ramka26':
+    material: stained_glass_pane
+    data: 1
+    slot: 40
+    display_name: ''
+  'ramka27':
+    material: stained_glass_pane
+    data: 1
+    slot: 41
+    display_name: ''
+  'ramka22':
+    material: stained_glass_pane
+    data: 1
+    slot: 51
+    display_name: ''
+  'ramka13':
+    material: stained_glass_pane
+    data: 4
+    slot: 45
+    display_name: ''
+  'ramka14':
+    material: stained_glass_pane
+    data: 4
+    slot: 53
+    display_name: ''
+  'ramka15':
+    material: stained_glass_pane
+    data: 4
+    slot: 44
+    display_name: ''
+  'ramka16':
+    material: stained_glass_pane
+    data: 4
+    slot: 35
+    display_name: ''
+  'ramka17':
+    material: stained_glass_pane
+    data: 4
+    slot: 26
+    display_name: ''
+  'ramka18':
+    material: stained_glass_pane
+    data: 4
+    slot: 17
+    display_name: ''

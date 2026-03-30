@@ -1,0 +1,11 @@
+uuid: ff6abb43-9537-3ced-8987-042839e26676
+name: MxxFoxx
+primary-group: default
+parents:
+- default
+prefixes:
+- §7§lИГРОК §7:
+    priority: 11
+    context:
+      server: grief
+      world: lobby

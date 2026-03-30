@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 94.25.181.69
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1680450929432
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1681468464720
+  login: 1681468351446
+money: '3649.51000000000002'
+last-account-name: KPACAB4UK712
+lastlocation:
+  world: 8ade207d-e013-4ead-90c7-e009b86bc0e3
+  world-name: world_the_end
+  x: -4.128767660716593
+  y: 64.48664007334057
+  z: -4.063179609480889
+  yaw: 307.28515625
+  pitch: 16.057893753051758
+logoutlocation:
+  world: f426770c-0cf2-4454-94e7-0f4170382838
+  world-name: lobby
+  x: 998.2153959488829
+  y: 70.6252803306509
+  z: -292.18013419026164
+  yaw: -3.093250036239624
+  pitch: 20.787267684936523

@@ -1,0 +1,122 @@
+name: hero
+permissions:
+- worldguard.region.addmember.own.*
+- worldguard.region.info.own.*
+- worldguard.region.remove.own.*
+- worldguard.region.removemember.own.*
+- worldguard.region.select.own.*
+- titlemanager.command.scoreboard.*
+- deluxemenus.menu.*
+- adodvrtp.rtp
+- advancedsmelting.smelt
+- antirelog.bypass:
+    value: false
+- aresnear.allowuse
+- auctionhouse.help
+- auctionhouse.menu
+- cases.use
+- chatty.chat
+- chatty.chat.global
+- chatty.chat.global.see
+- chatty.chat.local
+- chatty.chat.local.see
+- chatty.command.ignore
+- chatty.command.msg
+- chatty.command.reply
+- clans.create
+- clans.help
+- clans.user
+- essentials.balance
+- essentials.balancetop
+- essentials.craft
+- essentials.delhome
+- essentials.ec
+- essentials.enderchest
+- essentials.feed
+- essentials.hat
+- essentials.heal
+- essentials.home
+- essentials.home.voin
+- essentials.ignore
+- essentials.kits.hero
+- essentials.msg
+- essentials.near
+- essentials.pay
+- essentials.ptime
+- essentials.sethome
+- essentials.sethome.multiple.hero
+- essentials.sethome.multiple.master
+- essentials.spawn
+- essentials.spawn-on-join
+- essentials.tpa
+- essentials.tpacancel
+- essentials.tpaccept
+- essentials.tpdeny
+- essentials.warp
+- essentials.warp.list
+- essentials.workbench
+- great.kits.elay:
+    value: false
+- great.kits.geroy
+- great.kits.start
+- great.kits.voin:
+    value: false
+- greatkits.kits.elay:
+    value: false
+- greatkits.kits.geroy
+- greatkits.kits.hero
+- greatkits.kits.master
+- greatkits.kits.oboroten:
+    value: false
+- greatkits.kits.start:
+    value: false
+- greatkits.kits.voin:
+    value: false
+- heronear
+- kit.elay:
+    value: false
+- kit.hero
+- kits.hero
+- litebans.json.hover_text
+- mixshop
+- mixshops.open
+- near.safety
+- near.usage
+- none:
+    value: false
+- nte.default
+- nte.storm3
+- rtp.channel.far
+- rtp.channel.normal
+- serversigns.use
+- supernear100
+- supernear200
+- supernear300
+- supernear400
+- supernear500
+- supernear600
+- tab.scoreboard.admin
+- titlemanager.command.scoreboard
+- umine.command.salary
+- umine.salary
+- wcode.code
+- wcontrol.control
+- wcutter.salary
+- weight.4
+- westoriasutils.ptime
+- westoriasutils.sethome.limit.11
+- wmines.command.salary
+- woodcutter.salary
+- worldedit.selection.expand
+- worldedit.selection.hpos
+- worldedit.selection.pos
+- worldedit.wand
+- worldguard.region.claim
+- worldguard.region.info.own
+- worldguard.region.list.own
+- worldguard.region.wand
+parents:
+- elay
+prefixes:
+- §9§lГЕРОЙ §7:
+    priority: 4

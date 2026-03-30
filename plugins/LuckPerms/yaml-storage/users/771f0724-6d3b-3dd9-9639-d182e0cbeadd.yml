@@ -1,0 +1,7 @@
+uuid: 771f0724-6d3b-3dd9-9639-d182e0cbeadd
+name: Turkpidr
+primary-group: default
+parents:
+- default
+- gladiator
+- voin

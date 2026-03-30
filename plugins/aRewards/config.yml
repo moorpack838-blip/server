@@ -1,0 +1,144 @@
+# Permissions:
+# arewards.reward => Access to command
+rewards:
+   1:
+     actions:
+     - "cubelets give {player} freedonate 1"
+     - "broadcast:&e╔"
+     - "broadcast:&e╠ &fИгрок &e{player} &fполучил &e&l1 &fкейс c донатом"
+     - "broadcast:&e╠ &fЕсли хочешь также, вводи &f(&e／ＦＲＥＥＣＡＳＥ&f)"
+     - "broadcast:&e╚"
+     time: 2400 # в секундах
+     cooldown: "message:config>messages.reward.cooldown"
+     gived: "message:config>messages.reward.gived"
+     exist: "message:config>messages.reward.exist"
+   2:
+     actions:
+     - "cubelets give {player} freedonate 3"
+     - "broadcast:&e╔"
+     - "broadcast:&e╠ &fИгрок &e{player} &fполучил &e&l3 &fкейс c донатом"
+     - "broadcast:&e╠ &fЕсли хочешь также, вводи &f(&e／ＦＲＥＥＣＡＳＥ&f)"
+     - "broadcast:&e╚"
+     time: 5400
+     cooldown: "message:config>messages.reward.cooldown"
+     gived: "message:config>messages.reward.gived"
+     exist: "message:config>messages.reward.exist"
+   3:
+     actions:
+     - "cubelets give {player} freedonate 3"
+     - "broadcast:&e╔"
+     - "broadcast:&e╠ &fИгрок &e{player} &fполучил &e&l3 &fкейс c донатом"
+     - "broadcast:&e╠ &fЕсли хочешь также, вводи &f(&e／ＦＲＥＥＣＡＳＥ&f)"
+     - "broadcast:&e╚"
+     time: 9000
+     cooldown: "message:config>messages.reward.cooldown"
+     gived: "message:config>messages.reward.gived"
+     exist: "message:config>messages.reward.exist"
+   4:
+     actions:
+     - "cubelets give {player} freedonate 3"
+     - "broadcast:&e╔"
+     - "broadcast:&e╠ &fИгрок &e{player} &fполучил &e&l3 &fкейс c донатом"
+     - "broadcast:&e╠ &fЕсли хочешь также, вводи &f(&e／ＦＲＥＥＣＡＳＥ&f)"
+     - "broadcast:&e╚"
+     time: 12600
+     cooldown: "message:config>messages.reward.cooldown"
+     gived: "message:config>messages.reward.gived"
+     exist: "message:config>messages.reward.exist"
+   5:
+     actions:
+     - "cubelets give {player} freedonate 5"
+     - "broadcast:&e╔"
+     - "broadcast:&e╠ &fИгрок &e{player} &fполучил &e&l5 &fкейс c донатом"
+     - "broadcast:&e╠ &fЕсли хочешь также, вводи &f(&e／ＦＲＥＥＣＡＳＥ&f)"
+     - "broadcast:&e╚"
+     time: 16200
+     cooldown: "message:config>messages.reward.cooldown"
+     gived: "message:config>messages.reward.gived"
+     exist: "message:config>messages.reward.exist"
+   6:
+     actions:
+     - "cubelets give {player} freedonate 7"
+     - "broadcast:&e╔"
+     - "broadcast:&e╠ &fИгрок &e{player} &fполучил &e&l7 &fкейс c донатом"
+     - "broadcast:&e╠ &fЕсли хочешь также, вводи &f(&e／ＦＲＥＥＣＡＳＥ&f)"
+     - "broadcast:&e╚"
+     time: 21600
+     cooldown: "message:config>messages.reward.cooldown"
+     gived: "message:config>messages.reward.gived"
+     exist: "message:config>messages.reward.exist"
+   7:
+     actions:
+     - "cubelets give {player} rubles 1"
+     - "broadcast:&e╔"
+     - "broadcast:&e╠ &fИгрок &e{player} &fполучил &e&l1 &fкейс c рублями"
+     - "broadcast:&e╠ &fЕсли хочешь также, вводи &f(&e／ＲＵＢＳ&f)"
+     - "broadcast:&e╚"
+     time: 2400
+     cooldown: "message:config>messages.reward.cooldown"
+     gived: "message:config>messages.reward.gived"
+     exist: "message:config>messages.reward.exist"
+   8:
+     actions:
+     - "cubelets give {player} rubles 1"
+     - "broadcast:&e╔"
+     - "broadcast:&e╠ &fИгрок &e{player} &fполучил &e&l1 &fкейс c рублями"
+     - "broadcast:&e╠ &fЕсли хочешь также, вводи &f(&e／ＲＵＢＳ&f)"
+     - "broadcast:&e╚"
+     time: 5400
+     cooldown: "message:config>messages.reward.cooldown"
+     gived: "message:config>messages.reward.gived"
+     exist: "message:config>messages.reward.exist"
+   9:
+     actions:
+     - "cubelets give {player} rubles 2"
+     - "broadcast:&e╔"
+     - "broadcast:&e╠ &fИгрок &e{player} &fполучил &e&l2 &fкейс c рублями"
+     - "broadcast:&e╠ &fЕсли хочешь также, вводи &f(&e／ＲＵＢＳ&f)"
+     - "broadcast:&e╚"
+     time: 9000
+     cooldown: "message:config>messages.reward.cooldown"
+     gived: "message:config>messages.reward.gived"
+     exist: "message:config>messages.reward.exist"
+   10:
+     actions:
+     - "cubelets give {player} rubles 2"
+     - "broadcast:&e╔"
+     - "broadcast:&e╠ &fИгрок &e{player} &fполучил &e&l2 &fкейс c рублями"
+     - "broadcast:&e╠ &fЕсли хочешь также, вводи &f(&e／ＲＵＢＳ&f)"
+     - "broadcast:&e╚"
+     time: 12600
+     cooldown: "message:config>messages.reward.cooldown"
+     gived: "message:config>messages.reward.gived"
+     exist: "message:config>messages.reward.exist"
+   11:
+     actions:
+     - "cubelets give {player} rubles 4"
+     - "broadcast:&e╔"
+     - "broadcast:&e╠ &fИгрок &e{player} &fполучил &e&l4 &fкейс c рублями"
+     - "broadcast:&e╠ &fЕсли хочешь также, вводи &f(&e／ＲＵＢＳ&f)"
+     - "broadcast:&e╚"
+     time: 16200
+     cooldown: "message:config>messages.reward.cooldown"
+     gived: "message:config>messages.reward.gived"
+     exist: "message:config>messages.reward.exist"
+   12:
+     actions:
+     - "cubelets give {player} rubles 4"
+     - "broadcast:&e╔"
+     - "broadcast:&e╠ &fИгрок &e{player} &fполучил &e&l4 &fкейс c рублями"
+     - "broadcast:&e╠ &fЕсли хочешь также, вводи &f(&e／ＲＵＢＳ&f)"
+     - "broadcast:&e╚"
+     time: 21600
+     cooldown: "message:config>messages.reward.cooldown"
+     gived: "message:config>messages.reward.gived"
+     exist: "message:config>messages.reward.exist"       
+messages:
+    prefix: "&e&lХ&6&lАЛЯВА&7&L: &f"
+    no-permission: "У вас нет прав."
+    reward:
+      cooldown: "{prefix}&fВы не можете получить свою награду.|title: &e&lБесплатный донат ; &fПоиграйте ещё &e&l{days[0]}&e&l{days[1]}&e&l{hours[0]}&e&l{hours[1]}&e&l{minutes[0]}&e&l{minutes[1]}&e&l{seconds[0]}&e&l{seconds[1]}"
+      gived: "{prefix}&fВы успешно получили свою награду."
+      exist: "{prefix}&fВы уже получили эту награду.|title: &e&lБесплатный донат ; &fВы получили награду"
+      broadcast:
+      - ""

@@ -1,0 +1,119 @@
+#==============================
+#        BestGrief            #
+#  Congig created by ImMirrox #
+#  https://vk.com/immirrox    #
+#==============================
+
+# Использовать ли Vault? У вас должен быть установлен плагин Vault.
+# Это необходимо для настройки разного кулдауна для разных донат-групп.
+# Если Вам это не нужно, то можете отключить
+useVault: true
+
+# Настройка приоритетов донат-групп по убыванию (сначала более важные группы).
+# Это позволит Вам не дублировать одинаковое время для последующих групп,
+# так как плагин будет учитывать прироритет.
+# Например, для команды ban не указана задержка для группы admin,
+# так что у группы admin задержка будет такая же, как и для ultra.
+#
+# Если вы не используйте Vault, то можете смело удалить эту секцию
+groupPriorities:
+- admin
+- mladmin
+- stmoder
+- moder
+- sthelper
+- helper
+- yt+
+- yt
+- dhelper
+- wise
+- ares
+- povel
+- legend
+- gladiator
+- hero
+- elay
+- voin
+- default
+
+# Команды для которых действует кулдаун
+commands:
+  tempban:
+    checkAliases: true
+    permission: 'litebans.tempban'
+    customMessage: '&6&lИНФОРМАЦИЯ: &fКоманда будет доступна через: &6{time}'
+    defaultTime: 1m
+    notifyOnExpire: false
+    saveOnStop: true
+    
+  tempmute:
+    checkAliases: true
+    permission: 'litebans.tempmute'
+    customMessage: '&6&lИНФОРМАЦИЯ: &fКоманда будет доступна через: &6{time}'
+    defaultTime: 1m
+    notifyOnExpire: false
+    saveOnStop: true
+    
+  /wand:
+    checkAliases: true
+    permission: 'worldedit.wand'
+    customMessage: '&6&lИНФОРМАЦИЯ: &fКоманда будет доступна через: &6{time}'
+    defaultTime: 1m
+    groupsTime:
+      veltik: 0s
+    notifyOnExpire: false
+    saveOnStop: true
+    
+  tempmute:
+    checkAliases: true
+    permission: 'litebans.tempmute'
+    customMessage: '&6&lИНФОРМАЦИЯ: &fКоманда будет доступна через: &6{time}'
+    defaultTime: 1m
+    groupsTime:
+      veltik: 0s
+    notifyOnExpire: false
+    saveOnStop: true
+  mute:
+    checkAliases: true
+    permission: 'litebans.mute'
+    customMessage: '&6&lИНФОРМАЦИЯ: &fКоманда будет доступна через: &6{time}'
+    defaultTime: 1m
+    notifyOnExpire: false
+    saveOnStop: true
+  kick:
+    checkAliases: true
+    permission: 'litebans.kick'
+    customMessage: '&6&lИНФОРМАЦИЯ: &fКоманда будет доступна через: &6{time}'
+    defaultTime: 1m
+    groupsTime:
+      veltik: 0s
+    notifyOnExpire: false
+    saveOnStop: true
+  rtpnear:
+    checkAliases: true
+    permission: 'rtp.channel.near'
+    customMessage: '&6&lИНФОРМАЦИЯ: &fКоманда будет доступна через: &6{time}'
+    defaultTime: 30s
+    notifyOnExpire: false
+    saveOnStop: true
+  rtpfar:
+    checkAliases: true
+    permission: 'rtp.channel.far'
+    customMessage: '&6&lИНФОРМАЦИЯ: &fКоманда будет доступна через: &6{time}'
+    defaultTime: 30s
+    notifyOnExpire: false
+    saveOnStop: true
+  rtpsafe:
+    checkAliases: true
+    permission: 'rtp.channel.safe'
+    customMessage: '&6&lИНФОРМАЦИЯ: &fКоманда будет доступна через: &6{time}'
+    defaultTime: 30s
+    notifyOnExpire: false
+    saveOnStop: true
+  scissors:
+    checkAliases: true
+    permission: 'scissors.use'
+    customMessage: '&6&lИНФОРМАЦИЯ: &fКоманда будет доступна через: &6{time}'
+    defaultTime: 300m
+    notifyOnExpire: false
+    saveOnStop: true

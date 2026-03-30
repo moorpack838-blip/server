@@ -1,0 +1,9 @@
+sound: AMBIENT_CAVE
+money-add-action:
+- '[message-entity] &fВас убил &6&l{killer}'
+- '[message-entity] &fВы потеряли &6&l{money}⛂'
+- '[title-entity] &fВас убил &6&l{killer}%nlВы потеряли &6&l{money}⛂'
+- '[actionbar-entity] &6&l-{money}'
+- '[actionbar-killer] &6&l+{money}'
+disabled-worlds:
+- 'spawn'

@@ -1,0 +1,19 @@
+uuid: 60730b24-8ed6-3ed3-8d40-dae7f7aea862
+name: ward_en
+primary-group: default
+parents:
+- default
+- elay
+- gladiator
+- hero
+- legend
+- voin
+prefixes:
+- §7§lИГРОК §7:
+    priority: 11
+    context:
+      server: grief
+      world: world
+suffixes:
+- '&a&nНе Натурал ☡':
+    priority: 1

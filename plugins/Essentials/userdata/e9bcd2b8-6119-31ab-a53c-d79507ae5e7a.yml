@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 37.79.94.166
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1681057416299
+  login: 1681057416144
+money: '0'
+last-account-name: TigranFlash1
+logoutlocation:
+  world: 50e83d7b-bd31-4b59-b085-d04edc199449
+  world-name: world
+  x: 89.5
+  y: 69.0
+  z: 252.5
+  yaw: 0.20937003195285797
+  pitch: 0.0

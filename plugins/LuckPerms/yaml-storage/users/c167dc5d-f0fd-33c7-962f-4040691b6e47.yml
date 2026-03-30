@@ -1,0 +1,7 @@
+uuid: c167dc5d-f0fd-33c7-962f-4040691b6e47
+name: zhora
+primary-group: default
+parents:
+- default
+- gladiator
+- hero

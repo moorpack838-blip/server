@@ -1,0 +1,11 @@
+uuid: cac91abb-0786-35b6-beab-1c2abb97a828
+name: IAmArgo
+primary-group: default
+parents:
+- default
+prefixes:
+- §7§lИГРОК §7:
+    priority: 11
+    context:
+      server: grief
+      world: lobby

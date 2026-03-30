@@ -1,0 +1,16 @@
+name: vlad
+permissions:
+- bukkit.*
+- '*'
+- Combatlogx.bypass.force.field:
+    value: false
+- antirelog.bypass:
+    value: false
+- bukkit.command.plugins
+- combatlogx.bypass:
+    value: false
+- pl
+- weight.10000
+prefixes:
+- §c§lВЛАДЕЛЕЦ §7:
+    priority: 10000

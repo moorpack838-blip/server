@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 5.1.10.174
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1680518662803
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1681383938685
+  login: 1681383773144
+money: '0'
+last-account-name: DeReVo_C_MaCLoM
+lastlocation:
+  world: f426770c-0cf2-4454-94e7-0f4170382838
+  world-name: lobby
+  x: 1036.953245369124
+  y: 113.1836204388352
+  z: -564.0522635114538
+  yaw: 184.5835418701172
+  pitch: 19.736541748046875
+logoutlocation:
+  world: f426770c-0cf2-4454-94e7-0f4170382838
+  world-name: lobby
+  x: 988.8273822548217
+  y: 67.0
+  z: -303.4695147953242
+  yaw: -61.95139694213867
+  pitch: -1.4816572666168213

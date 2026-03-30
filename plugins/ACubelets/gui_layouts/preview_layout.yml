@@ -1,0 +1,67 @@
+#
+# This is the gui layout file.
+# You can change any messages that are in this file
+#
+# If you want to reset a message back to the default,
+# delete the entire line the message is on and restart the server.
+#
+# IMPORTANT: Slots numbers between 1-9, if not, the plugin will crash
+#
+
+Layout:
+
+  # GUI Title
+  Title: Что может выпасть?
+
+  # GUI rows options
+  Size:
+    # Max rows of cubelets, (1 to 5) 1 row reserved to navigation buttons
+    Max-Cubelets-Rows: 3
+    # If gui size is resizable or fixed size
+    Dynamic: true
+
+  # GUI items
+  Items:
+
+    # Each reward item
+    Reward:
+      Name: '&e%reward_name%'
+      Lore:
+      - ''
+      - '&f Редкость: %reward_rarity%'
+      - '&f Приобрести кейсы/привилегии » &e&lForumCraft.ru'
+      - ''
+
+    # Back item
+    Back:
+      Name: '&cВернуться обратно →'
+      Material: BOOK
+      Slot: 5
+      Lore:
+      - ''
+      - '&f Закончились или отсутствуют кейсы?'
+      - '&f Приобрести кейсы/привилегии » &e&lForumCraft.ru'
+      - ''
+
+    # Close item
+    Close:
+      Name: '&9Close'
+      Material: BOOK
+      Slot: 5
+      Lore:
+      - '&fClick to close'
+      - '&fthis menu'
+
+    # Next page item
+    NextPage:
+      Name: '&fСледующая страница →'
+      Material: ARROW
+      Slot: 9
+      ShowPageNumber: false
+
+    # Previous page item
+    PreviousPage:
+      Name: '&f← Предыдущая страница'
+      Material: ARROW
+      Slot: 1
+      ShowPageNumber: false

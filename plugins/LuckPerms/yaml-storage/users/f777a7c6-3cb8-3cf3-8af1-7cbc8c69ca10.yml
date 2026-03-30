@@ -1,0 +1,11 @@
+uuid: f777a7c6-3cb8-3cf3-8af1-7cbc8c69ca10
+name: Eugen_ZXC
+primary-group: default
+parents:
+- default
+prefixes:
+- §7§lИГРОК §7:
+    priority: 11
+    context:
+      server: grief
+      world: lobby

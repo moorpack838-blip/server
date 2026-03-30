@@ -1,0 +1,258 @@
+
+
+
+
+
+# Detailed explanation of all options available at https://github.com/NEZNAMY/TAB/wiki/config.yml
+header-footer:
+  enabled: true
+  header:
+  - ''
+  - '&c⚔ &6&lＦＯＲＵＭ&e&lＣＲＡＦＴ &e↬ &fПростых &e&lПУТЕЙ&f не ищем! &c⚔'
+  - ''
+  - '  &fОнлайн: &6%online% &e↬ &fОбщий онлайн: &6%bungee_total%&8/&62023'
+  - '  &fПинг: &6%ping% &e↬ &fTPS: &6%server_tps_1%'
+  - '&r'
+  - '&e↶ &fСписок игроков &e↷'
+  footer:
+  - ''
+  - '&e↬ &fБесплатные рубли: &6&l／ＦＲＥＥＲＵＢＳ'
+  - '&e↬ &fБесплатные кейсы: &6&l／ＦＲＥＥＣＡＳＥＳ'
+  - ''
+  - '&fСайт-Покупки: &6&lforumcraft.ru'
+  - '&fГруппа ВК: &6@Forumcraft_Offical'
+  - ''
+  disable-in-worlds:
+  - disabledworld
+  per-world:
+    world1:
+      header:
+      - an example of world with custom
+      footer:
+      - header/footer and prefix/suffix
+    world2;world3:
+      header:
+      - This is a shared header for
+      - world2 and world3
+tablist-name-formatting:
+  enabled: true
+  anti-override: true
+  disable-in-worlds:
+  - disabledworld
+  align-tabsuffix-on-the-right: false
+  character-width-overrides: {}
+scoreboard-teams:
+  enabled: true
+  invisible-nametags: false
+  anti-override: true
+  enable-collision: true
+  disable-in-worlds:
+  - disabledworld
+  unlimited-nametag-mode:
+    enabled: true
+    use-marker-tag-for-1-8-x-clients: false
+    disable-on-boats: true
+    space-between-lines: false
+    disable-in-worlds:
+    - disabledworld
+    dynamic-lines:
+    - abovename
+    - nametag
+    - belowname
+    - another
+    static-lines:
+      myCustomLine: 0.66
+    disable-in-servers: []
+  case-sensitive-sorting: true
+  sorting-types:
+  - GROUPS:vlad,razrab,admin,fakeadmin,mladmin,kyrator,builder,sponsor,stmoder,moder,sthelper,helper,yt+,yt,tiktok,dhelper,frost,wise,ares,povel,legend,gladiator,hero,elay,voin,default
+  - PLACEHOLDER_A_TO_Z:%player%
+  can-see-friendly-invisibles: false
+yellow-number-in-tablist:
+  enabled: false
+  value: ''
+  disable-in-worlds:
+  - disabledworld
+belowname-objective:
+  enabled: false
+  refresh-interval-ticks: 5
+  number: '%health%'
+  text: '&c❤'
+  disable-in-worlds:
+  - disabledworld
+bossbar:
+  enabled: false
+  toggle-command: /bossbar
+  remember-toggle-choice: false
+  hidden-by-default: false
+  bars:
+    BUY:
+      style: NOTCHED_6
+      color: '%animation:barcolors%'
+      progress: '100'
+      text: '%animation:reklama%'
+      announcement-bar: false
+scoreboard:
+  enabled: true
+  toggle-command: /sb
+  remember-toggle-choice: false
+  hidden-by-default: false
+  use-numbers: false
+  static-number: 0
+  delay-on-join-milliseconds: 0
+  disable-in-worlds:
+  - disabledworld
+  scoreboards:
+    mine:
+      display-condition: '%cubejobs_point%=mine'
+      if-condition-not-met: ferm
+      title: '&6&lＦＯＲＵＭ&e&lＣＲＡＦＴ &8∫ &6&lГРИФ'
+      lines:
+      - ''
+      - ' &e╔ &fРабота: &6%cubejobs_name%'
+      - ' &e╠ &fРанг: %javascript_group%'
+      - ' &e╚ &fПрибыль за ресурс:'
+      - ''
+      - '  %cubejobs_income%'
+      - ''
+      - ' &e╔ &fБаланс: &6⛂&e%vault_eco_balance_formatted%'
+      - ' &e╠ &fОпыт: &6%cubejobs_xp_drob% XP'
+      - ' &e╚ &fТекущий уровень: &a%cubejobs_xp_lvl%'
+      - ''
+      - '  %cubejobs_xp_bar_&6_&a_▎▎▎▎▎▎▎▎▎▎%'
+      - ''
+      - ' &e╔ &6vk.com/Forumcraft_Offical'
+      - ' &e╚ &6Forumcraft.ru'
+    ferm:
+      display-condition: '%cubejobs_point%=ferm'
+      if-condition-not-met: forest
+      title: '&6&lＦＯＲＵＭ&e&lＣＲＡＦＴ &8∫ &6&lГРИФ'
+      lines:
+      - ''
+      - ' &e╔ &fРабота: &6%cubejobs_name%'
+      - ' &e╠ &fРанг: %javascript_group%'
+      - ' &e╚ &fПрибыль за урожай:'
+      - ''
+      - '  %cubejobs_income%'
+      - ''
+      - ' &e╔ &fБаланс: &6⛂&e%vault_eco_balance_formatted%'
+      - ' &e╠ &fОпыт: &6%cubejobs_xp_drob% XP'
+      - ' &e╚ &fТекущий уровень: &a%cubejobs_xp_lvl%'
+      - ''
+      - '  %cubejobs_xp_bar_&6_&a_▎▎▎▎▎▎▎▎▎▎%'
+      - ''
+      - ' &e╔ &6vk.com/Forumcraft_Offical'
+      - ' &e╚ &6Forumcraft.ru'
+    forest:
+      display-condition: '%cubejobs_point%=forest'
+      if-condition-not-met: default
+      title: '&6&lＦＯＲＵＭ&e&lＣＲＡＦＴ &8∫ &6&lГРИФ'
+      lines:
+      - ''
+      - ' &e╔ &fРабота: &6%cubejobs_name%'
+      - ' &e╠ &fРанг: %javascript_group%'
+      - ' &e╚ &fПрибыль за срубку:'
+      - ''
+      - ' %cubejobs_income%'
+      - ''
+      - ' &e╔ &fБаланс: &6⛂&e%vault_eco_balance_formatted%'
+      - ' &e╠ &fОпыт: &6%cubejobs_xp_drob% XP'
+      - ' &e╚ &fТекущий уровень: &a%cubejobs_xp_lvl%'
+      - ''
+      - ' %cubejobs_xp_bar_&6_&a_▎▎▎▎▎▎▎▎▎▎%'
+      - ''
+      - ' &e╔ &6vk.com/Forumcraft_Offical'
+      - ' &e╚ &6Forumcraft.ru'
+    default:
+      title: '&6&lＦＯＲＵＭ&e&lＣＲＡＦＴ &8∫ &6&lГРИФ'
+      lines:
+      - ''
+      - ' &e&l☯ &8(&6&LПРОФИЛЬ&8)'
+      - ' &e╔ &fИмя: &6%player_name%'
+      - ' &e╠ &fДонат: %vault_prefix%'
+      - ' &e╠ &fТитул: %javascript_suffix%'
+      - ' &e╚ &fКлан: %javascript_example%'
+      - ''
+      - ' &e&l☭ &8(&6&lСТАТИСТИКА&8)'
+      - ' &e╔ &a&l⚔ &fУ/C: &a%statistic_player_kills%&7/&c%statistic_deaths%'
+      - ' &e╠ &c&l⌚ &fВ игре: &e%statistic_hours_played%ч.'
+      - ' &e╠ &6&lℙ &fРублей: &e%playerpoints_points_formatted%'
+      - ' &e╚ &e&l⛂ &fМонет: &e%vault_eco_balance_formatted%'
+      - ''
+      - ' &e╔ &6vk.com/Forumcraft_Offical'
+      - ' &e╚ &6Forumcraft.ru'
+  respect-other-plugins: true
+ping-spoof:
+  enabled: false
+prevent-spectator-effect:
+  enabled: false
+placeholder-output-replacements:
+  '%essentials_vanished%':
+    'yes': '&7| Vanished'
+    'no': ''
+  '%tps%':
+    '20': '&aPerfect'
+  '%afk%':
+    'true': ' &4*&4&lAFK&4*&r'
+    'false': ''
+conditions:
+  health:
+    conditions:
+    - '%health%<21'
+    - '%health%>15'
+    type: AND
+    true: Healthy!
+    false: Damaged!
+placeholders:
+  date-format: dd.MM.yyyy
+  time-format: '[HH:mm:ss / h:mm a]'
+  time-offset: 0
+  register-tab-expansion: true
+placeholderapi-refresh-intervals:
+  default-refresh-interval: 100
+  server:
+    '%server_uptime%': 1000
+    '%server_tps_1_colored%': 1000
+  player:
+    '%vault_prefix%': 1000
+    '%player_health%': 200
+    '%player_ping%': 1000
+  relational:
+    '%rel_factionsuuid_relation_color%': 500
+assign-groups-by-permissions: false
+primary-group-finding-list:
+- vlad
+- admin
+- fakeadmin
+- mladmin
+- kyrator
+- sponsor
+- stmoder
+- moder
+- sthelper
+- helper
+- yt+
+- yt
+- tiktok
+- dhelper
+- best
+- ares
+- name
+- legend
+- gladiator
+- hero
+- elay
+- voin
+- default
+debug: false
+mysql:
+  enabled: false
+  host: 127.0.0.1
+  port: 3306
+  database: tab
+  username: user
+  password: password
+per-world-playerlist:
+  enabled: false
+fix-pet-names:
+  enabled: true

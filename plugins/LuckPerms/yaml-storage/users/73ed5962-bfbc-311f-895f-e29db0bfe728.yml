@@ -1,0 +1,12 @@
+uuid: 73ed5962-bfbc-311f-895f-e29db0bfe728
+name: Wargin
+primary-group: default
+parents:
+- default
+- elay
+- gladiator
+- hero
+- voin
+suffixes:
+- '&r&nЧСВ ☡':
+    priority: 1

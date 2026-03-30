@@ -1,0 +1,71 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 51.77.56.16
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1681473784906
+  lastheal: 1680633559850
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1681478043887
+  login: 1681478098580
+money: '436566.8199999999953702'
+last-account-name: Aprenik
+lastlocation:
+  world: 50e83d7b-bd31-4b59-b085-d04edc199449
+  world-name: world
+  x: 2674.9268031291563
+  y: 67.0
+  z: 1516.8475444632038
+  yaw: 16.056289672851562
+  pitch: -7.800233840942383
+logoutlocation:
+  world: f426770c-0cf2-4454-94e7-0f4170382838
+  world-name: lobby
+  x: 998.2596289607644
+  y: 87.11813578668274
+  z: -284.0363276609247
+  yaw: 57.84920120239258
+  pitch: 57.44998550415039
+homes:
+  home:
+    world: 50e83d7b-bd31-4b59-b085-d04edc199449
+    world-name: world
+    x: 840.4770512291324
+    y: 64.0
+    z: 775.5041176729019
+    yaw: 105.75634765625
+    pitch: 13.049888610839844
+  farm:
+    world: 50e83d7b-bd31-4b59-b085-d04edc199449
+    world-name: world
+    x: 862.7527766683385
+    y: 65.0
+    z: 779.7780011170515
+    yaw: 302.55615234375
+    pitch: 22.349876403808594
+  mist:
+    world: 50e83d7b-bd31-4b59-b085-d04edc199449
+    world-name: world
+    x: 3423.4354613544524
+    y: 80.0
+    z: 2689.5593155091565
+    yaw: 71.47362518310547
+    pitch: 19.79996109008789
+  drop:
+    world: 50e83d7b-bd31-4b59-b085-d04edc199449
+    world-name: world
+    x: 2677.782487569124
+    y: 67.0
+    z: 1515.1585336419585
+    yaw: 52.206451416015625
+    pitch: 72.2997817993164

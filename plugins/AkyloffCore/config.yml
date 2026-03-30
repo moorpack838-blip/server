@@ -1,0 +1,82 @@
+# 
+# Разработчик плагина  CRAD (vk.com/darkakyloff)
+# Плагин защищен авторским правом. Выдача за свой/продажа - запрещена
+#
+# При отправки сообщение можно использовть методы actionbar: title:
+# Пример:  message: 'Это сообщения в чате ;title: Первая строка тайтла %nl% Вторая строка тайтла;actionbar:Это actionbar'
+#
+# core.admin
+# 
+# core.command.broadcast 
+# core.command.serverinfo
+# core.command.tpall
+# core.command.burn.use
+# core.command.burn.who
+#
+# core.events.join
+# 
+
+# Формат времени.
+time:
+  days: '&6&l%size% &fдн.'
+  hours: '&6&l%size% &fчас.'
+  minute: '&6&l%size% &fмин.'
+  seconds: '&6&l%size% &fсек.'
+
+hidestream: true # Скрыть сообщения о входе/выходе/смерти
+
+disables:
+  piston: false # Отключить гриферство поршнем
+  hopper: false # Отключить гриферство варонкой 
+  
+
+# Включение/выключение модулей плагина
+muduls:
+  broadcast: true
+  serverinfo: true
+  tpall: true
+  burn: true
+
+messages: 
+  prefix: ''
+  console: '&6Команду можно использовать только от имени игрока.'
+  permission: '&6&lСЕРВЕР&7: &fНедостаточно прав.'
+  diables: '&6&lСЕРВЕР&7: &fМодуль &6&l<modul> &fотключен.'
+  offline: '&6&lТЕЛЕПОРТ&7: &fИгрока нет на сервере.'
+
+admin-messages:
+  tpall: '&6&lАДМИН-ИНФА&&7: &fАдминистратор &6&l<sender> &fтелепортировал всех игроков к &6&l<player>'
+
+Join:
+  enable: false
+  format: 'actionbar:&7[&a&l+&7] %vault_prefix% <name> %vault_suffix% зашёл на сервер'
+Quit:
+  enable: false
+  format: 'actionbar:&7[&6&l-&7] %vault_prefix% <name> %vault_suffix% вышел с сервера'
+
+Broadcast:
+  usage: '&6&lОБЪЯВЛЕНИЕ&7: &fПравильное использование команды &6/bc &f<&6сообщение&f>'
+  format: '&6&lОБЪЯВЛЕНИЕ&7: &r<message>&8&o(автор: <sender>);title:&6&lВНИМАНИЕ %nl%Игрок &e&l<sender> &fсделал объявление;actionbar: <message>'
+
+ServerInfo: |-
+  &e╔ &fЯдро - &6&l<version>
+  &e╠ &fЗагруженные миры - &6&l<worlds>
+  &e╠ &fВыделено памяти - &6&l<totalMemory> MB
+  &e╠ &fСвободно памяти - &6&l<freeMemory> MB
+  &e╠ &fВсего памяти - &6&l<maxMemory> MB
+  &e╠ &fТПС - &6&l<tps>
+  &e╠ &fАптайм - &6&l<uptime>
+  &e╠ &fИгроков на сервере - &6&l<online>/<maxplayers>
+  &e╚ &fКоличество плагинов - &6&l<pluginsCount>
+
+TpAll:
+  usage: '&6&lТЕЛЕПОРТ&7: &fПравильное использование команды &6/tpall &f<&6ник&f>'
+  successfully: '&6&lТЕЛЕПОРТ&7: &fВы телепортировали всех игроков к &6&l<player>'
+  all: '&6&lТЕЛЕПОРТ&7: &fВы были телепортированы к &6&l<player>'
+  online: '&6&lТЕЛЕПОРТ&7: &fНа сервере мало игроков.'
+
+Burn:
+  usage: '&6&lТРОЛЛИНГ&7: &fПравильное использование команды &6/burn &f<&6ник&f>'
+  successfully: '&6&lТРОЛЛИНГ&7: &fВы подожгли игрока &6&l<target>'
+  message: '&6&lТРОЛЛИНГ&7: &fВас поджёг игрок &6&l<player>'
+

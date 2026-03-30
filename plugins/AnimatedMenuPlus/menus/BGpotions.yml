@@ -1,0 +1,279 @@
+Menu-Name: '&0&lFC ∫ ЗЕЛЬЯ'
+Open-Sound: BLOCK_NOTE_XYLOPHONE
+Open-Sound-Pitch: 2
+Rows: 6
+Items:
+- Slot:
+  - 1, 1
+  - 1, 2 
+  - 1, 3 
+  - 1, 4 
+  - 1, 5
+  - 1, 6
+  - 2, 1
+  - 2, 6
+  - 3, 3
+  - 4, 3
+  - 5, 3
+  - 6, 3
+  - 7, 3
+  - 9, 1 
+  - 9, 2 
+  - 9, 3  
+  - 9, 4 
+  - 9, 5
+  - 9, 6
+  - 8, 6
+  - 3, 1
+  - 7, 1
+  - 8, 1
+  - 3, 5
+  - 4, 5
+  - 5, 5
+  - 7, 5
+  - 6, 5
+  - 4, 1
+  - 5, 1
+  - 6, 1
+  - 9, 2
+  Material: stained_glass_pane:1:4
+  Name: '&r'
+- Slot:
+  - 3, 5
+  - 3, 6
+  - 5, 5
+  - 6, 5
+  - 4, 5
+  - 7, 6
+  - 7, 5
+  Material: stained_glass_pane:1:1
+  Name: '&r'
+- Slot: 4, 6
+  Material: 'barrier'
+  Name: '§eПУСТО'   
+  Hide-Flags: 63
+- Slot: 6, 6
+  Material: 'barrier'
+  Name: '§eПУСТО'   
+  Hide-Flags: 63
+- Slot: 5, 6
+  Material: 'arrow'
+  Name: '&4&lП&c&lЕРЕХОД'
+  Lore:
+  - ''
+  - '&e• &fВы перейдете на предыдущию страницу'   
+  - ''
+  - '&aНажми, чтобы перейти на предыдущию страницу'
+  Hide-Flags: 63
+  Commands:
+  - 'menu: BGshop'
+- Slot: 3, 2
+  Material: potion:1:0
+  Name: '&f&lЗЕЛЬЕ &c&lГЛАДИАТОРА'
+  NBT:
+    CustomPotionColor: 16056565
+  Lore:
+     - '&9Сила IV (5:00)'
+     - '&cЗамедление V (1:00)'
+     - ''
+     - '&e• &fЦена:&e&l 220 &6Р'
+     - '&e• &fКоличество:&e 1&6 шт'
+     - '&r'
+     - '&aНажмите, чтобы купить'
+  Points: 220
+  Points-message: '&6&lМАГАЗИН&7: &fУ вас недостаточно рублей, купить можно на сайте &a&lForumcraft.ru'
+  Close: on-failure
+  Hide-Flags: 'potion_effects'
+  Commands:
+  - 'console:serveritem give alch1 1 %player_name% s'
+  - 'message: &6&lМАГАЗИН&7: &fВы купили предмет &aУспешно'
+- Slot: 4, 2
+  Material: potion:1:0
+  Name: '&f&lЗЕЛЬЕ &a&lЧЕРЕПАШКИ'
+  NBT:
+    CustomPotionColor: 13699840
+  Lore:
+     - '&9Сопротивление III (5:00)'
+     - ''
+     - '&e• &fЦена:&e&l 220 &6Р'
+     - '&e• &fКоличество:&e 1&6 шт'
+     - '&r'
+     - '&aНажмите, чтобы купить'
+  Points: 220
+  Points-message: '&6&lМАГАЗИН&7: &fУ вас недостаточно рублей, купить можно на сайте &a&lForumcraft.ru'
+  Close: on-failure
+  Hide-Flags: 'potion_effects'
+  Commands:
+  - 'console:serveritem give alch2 1 %player_name% s'
+  - 'message: &6&lМАГАЗИН&7: &fВы купили предмет &aУспешно'
+- Slot: 7, 2
+  Material: potion:1:0
+  Name: '&f&lЗЕЛЬЕ &d&lМЕДСЕСТРЫ'
+  NBT:
+    CustomPotionColor: 852203
+  Lore:
+     - '&9Регенирация IV (3:00)'
+     - ''
+     - '&e• &fЦена:&e&l 90 &6Р'
+     - '&e• &fКоличество:&e 1&6 шт'
+     - '&r'
+     - '&aНажмите, чтобы купить'
+  Points: 90
+  Points-message: '&6&lМАГАЗИН&7: &fУ вас недостаточно рублей, купить можно на сайте &a&lForumcraft.ru'
+  Close: on-failure
+  Hide-Flags: 'potion_effects'
+  Commands:
+  - 'console:serveritem give alch3 1 %player_name% s'
+  - 'message: &6&lМАГАЗИН&7: &fВы купили предмет &aУспешно!'
+- Slot: 5, 2
+  Material: potion:1:0
+  Name: '&f&lЗЕЛЬЕ &6&lФЛЭША'
+  NBT:
+    CustomPotionColor: 3735544
+  Lore:
+     - '&9Скорость III (8:00)'
+     - '&cСлабость III (2:00)'
+     - '&cСлепота I (0:10)'
+     - ''
+     - '&e• &fЦена:&e&l 150 &6Р'
+     - '&e• &fКоличество:&e 1&6 шт'
+     - '&r'
+     - '&aНажмите, чтобы купить'
+  Points: 150
+  Points-message: '&6&lМАГАЗИН&7: &fУ вас недостаточно рублей, купить можно на сайте &a&lForumcraft.ru'
+  Close: on-failure
+  Hide-Flags: 'potion_effects'
+  Commands:
+  - 'console:serveritem give alch4 1 %player_name% s'
+  - 'message: &6&lМАГАЗИН&7: &fВы купили предмет &aУспешно!'
+- Slot: 6, 2
+  Material: potion:1:0
+  Name: '&f&lЗЕЛЬЕ &2&lТАНКА'
+  NBT:
+    CustomPotionColor: 1077948
+  Lore:
+     - '&9Сопротивление IV (1:00)'
+     - '&cТошнота I (0:20)'
+     - '&cЗамедление VII (0:05)'
+     - ''
+     - '&e• &fЦена:&e&l 220 &6Р'
+     - '&e• &fКоличество:&e 1&6 шт'
+     - '&r'
+     - '&aНажмите, чтобы купить'
+  Points: 220
+  Points-message: '&6&lМАГАЗИН&7: &fУ вас недостаточно рублей, купить можно на сайте &a&lForumcraft.ru'
+  Close: on-failure
+  Hide-Flags: 'potion_effects'
+  Commands:
+  - 'console:serveritem give alch5 1 %player_name% s'
+  - 'message: &6&lМАГАЗИН&7: &fВы купили предмет &aУспешно!'
+- Slot: 3, 4
+  Material: potion:1:0
+  Name: '§e§lОТВАР «АПОЛЛОН»'
+  NBT:
+    CustomPotionColor: 6649918
+  Lore:
+     - '§fОгнестойкость§e§l III - 2м'
+     - '§fСопротивление§e§l - 2м'
+     - '§fСила§e§l III - 2м'
+     - '§fСпешка§e§l III - 2м'
+     - ''
+     - '&e• &fЦена:&e&l 535 &6Р'
+     - '&e• &fКоличество:&e 1&6 шт'
+     - '&r'
+     - '&aНажмите, чтобы купить'
+  Points: 535
+  Points-message: '&6&lМАГАЗИН&7: &fУ вас недостаточно рублей, купить можно на сайте &a&lForumcraft.ru'
+  Close: on-failure
+  Hide-Flags: 'potion_effects'
+  Commands:
+  - 'console: give %player_name% potion 1 8260 {CustomPotionEffects:[{Id:10,Amplifier:2,Duration:3000},{Id:12,Amplifier:2,Duration:3000},{Id:5,Amplifier:2,Duration:3000},{Id:3,Amplifier:2,Duration:3000}],display:{Name:"§e§lОТВАР «АПОЛЛОН»"}}'
+  - 'message: &6&lМАГАЗИН&7: &fВы купили предмет &aУспешно!'
+- Slot: 4, 4
+  Material: potion:1:0
+  Name: '§e§lОТВАР «ВАСИЛИСК»'
+  NBT:
+    CustomPotionColor: 1654848
+  Lore:
+     - '§fПрилив здоровья§e§l III - 2м'
+     - '§fРегенерация§e§l III - 2м'
+     - '§fСопротивление§e§l - 2м'
+     - ''
+     - '&e• &fЦена:&e&l 455 &6Р'
+     - '&e• &fКоличество:&e 1&6 шт'
+     - '&r'
+     - '&aНажмите, чтобы купить'
+  Points: 455
+  Points-message: '&6&lМАГАЗИН&7: &fУ вас недостаточно рублей, купить можно на сайте &a&lForumcraft.ru'
+  Close: on-failure
+  Hide-Flags: 'potion_effects'
+  Commands:
+  - 'console: give %player_name% potion 1 8260 {CustomPotionEffects:[{Id:21,Amplifier:2,Duration:3000},{Id:22,Amplifier:2,Duration:3000},{Id:10,Amplifier:2,Duration:3000}],display:{Name:"§e§lОТВАР «ВАСИЛИСК»"}}'
+  - 'message: &6&lМАГАЗИН&7: &fВы купили предмет &aУспешно!'
+- Slot: 5, 4
+  Material: potion:1:0
+  Name: '§e§lОТВАР «ЦИТРИНИТАС»'
+  NBT:
+    CustomPotionColor: 1687943
+  Lore:
+     - '§fОгнестойкость §e§l II - 2м'
+     - '§fСила§e§l II - 2м'
+     - '§fСопротивление II§e§l - 2м'
+     - '§fРегенерация II§e§l IV - 2м'
+     - ''
+     - '&e• &fЦена:&e&l 525 &6Р'
+     - '&e• &fКоличество:&e 1&6 шт'
+     - '&r'
+     - '&aНажмите, чтобы купить'
+  Points: 525
+  Points-message: '&6&lМАГАЗИН&7: &fУ вас недостаточно рублей, купить можно на сайте &a&lForumcraft.ru'
+  Close: on-failure
+  Hide-Flags: 'potion_effects'
+  Commands:
+  - 'console: give %player_name% potion 1 8260 {CustomPotionEffects:[{Id:12,Amplifier:1,Duration:3000},{Id:1,Amplifier:2,Duration:3000},{Id:5,Amplifier:3000,Duration:3000},{Id:11,Amplifier:1,Duration:1},{Id:10,Amplifier:1,Duration:3000}],display:{Name:"§e§lОТВАР «ЦИТРИНИТАС»"}}'
+  - 'message: &6&lМАГАЗИН&7: &fВы купили предмет &aУспешно!'
+- Slot: 6, 4
+  Material: potion:1:0
+  Name: '§e§lОТВАР «ГЕРАКЛ»'
+  NBT:
+    CustomPotionColor: 3686249
+  Lore:
+     - '§fПрилив здоровья§e§l II - 2м'
+     - '§fСила§e§l III - 2м'
+     - '§fРегенерация§e§l IV - 2м'
+     - '§fПоглощение§e§l II - 2м'
+     - ''
+     - '&e• &fЦена:&e&l 650 &6Р'
+     - '&e• &fКоличество:&e 1&6 шт'
+     - '&r'
+     - '&aНажмите, чтобы купить'
+  Points: 650
+  Points-message: '&6&lМАГАЗИН&7: &fУ вас недостаточно рублей, купить можно на сайте &a&lForumcraft.ru'
+  Close: on-failure
+  Hide-Flags: 'potion_effects'
+  Commands:
+  - 'console: give %player_name% potion 1 8260 {CustomPotionEffects:[{Id:21,Amplifier:1,Duration:3000},{Id:22,Amplifier:1,Duration:3000},{Id:10,Amplifier:1,Duration:3000},{Id:11,Amplifier:1,Duration:3000}],display:{Name:"§e§lОТВАР «ГЕРАКЛ»"}}'
+  - 'message: &6&lМАГАЗИН&7: &fВы купили предмет &aУспешно!'
+- Slot: 7, 4
+  Material: potion:1:0
+  Name: '§e§lОТВАР «УЛЬТРА ЗЕЛЬЕ»'
+  NBT:
+    CustomPotionColor: 2687959
+  Lore:
+     - '§fСила§e§l III - 2м'
+     - '§fРегенерация§e§l II - 20с'
+     - '§fСопротивление§e§l - 20с'
+     - '§fОгнестойкость§e§l II - 2м'
+     - '§fСкорость§e§l III - 2м'
+     - ''
+     - '&e• &fЦена:&e&l 735 &6Р'
+     - '&e• &fКоличество:&e 1&6 шт'
+     - '&r'
+     - '&aНажмите, чтобы купить'
+  Points: 735
+  Points-message: '&6&lМАГАЗИН&7: &fУ вас недостаточно рублей, купить можно на сайте &a&lForumcraft.ru'
+  Close: on-failure
+  Hide-Flags: 'potion_effects'
+  Commands:
+  - 'console: give %player_name% potion 1 8260 {CustomPotionEffects:[{Id:10,Amplifier:2,Duration:3000},{Id:14,Amplifier:2,Duration:3000},{Id:12,Amplifier:2,Duration:3000},{Id:13,Amplifier:2,Duration:3000},{Id:1,Amplifier:2,Duration:3000},{Id:3,Amplifier:2,Duration:3000}],display:{Name:"§e§lОТВАР «УЛЬТРА ЗЕЛЬЕ»"}}'
+  - 'message: &6&lМАГАЗИН&7: &fВы купили предмет &aУспешно!'

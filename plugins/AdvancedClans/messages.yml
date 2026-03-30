@@ -1,0 +1,349 @@
+# Копирование данных строк с серва производилось 12.02.2021, чуть позже могли изменить
+# т.к разработчику пизды дают если он не делает и вот фиксит быстро, поэтому где-то ошибки и различия
+# но цель сборки - копипаст, а не исправление их багов
+chat-messages:
+  help-1:
+  - '&eКланы ⚔ &7» &fДоступные команды &e#1:'
+  - ''
+  - '&e╔ &f/clan create <Название> -&7 Создать клан.'
+  - '&e╠ &f/clan disband -&7 Расформировать свой клан'
+  - '&e╠ &f/clan join <Название> -&7 Присоединиться к указанному клану.'
+  - '&e╠ &f/clan invite <Игрок> -&7 Приглосить в клан.'
+  - '&e╠ &f/clan kick <Игрок> -&7 Кикнуть из клана.'
+  - '&e╠ &f/clan leave -&7 Покинуть клан.'
+  - '&e╠ &f/clan promote <Игрок> -&7 Повысить игрока в должности.'
+  - '&e╠ &f/clan demote <Игрок> -&7 Понизить игрока в должности.'
+  - '&e╠ &f/clan info <clan> -&7 Информация о клане.'
+  - '&e╠ &f/clan setleader <Игрок> -&7 Смена лидера клана.'
+  - '&e╚ &f/clan chat -&7 Переключение на приватный чат клана.'
+  - ''
+  - '%page%'
+  help-2:
+  - '&eКланы ⚔ &7» &fДоступные команды &e#2:'
+  - ''
+  - '&e╔ &f/clan ally <Название> -&7 Вы предлагаете/принимаете Союз.'
+  - '&e╠ &f/clan breakally <Название> -&7 Разорвать союз.'
+  - '&e╠ &f/clan chest -&7 Открыть клановый сундук.'
+  - '&e╠ &f/clan list -&7 Список всех кланов.'
+  - '&e╠ &f/clan setbase -&7 Установить базу клана.'
+  - '&e╠ &f/clan delbase -&7 Удалить базу клана.'
+  - '&e╠ &f/clan base -&7 Телепортация на базу клана.'
+  - '&e╠ &f/clan color -&7 Открыть меню Настройки.'
+  - '&e╠ &f/clan top <level/kills > -&7 Показать топ кланов.'
+  - '&e╠ &f/clan neutral <Название> -&7 Сообщение нейтрального клана.'
+  - '&e╚ &f/clan enemy <Название> -&7 Объявление вражеского клана.'
+  - ''
+  - '%page%'
+  next-help-page: Следующая страница &e&l➫
+  back-help-page: '&e&l<- &fПредыдущая страница'
+  next-page-hover: '&fНажмите, чтобы перейти на следующую страницу.'
+  back-page-hover: '&fНажмите, чтобы вернуться назад'
+  no-perm: '&e&lКланы &7» &7Недостаточно прав.'
+  config-reloaded: '&e&lКланы &7» &aКонфиг перезагружен.'
+  world-blacklist: '&e&lКланы &7» &7Недоступно в данном мире.'
+  dont-have-clan: '&e&lКланы &7» &fВы не являетесь участником какого-либо клана.'
+  has-clan: '&e&lКланы &7» &7Вы уже состоите в клане!'
+  clan-already-exists: '&e&lКланы &7» &7Клан с таким названием уже существует.'
+  clan-not-exists: '&e&lКланы &7» &7Данного клана не существует.'
+  new-clan-created: '&e&lКланы &7» &7На сервере появился новый клан &e%clan%'
+  clan-length: '&e&lКланы &7» &7Название клана должно состоять из &e%min%-&e%max%
+    &7букв.'
+  insufficient-money: '&e&lКланы &7» &7Вы должны иметь &e%money% &fдля того чтобы
+    создать клан.'
+  disband-only-lider: '&e&lКланы &7» &7Вы должны быть &eЛИДЕРОМ &fклана, для того
+    чтобы сделать это.'
+  sure-to-delete: '&e&lКланы &7» &7Вы уверены что хотите удалить свой клан? &fУ вас
+    есть &e%seconds% &7для подтверждения.'
+  confirm-delete-expired: '&e&lКланы &7» &e%seconds%сек. &7прошло, запрос на удаление
+    клана отменён.'
+  clan-deleted: '&e&lКланы &7» &fВы распустили свой клан.'
+  not-enough-rank: '&e&lКланы &7» &7Вы должны быть &eМОДЕРАТОРОМ &7либо &eЛИДЕРОМ
+    &7чтобы сделать это.'
+  player-not-online: '&e&lКланы &7» &7Игрок &e%player% &7не в онлайне.'
+  player-already-has-clan: '&e&lКланы &7» &7Игрок &e%player% &7уже состоит в клане.'
+  player-doesnt-have-clan: '&e&lКланы &7» &7Игрок не состоит в клане.'
+  player-invited: '&e&lКланы &7» &7Вы пригласили игрока &e%player% &7в клан &e%clan%&7!'
+  player-already-invited: '&e&lКланы &7» &7Игрок уже получил приглашение. Дождитесь
+    его ответа.'
+  player-receive-invite: '&e&lКланы &7» &7Клан &a%clan% &fприглашает Вас к себе.'
+  need-to-leave: '&e&lКланы &7» &7Вы должны выйти из клана чтобы вступить в другой.'
+  not-invited: '&e&lКланы &7» &7У вас нету приглашения в данный клан.'
+  clan-full: '&e&lКланы &7» &7Клан полностью заполнен &7(&e%members%&7/&e%slots%&7)'
+  joined-clan: '&e&lКланы &7» &7Теперь Вы участник клана &e%clan%&f!'
+  lider-needs-to-disband: '&e&lКланы &7» &7Вы не можете покинуть свой клан потому-что
+    Вы &eЛИДЕР&7. Вы должны распустить его сначала.'
+  clan-left: '&e&lКланы &7» &7Вы покинули клан.'
+  needs-lider-to-promote: '&e&lКланы &7» &7Вы должны быть лидером чтобы повышать кого-либо.'
+  player-not-in-clan: '&e&lКланы &7» &7Игрок не состоит в вашем клане.'
+  already-mod: '&e&lКланы &7» &7Игрок уже имеет ранг модератора в клане.'
+  cant-promote-yourself: '&e&lКланы &7» &7Вы не можете повысить самого себя.'
+  successful-promote: '&e&lКланы &7» &7Вы повысили игрока &e%player%&7.'
+  you-were-promoted: '&e&lКланы &7» &7Вы были повышены до ранга &eМОДЕРАТОР &7в клане
+    &e%clan%&7!'
+  cant-demote-lider: '&e&lКланы &7» &7Вы не можете понизить лидера.'
+  needs-lider-to-demote: '&e&lКланы &7» &7Вы должны быть лидером чтобы понижать ранг.'
+  not-mod: '&e&lКланы &7» &7Игрок не является модератором клана.'
+  you-were-demoted: '&e&lКланы &7» &7Вы были разжалованы!'
+  successful-demote: '&e&lКланы &7» &7Вы разжаловали &e%player%&7.'
+  cant-kick-member: '&e&lКланы &7» &7Вы не можете выгнать игрока.'
+  successful-kick: '&e&lКланы &7» &7Вы выгнали &e%player% &7из клана.'
+  you-were-kicked: '&e&lКланы &7» &7Вы были выгнаны из клана &e%clan%&7.'
+  cant-damage-member: '&e&lКланы &7» &7Вы не можете наносить урон соклановцам.'
+  cant-damage-ally: '&e&lКланы &7» &7Вы не можете наносить урон союзникам.'
+  left-clan-chat: '&e&lКланы &7» &7Вы отключили клановый чат.'
+  activated-clan-chat: '&e&lКланы &7» &7Вы вошли в клановый чат.'
+  pvp-already-activated: '&e&lКланы &7» &7ПВП уже активированно!'
+  pvp-already-deactivated: '&e&lКланы &7» &7ПВП уже отключено!'
+  pvp-activated: '&e&lКланы &7» &7Вы &a&nвключили&r &7внутриклановое ПВП.'
+  pvp-deactivated: '&e&lКланы &7» &7Вы &e&nотключили&r &7внутриклановое ПВП.'
+  base-setted: '&e&lКланы &7» &7Вы установили точку кланового дома в: &e%world%&7,
+    &eX: &e%x% &eY: &e%y% &eZ: &e%z%'
+  clan-dont-have-base: '&e&lКланы &7» &7У клана нету дома.'
+  base-deleted: '&e&lКланы &7» &7Вы удалили точку кланового дом.'
+  teleported-to-base: '&e&lКланы &7» &7Вы были телепортированы на клановый дом.'
+  teleport-to-base-start: '&e&lКланы &7» &7Вы будете телепортированы на клановый дом
+    через &e%s%сек.'
+  move-teleport: '&e&lКланы &7» &7Вы двинулись, телепортация отменена.'
+  needs-lider-to-change-leader: '&e&lКланы &7» &7Вы должны быть &eЛИДЕРОМ &7чтобы
+    изменить лидера клана.'
+  cant-changeleader-you: '&e&lКланы &7» &7Вы не можете назначить себя лидером так-как
+    уже являетесь им.'
+  changed-leader: '&e&lКланы &7» &7Вы передали лидерство - &e%player%&7.'
+  demoted-to-coleader: '&e&lКланы &7» &7Вы были понижены до &eМОДЕРАТОРА &7клана.'
+  demoted-to-member: '&e&lКланы &7» &7Вы были понижены до &eУЧАСТНИКА &7клана.'
+  you-are-new-leader: '&e&lКланы &7» &7Теперь Вы лидер клана &e%clan%&7.'
+  clan-level-up: '&e&lКланы &7» &7Клан &e%clan% &7достиг &e%level% &7уровня.'
+  already-enemy: '&e&lКланы &7» &7Клан уже является врагом.'
+  cant-declare-enemy-same: '&e&lКланы &7» &7Вы не можете объявить вражду самому себе!'
+  cant-declare-enemy-ally: '&e&lКланы &7» &7Клан &e%clan% &7с вами в союзе, Вы не
+    можете объявить им вражду. Сначала разорвите союз.'
+  max-enemys-reached: '&e&lКланы &7» &7Ваш клан достиг максимального кол-ва врагов
+    &7(&e%max%&7)'
+  new-enemy: '&e&lКланы &7» &7Вы объявили вражду клану &e%clan%&7.'
+  cant-ally-yourself: '&e&lКланы &7» &7Вы не можете предложить союз своему клану.'
+  already-ally: '&e&lКланы &7» &7Клан уже является союзником.'
+  max-allies-other: '&e&lКланы &7» &7Клан &e%clan% &7достиг максимального кол-ва союзников.'
+  max-allies-you: '&e&lКланы &7» &7Вы достигли максимального кол-ва союзников &7(&e%max%&7)'
+  you-are-enemy-cant-ally: '&e&lКланы &7» &7Клан &e%clan% объявили вам вражду. Вы
+    не можете предлагать им союз.'
+  need-to-declare-neutral: '&e&lКланы &7» &7Вы объявили вражду клану &e%clan%&7. Вы
+    не можете предлагать им союз.'
+  already-send-ally: '&e&lКланы &7» &7Вы уже отправили запрос о союзе. Дождитесь ответа.'
+  new-alliance: '&e&lКланы &7» &7Вы сформировали новый союз с кланом &e%clan%&7.'
+  new-ally-request: '&e&lКланы &7» &7Клан &e%clan% &7предлагает вам союз. Используйте
+    &f/clan ally %clan% &7для подтверждения.'
+  new-ally-request-sended: '&e&lКланы &7» &7Вы отправили запрос о союзе клану &e%clan%&7.'
+  player-send-request: '&e&lКланы &7» &e%player% &7отправил запрос о союзе &e%clan%&f.'
+  need-to-leave-allychat: '&e&lКланы &7» &7Вы должны выйти из чата союзников чтобы
+    писать в клановый чат.'
+  need-to-leave-clanchat: '&e&lКланы &7» &7Вы должны выйти из кланового чата чтобы
+    писать в чат союзников.'
+  dont-have-ally: '&e&lКланы &7» &7Ваш клан не имеет на данный момент союзников.'
+  activated-ally-chat: '&e&lКланы &7» &7Вы вошли в чат союзников.'
+  left-ally-chat: '&e&lКланы &7» &7Вы вышли из чата союзников.'
+  ally-break-by-disband: '&e&lКланы &7» &e%clan% &7был распущен, вы больше не состоите
+    в союзе с ними.'
+  cant-breakally-yourself: '&e&lКланы &7» &7Вы не можете разорвать союз со своим кланом.'
+  clan-not-ally: '&e&lКланы &7» &e%clan% &7не является союзником.'
+  broken-ally: '&e&lКланы &7» &e%clan% &7разорвал союз с вами.'
+  you-broken-ally: '&e&lКланы &7» &7Ваш клан разорвал союз с &e%clan%&7.'
+  cant-declare-neutral-yourself: '&e&lКланы &7» &7Вы не можете объявить свой клан
+    нейтральным.'
+  clan-already-neutral: '&e&lКланы &7» &7Этот клан уже нейтрален.'
+  cant-declare-neutral-ally: '&e&lКланы &7» &7Вы не можете объявить союзный клан нейтральным.
+        Разорвите союз, чтобы объявить его нейтральным.'
+  clan-neutral-declared: '&e&lКланы &7» &e%clan% &7больше не враг и теперь нейтрален.'
+  no-more-clans: '&e&lКланы &7» &7Больше нет доступных страниц.'
+  chat-disabled: '&e&lКланы &7» &7Клан-чат отключен.'
+  colors-disabled: '&e&lКланы &7» &7Администратор заблокировал цвета клана.'
+  color-already-selected: '&e&lКланы &7» &7Этот цвет уже выбран.'
+  color-locked: '&e&lКланы &7» &7Этот цвет будет разблокирован на уровне &e%level%&7.'
+  color-changed: '&e&lКланы &7» &7Цвет клана был изменен на &e%color%&7.'
+  admin-value-number: '&e&lКланы &7» &7Значение должно быть числом.'
+  admin-clan-deleted: '&e&lКланы &7» &e%clan% &7был устранен.'
+  admin-deleted-your-clan: '&e&lКланы &7» &eВаш клан был удален администратором.'
+  admin-exp-changed: '&e&lCLANS &e%clan% &7опыт установлен &e%value%&7!'
+  admin-slots-changed: '&e&lCLANS &e%clan% &fслоты установлены &e%value%&7!'
+  admin-level-changed: '&e&lCLANS &e%clan% &fуровень установлен на &e%value%&7!'
+  no-more-logs: '&e&lКланы &7» &fNo more logs to see.'
+  base-other-server: '&e&lКланы &7» &7Клан'
+  bank-balance: '&e&lКланы &7» &7Баланс вашего клана: &e$%balance%&7.'
+  deposit-args: '&e&lКланы &7» &7Правильное использование &f/clan bank deposit <сумма>'
+  withdraw-args: '&e&lКланы &7» &7Правильное использование &f/clan bank withdraw <сумма>'
+  must-be-integer: '&e&lКланы &7» &7Банковский баланс принимает только целые числа.'
+  you-dont-have-enough-money: '&e&lКланы &7» &7У вас нет &e%money% &7монет чтобы положить
+    её в казну.'
+  bank-doesnt-have-enough-money: '&e&lКланы &7» &7В клане нету &e%money% &7монет доступных
+    для вывода.'
+  deposit-done: '&e&lКланы &7» &7Вы положили &e%money% &7монет в казну клана. Казна
+    клана: &e%balance%$&7.'
+  withdraw-done: '&e&lКланы &7» &7Вы вывели &e%money% &7монет из казны клана. Казна
+    клана: &e%balance%$&7.'
+  withdraw-min-max-values: '&e&lКланы &7» &7Вы можете снять только &e$%min%-$%max%&7.'
+  deposit-min-max-values: '&e&lКланы &7» &7Вы можете положить только &e$%min%-$%max%&7.'
+  base-already-set: '&e&lКланы &7» &fВаш клан уже имеет базу клана. Используйте &f/clan
+    delbase &7сначала.'
+  spam-kill-detected: '&e&lКланы &7» &7Это убийство не засчитывается в статистику
+    вашего клана.     потому что это может быть спам.'
+  error: '&e&lКланы &7» &7Это сообщение содержит ошибку, пожалуйста, сообщите администратору.'
+  illegal-name: '&e&lКланы &7» &7Имя &e%name% &7не может использоваться в качестве
+    имени клана.'
+  item-blacklisted: '&e&lКланы &7» &7Вещь &a%item% &fнельзя положить в сундук клана
+        потому что он в черном списке.'
+  prefix: '&d&lClans: &r'
+  join-clan-hover: '&f¡Click to join the clan!'
+  illegal-characters: '%prefix%This clan name contains illegal characters.'
+  not-enough-items: '%prefix% You dont have enough items to create this clan (%items%)'
+  needs-leader-to-set-prefix: '%prefix% You must be the leader of the clan to change
+    the prefix.'
+  prefix-not-allowed: '%prefix% This prefix can not be setted. Its contains illegal
+    characters.'
+  prefix-length: '%prefix% The length of the prefix must be between %min% and %max%
+    characters.'
+  prefix-changed: '%prefix% The prefix of your clan was setted to &a%clan-prefix%&f.'
+  prefix-already-exists: '%prefix% This prefix is already taken by another clan. (or
+    a name)'
+  member-joined: '%prefix% The player &a%player% &fhas joined the clan.'
+  member-invited: '%prefix% The player &a%player% &fhas been invited to the clan.'
+  admin-balance: '%prefix% The balance of clan &e%clan% &fis: &d$%balance%&f.'
+  already-conversing: '%prefix% You need to finish the clan creation.'
+  name-conflict: '%prefix%The name or prefix are already in use.'
+  admin-balance-setted: '%prefix%The clan balance of clan &e%clan% &fhas been setted
+    to &a%balance%&f.'
+  notifications-already-enabled: '%prefix%You already have the notifications enabled.'
+  notifications-enabled: '%prefix%You have toggled &aon &fthe clan notifications.'
+  notifications-already-disabled: '%prefix%You already have the notifications disabled.'
+  notifications-disabled: '%prefix%You have toggled &eoff &fthe clan notifications.'
+  max-promote: '%prefix%The rank of the players is the higgest before the leader.
+    If you want to give leader to that player, use &e/clan setleader&f.'
+  max-demote: '%prefix%The rank of the players is the lowest possible rank.'
+  cant-promote-leader: '%prefix%You cant promote the leader of the clan.'
+  admin-spy-chat-on: '%prefix%You are now spying clan chat messages.'
+  admin-spy-chat-off: '%prefix%You are not longer spying clan chat messages.'
+  admin-balance-added: '%prefix%The clan balance of clan &e%clan% &fhas been added
+    by &a%balance%&f.'
+  privacy-already-opened: '%prefix%The clan is already opened for everybody.'
+  privacy-toggled-opened: '%prefix%The clan is now opened for everybody.'
+  privacy-already-closed: '%prefix%The clan is already closed.'
+  privacy-toggled-closed: '%prefix%The clan is now closed for new players.'
+  success-forced-join: '%prefix%The player &e%player% &fhas succesfully joined the
+    clan &a%clan%&f.'
+  data-load-error: '&eThere was an error loading your clan data, please re join the
+    server.'
+usages:
+  info: '&e&lКланы &7» &7Правильное использование &f/clan info <clan>'
+  create: '&e&lКланы &7» &7Правильное использование &f/clan create <name>'
+  invite: '&e&lКланы &7» &7Правильное использование &f/clan invite <player>'
+  join: '&e&lКланы &7» &7Правильное использование &f/clan join <clan> &7(You need
+    invitation)'
+  promote: '&e&lКланы &7» &7Правильное использование &f/clan promote <member>'
+  demote: '&e&lКланы &7» &7Правильное использование &f/clan demote <coleader>'
+  kick: '&e&lКланы &7» &7Правильное использование &f/clan kick <member>'
+  pvp: '&e&lКланы &7» &7Правильное использование &f/clan pvp <on/off>'
+  change-leader: '&e&lКланы &7» &7Правильное использование &f/clan setleader <member>'
+  enemy: '&e&lКланы &7» &7Правильное использование &f/clan enemy <clan>'
+  ally: '&e&lКланы &7» &7Правильное использование &f/clan ally <clan>'
+  breakally: '&e&lКланы &7» &7Правильное использование &f/clan breakally <clan>'
+  neutral: '&e&lКланы &7» &7Правильное использование &f/clan neutral <enemy clan>'
+  top: '&e&lКланы &7» &7Правильное использование &f/clan top <level/kills>'
+  admin: '&e&lКланы &7» &7Правильное использование &f/clan admin delete/set/add/remove'
+  admin-set: '&e&lКланы &7» &7Правильное использование &f/clan admin set <clan> <slot/level/exp>
+    <value>'
+  admin-add: '&e&lКланы &7» &7Правильное использование &f/clan admin add <clan> <slot/level/exp>
+    <value>'
+  admin-delete: '&e&lКланы &7» &7Правильное использование &f/clan admin delete <clan>'
+  pinfo: '&e&lКланы &7» &7Правильное использование &f/clan pinfo <player>'
+  bank: '&e&lКланы &7» &7Правильное использование &f/clan bank logs/deposit/withdraw/balance'
+  migrate: '&e&lКланы &7» &7Правильное использование &f/clan migrate <clansystem/simpleclans>'
+  create-with-prefix: '%prefix%&fPlease use &f/clan create <name> <prefix>'
+  prefix-usage: '%prefix% Usage: /clan prefix <prefix>'
+  admin-balance: '%prefix% Usage: /clan admin balance <clan>'
+  admin-bank: '%prefix%Usage: &e/clan admin bank <add/balance/set> <clan> [<amount>]'
+  admin-bank-set: '%prefix%Usage: &e/clan admin bank set <clan> <amount>'
+  notifications: '%prefix%Usage: &e/clan notifications <on/off>'
+  admin-promote: '%prefix%Usage: &e/clan admin <promote/demote> <player>'
+  privacy-usage: '%prefix%Usage: &e/clan privacy <open/close>'
+  admin-forcejoin: '%prefix%Usage: &e/clan admin forcejoin <player> <clan>'
+  admin-forcekick: '%prefix%Usage: &e/clan admin forcekick <player>'
+  admin-change-clan: '%prefix%Usage: &e/clan admin changeclan <player> <newClan>'
+titles:
+  activate-pvp:
+    enabled: true
+    title: '&e&lКЛАН'
+    subtitle: '&e%player% &fактивировал внутриклановое &ePvP&f!'
+  deactivate-pvp:
+    enabled: true
+    title: '&e&lКЛАН'
+    subtitle: '&e%player% &fотключил внутриклановое &ePvP&f!'
+  new-enemy:
+    enabled: true
+    title: '&e&lВРАГИ КЛАНА'
+    subtitle: '&e%clan% &fтеперь враги'
+  new-ally:
+    enabled: true
+    title: '&a&lСОЮЗНИКИ КЛАНА'
+    subtitle: '&fТеперь Вы союзники с кланом &e%clan%&f!'
+  broke-ally:
+    enabled: true
+    title: '&e&lРАЗРЫВ СОЮЗА'
+    subtitle: '&fВы разорвали союз с кланом &e%clan%&f!'
+  neutral-clan:
+    enabled: true
+    title: '&a&lНЕЙТРАЛЬНЫЙ КЛАН'
+    subtitle: '&e%clan% &fтеперь не враги!'
+action-bars:
+  clan-chat:
+    enabled: true
+    message: '&fИгрок &e%player% &fвоспользовался клановым чатом'
+  ally-chat:
+    enabled: true
+    message: '&fИгрок &e%player% &fвоспользовался чатом союзников'
+words:
+  placeholders:
+    without-clan: ''
+    no-data: N/A
+    neutral-relation: '&7'
+    ally-relation: '&a'
+    enemy-relation: '&e'
+    loading: Loading...
+    privacy:
+      opened: '&aPublic'
+      closed: '&eClosed'
+  without-ally: '&eБез союзников'
+  without-enemys: '&eБез врагов'
+  offline: '&eOffline'
+  online: '&aOnline'
+  red: '&eКРАСНЫЙ'
+  dark_green: '&2ТЁМНО ЗЕЛЁНЫЙ'
+  dark_blue: '&9ТЁМНО СИНИЙ'
+  dark_purple: '&eФИОЛЕТОВЫЙ'
+  dark_aqua: '&3СИНИЙ'
+  gray: '&7СЕРЫЙ'
+  dark_gray: '&8ТЁМНО СЕРЫЙ'
+  light_purple: '&eРОЗОВЫЙ'
+  green: '&2ЗЕЛЁНЫЙ'
+  yellow: '&eЖЁЛТЫЙ'
+  aqua: '&bГОЛУБОЙ'
+  gold: '&eОРАНЖЕВЫЙ'
+  brown: Brown
+  cancel: cancel
+notifications:
+  player-joined: '%prefix% Player %player% has joined the clan.'
+  player-invited: '%prefix% Player %player% has been invited to the clan.'
+  player-left: '%prefix% Player %player% has left the clan.'
+  clan-ally-propose: '%prefix% We have sent an ally propose to %clan% clan.'
+  clan-new-ally: '%prefix% Clan %clan% is new ally'
+  clan-break-ally: '%prefix% Clan %clan% is not ally anymore.'
+  clan-bank-deposit: '%prefix% Player %player% has made a deposit on the bank for
+    %amount% money.'
+  clan-bank-withdraw: '%prefix% Player %player% has made a withdraw from the bank
+    of %amount% money.'
+  clan-player-kick: '%prefix% Player %player% has been kicked from the clan'
+  clan-new-enemy: '%prefix% Clan %clan% is now enemy from the clan.'
+  color-changed: '%prefix% The clan color has been changed to %color%.'
+  clan-neutral: '%prefix% Clan %clan% is now a neutral clan.'
+  player-promoted: '%prefix% &a%player% &fhas been promoted to &d%rank%&f.'
+  player-demoted: '%prefix% &a%player% &fhas been demoted to &d%rank%&f.'
+  privacy-closed: '%prefix% &a%player% &fhas closed the clan for new players.'
+  privacy-opened: '%prefix% &a%player% &fhas opened the clan for new players.'
+  prefix: '&7Notifications> &r'

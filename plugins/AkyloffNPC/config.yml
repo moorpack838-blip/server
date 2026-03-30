@@ -1,0 +1,46 @@
+# Вы можете удалить всех нпс командой /npc delete all
+# Вы можете создать NPC без имени, для этого используйте слово hide в имени своего NPC
+# Можно использовать любые скины, редактируя texturedata и texturesignature в npc.yml
+# Их можно генерировать на сайте https://mineskin.org/
+
+NPClookclose: true
+CommandCooldown: 30 # in ticks
+AppearanceAnimation: 'SWING_MAIN_HAND' #available: SWING_MAIN_HAND, SWING_OFF_HAND, TAKE_DAMAGE, CRITICAL_EFFECT, MAGIC_CRITICAL_EFFECT, LIGHTNING_STRIKE
+
+Messages:
+  noPermission: "§6§lНПС: §fУ вас недостаточно прав."
+  commandOnlyPlayer: "§c§lКоманду можно использовать только от имени игрока."
+  helpCommand: |
+    §r
+    §r §6§l┏ §fПосмотреть список всех нпс: §6§l/npc list
+    §r §6§l⎪ §fСоздать нпс: §6§l/npc create §f(§6§lимя§f) §f(§6§lкоманда§f)
+    §r §6§l⎪ §fУдалить нпс: §6§l/npc delete §f(§6§lимя§f)
+    §r §6§l⎪ §fПереименовать нпс: §6§l/npc rename §f(§6§lстарое имя§f) §f(§6§lимя§f)
+    §r §6§l⎪ §fПереместить нпс к себе: §6§l/npc movehere §f(§6§lимя§f)
+    §r §6§l⎪ §fУстановить скин нпс: §6§l/npc skin §f(§6§lимя§f) §f(§6§lскин§f)
+    §r §6§l⎪ §fДобавить/убрать попугая рабу: §6§l/npc setparrot §f(§6§lимя§f)
+    §r §6§l⎪ §fВключить анимацию: §6§l/npc setanimation §f(§6§lимя§f) swing_main_hand/false
+    §r §6§l⎪ §fВключить свечение: §6§l/npc setglowing §f(§6§lимя§f) red/green/aqua/rainbow/false
+    §r §6§l┗ §fПерезагрузить конфигурацию §6§l/npc reload
+    §r
+  reloadCommand: "§6§lНПС: §fКонфигурация перезагружена."
+  npcNotFound: "§6§lНПС: §fНПС не найден."
+  npcList:
+    prefix: "§6Список созданных НПС:"
+    format: "§6§l⊡ §f{npc}"
+  moreArgs: "§6§lНПС: §fВы ввели недостаточно аргументов."
+  npcAlreadyCreated: "§6§lНПС: §fНПС с таким именем уже создан."
+  npcSuccessfullyCreated: "§6§lНПС: §fВы создали НПС §6§l{name}"
+  npcSuccessfullyDeleted: "§6§lНПС: §fВы удалили НПС."
+  npcChangeSkin: "§6§lНПС: §fВы изменили скин НПС."
+  skinNotFound: "§6§lНПС: §fСкина с таким ником не сущевствует."
+  npcAnimationDeleted: "§6§lНПС: §fВы удалили анимацию НПС."
+  npcChangeAnimation: "§6§lНПС: §fВы изменили анимацию НПС."
+  animationNotFound: "§6§lНПС: §fТакой анимации не сущевствует."
+  npcChangeColor: "§6§lНПС: §fВы изменили подсветку НПС."
+  colorNotFound: "§6§lНПС: §fТакого цвета не сущевствует."
+  colorDeleted: "§6§lНПС: §fВы удалили подстветку НПС."
+  parrotDeleted:  "§6§lНПС: §fВы удалили попугая."
+  parrotCreated:  "§6§lНПС: §fВы создали попугая."
+  npcMoved: "§6§lНПС: §fВы переместили НПС."
+  npcChangeName: "§6§lНПС: §fВы изменили имя НПС."

@@ -1,0 +1,11 @@
+uuid: 26a3631e-21fe-355c-b7f8-3e92a625e41d
+name: _Misha008_
+primary-group: default
+parents:
+- default
+prefixes:
+- §7§lИГРОК §7:
+    priority: 11
+    context:
+      server: grief
+      world: lobby

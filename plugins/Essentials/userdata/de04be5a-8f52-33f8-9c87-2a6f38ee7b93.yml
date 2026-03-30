@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 95.158.222.147
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1680672817331
+  login: 1680672580619
+money: '0'
+last-account-name: giziiiix
+lastlocation:
+  world: 50e83d7b-bd31-4b59-b085-d04edc199449
+  world-name: world
+  x: 99.5
+  y: 68.0
+  z: 253.5
+  yaw: 0.04110805690288544
+  pitch: 0.0
+logoutlocation:
+  world: f426770c-0cf2-4454-94e7-0f4170382838
+  world-name: lobby
+  x: 1002.6883747372376
+  y: 67.0
+  z: -314.266069043795
+  yaw: 345.9582214355469
+  pitch: 1.5536572933197021

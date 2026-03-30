@@ -1,0 +1,47 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 176.59.110.190
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1680545394480
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1680545888721
+  login: 1680545708677
+money: '23560.99999999999997'
+last-account-name: asetic
+lastlocation:
+  world: 50e83d7b-bd31-4b59-b085-d04edc199449
+  world-name: world
+  x: -104.59441409465408
+  y: 63.0
+  z: -784.3000000119209
+  yaw: 32.6748046875
+  pitch: 18.299840927124023
+homes:
+  home:
+    world: 50e83d7b-bd31-4b59-b085-d04edc199449
+    world-name: world
+    x: -98.91711053996538
+    y: 63.0
+    z: -777.5495321418244
+    yaw: -265.685302734375
+    pitch: -50.70001220703125
+logoutlocation:
+  world: f426770c-0cf2-4454-94e7-0f4170382838
+  world-name: lobby
+  x: 992.1784767039562
+  y: 67.0
+  z: -305.45618423877875
+  yaw: -218.8480682373047
+  pitch: 12.450085639953613

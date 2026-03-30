@@ -1,0 +1,9 @@
+uuid: 18d8660c-9783-3b67-ac6d-e9fc1d8adb7b
+name: CrazyDay
+primary-group: admin
+permissions:
+- worldedit.history.undo
+- worldedit.history.undo.self
+- worldedit.region.set
+parents:
+- admin

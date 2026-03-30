@@ -1,0 +1,2211 @@
+Kits:
+  start:
+    Items:
+      '1':
+        id: STONE_SWORD
+        amount: '1'
+        enchants:
+        - DAMAGE_ALL;1
+        - DURABILITY;1
+        unbreakable: 'false'
+      '2':
+        id: BOW
+        amount: '1'
+      '3':
+        id: STONE_AXE
+        amount: '1'
+        enchants:
+        - DIG_SPEED;1
+        - DURABILITY;1
+        unbreakable: 'false'
+      '4':
+        id: STONE_PICKAXE
+        amount: '1'
+        enchants:
+        - DIG_SPEED;1
+        - DURABILITY;1
+        - LOOT_BONUS_BLOCKS;1
+        unbreakable: 'false'
+      '5':
+        id: STONE_SPADE
+        amount: '1'
+        enchants:
+        - DIG_SPEED;1
+        - DURABILITY;1
+        unbreakable: 'false'
+      '6':
+        id: STONE_HOE
+        amount: '1'
+      '7':
+        id: WATER_BUCKET
+        amount: '1'
+      '8':
+        id: COOKED_RABBIT
+        amount: '32'
+      '9':
+        id: ARROW
+        amount: '24'
+      '10':
+        id: FURNACE
+        amount: '1'
+      '11':
+        id: LOG
+        amount: '16'
+      '12':
+        id: GLASS
+        amount: '16'
+      '13':
+        id: STONE
+        amount: '64'
+      '14':
+        id: SEEDS
+        amount: '16'
+      '15':
+        id: TORCH
+        amount: '32'
+      '16':
+        id: SAPLING
+        amount: '1'
+      '17':
+        id: CHEST
+        amount: '4'
+      '18':
+        color: 16351261
+        id: LEATHER_HELMET
+        amount: '1'
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;1
+        - DURABILITY;1
+        unbreakable: 'false'
+      '19':
+        color: 16351261
+        id: LEATHER_CHESTPLATE
+        amount: '1'
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;1
+        - DURABILITY;1
+        unbreakable: 'false'
+      '20':
+        color: 16351261
+        id: LEATHER_LEGGINGS
+        amount: '1'
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;1
+        - DURABILITY;1
+        unbreakable: 'false'
+      '21':
+        color: 16351261
+        id: LEATHER_BOOTS
+        amount: '1'
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;1
+        - DURABILITY;1
+        unbreakable: 'false'
+      '22':
+        id: WORKBENCH
+        amount: '1'
+    slot: 13
+    display_item: SILVER_SHULKER_BOX
+    display_name: '&a✔ &fНабор &7&lСТАРТ'
+    display_lore:
+    - ''
+    - '&r &8▪ &fНабор доступен для выдачи!'
+    - ''
+    - '&r &6▹ &eПКМ&f, чтобы взять набор'
+    - '&r &6▹ &eЛКМ&f, чтобы посмотреть набор'
+    cooldown: 86400
+    permission: kit.start
+    noPermissionsItem:
+      display_item: BARRIER
+      display_name: '&c✘ &fНабор &7&lСТАРТ'
+      display_lore:
+      - ''
+      - '&r &8▪ &fВам нужен донат &7&lИГРОК&f,'
+      - '&r &8▪ &fчтобы получить набор.'
+      - ''
+      - '&r &6▹ &eЛКМ&f, чтобы посмотреть набор'
+  voin:
+    Items:
+      '1':
+        nbt:
+        - RepairCost;3;int
+        id: CHAINMAIL_HELMET
+        amount: '1'
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;1
+        - DURABILITY;1
+        unbreakable: 'false'
+      '2':
+        nbt:
+        - RepairCost;3;int
+        id: CHAINMAIL_CHESTPLATE
+        amount: '1'
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;1
+        - DURABILITY;1
+        unbreakable: 'false'
+      '3':
+        nbt:
+        - RepairCost;3;int
+        id: CHAINMAIL_LEGGINGS
+        amount: '1'
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;1
+        - DURABILITY;1
+        unbreakable: 'false'
+      '4':
+        nbt:
+        - RepairCost;3;int
+        id: CHAINMAIL_BOOTS
+        amount: '1'
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;1
+        - DURABILITY;1
+        unbreakable: 'false'
+      '5':
+        nbt:
+        - RepairCost;3;int
+        id: IRON_SWORD
+        amount: '1'
+        enchants:
+        - DAMAGE_ALL;1
+        - DURABILITY;1
+        unbreakable: 'false'
+      '6':
+        nbt:
+        - RepairCost;7;int
+        id: IRON_SPADE
+        amount: '1'
+        enchants:
+        - DIG_SPEED;1
+        - DURABILITY;1
+        - LOOT_BONUS_BLOCKS;1
+        unbreakable: 'false'
+      '7':
+        nbt:
+        - RepairCost;7;int
+        id: IRON_PICKAXE
+        amount: '1'
+        enchants:
+        - DIG_SPEED;1
+        - DURABILITY;1
+        - LOOT_BONUS_BLOCKS;1
+        unbreakable: 'false'
+      '8':
+        nbt:
+        - RepairCost;7;int
+        id: IRON_AXE
+        amount: '1'
+        enchants:
+        - DIG_SPEED;1
+        - DURABILITY;1
+        - LOOT_BONUS_BLOCKS;1
+        unbreakable: 'false'
+      '9':
+        nbt:
+        - RepairCost;3;int
+        id: BOW
+        amount: '1'
+        enchants:
+        - DURABILITY;1
+        - ARROW_DAMAGE;1
+        unbreakable: 'false'
+      '10':
+        id: GLASS
+        amount: '32'
+      '11':
+        id: WORKBENCH
+        amount: '1'
+      '12':
+        id: FURNACE
+        amount: '2'
+      '13':
+        id: CHEST
+        amount: '6'
+      '14':
+        id: WATER_BUCKET
+        amount: '1'
+      '15':
+        id: COAL
+        amount: '16'
+      '16':
+        id: GOLDEN_APPLE
+        amount: '1'
+      '17':
+        id: ENDER_PEARL
+        amount: '2'
+      '18':
+        id: ARROW
+        amount: '32'
+      '19':
+        id: IRON_HOE
+        amount: '1'
+      '20':
+        id: LOG
+        amount: '32'
+      '21':
+        id: STONE
+        amount: '64'
+      '22':
+        id: POTATO_ITEM
+        amount: '1'
+      '23':
+        id: SEEDS
+        amount: '24'
+      '24':
+        id: TORCH
+        amount: '64'
+      '25':
+        id: COOKED_CHICKEN
+        amount: '32'
+      '26':
+        id: SAPLING
+        amount: '4'
+    slot: 20
+    display_item: ORANGE_SHULKER_BOX
+    display_name: '&a✔ &fНабор &6&lВОЙН'
+    display_lore:
+    - ''
+    - '&r &8▪ &fНабор доступен для выдачи!'
+    - ''
+    - '&r &6▹ &eПКМ&f, чтобы взять набор'
+    - '&r &6▹ &eЛКМ&f, чтобы посмотреть набор'
+    cooldown: 172800
+    permission: kit.vip
+    noPermissionsItem:
+      display_item: BARRIER
+      display_name: '&c✘ &fНабор &6&lВОЙН'
+      display_lore:
+      - ''
+      - '&r &8▪ &fВам нужен донат &6&lВОЙН&f,'
+      - '&r &8▪ &fчтобы получить набор.'
+      - ''
+      - '&r &6▹ &eЛКМ&f, чтобы посмотреть набор'
+  elay:
+    Items:
+      '1':
+        nbt:
+        - RepairCost;7;int
+        id: IRON_HELMET
+        amount: '1'
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;1
+        - OXYGEN;1
+        - DURABILITY;1
+        unbreakable: 'false'
+      '2':
+        nbt:
+        - RepairCost;7;int
+        id: IRON_CHESTPLATE
+        amount: '1'
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;1
+        - THORNS;1
+        - DURABILITY;1
+        unbreakable: 'false'
+      '3':
+        nbt:
+        - RepairCost;7;int
+        id: IRON_LEGGINGS
+        amount: '1'
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;1
+        - THORNS;1
+        - DURABILITY;1
+        unbreakable: 'false'
+      '4':
+        nbt:
+        - RepairCost;15;int
+        id: IRON_BOOTS
+        amount: '1'
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;1
+        - PROTECTION_FALL;1
+        - DEPTH_STRIDER;1
+        - DURABILITY;1
+        unbreakable: 'false'
+      '5':
+        nbt:
+        - RepairCost;15;int
+        id: IRON_SWORD
+        amount: '1'
+        enchants:
+        - DAMAGE_ALL;2
+        - LOOT_BONUS_MOBS;1
+        - SWEEPING_EDGE;1
+        - DURABILITY;2
+        unbreakable: 'false'
+      '6':
+        nbt:
+        - RepairCost;7;int
+        id: IRON_AXE
+        amount: '1'
+        enchants:
+        - DIG_SPEED;2
+        - DURABILITY;2
+        - LOOT_BONUS_BLOCKS;1
+        unbreakable: 'false'
+      '7':
+        nbt:
+        - RepairCost;7;int
+        id: IRON_PICKAXE
+        amount: '1'
+        enchants:
+        - DIG_SPEED;2
+        - DURABILITY;2
+        - LOOT_BONUS_BLOCKS;1
+        unbreakable: 'false'
+      '8':
+        nbt:
+        - RepairCost;7;int
+        id: IRON_SPADE
+        amount: '1'
+        enchants:
+        - DIG_SPEED;2
+        - DURABILITY;2
+        - LOOT_BONUS_BLOCKS;1
+        unbreakable: 'false'
+      '9':
+        nbt:
+        - RepairCost;1;int
+        id: IRON_HOE
+        amount: '1'
+        enchants:
+        - DURABILITY;1
+        unbreakable: 'false'
+      '10':
+        id: ENDER_PEARL
+        amount: '4'
+      '11':
+        id: ENDER_CHEST
+        amount: '1'
+      '12':
+        id: WORKBENCH
+        amount: '1'
+      '13':
+        id: FURNACE
+        amount: '3'
+      '14':
+        id: CHEST
+        amount: '6'
+      '15':
+        id: WATER_BUCKET
+        amount: '1'
+      '16':
+        id: COAL
+        amount: '32'
+      '17':
+        id: DIAMOND
+        amount: '6'
+      '18':
+        id: GOLD_INGOT
+        amount: '12'
+      '19':
+        id: IRON_INGOT
+        amount: '12'
+      '20':
+        id: EXP_BOTTLE
+        amount: '16'
+      '21':
+        nbt:
+        - RepairCost;3;int
+        id: BOW
+        amount: '1'
+        enchants:
+        - DURABILITY;1
+        - ARROW_DAMAGE;2
+        unbreakable: 'false'
+      '22':
+        id: ARROW
+        amount: '48'
+      '23':
+        id: LOG
+        amount: '32'
+      '24':
+        id: STONE
+        amount: '64'
+      '25':
+        id: POTATO_ITEM
+        amount: '4'
+      '26':
+        id: INK_SACK:4
+        amount: '16'
+      '27':
+        id: COOKED_CHICKEN
+        amount: '48'
+      '28':
+        id: GOLDEN_APPLE
+        amount: '2'
+      '29':
+        id: GLASS
+        amount: '32'
+    slot: 21
+    display_item: GREEN_SHULKER_BOX
+    display_name: '&a✔ &fНабор &2&lЭЛЕЙ'
+    display_lore:
+    - ''
+    - '&r &8▪ &fНабор доступен для выдачи!'
+    - ''
+    - '&r &6▹ &eПКМ&f, чтобы взять набор'
+    - '&r &6▹ &eЛКМ&f, чтобы посмотреть набор'
+    cooldown: 172800
+    permission: kit.elay
+    noPermissionsItem:
+      display_item: BARRIER
+      display_name: '&c✘ &fНабор &2&lЭЛЕЙ'
+      display_lore:
+      - ''
+      - '&r &8▪ &fВам нужен донат &2&lЭЛЕЙ&f,'
+      - '&r &8▪ &fчтобы получить набор.'
+      - ''
+      - '&r &6▹ &eЛКМ&f, чтобы посмотреть набор'
+  hero:
+    Items:
+      '1':
+        nbt:
+        - RepairCost;15;int
+        id: IRON_HELMET
+        amount: '1'
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;2
+        - OXYGEN;2
+        - DURABILITY;2
+        unbreakable: 'false'
+      '2':
+        nbt:
+        - RepairCost;7;int
+        id: IRON_CHESTPLATE
+        amount: '1'
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;2
+        - THORNS;2
+        - DURABILITY;2
+        unbreakable: 'false'
+      '3':
+        nbt:
+        - RepairCost;7;int
+        id: IRON_LEGGINGS
+        amount: '1'
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;2
+        - THORNS;2
+        - DURABILITY;2
+        unbreakable: 'false'
+      '4':
+        nbt:
+        - RepairCost;31;int
+        id: IRON_BOOTS
+        amount: '1'
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;2
+        - PROTECTION_FALL;2
+        - DEPTH_STRIDER;2
+        - DURABILITY;2
+        unbreakable: 'false'
+      '5':
+        nbt:
+        - RepairCost;255;int
+        id: IRON_SWORD
+        amount: '1'
+        enchants:
+        - DAMAGE_ALL;3
+        - KNOCKBACK;1
+        - LOOT_BONUS_MOBS;2
+        - SWEEPING_EDGE;2
+        - DURABILITY;2
+        unbreakable: 'false'
+      '6':
+        nbt:
+        - RepairCost;31;int
+        id: IRON_AXE
+        amount: '1'
+        enchants:
+        - DIG_SPEED;3
+        - DURABILITY;2
+        - LOOT_BONUS_BLOCKS;2
+        unbreakable: 'false'
+      '7':
+        nbt:
+        - RepairCost;31;int
+        id: IRON_PICKAXE
+        amount: '1'
+        enchants:
+        - DIG_SPEED;3
+        - DURABILITY;2
+        - LOOT_BONUS_BLOCKS;2
+        unbreakable: 'false'
+      '8':
+        nbt:
+        - RepairCost;31;int
+        id: IRON_SPADE
+        amount: '1'
+        enchants:
+        - DIG_SPEED;3
+        - DURABILITY;2
+        - LOOT_BONUS_BLOCKS;2
+        unbreakable: 'false'
+      '9':
+        nbt:
+        - RepairCost;1;int
+        id: IRON_HOE
+        amount: '1'
+        enchants:
+        - DURABILITY;2
+        unbreakable: 'false'
+      '10':
+        id: EXP_BOTTLE
+        amount: '32'
+      '11':
+        id: INK_SACK:4
+        amount: '32'
+      '12':
+        id: ENDER_CHEST
+        amount: '1'
+      '13':
+        id: ENDER_PEARL
+        amount: '8'
+      '14':
+        id: GLASS
+        amount: '48'
+      '15':
+        id: WORKBENCH
+        amount: '1'
+      '16':
+        id: FURNACE
+        amount: '4'
+      '17':
+        id: CHEST
+        amount: '8'
+      '18':
+        id: WATER_BUCKET
+        amount: '1'
+      '19':
+        id: COAL
+        amount: '48'
+      '20':
+        id: DIAMOND
+        amount: '12'
+      '21':
+        id: GOLD_INGOT
+        amount: '20'
+      '22':
+        id: IRON_INGOT
+        amount: '20'
+      '23':
+        nbt:
+        - RepairCost;3;int
+        id: BOW
+        amount: '1'
+        enchants:
+        - DURABILITY;1
+        - ARROW_DAMAGE;2
+        unbreakable: 'false'
+      '24':
+        id: ARROW
+        amount: '64'
+      '25':
+        id: GRILLED_PORK
+        amount: '32'
+      '26':
+        id: STONE
+        amount: '64'
+      '27':
+        id: STONE
+        amount: '64'
+      '28':
+        id: LOG
+        amount: '64'
+      '29':
+        id: POTATO_ITEM
+        amount: '12'
+      '30':
+        id: CARROT_ITEM
+        amount: '2'
+      '31':
+        id: GOLDEN_APPLE
+        amount: '6'
+    slot: 22
+    display_item: BLUE_SHULKER_BOX
+    display_name: '&a✔ &fНабор &9&lГЕРОЙ'
+    display_lore:
+    - ''
+    - '&r &8▪ &fНабор доступен для выдачи!'
+    - ''
+    - '&r &6▹ &eПКМ&f, чтобы взять набор'
+    - '&r &6▹ &eЛКМ&f, чтобы посмотреть набор'
+    cooldown: 172800
+    permission: kit.hero
+    noPermissionsItem:
+      display_item: BARRIER
+      display_name: '&c✘ &fНабор &9&lГЕРОЙ'
+      display_lore:
+      - ''
+      - '&r &8▪ &fВам нужен донат &9&lГЕРОЙ&f,'
+      - '&r &8▪ &fчтобы получить набор.'
+      - ''
+      - '&r &6▹ &eЛКМ&f, чтобы посмотреть набор'
+  glad:
+    Items:
+      '1':
+        nbt:
+        - RepairCost;31;int
+        id: IRON_HELMET
+        amount: '1'
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;3
+        - OXYGEN;2
+        - WATER_WORKER;1
+        - THORNS;1
+        - DURABILITY;3
+        unbreakable: 'false'
+      '2':
+        nbt:
+        - RepairCost;7;int
+        id: IRON_CHESTPLATE
+        amount: '1'
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;3
+        - THORNS;2
+        - DURABILITY;3
+        unbreakable: 'false'
+      '3':
+        nbt:
+        - RepairCost;7;int
+        id: IRON_LEGGINGS
+        amount: '1'
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;3
+        - THORNS;2
+        - DURABILITY;3
+        unbreakable: 'false'
+      '4':
+        nbt:
+        - RepairCost;31;int
+        id: IRON_BOOTS
+        amount: '1'
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;3
+        - PROTECTION_FALL;2
+        - THORNS;1
+        - DEPTH_STRIDER;2
+        - DURABILITY;3
+        unbreakable: 'false'
+      '5':
+        nbt:
+        - RepairCost;63;int
+        id: IRON_SWORD
+        amount: '1'
+        enchants:
+        - DAMAGE_ALL;4
+        - KNOCKBACK;1
+        - LOOT_BONUS_MOBS;2
+        - SWEEPING_EDGE;2
+        - DURABILITY;3
+        unbreakable: 'false'
+      '6':
+        nbt:
+        - RepairCost;63;int
+        id: IRON_AXE
+        amount: '1'
+        enchants:
+        - DIG_SPEED;4
+        - DURABILITY;2
+        - LOOT_BONUS_BLOCKS;2
+        unbreakable: 'false'
+      '7':
+        nbt:
+        - RepairCost;63;int
+        id: IRON_PICKAXE
+        amount: '1'
+        enchants:
+        - DIG_SPEED;4
+        - DURABILITY;2
+        - LOOT_BONUS_BLOCKS;2
+        unbreakable: 'false'
+      '8':
+        nbt:
+        - RepairCost;63;int
+        id: IRON_SPADE
+        amount: '1'
+        enchants:
+        - DIG_SPEED;4
+        - DURABILITY;2
+        - LOOT_BONUS_BLOCKS;2
+        unbreakable: 'false'
+      '9':
+        nbt:
+        - RepairCost;3;int
+        id: IRON_HOE
+        amount: '1'
+        enchants:
+        - DURABILITY;3
+        unbreakable: 'false'
+      '10':
+        id: EXP_BOTTLE
+        amount: '48'
+      '11':
+        id: INK_SACK:4
+        amount: '64'
+      '12':
+        id: NAME_TAG
+        amount: '1'
+      '13':
+        nbt:
+        - RepairCost;7;int
+        id: FISHING_ROD
+        amount: '1'
+        enchants:
+        - DURABILITY;2
+        - LUCK;2
+        - LURE;2
+        unbreakable: 'false'
+      '14':
+        potion-type: STRENGTH
+        potion-upgraded: 'false'
+        potion-extended: 'false'
+        id: POTION
+        amount: '1'
+        unbreakable: 'false'
+      '15':
+        potion-type: SPEED
+        potion-upgraded: 'false'
+        potion-extended: 'false'
+        id: POTION
+        amount: '1'
+        unbreakable: 'false'
+      '16':
+        id: ENDER_CHEST
+        amount: '1'
+      '17':
+        id: ENDER_PEARL
+        amount: '16'
+      '18':
+        id: GLASS
+        amount: '64'
+      '19':
+        id: WORKBENCH
+        amount: '1'
+      '20':
+        id: FURNACE
+        amount: '6'
+      '21':
+        id: CHEST
+        amount: '8'
+      '22':
+        id: WATER_BUCKET
+        amount: '1'
+      '23':
+        id: COAL
+        amount: '64'
+      '24':
+        id: DIAMOND
+        amount: '24'
+      '25':
+        id: GOLD_INGOT
+        amount: '32'
+      '26':
+        id: IRON_INGOT
+        amount: '32'
+      '27':
+        nbt:
+        - RepairCost;7;int
+        id: BOW
+        amount: '1'
+        enchants:
+        - DURABILITY;2
+        - ARROW_DAMAGE;3
+        - ARROW_KNOCKBACK;1
+        unbreakable: 'false'
+      '28':
+        id: ARROW
+        amount: '64'
+      '29':
+        id: GRILLED_PORK
+        amount: '48'
+      '30':
+        id: LOG
+        amount: '64'
+      '31':
+        id: STONE
+        amount: '64'
+      '32':
+        id: STONE
+        amount: '64'
+      '33':
+        id: POTATO_ITEM
+        amount: '24'
+      '34':
+        id: CARROT_ITEM
+        amount: '8'
+      '35':
+        id: GOLDEN_APPLE
+        amount: '12'
+    slot: 23
+    display_item: PINK_SHULKER_BOX
+    display_name: '&a✔ &fНабор &c&lГЛАДИАТОР'
+    display_lore:
+    - ''
+    - '&r &8▪ &fНабор доступен для выдачи!'
+    - ''
+    - '&r &6▹ &eПКМ&f, чтобы взять набор'
+    - '&r &6▹ &eЛКМ&f, чтобы посмотреть набор'
+    cooldown: 172800
+    permission: kit.glad
+    noPermissionsItem:
+      display_item: BARRIER
+      display_name: '&c✘ &fНабор &c&lГЛАДИАТОР'
+      display_lore:
+      - ''
+      - '&r &8▪ &fВам нужен донат &c&lГЛАДИАТОР&f,'
+      - '&r &8▪ &fчтобы получить набор.'
+      - ''
+      - '&r &6▹ &eЛКМ&f, чтобы посмотреть набор'
+  legend:
+    Items:
+      '1':
+        nbt:
+        - RepairCost;15;int
+        id: DIAMOND_HELMET
+        amount: '1'
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;2
+        - OXYGEN;2
+        - THORNS;2
+        - DURABILITY;2
+        unbreakable: 'false'
+      '2':
+        nbt:
+        - RepairCost;7;int
+        id: DIAMOND_CHESTPLATE
+        amount: '1'
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;2
+        - THORNS;2
+        - DURABILITY;2
+        unbreakable: 'false'
+      '3':
+        nbt:
+        - RepairCost;7;int
+        id: DIAMOND_LEGGINGS
+        amount: '1'
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;2
+        - THORNS;2
+        - DURABILITY;2
+        unbreakable: 'false'
+      '4':
+        nbt:
+        - RepairCost;31;int
+        id: DIAMOND_BOOTS
+        amount: '1'
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;2
+        - PROTECTION_FALL;2
+        - THORNS;2
+        - DEPTH_STRIDER;2
+        - DURABILITY;2
+        unbreakable: 'false'
+      '5':
+        nbt:
+        - RepairCost;31;int
+        id: DIAMOND_SWORD
+        amount: '1'
+        enchants:
+        - DAMAGE_ALL;2
+        - KNOCKBACK;1
+        - LOOT_BONUS_MOBS;2
+        - SWEEPING_EDGE;2
+        - DURABILITY;2
+        unbreakable: 'false'
+      '6':
+        nbt:
+        - RepairCost;7;int
+        id: DIAMOND_AXE
+        amount: '1'
+        enchants:
+        - DIG_SPEED;2
+        - DURABILITY;2
+        - LOOT_BONUS_BLOCKS;2
+        unbreakable: 'false'
+      '7':
+        nbt:
+        - RepairCost;7;int
+        id: DIAMOND_PICKAXE
+        amount: '1'
+        enchants:
+        - DIG_SPEED;2
+        - DURABILITY;2
+        - LOOT_BONUS_BLOCKS;2
+        unbreakable: 'false'
+      '8':
+        nbt:
+        - RepairCost;7;int
+        id: DIAMOND_SPADE
+        amount: '1'
+        enchants:
+        - DIG_SPEED;2
+        - DURABILITY;2
+        - LOOT_BONUS_BLOCKS;2
+        unbreakable: 'false'
+      '9':
+        nbt:
+        - RepairCost;3;int
+        id: DIAMOND_HOE
+        amount: '1'
+        enchants:
+        - DURABILITY;3
+        unbreakable: 'false'
+      '10':
+        id: IRON_BLOCK
+        amount: '8'
+      '11':
+        id: EXP_BOTTLE
+        amount: '64'
+      '12':
+        id: LAPIS_BLOCK
+        amount: '12'
+      '13':
+        nbt:
+        - RepairCost;7;int
+        id: FISHING_ROD
+        amount: '1'
+        enchants:
+        - DURABILITY;2
+        - LUCK;2
+        - LURE;2
+        unbreakable: 'false'
+      '14':
+        potion-type: STRENGTH
+        potion-upgraded: 'true'
+        potion-extended: 'false'
+        id: POTION
+        amount: '1'
+        unbreakable: 'false'
+      '15':
+        potion-type: SPEED
+        potion-upgraded: 'true'
+        potion-extended: 'false'
+        id: POTION
+        amount: '1'
+        unbreakable: 'false'
+      '16':
+        id: ENDER_CHEST
+        amount: '2'
+      '17':
+        id: ENDER_PEARL
+        amount: '8'
+      '18':
+        id: ENDER_PEARL
+        amount: '16'
+      '19':
+        id: COAL_BLOCK
+        amount: '12'
+      '20':
+        id: CHEST
+        amount: '12'
+      '21':
+        id: FURNACE
+        amount: '8'
+      '22':
+        id: WORKBENCH
+        amount: '1'
+      '23':
+        id: GLASS
+        amount: '64'
+      '24':
+        id: CARROT_ITEM
+        amount: '16'
+      '25':
+        id: GOLDEN_APPLE
+        amount: '20'
+      '26':
+        id: POTATO_ITEM
+        amount: '32'
+      '27':
+        id: GOLD_BLOCK
+        amount: '6'
+      '28':
+        nbt:
+        - RepairCost;7;int
+        id: BOW
+        amount: '1'
+        enchants:
+        - DURABILITY;2
+        - ARROW_DAMAGE;3
+        - ARROW_KNOCKBACK;1
+        unbreakable: 'false'
+      '29':
+        potion-type: INSTANT_DAMAGE
+        potion-upgraded: 'false'
+        potion-extended: 'false'
+        id: TIPPED_ARROW
+        amount: '24'
+        unbreakable: 'false'
+      '30':
+        id: ARROW
+        amount: '64'
+      '31':
+        id: GRILLED_PORK
+        amount: '64'
+      '32':
+        id: TOTEM
+        amount: '1'
+      '33':
+        id: STONE
+        amount: '64'
+      '34':
+        id: LOG
+        amount: '64'
+      '35':
+        id: NAME_TAG
+        amount: '2'
+      '36':
+        id: DIAMOND_BLOCK
+        amount: '4'
+    slot: 24
+    display_item: CYAN_SHULKER_BOX
+    display_name: '&a✔ &fНабор &b&lЛЕГЕНД'
+    display_lore:
+    - ''
+    - '&r &8▪ &fНабор доступен для выдачи!'
+    - ''
+    - '&r &6▹ &eПКМ&f, чтобы взять набор'
+    - '&r &6▹ &eЛКМ&f, чтобы посмотреть набор'
+    cooldown: 172800
+    permission: kit.legend
+    noPermissionsItem:
+      display_item: BARRIER
+      display_name: '&c✘ &fНабор &b&lЛЕГЕНД'
+      display_lore:
+      - ''
+      - '&r &8▪ &fВам нужен донат &b&lЛЕГЕНД&f,'
+      - '&r &8▪ &fчтобы получить набор.'
+      - ''
+      - '&r &6▹ &eЛКМ&f, чтобы посмотреть набор'
+  povel:
+    Items:
+      '1':
+        nbt:
+        - RepairCost;15;int
+        id: DIAMOND_HELMET
+        amount: '1'
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;3
+        - OXYGEN;2
+        - THORNS;3
+        - DURABILITY;2
+        unbreakable: 'false'
+      '2':
+        nbt:
+        - RepairCost;7;int
+        id: DIAMOND_CHESTPLATE
+        amount: '1'
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;3
+        - THORNS;3
+        - DURABILITY;2
+        unbreakable: 'false'
+      '3':
+        nbt:
+        - RepairCost;7;int
+        id: DIAMOND_LEGGINGS
+        amount: '1'
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;3
+        - THORNS;3
+        - DURABILITY;2
+        unbreakable: 'false'
+      '4':
+        nbt:
+        - RepairCost;31;int
+        id: DIAMOND_BOOTS
+        amount: '1'
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;3
+        - PROTECTION_FALL;2
+        - THORNS;3
+        - DEPTH_STRIDER;2
+        - DURABILITY;2
+        unbreakable: 'false'
+      '5':
+        nbt:
+        - RepairCost;31;int
+        id: DIAMOND_SWORD
+        amount: '1'
+        enchants:
+        - DAMAGE_ALL;3
+        - KNOCKBACK;2
+        - LOOT_BONUS_MOBS;2
+        - SWEEPING_EDGE;2
+        - DURABILITY;3
+        unbreakable: 'false'
+      '6':
+        nbt:
+        - RepairCost;7;int
+        id: DIAMOND_AXE
+        amount: '1'
+        enchants:
+        - DIG_SPEED;3
+        - DURABILITY;3
+        - LOOT_BONUS_BLOCKS;2
+        unbreakable: 'false'
+      '7':
+        nbt:
+        - RepairCost;7;int
+        id: DIAMOND_SPADE
+        amount: '1'
+        enchants:
+        - DIG_SPEED;3
+        - DURABILITY;3
+        - LOOT_BONUS_BLOCKS;2
+        unbreakable: 'false'
+      '8':
+        nbt:
+        - RepairCost;7;int
+        id: DIAMOND_PICKAXE
+        amount: '1'
+        enchants:
+        - DIG_SPEED;3
+        - DURABILITY;3
+        - LOOT_BONUS_BLOCKS;2
+        unbreakable: 'false'
+      '9':
+        nbt:
+        - RepairCost;1;int
+        id: DIAMOND_HOE
+        amount: '1'
+        enchants:
+        - DURABILITY;3
+        unbreakable: 'false'
+      '10':
+        id: POTATO_ITEM
+        amount: '48'
+      '11':
+        id: EXP_BOTTLE
+        amount: '64'
+      '12':
+        potion-type: STRENGTH
+        potion-upgraded: 'true'
+        potion-extended: 'false'
+        id: POTION
+        amount: '1'
+        unbreakable: 'false'
+      '13':
+        potion-type: SPEED
+        potion-upgraded: 'true'
+        potion-extended: 'false'
+        id: POTION
+        amount: '1'
+        unbreakable: 'false'
+      '14':
+        potion-type: FIRE_RESISTANCE
+        potion-upgraded: 'false'
+        potion-extended: 'false'
+        id: POTION
+        amount: '1'
+        unbreakable: 'false'
+      '15':
+        id: ENDER_CHEST
+        amount: '3'
+      '16':
+        id: ENDER_PEARL
+        amount: '16'
+      '17':
+        id: ENDER_PEARL
+        amount: '16'
+      '18':
+        id: GOLD_BLOCK
+        amount: '12'
+      '19':
+        id: IRON_BLOCK
+        amount: '16'
+      '20':
+        id: LAPIS_BLOCK
+        amount: '24'
+      '21':
+        nbt:
+        - RepairCost;15;int
+        id: FISHING_ROD
+        amount: '1'
+        enchants:
+        - DURABILITY;3
+        - LUCK;3
+        - LURE;3
+        unbreakable: 'false'
+      '22':
+        id: FURNACE
+        amount: '12'
+      '23':
+        id: CHEST
+        amount: '16'
+      '24':
+        id: GLASS
+        amount: '64'
+      '25':
+        id: GOLDEN_APPLE
+        amount: '24'
+      '26':
+        id: CARROT_ITEM
+        amount: '24'
+      '27':
+        nbt:
+        - RepairCost;7;int
+        id: BOW
+        amount: '1'
+        enchants:
+        - DURABILITY;2
+        - ARROW_DAMAGE;4
+        - ARROW_KNOCKBACK;1
+        unbreakable: 'false'
+      '28':
+        potion-type: INSTANT_DAMAGE
+        potion-upgraded: 'false'
+        potion-extended: 'false'
+        id: TIPPED_ARROW
+        amount: '32'
+        unbreakable: 'false'
+      '29':
+        id: ARROW
+        amount: '64'
+      '30':
+        id: COOKED_BEEF
+        amount: '64'
+      '31':
+        id: TOTEM
+        amount: '1'
+      '32':
+        id: TOTEM
+        amount: '1'
+      '33':
+        id: DIAMOND_BLOCK
+        amount: '8'
+      '34':
+        id: LOG
+        amount: '64'
+      '35':
+        id: COAL_BLOCK
+        amount: '24'
+    slot: 29
+    display_item: YELLOW_SHULKER_BOX
+    display_name: '&a✔ &fНабор &e&lПОВЕЛИТЕЛЬ'
+    display_lore:
+    - ''
+    - '&r &8▪ &fНабор доступен для выдачи!'
+    - ''
+    - '&r &6▹ &eПКМ&f, чтобы взять набор'
+    - '&r &6▹ &eЛКМ&f, чтобы посмотреть набор'
+    cooldown: 172800
+    permission: kit.povel
+    noPermissionsItem:
+      display_item: BARRIER
+      display_name: '&c✘ &fНабор &e&lПОВЕЛИТЕЛЬ'
+      display_lore:
+      - ''
+      - '&r &8▪ &fВам нужен донат &e&lПОВЕЛИТЕЛЬ&f,'
+      - '&r &8▪ &fчтобы получить набор.'
+      - ''
+      - '&r &6▹ &eЛКМ&f, чтобы посмотреть набор'
+  ares:
+    Items:
+      '1':
+        nbt:
+        - RepairCost;31;int
+        id: DIAMOND_HELMET
+        amount: '1'
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;3
+        - OXYGEN;2
+        - WATER_WORKER;1
+        - THORNS;2
+        - DURABILITY;3
+        unbreakable: 'false'
+      '2':
+        nbt:
+        - RepairCost;7;int
+        id: DIAMOND_CHESTPLATE
+        amount: '1'
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;3
+        - THORNS;2
+        - DURABILITY;3
+        unbreakable: 'false'
+      '3':
+        nbt:
+        - RepairCost;7;int
+        id: DIAMOND_LEGGINGS
+        amount: '1'
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;3
+        - THORNS;2
+        - DURABILITY;3
+        unbreakable: 'false'
+      '4':
+        nbt:
+        - RepairCost;31;int
+        id: DIAMOND_BOOTS
+        amount: '1'
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;3
+        - PROTECTION_FALL;3
+        - THORNS;2
+        - DEPTH_STRIDER;2
+        - DURABILITY;3
+        unbreakable: 'false'
+      '5':
+        nbt:
+        - RepairCost;31;int
+        id: DIAMOND_SWORD
+        amount: '1'
+        enchants:
+        - DAMAGE_ALL;4
+        - KNOCKBACK;1
+        - LOOT_BONUS_MOBS;2
+        - SWEEPING_EDGE;2
+        - DURABILITY;3
+        unbreakable: 'false'
+      '6':
+        nbt:
+        - RepairCost;7;int
+        id: DIAMOND_AXE
+        amount: '1'
+        enchants:
+        - DIG_SPEED;4
+        - DURABILITY;2
+        - LOOT_BONUS_BLOCKS;2
+        unbreakable: 'false'
+      '7':
+        nbt:
+        - RepairCost;7;int
+        id: DIAMOND_PICKAXE
+        amount: '1'
+        enchants:
+        - DIG_SPEED;4
+        - DURABILITY;2
+        - LOOT_BONUS_BLOCKS;2
+        unbreakable: 'false'
+      '8':
+        nbt:
+        - RepairCost;7;int
+        id: DIAMOND_SPADE
+        amount: '1'
+        enchants:
+        - DIG_SPEED;4
+        - DURABILITY;2
+        - LOOT_BONUS_BLOCKS;2
+        unbreakable: 'false'
+      '9':
+        nbt:
+        - RepairCost;1;int
+        id: DIAMOND_HOE
+        amount: '1'
+        enchants:
+        - DURABILITY;3
+        unbreakable: 'false'
+      '10':
+        id: IRON_BLOCK
+        amount: '24'
+      '11':
+        id: POTATO_ITEM
+        amount: '64'
+      '12':
+        id: EXP_BOTTLE
+        amount: '64'
+      '13':
+        potion-type: STRENGTH
+        potion-upgraded: 'true'
+        potion-extended: 'false'
+        id: POTION
+        amount: '1'
+        unbreakable: 'false'
+      '14':
+        potion-type: SPEED
+        potion-upgraded: 'true'
+        potion-extended: 'false'
+        id: POTION
+        amount: '1'
+        unbreakable: 'false'
+      '15':
+        potion-type: FIRE_RESISTANCE
+        potion-upgraded: 'false'
+        potion-extended: 'true'
+        id: POTION
+        amount: '1'
+        unbreakable: 'false'
+      '16':
+        id: ENDER_CHEST
+        amount: '4'
+      '17':
+        id: ENDER_PEARL
+        amount: '16'
+      '18':
+        id: ENDER_PEARL
+        amount: '16'
+      '19':
+        id: CARROT_ITEM
+        amount: '32'
+      '20':
+        id: GLASS
+        amount: '64'
+      '21':
+        id: EXP_BOTTLE
+        amount: '64'
+      '22':
+        nbt:
+        - RepairCost;15;int
+        id: FISHING_ROD
+        amount: '1'
+        enchants:
+        - DURABILITY;3
+        - LUCK;3
+        - LURE;3
+        unbreakable: 'false'
+      '23':
+        id: LAPIS_BLOCK
+        amount: '32'
+      '24':
+        id: LOG
+        amount: '64'
+      '25':
+        id: DIAMOND_BLOCK
+        amount: '16'
+      '26':
+        id: COAL_BLOCK
+        amount: '32'
+      '27':
+        id: GOLD_BLOCK
+        amount: '20'
+      '28':
+        nbt:
+        - RepairCost;31;int
+        id: BOW
+        amount: '1'
+        enchants:
+        - DURABILITY;3
+        - ARROW_DAMAGE;4
+        - ARROW_KNOCKBACK;2
+        - ARROW_INFINITE;1
+        unbreakable: 'false'
+      '29':
+        potion-type: INSTANT_DAMAGE
+        potion-upgraded: 'true'
+        potion-extended: 'false'
+        id: TIPPED_ARROW
+        amount: '32'
+        unbreakable: 'false'
+      '30':
+        id: ARROW
+        amount: '16'
+      '31':
+        id: COOKED_BEEF
+        amount: '64'
+      '32':
+        id: TOTEM
+        amount: '1'
+      '33':
+        id: TOTEM
+        amount: '1'
+      '34':
+        id: TOTEM
+        amount: '1'
+      '35':
+        id: CHEST
+        amount: '24'
+      '36':
+        id: GOLDEN_APPLE
+        amount: '28'
+    slot: 30
+    display_item: RED_SHULKER_BOX
+    display_name: '&a✔ &fНабор &4&lАРЕС'
+    display_lore:
+    - ''
+    - '&r &8▪ &fНабор доступен для выдачи!'
+    - ''
+    - '&r &6▹ &eПКМ&f, чтобы взять набор'
+    - '&r &6▹ &eЛКМ&f, чтобы посмотреть набор'
+    cooldown: 172800
+    permission: kit.ares
+    noPermissionsItem:
+      display_item: BARRIER
+      display_name: '&c✘ &fНабор &4&lАРЕС'
+      display_lore:
+      - ''
+      - '&r &8▪ &fВам нужен донат &4&lАРЕС&f,'
+      - '&r &8▪ &fчтобы получить набор.'
+      - ''
+      - '&r &6▹ &eЛКМ&f, чтобы посмотреть набор'
+  wise:
+    Items:
+      '1':
+        nbt:
+        - RepairCost;31;int
+        id: DIAMOND_HELMET
+        amount: '1'
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;4
+        - OXYGEN;2
+        - WATER_WORKER;1
+        - THORNS;3
+        - DURABILITY;3
+        unbreakable: 'false'
+      '2':
+        nbt:
+        - RepairCost;7;int
+        id: DIAMOND_CHESTPLATE
+        amount: '1'
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;4
+        - THORNS;3
+        - DURABILITY;3
+        unbreakable: 'false'
+      '3':
+        nbt:
+        - RepairCost;7;int
+        id: DIAMOND_LEGGINGS
+        amount: '1'
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;4
+        - THORNS;3
+        - DURABILITY;3
+        unbreakable: 'false'
+      '4':
+        nbt:
+        - RepairCost;31;int
+        id: DIAMOND_BOOTS
+        amount: '1'
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;4
+        - PROTECTION_FALL;3
+        - THORNS;3
+        - DEPTH_STRIDER;2
+        - DURABILITY;3
+        unbreakable: 'false'
+      '5':
+        nbt:
+        - RepairCost;31;int
+        id: DIAMOND_SWORD
+        amount: '1'
+        enchants:
+        - DAMAGE_ALL;4
+        - KNOCKBACK;2
+        - LOOT_BONUS_MOBS;3
+        - SWEEPING_EDGE;2
+        - DURABILITY;2
+        unbreakable: 'false'
+      '6':
+        nbt:
+        - RepairCost;7;int
+        id: DIAMOND_AXE
+        amount: '1'
+        enchants:
+        - DIG_SPEED;4
+        - DURABILITY;3
+        - LOOT_BONUS_BLOCKS;3
+        unbreakable: 'false'
+      '7':
+        nbt:
+        - RepairCost;7;int
+        id: DIAMOND_PICKAXE
+        amount: '1'
+        enchants:
+        - DIG_SPEED;4
+        - DURABILITY;3
+        - LOOT_BONUS_BLOCKS;3
+        unbreakable: 'false'
+      '8':
+        nbt:
+        - RepairCost;7;int
+        id: DIAMOND_SPADE
+        amount: '1'
+        enchants:
+        - DIG_SPEED;4
+        - DURABILITY;3
+        - LOOT_BONUS_BLOCKS;3
+        unbreakable: 'false'
+      '9':
+        nbt:
+        - RepairCost;1;int
+        id: DIAMOND_HOE
+        amount: '1'
+        enchants:
+        - DURABILITY;3
+        unbreakable: 'false'
+      '10':
+        id: GOLD_BLOCK
+        amount: '28'
+      '11':
+        id: IRON_BLOCK
+        amount: '36'
+      '12':
+        id: EXP_BOTTLE
+        amount: '64'
+      '13':
+        potion-type: STRENGTH
+        potion-upgraded: 'true'
+        potion-extended: 'false'
+        id: POTION
+        amount: '1'
+        unbreakable: 'false'
+      '14':
+        potion-type: SPEED
+        potion-upgraded: 'true'
+        potion-extended: 'false'
+        id: POTION
+        amount: '1'
+        unbreakable: 'false'
+      '15':
+        potion-type: FIRE_RESISTANCE
+        potion-upgraded: 'false'
+        potion-extended: 'true'
+        id: POTION
+        amount: '1'
+        unbreakable: 'false'
+      '16':
+        id: ENDER_CHEST
+        amount: '6'
+      '17':
+        id: ENDER_PEARL
+        amount: '16'
+      '18':
+        id: ENDER_PEARL
+        amount: '16'
+      '19':
+        id: CARROT_ITEM
+        amount: '48'
+      '20':
+        id: GLASS
+        amount: '64'
+      '21':
+        id: EXP_BOTTLE
+        amount: '64'
+      '22':
+        id: POTATO_ITEM
+        amount: '64'
+      '23':
+        id: LAPIS_BLOCK
+        amount: '40'
+      '24':
+        id: LOG
+        amount: '64'
+      '25':
+        id: LOG
+        amount: '64'
+      '26':
+        id: DIAMOND_BLOCK
+        amount: '20'
+      '27':
+        id: COAL_BLOCK
+        amount: '40'
+      '28':
+        nbt:
+        - RepairCost;31;int
+        id: BOW
+        amount: '1'
+        enchants:
+        - DURABILITY;2
+        - ARROW_DAMAGE;4
+        - ARROW_KNOCKBACK;1
+        - ARROW_FIRE;1
+        - ARROW_INFINITE;1
+        unbreakable: 'false'
+      '29':
+        potion-type: INSTANT_DAMAGE
+        potion-upgraded: 'true'
+        potion-extended: 'false'
+        id: TIPPED_ARROW
+        amount: '48'
+        unbreakable: 'false'
+      '30':
+        id: ARROW
+        amount: '16'
+      '31':
+        nbt:
+        - RepairCost;15;int
+        id: FISHING_ROD
+        amount: '1'
+        enchants:
+        - DURABILITY;3
+        - LUCK;3
+        - LURE;3
+        unbreakable: 'false'
+      '32':
+        id: GOLDEN_CARROT
+        amount: '48'
+      '33':
+        id: TOTEM
+        amount: '1'
+      '34':
+        id: TOTEM
+        amount: '1'
+      '35':
+        id: TOTEM
+        amount: '1'
+      '36':
+        id: GOLDEN_APPLE
+        amount: '36'
+    slot: 31
+    display_item: ENDER_CHEST
+    display_name: '&a✔ &fНабор &e&lW&6&lISE'
+    display_lore:
+    - ''
+    - '&r &8▪ &fНабор доступен для выдачи!'
+    - ''
+    - '&r &6▹ &eПКМ&f, чтобы взять набор'
+    - '&r &6▹ &eЛКМ&f, чтобы посмотреть набор'
+    cooldown: 345600
+    permission: kit.wise
+    noPermissionsItem:
+      display_item: BARRIER
+      display_name: '&c✘ &fНабор &e&lW&6&lISE'
+      display_lore:
+      - ''
+      - '&r &8▪ &fВам нужен донат &e&lW&6&lISE&f,'
+      - '&r &8▪ &fчтобы получить набор.'
+      - ''
+      - '&r &6▹ &eЛКМ&f, чтобы посмотреть набор'
+  dhelper:
+    Items:
+      '1':
+        nbt:
+        - RepairCost;63;int
+        id: DIAMOND_HELMET
+        amount: '1'
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;4
+        - OXYGEN;3
+        - WATER_WORKER;1
+        - THORNS;1
+        - DURABILITY;3
+        - MENDING;1
+        unbreakable: 'false'
+      '2':
+        nbt:
+        - RepairCost;15;int
+        id: DIAMOND_CHESTPLATE
+        amount: '1'
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;4
+        - THORNS;1
+        - DURABILITY;3
+        - MENDING;1
+        unbreakable: 'false'
+      '3':
+        nbt:
+        - RepairCost;15;int
+        id: DIAMOND_LEGGINGS
+        amount: '1'
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;4
+        - THORNS;1
+        - DURABILITY;3
+        - MENDING;1
+        unbreakable: 'false'
+      '4':
+        nbt:
+        - RepairCost;63;int
+        id: DIAMOND_BOOTS
+        amount: '1'
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;4
+        - PROTECTION_FALL;4
+        - THORNS;1
+        - DEPTH_STRIDER;3
+        - DURABILITY;3
+        - MENDING;1
+        unbreakable: 'false'
+      '5':
+        nbt:
+        - RepairCost;63;int
+        id: DIAMOND_SWORD
+        amount: '1'
+        enchants:
+        - DAMAGE_ALL;5
+        - FIRE_ASPECT;2
+        - LOOT_BONUS_MOBS;3
+        - SWEEPING_EDGE;3
+        - DURABILITY;3
+        - MENDING;1
+        unbreakable: 'false'
+      '6':
+        nbt:
+        - RepairCost;15;int
+        id: DIAMOND_PICKAXE
+        amount: '1'
+        enchants:
+        - DIG_SPEED;5
+        - DURABILITY;3
+        - LOOT_BONUS_BLOCKS;3
+        - MENDING;1
+        unbreakable: 'false'
+      '7':
+        nbt:
+        - RepairCost;31;int
+        id: DIAMOND_AXE
+        amount: '1'
+        enchants:
+        - DAMAGE_ALL;4
+        - DIG_SPEED;5
+        - DURABILITY;3
+        - LOOT_BONUS_BLOCKS;3
+        - MENDING;1
+        unbreakable: 'false'
+      '8':
+        nbt:
+        - RepairCost;15;int
+        id: DIAMOND_SPADE
+        amount: '1'
+        enchants:
+        - DIG_SPEED;5
+        - DURABILITY;3
+        - LOOT_BONUS_BLOCKS;3
+        - MENDING;1
+        unbreakable: 'false'
+      '9':
+        nbt:
+        - RepairCost;3;int
+        id: DIAMOND_HOE
+        amount: '1'
+        enchants:
+        - DURABILITY;3
+        - MENDING;1
+        unbreakable: 'false'
+      '10':
+        nbt:
+        - BlockEntityTag;{Items:[{Slot:0b,id:"minecraft:brewing_stand",Count:4b,Damage:0s},{Slot:1b,id:"minecraft:redstone",Count:48b,Damage:0s},{Slot:2b,id:"minecraft:glowstone_dust",Count:48b,Damage:0s},{Slot:3b,id:"minecraft:nether_wart",Count:48b,Damage:0s},{Slot:4b,id:"minecraft:blaze_rod",Count:36b,Damage:0s},{Slot:5b,id:"minecraft:magma_cream",Count:18b,Damage:0s},{Slot:6b,id:"minecraft:sugar",Count:48b,Damage:0s},{Slot:7b,id:"minecraft:glass",Count:64b,Damage:0s},{Slot:8b,id:"minecraft:glass",Count:64b,Damage:0s},{Slot:18b,id:"minecraft:gold_block",Count:48b,Damage:0s},{Slot:19b,id:"minecraft:lapis_block",Count:64b,Damage:0s},{Slot:20b,id:"minecraft:diamond_block",Count:32b,Damage:0s},{Slot:21b,id:"minecraft:iron_block",Count:56b,Damage:0s},{Slot:22b,id:"minecraft:obsidian",Count:64b,Damage:0s},{Slot:23b,id:"minecraft:ender_chest",Count:10b,Damage:0s},{Slot:24b,id:"minecraft:experience_bottle",Count:64b,Damage:0s},{Slot:25b,id:"minecraft:experience_bottle",Count:64b,Damage:0s},{Slot:26b,id:"minecraft:experience_bottle",Count:64b,Damage:0s}],id:"shulker_box"}
+        id: PINK_SHULKER_BOX
+        amount: '1'
+        unbreakable: 'false'
+      '11':
+        id: ENDER_PEARL
+        amount: '16'
+      '12':
+        id: ENDER_PEARL
+        amount: '16'
+      '13':
+        id: ENDER_PEARL
+        amount: '16'
+      '14':
+        id: LOG
+        amount: '64'
+      '15':
+        id: LOG
+        amount: '64'
+      '16':
+        id: CARROT_ITEM
+        amount: '64'
+      '17':
+        id: POTATO_ITEM
+        amount: '64'
+      '18':
+        id: GOLDEN_APPLE
+        amount: '64'
+      '19':
+        id: COAL_BLOCK
+        amount: '64'
+      '20':
+        id: ELYTRA
+        amount: '1'
+      '21':
+        id: LOG
+        amount: '64'
+      '22':
+        nbt:
+        - RepairCost;31;int
+        id: BOW
+        amount: '1'
+        enchants:
+        - DURABILITY;3
+        - ARROW_DAMAGE;5
+        - ARROW_KNOCKBACK;1
+        - ARROW_FIRE;1
+        - ARROW_INFINITE;1
+        unbreakable: 'false'
+      '23':
+        potion-type: INSTANT_DAMAGE
+        potion-upgraded: 'true'
+        potion-extended: 'false'
+        id: TIPPED_ARROW
+        amount: '64'
+        unbreakable: 'false'
+      '24':
+        potion-type: INSTANT_DAMAGE
+        potion-upgraded: 'true'
+        potion-extended: 'false'
+        id: TIPPED_ARROW
+        amount: '64'
+        unbreakable: 'false'
+      '25':
+        id: ARROW
+        amount: '16'
+      '26':
+        id: GOLDEN_CARROT
+        amount: '64'
+      '27':
+        id: GOLDEN_CARROT
+        amount: '64'
+      '28':
+        nbt:
+        - RepairCost;15;int
+        id: FISHING_ROD
+        amount: '1'
+        enchants:
+        - DURABILITY;3
+        - LUCK;3
+        - LURE;3
+        unbreakable: 'false'
+      '29':
+        id: TOTEM
+        amount: '1'
+      '30':
+        id: TOTEM
+        amount: '1'
+      '31':
+        id: TOTEM
+        amount: '1'
+      '32':
+        id: TOTEM
+        amount: '1'
+      '33':
+        id: TOTEM
+        amount: '1'
+    slot: 32
+    display_item: CHEST
+    display_name: '&a✔ &fНабор &5&l&nD.HELPER'
+    display_lore:
+    - ''
+    - '&r &8▪ &fНабор доступен для выдачи!'
+    - ''
+    - '&r &6▹ &eПКМ&f, чтобы взять набор'
+    - '&r &6▹ &eЛКМ&f, чтобы посмотреть набор'
+    cooldown: 345600
+    permission: kit.dhelper
+    noPermissionsItem:
+      display_item: BARRIER
+      display_name: '&c✘ &fНабор &5&l&nD.HELPER'
+      display_lore:
+      - ''
+      - '&r &8▪ &fВам нужен донат &5&l&nD.HELPER&f,'
+      - '&r &8▪ &fчтобы получить набор.'
+      - ''
+      - '&r &6▹ &eЛКМ&f, чтобы посмотреть набор'
+  youtube:
+    Items:
+      '1':
+        nbt:
+        - RepairCost;31;int
+        id: DIAMOND_HELMET
+        amount: '1'
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;4
+        - OXYGEN;3
+        - WATER_WORKER;1
+        - THORNS;2
+        - DURABILITY;3
+        unbreakable: 'false'
+      '2':
+        nbt:
+        - RepairCost;7;int
+        id: DIAMOND_CHESTPLATE
+        amount: '1'
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;4
+        - THORNS;2
+        - DURABILITY;3
+        unbreakable: 'false'
+      '3':
+        nbt:
+        - RepairCost;7;int
+        id: DIAMOND_LEGGINGS
+        amount: '1'
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;4
+        - THORNS;2
+        - DURABILITY;3
+        unbreakable: 'false'
+      '4':
+        nbt:
+        - RepairCost;31;int
+        id: DIAMOND_BOOTS
+        amount: '1'
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;4
+        - PROTECTION_FALL;3
+        - THORNS;2
+        - DEPTH_STRIDER;3
+        - DURABILITY;3
+        unbreakable: 'false'
+      '5':
+        nbt:
+        - RepairCost;63;int
+        id: DIAMOND_SWORD
+        amount: '1'
+        enchants:
+        - DAMAGE_ALL;5
+        - KNOCKBACK;1
+        - FIRE_ASPECT;2
+        - LOOT_BONUS_MOBS;3
+        - SWEEPING_EDGE;2
+        - DURABILITY;3
+        unbreakable: 'false'
+      '6':
+        nbt:
+        - RepairCost;15;int
+        id: DIAMOND_AXE
+        amount: '1'
+        enchants:
+        - DAMAGE_ALL;3
+        - DIG_SPEED;5
+        - DURABILITY;2
+        - LOOT_BONUS_BLOCKS;2
+        unbreakable: 'false'
+      '7':
+        nbt:
+        - RepairCost;7;int
+        id: DIAMOND_PICKAXE
+        amount: '1'
+        enchants:
+        - DIG_SPEED;5
+        - DURABILITY;2
+        - LOOT_BONUS_BLOCKS;2
+        unbreakable: 'false'
+      '8':
+        nbt:
+        - RepairCost;7;int
+        id: DIAMOND_SPADE
+        amount: '1'
+        enchants:
+        - DIG_SPEED;5
+        - DURABILITY;2
+        - LOOT_BONUS_BLOCKS;2
+        unbreakable: 'false'
+      '9':
+        nbt:
+        - RepairCost;1;int
+        id: DIAMOND_HOE
+        amount: '1'
+        enchants:
+        - DURABILITY;3
+        unbreakable: 'false'
+      '10':
+        id: DIAMOND_BLOCK
+        amount: '24'
+      '11':
+        id: GOLD_BLOCK
+        amount: '36'
+      '12':
+        id: COAL_BLOCK
+        amount: '52'
+      '13':
+        id: EXP_BOTTLE
+        amount: '64'
+      '14':
+        id: ENDER_CHEST
+        amount: '8'
+      '15':
+        id: OBSIDIAN
+        amount: '32'
+      '16':
+        id: ENDER_PEARL
+        amount: '16'
+      '17':
+        id: ENDER_PEARL
+        amount: '16'
+      '18':
+        nbt:
+        - BlockEntityTag;{Items:[{Slot:0b,id:"minecraft:brewing_stand",Count:2b,Damage:0s},{Slot:1b,id:"minecraft:redstone",Count:24b,Damage:0s},{Slot:2b,id:"minecraft:glowstone_dust",Count:24b,Damage:0s},{Slot:3b,id:"minecraft:magma_cream",Count:12b,Damage:0s},{Slot:4b,id:"minecraft:sugar",Count:24b,Damage:0s},{Slot:5b,id:"minecraft:nether_wart",Count:24b,Damage:0s},{Slot:6b,id:"minecraft:blaze_rod",Count:18b,Damage:0s},{Slot:7b,id:"minecraft:glass",Count:64b,Damage:0s}],id:"shulker_box"}
+        id: RED_SHULKER_BOX
+        amount: '1'
+        unbreakable: 'false'
+      '19':
+        id: CARROT_ITEM
+        amount: '64'
+      '20':
+        id: GOLDEN_APPLE
+        amount: '48'
+      '21':
+        id: POTATO_ITEM
+        amount: '64'
+      '22':
+        id: EXP_BOTTLE
+        amount: '64'
+      '23':
+        id: EXP_BOTTLE
+        amount: '64'
+      '24':
+        id: IRON_BLOCK
+        amount: '44'
+      '25':
+        id: LAPIS_BLOCK
+        amount: '52'
+      '26':
+        id: LOG
+        amount: '64'
+      '27':
+        id: LOG
+        amount: '64'
+      '28':
+        nbt:
+        - RepairCost;31;int
+        id: BOW
+        amount: '1'
+        enchants:
+        - DURABILITY;2
+        - ARROW_DAMAGE;5
+        - ARROW_KNOCKBACK;2
+        - ARROW_FIRE;1
+        - ARROW_INFINITE;1
+        unbreakable: 'false'
+      '29':
+        potion-type: INSTANT_DAMAGE
+        potion-upgraded: 'true'
+        potion-extended: 'false'
+        id: TIPPED_ARROW
+        amount: '64'
+        unbreakable: 'false'
+      '30':
+        id: ARROW
+        amount: '16'
+      '31':
+        id: GOLDEN_CARROT
+        amount: '64'
+      '32':
+        nbt:
+        - RepairCost;15;int
+        id: FISHING_ROD
+        amount: '1'
+        enchants:
+        - DURABILITY;3
+        - LUCK;3
+        - LURE;3
+        unbreakable: 'false'
+      '33':
+        id: TOTEM
+        amount: '1'
+      '34':
+        id: TOTEM
+        amount: '1'
+      '35':
+        id: TOTEM
+        amount: '1'
+      '36':
+        id: TOTEM
+        amount: '1'
+    slot: 33
+    display_item: WHITE_SHULKER_BOX
+    display_name: '&a✔ &fНабор &f&lЮ&c&lТ'
+    display_lore:
+    - ''
+    - '&r &8▪ &fНабор доступен для выдачи!'
+    - ''
+    - '&r &6▹ &eПКМ&f, чтобы взять набор'
+    - '&r &6▹ &eЛКМ&f, чтобы посмотреть набор'
+    cooldown: 345600
+    permission: kit.yt
+    noPermissionsItem:
+      display_item: BARRIER
+      display_name: '&c✘ &fНабор &f&lЮ&c&lТ'
+      display_lore:
+      - ''
+      - '&r &8▪ &fВам нужен донат &f&lЮ&c&lТ&f,'
+      - '&r &8▪ &fчтобы получить набор.'
+      - ''
+      - '&r &6▹ &eЛКМ&f, чтобы посмотреть набор'

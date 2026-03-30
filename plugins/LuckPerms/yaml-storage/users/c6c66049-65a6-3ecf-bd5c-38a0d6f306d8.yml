@@ -1,0 +1,12 @@
+uuid: c6c66049-65a6-3ecf-bd5c-38a0d6f306d8
+name: andry
+primary-group: default
+parents:
+- default
+- elay
+- gladiator
+- hero
+- voin
+suffixes:
+- '&r&nФАНАТ ДИМЫ ☡':
+    priority: 1

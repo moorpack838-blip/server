@@ -1,0 +1,12 @@
+uuid: 8d01cf76-5147-3746-8ea0-f68149242277
+name: leshka005
+primary-group: default
+parents:
+- default
+- gladiator
+prefixes:
+- §7§lИГРОК §7:
+    priority: 11
+    context:
+      server: grief
+      world: lobby

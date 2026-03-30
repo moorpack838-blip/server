@@ -1,0 +1,11 @@
+uuid: 38c70ead-470f-3bf1-a022-109de27924ed
+name: Milfo4ka__
+primary-group: default
+parents:
+- default
+prefixes:
+- §7§lИГРОК §7:
+    priority: 11
+    context:
+      server: grief
+      world: lobby

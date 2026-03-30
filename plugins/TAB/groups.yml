@@ -1,0 +1,151 @@
+
+
+vlad:
+  tabprefix: '§c✪ §lВЛАДЕЛЕЦ §7'
+  tagprefix: '§c✪ §lВЛАДЕЛЕЦ §7'
+  tabsuffix: ' §8(§7%javascript_example%§8)'
+  tagsuffix: ' §8(§7%javascript_example%§8)'
+  belowname: '§8(§7Пинг §6%ping%⇄ §7Хп §c%health%❤§8)'
+razrab:
+  tabprefix: '§5§l✪ РАЗРАБОТЧИК §7'
+  tagprefix: '§5§l✪ РАЗРАБОТЧИК §7'
+  tabsuffix: ' §8(§7%javascript_example%§8)'
+  tagsuffix: ' §8(§7%javascript_example%§8)'
+  belowname: '§8(§7Пинг §6%ping%⇄ §7Хп §c%health%❤§8)'
+admin:
+  tabprefix: '§4✪ §lADMIN §7'
+  tagprefix: '§4✪ §lADMIN §7'
+  tabsuffix: ' §8(§7%javascript_example%§8)'
+  tagsuffix: ' §8(§7%javascript_example%§8)'
+  belowname: '§8(§7Пинг §6%ping%⇄ §7Хп §c%health%❤§8)'
+builder:
+  tabprefix: '§9♯ §lБИЛДЕР §7'
+  tagprefix: '§9♯ §lБИЛДЕР §7'
+  tabsuffix: ' §8(§7%javascript_example%§8)'
+  tagsuffix: ' §8(§7%javascript_example%§8)'
+  belowname: '§8(§7Пинг §6%ping%⇄ §7Хп §c%health%❤§8)'
+kyrator:
+  tabprefix: '§6✪ §lКУРАТОР §7'
+  tagprefix: '§6✪ §lКУРАТОР §7'
+  tabsuffix: ' §8(§7%javascript_example%§8)'
+  tagsuffix: ' §8(§7%javascript_example%§8)'
+  belowname: '§8(§7Пинг §6%ping%⇄ §7Хп §c%health%❤§8)'
+mladmin:
+  tabprefix: '§b✪ §lМЛ.АДМИН §7'
+  tagprefix: '§b✪ §lМЛ.АДМИН §7'
+  tabsuffix: ' §8(§7%javascript_example%§8)'
+  tagsuffix: ' §8(§7%javascript_example%§8)'
+  belowname: '§8(§7Пинг §6%ping%⇄ §7Хп §c%health%❤§8)'
+stmoder:
+  tabprefix: '§b✡ §lСТ.МОДЕР §7'
+  tagprefix: '§b✡ §lСТ.МОДЕР §7'
+  tabsuffix: ' §8(§7%javascript_example%§8)'
+  tagsuffix: ' §8(§7%javascript_example%§8)'
+  belowname: '§8(§7Пинг §6%ping%⇄ §7Хп §c%health%❤§8)'
+moder:
+  tabprefix: '§3✡ §lМОДЕР §7'
+  tagprefix: '§3✡ §lМОДЕР §7'
+  tabsuffix: ' §8(§7%javascript_example%§8)'
+  tagsuffix: ' §8(§7%javascript_example%§8)'
+  belowname: '§8(§7Пинг §6%ping%⇄ §7Хп §c%health%❤§8)'
+sthelper:
+  tabprefix: '§e✢ §lСТ.ХЕЛПЕР §7'
+  tagprefix: '§e✢ §lСТ.ХЕЛПЕР §7'
+  tabsuffix: ' §8(§7%javascript_example%§8)'
+  tagsuffix: ' §8(§7%javascript_example%§8)'
+  belowname: '§8(§7Пинг §6%ping%⇄ §7Хп §c%health%❤§8)'
+helper:
+  tabprefix: '§6✢ §lХЕЛПЕР §7'
+  tagprefix: '§6✢ §lХЕЛПЕР §7'
+  tabsuffix: ' §8(§7%javascript_example%§8)'
+  tagsuffix: ' §8(§7%javascript_example%§8)'
+  belowname: '§8(§7Пинг §6%ping%⇄ §7Хп §c%health%❤§8)'
+yt+:
+  tabprefix: '§c✯ §c§lЮ§f§lТ§6§l+ §7'
+  tagprefix: '§c✯ §c§lЮ§f§lТ§6§l+ §7'
+  tabsuffix: ' §8(§7%javascript_example%§8)'
+  tagsuffix: ' §8(§7%javascript_example%§8)'
+  belowname: '§8(§7Пинг §6%ping%⇄ §7Хп §c%health%❤§8)'
+yt:
+  tabprefix: '§f✯ §c§lЮ§f§lТ §7'
+  tagprefix: '§f✯ §c§lЮ§f§lТ §7'
+  tabsuffix: ' §8(§7%javascript_example%§8)'
+  tagsuffix: ' §8(§7%javascript_example%§8)'
+  belowname: '§8(§7Пинг §6%ping%⇄ §7Хп §c%health%❤§8)'
+dhelper:
+  tabprefix: '§5✯ §l§nＤ.ＨＥＬＰＥＲ§r §7'
+  tagprefix: '§5✯ §l§nＤ.ＨＥＬＰＥＲ§r §7'
+  tabsuffix: ' §8(§7%javascript_example%§8)'
+  tagsuffix: ' §8(§7%javascript_example%§8)'
+  belowname: '§8(§7Пинг §6%ping%⇄ §7Хп §c%health%❤§8)'
+frost:
+  tabprefix: '§b✯ §lＦ§3§lＲＯＳＴ §7'
+  tagprefix: '§b✯ §lＦ§3§lＲＯＳＴ §7'
+  tabsuffix: ' §8(§7%javascript_example%§8)'
+  tagsuffix: ' §8(§7%javascript_example%§8)'
+  belowname: '§8(§7Пинг §6%ping%⇄ §7Хп §c%health%❤§8)'
+wise:
+  tabprefix: '§e☯ §e§lＷ§6§lＩＳＥ §7'
+  tagprefix: '§e☯ §e§lＷ§6§lＩＳＥ §7'
+  tabsuffix: ' §8(§7%javascript_example%§8)'
+  tagsuffix: ' §8(§7%javascript_example%§8)'
+  belowname: '§8(§7Пинг §6%ping%⇄ §7Хп §c%health%❤§8)'
+ares:
+  tabprefix: '§4☯ §lАРЕС §7'
+  tagprefix: '§4☯ §lАРЕС §7'
+  tabsuffix: ' §8(§7%javascript_example%§8)'
+  tagsuffix: ' §8(§7%javascript_example%§8)'
+  belowname: '§8(§7Пинг §6%ping%⇄ §7Хп §c%health%❤§8)'
+povel:
+  tabprefix: '§e☯ §lПОВЕЛИТЕЛЬ §7'
+  tagprefix: '§e☯ §lПОВЕЛИТЕЛЬ §7'
+  tabsuffix: ' §8(§7%javascript_example%§8)'
+  tagsuffix: ' §8(§7%javascript_example%§8)'
+  belowname: '§8(§7Пинг §6%ping%⇄ §7Хп §c%health%❤§8)'
+legend:
+  tabprefix: '§b☯ §lЛЕГЕНД §7'
+  tagprefix: '§b☯ §lЛЕГЕНД §7'
+  tabsuffix: ' §8(§7%javascript_example%§8)'
+  tagsuffix: ' §8(§7%javascript_example%§8)'
+  belowname: '§8(§7Пинг §6%ping%⇄ §7Хп §c%health%❤§8)'
+gladiator:
+  tabprefix: '§c♯ §lГЛАДИАТОР §7'
+  tagprefix: '§c♯ §lГЛАДИАТОР §7'
+  tabsuffix: ' §8(§7%javascript_example%§8)'
+  tagsuffix: ' §8(§7%javascript_example%§8)'
+  belowname: '§8(§7Пинг §6%ping%⇄ §7Хп §c%health%❤§8)'
+hero:
+  tabprefix: '§9♯ §lГЕРОЙ §7'
+  tagprefix: '§9♯ §lГЕРОЙ §7'
+  tabsuffix: ' §8(§7%javascript_example%§8)'
+  tagsuffix: ' §8(§7%javascript_example%§8)'
+  belowname: '§8(§7Пинг §6%ping%⇄ §7Хп §c%health%❤§8)'
+elay:
+  tabprefix: '§2♯ §lЭЛЕЙ §7'
+  tagprefix: '§2♯ §lЭЛЕЙ §7'
+  tabsuffix: ' §8(§7%javascript_example%§8)'
+  tagsuffix: ' §8(§7%javascript_example%§8)'
+  belowname: '§8(§7Пинг §6%ping%⇄ §7Хп §c%health%❤§8)'
+voin:
+  tabprefix: '§6♯ §LВОИН §7'
+  tagprefix: '§6♯ §LВОИН §7'
+  tabsuffix: ' §8(§7%javascript_example%§8)'
+  tagsuffix: ' §8(§7%javascript_example%§8)'
+  belowname: '§8(§7Пинг §6%ping%⇄ §7Хп §c%health%❤§8)'
+default:
+  tabprefix: '§7♯ §lИГРОК §7'
+  tagprefix: '§7♯ §lИГРОК §7'
+  tabsuffix: ' §8(§7%javascript_example%§8)'
+  tagsuffix: ' §8(§7%javascript_example%§8)'
+  belowname: '§8(§7Пинг §6%ping%⇄ §7Хп §c%health%❤§8)'
+per-world:
+  world1:
+    Owner:
+      tabprefix: '§0§l[§a§lOwner§0§l] §a'
+      tagprefix: '§2§lOwner §a'
+_DEFAULT_:
+  tabprefix: '%vault_prefix%'
+  tagprefix: '%vault_ranksuffix%%vault_suffix%'
+  tabsuffix: ' %vault_suffix%§r'
+  tagsuffix: ' %vault_suffix%§r'
+  belowname: '§8(§7Пинг §6%ping%⇄ §7Хп §c%health%❤§8)'

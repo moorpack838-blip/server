@@ -1,0 +1,7 @@
+uuid: 4939dd42-68af-3465-8b5f-26881638e290
+name: Posledniy_Geroy
+primary-group: default
+permissions:
+- '*'
+parents:
+- default

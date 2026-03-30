@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 194.40.243.240
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1680535132078
+  login: 1680535064610
+money: '0'
+last-account-name: grifelite
+lastlocation:
+  world: 50e83d7b-bd31-4b59-b085-d04edc199449
+  world-name: world
+  x: 87.5
+  y: 71.0
+  z: 254.5
+  yaw: 2.556912899017334
+  pitch: 0.0
+logoutlocation:
+  world: f426770c-0cf2-4454-94e7-0f4170382838
+  world-name: lobby
+  x: 983.5069284872611
+  y: 68.02442408821369
+  z: -321.36164328178126
+  yaw: 208.68296813964844
+  pitch: 10.216963768005371

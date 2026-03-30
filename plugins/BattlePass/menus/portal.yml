@@ -1,0 +1,239 @@
+menu-title: '§e☀ §6§lЗИМНИЕ ИСПЫТАНИЯ §e☀ '
+menu-rows: 6
+
+menu:
+  '48':
+    item:
+      material: TNT:0
+      name: '§e☀ §6§lИНФОРМАЦИЯ §e☀'
+      lore:
+        - ''
+        - ' §fПропуск: §6%pass_type%'
+        - ''
+        - ' §fУровень: §a%tier%'
+        - ' §fКоличество очков: §a%points%§8/§6%required_points%'
+        - ''
+  '50':
+    item:
+      material: book:0
+      name: '§e☀ §6§lЧТО ТАКОЕ БОЕВОЙ ПРОПУСК? §e☀'
+      lore:
+        - ''
+        - '§8╻'
+        - '§8┃ §fБоевой пропуск §aэто §fквесты'
+        - '§8┃ §fВыполняя которые можно получать'
+        - '§8┃ §f§aуникальные§f и §aкрутые призы!'
+        - '§8╹'
+        - ''
+        - '§r§7 §e➥ §6Клик§f, чтобы открыть меню!'
+        - ''
+  '49':
+    item:
+      material: barrier:0
+      name: '§6§lВЫЙТИ'
+      lore: []
+    actions:
+      - '[menu] {close}'
+  '22':
+    item:
+      material: chest_minecart:0
+      name: '§e☀ §6§lНАГРАДЫ §e☀'
+      lore:
+        - ''
+        - '§8╻'
+        - '§8┃ §fВыполняй §aзадания §fи получай §aочки.'
+        - '§8┃ §fЗа которых вы можете получить'
+        - '§8┃ §f§aуникальные§f и §aкрутые награды!'
+        - '§8╹'
+        - ''
+        - '§r§7 §e➥ §6Клик§f, чтобы открыть меню!'
+        - ''
+    actions:
+      - '[menu] {rewards}'
+  '20':
+    item:
+      material: wood_axe:0
+      name: '§e☀ §6§lЕЖЕДНЕВНЫЕ ЗАДАНИЯ §e☀'
+      lore:
+        - ''
+        - '§8╻'
+        - '§8┃ §fВыполняя задания, вы §aбыстро §fи §aлегко'
+        - '§8┃ §fможете получать §aопыт §fи §aнаграды.'
+        - '§8┃ §fВперёд выполнять!'
+        - '§8╹'
+        - ''
+        - '§r§7 §e➥ §6Клик§f, чтобы открыть меню!'
+        - ''
+    actions:
+      - '[menu] {daily-quests}'
+  '24':
+    item:
+      material: iron_pickaxe:0
+      name: '§e☀ §6§lНЕДЕЛЬНЫЕ ЗАДАНИЯ §e☀'
+      lore:
+        - ''
+        - '§8╻'
+        - '§8┃ §fВыполняя задания, вы §aбыстро §fи §aлегко'
+        - '§8┃ §fможете получать §aопыт §fи §aнаграды.'
+        - '§8┃ §fВперёд выполнять!'
+        - '§8╹'
+        - ''
+        - '§r§7 §e➥ §6Клик§f, чтобы открыть меню!'
+        - ''
+    actions:
+      - '[menu] {quest-overview}'
+  '0':
+    item:
+      material: stained_glass_pane:4
+      name: '§7'
+      lore: []
+  '1':
+    item:
+      material: stained_glass_pane:4
+      name: '§7'
+      lore: []
+  '2':
+    item:
+      material: stained_glass_pane:1
+      name: '§7'
+      lore: []
+  '3':
+    item:
+      material: stained_glass_pane:1
+      name: '§7'
+      lore: []
+  '4':
+    item:
+      material: stained_glass_pane:1
+      name: '§7'
+      lore: []
+  '5':
+    item:
+      material: stained_glass_pane:1
+      name: '§7'
+      lore: []
+  '6':
+    item:
+      material: stained_glass_pane:1
+      name: '§7'
+      lore: []
+  '7':
+    item:
+      material: stained_glass_pane:4
+      name: '§7'
+      lore: []
+  '8':
+    item:
+      material: stained_glass_pane:4
+      name: '§7'
+      lore: []
+  '9':
+    item:
+      material: stained_glass_pane:4
+      name: '§7'
+      lore: []
+  '10':
+    item:
+      material: stained_glass_pane:1
+      name: '§7'
+      lore: []
+  '16':
+    item:
+      material: stained_glass_pane:1
+      name: '§7'
+      lore: []
+  '17':
+    item:
+      material: stained_glass_pane:4
+      name: '§7'
+      lore: []
+  '18':
+    item:
+      material: stained_glass_pane:4
+      name: '§7'
+      lore: []
+  '19':
+    item:
+      material: stained_glass_pane:7
+      name: '§7'
+      lore: []
+  '25':
+    item:
+      material: stained_glass_pane:7
+      name: '§7'
+      lore: []
+  '26':
+    item:
+      material: stained_glass_pane:4
+      name: '§7'
+      lore: []
+  '27':
+    item:
+      material: stained_glass_pane:4
+      name: '§7'
+      lore: []
+  '28':
+    item:
+      material: stained_glass_pane:7
+      name: '§7'
+      lore: []
+  '34':
+    item:
+      material: stained_glass_pane:7
+      name: '§7'
+      lore: []
+  '35':
+    item:
+      material: stained_glass_pane:4
+      name: '§7'
+      lore: []
+  '36':
+    item:
+      material: stained_glass_pane:4
+      name: '§7'
+      lore: []
+  '37':
+    item:
+      material: stained_glass_pane:1
+      name: '§7'
+      lore: []
+  '43':
+    item:
+      material: stained_glass_pane:1
+      name: '§7'
+      lore: []
+  '44':
+    item:
+      material: stained_glass_pane:4
+      name: '§7'
+      lore: []
+  '45':
+    item:
+      material: stained_glass_pane:4
+      name: '§7'
+      lore: []
+  '46':
+    item:
+      material: stained_glass_pane:4
+      name: '§7'
+      lore: []
+  '47':
+    item:
+      material: stained_glass_pane:1
+      name: '§7'
+      lore: []
+  '51':
+    item:
+      material: stained_glass_pane:1
+      name: '§7'
+      lore: []
+  '52':
+    item:
+      material: stained_glass_pane:4
+      name: '§7'
+      lore: []
+  '53':
+    item:
+      material: stained_glass_pane:4
+      name: '§7'
+      lore: []

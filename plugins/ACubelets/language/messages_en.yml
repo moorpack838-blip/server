@@ -1,0 +1,103 @@
+# 
+# 
+# This is the messsages file.
+# You can change any messages that are in this file
+# 
+# If you want to reset a message back to the default,
+# delete the entire line the message is on and restart the server.
+# 	
+#
+
+Prefix: '&6&lКЕЙСЫ&7: &f'
+
+Times:
+  Days: дней
+  Day: день
+  Hours: часов
+  Hour: час
+  Minutes: минут
+  Minute: минута
+  Seconds: секунд
+  Second: секунда
+
+Commands:
+  NoPerms: '%prefix% У вас нет прав для выполнения команды.'
+  Reload: '%prefix% &aУспешная перезагрузка.'
+  Balance:
+    Cubelets: '%prefix% &fУ вас есть &3%cubelets_available% &fкейсов для открытия.'
+    Points: '%prefix% &fУ вас есть &3%points_available% &fдоступных очков.'
+  Cubelets:
+    Give: '%prefix% &aGived &3%amount%x %cubelet% &ato &3%player%'
+    Remove:
+      Removed: '%prefix% &aRemoved &3%amount%x %cubelet% &afrom &3%player%'
+      NoBalance: '%prefix% &e%player% &cdoes not have &e%amount%x %cubelet%&c. Currently balance: &e%balance%'
+    Clear: '%prefix% &aCleared cubelets from &e%player%'
+    Gift:
+      Yourself: '%prefix% &fИзвините, но вы не можете подарить кейс самому себе.'
+      Gifted: '%prefix% &fПодарен &3%amount%x %cubelet% &fигроку &3%player%&f.'
+      Received: '%prefix% &fВам подарили &3%amount%x %cubelet% &fкейсов.'
+    GiveKey:
+      Give: '%prefix% &aGived &3%amount%x %cubelet% key(s) &ato &3%player%'
+      Received: '%prefix% &aReceived &3%amount%x %cubelet% key(s)'
+  Points:
+    Give: '%prefix% &aGived &3%amount%x Points &ato &3%player%'
+    Set: '%prefix% &aSetted &3%amount%x Points &ato &3%player%'
+    Remove:
+      Removed: '%prefix% &aRemoved &3%amount%x Points &afrom &3%player%'
+      NoBalance: '%prefix% &e%player% &cdoes not have &e%amount%x Points&c. Currently balance: &e%balance%'
+
+Cubelet:
+  LoginReminder:
+  - ''
+  - '&e%player% &ayou still have &e%amount% &acubelets to open!'
+  - ''
+  BoxInUse:
+    Me: '%prefix% Вы уже открываете данный кейс.'
+    Other: '%prefix% Игрок &e&l%player% &fсейчас уже &a&lоткрывает &fкейс.'
+  Reward:
+    Broadcast: '%prefix% &e&l%player% &agot &l%reward% &ain &e%cubelet%'
+    New:
+    - ''
+    Duplicate:
+    - ''
+    - '&fОткрытый кейс: %cubelet_type%'
+    - ''
+    - ''
+    - '&3&k|&r &fЗамена на &a%points% &fочков!'
+    - ''
+  NoCubelets:
+  - '&e╔'
+  - '&e╠ &fПриобрести кейсы, можно на сайте &e&l↷'
+  - '&e╠ &fСайт для покупки &e&lforumcraft.ru'
+  - '&e╚'
+
+Holograms:
+  CubeletAvailable:
+  - '&e&lУНИКАЛЬНЫЙ КЕЙС'
+  - '&fНажмите, чтобы открыть &e&l↷'
+  NoCubeletAvailable:
+  - '&e&lУНИКАЛЬНЫЙ КЕЙС'
+  - '&fНажмите, чтобы открыть &e&l↷'
+  Reward:
+    New:
+      Me:
+      - ' &e&lКОРОБКА УДАЧИ '
+      - ''
+      - '&fНаграда: &3%reward_name%'
+      - ''
+      - '&fПриобрести кейсы &e&l↷'
+      - '&e&l&oforumcraft.ru'
+      Other:
+      - ' &e&lКОРОБКА УДАЧИ '
+      - ''
+      - '&fНаграда: &3%reward_name%'
+      - ''
+      - '&fПриобрести кейсы &e&l↷'
+      - '&e&l&oforumcraft.ru'
+    Duplicate:
+    - ' &e&lКОРОБКА УДАЧИ '
+    - ''
+    - '&fНаграда: &3%reward_name%'
+    - ''
+    - '&fПриобрести кейсы &e&l↷'
+    - '&e&l&oforumcraft.ru'

@@ -1,0 +1,6 @@
+uuid: 60bbf838-849c-38b5-a591-d7a035d46850
+name: grifelite
+primary-group: default
+parents:
+- default
+- gladiator

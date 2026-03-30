@@ -1,0 +1,218 @@
+menu-title: '§e☀ §6§lСПИСОК НЕДЕЛЬ §e☀ '
+menu-rows: 6
+
+week-slots:
+  slots: '21...23'
+
+menu:
+  '0':
+    item:
+      material: stained_glass_pane:4
+      name: '§7'
+      lore: []
+  '1':
+    item:
+      material: stained_glass_pane:4
+      name: '§7'
+      lore: []
+  '2':
+    item:
+      material: stained_glass_pane:1
+      name: '§7'
+      lore: []
+  '3':
+    item:
+      material: stained_glass_pane:1
+      name: '§7'
+      lore: []
+  '4':
+    item:
+      material: stained_glass_pane:1
+      name: '§7'
+      lore: []
+  '5':
+    item:
+      material: stained_glass_pane:1
+      name: '§7'
+      lore: []
+  '6':
+    item:
+      material: stained_glass_pane:1
+      name: '§7'
+      lore: []
+  '7':
+    item:
+      material: stained_glass_pane:4
+      name: '§7'
+      lore: []
+  '8':
+    item:
+      material: stained_glass_pane:4
+      name: '§7'
+      lore: []
+  '9':
+    item:
+      material: stained_glass_pane:4
+      name: '§7'
+      lore: []
+  '10':
+    item:
+      material: stained_glass_pane:1
+      name: '§7'
+      lore: []
+  '16':
+    item:
+      material: stained_glass_pane:1
+      name: '§7'
+      lore: []
+  '17':
+    item:
+      material: stained_glass_pane:4
+      name: '§7'
+      lore: []
+  '18':
+    item:
+      material: stained_glass_pane:4
+      name: '§7'
+      lore: []
+  '19':
+    item:
+      material: stained_glass_pane:7
+      name: '§7'
+      lore: []
+  '25':
+    item:
+      material: stained_glass_pane:7
+      name: '§7'
+      lore: []
+  '26':
+    item:
+      material: stained_glass_pane:4
+      name: '§7'
+      lore: []
+  '27':
+    item:
+      material: stained_glass_pane:4
+      name: '§7'
+      lore: []
+  '28':
+    item:
+      material: stained_glass_pane:7
+      name: '§7'
+      lore: []
+  '34':
+    item:
+      material: stained_glass_pane:7
+      name: '§7'
+      lore: []
+  '35':
+    item:
+      material: stained_glass_pane:4
+      name: '§7'
+      lore: []
+  '36':
+    item:
+      material: stained_glass_pane:4
+      name: '§7'
+      lore: []
+  '37':
+    item:
+      material: stained_glass_pane:1
+      name: '§7'
+      lore: []
+  '43':
+    item:
+      material: stained_glass_pane:1
+      name: '§7'
+      lore: []
+  '44':
+    item:
+      material: stained_glass_pane:4
+      name: '§7'
+      lore: []
+  '45':
+    item:
+      material: stained_glass_pane:4
+      name: '§7'
+      lore: []
+  '46':
+    item:
+      material: stained_glass_pane:4
+      name: '§7'
+      lore: []
+  '47':
+    item:
+      material: stained_glass_pane:1
+      name: '§7'
+      lore: []
+  '51':
+    item:
+      material: stained_glass_pane:1
+      name: '§7'
+      lore: []
+  '52':
+    item:
+      material: stained_glass_pane:4
+      name: '§7'
+      lore: []
+  '53':
+    item:
+      material: stained_glass_pane:4
+      name: '§7'
+      lore: []
+
+
+
+
+
+
+  '48':
+    item:
+      material: spectral_arrow:0
+      name: '§e☀ §6§lНАЗАД §e☀'
+      lore:
+        - ''
+    actions:
+      - '[menu](page = 1) {portal}'
+      - '[menu](page ! 1) {previous-page}'
+  '50':
+    item:
+      material: spectral_arrow:0
+      name: '§e☀ §6§lНАЗАД §e☀'
+      lore:
+        - ''
+    actions:
+      - '[menu](page = 1) {portal}'
+      - '[menu](page ! 1) {previous-page}'
+  '49':
+    item:
+      material: barrier:0
+      name: '§e☀ §6§lВЫЙТИ §e☀'
+      lore: []
+    actions:
+      - '[menu] {close}'
+
+static-items:
+  week-item:
+    material: writable_book:0
+    name: '§e☀ §6§lНЕДЕЛЯ №%week% §e☀'
+    lore:
+      - ''
+      - '§fСтатус: %status%'
+      - ''
+      - ' §e➥ §6Клик§f, чтобы открыть меню!'
+      - ''
+  locked-week-item:
+    material: writable_book:0
+    name: '§e☀ §6§lНЕДЕЛЯ №%week% §e☀'
+    lore:
+      - ''
+      - '§aОшибка, неделя заблокирована.'
+      - ''
+  requires-previous-completion-item:
+    material: writable_book:0
+    name: '§e☀ §6§lНЕДЕЛЯ №%week% §e☀'
+    lore:
+      - ''
+      - '&aДанная неделя завершена, переходите к следующей неделе!'
+      - ''

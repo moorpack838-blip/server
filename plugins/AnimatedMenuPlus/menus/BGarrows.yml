@@ -1,0 +1,275 @@
+Menu-Name: '&0&lFC ∫ СТРЕЛЫ'
+Open-Sound: BLOCK_NOTE_XYLOPHONE
+Open-Sound-Pitch: 2
+Rows: 6
+Command: 
+  Name: arrows
+  Fallback: '123'
+Items:
+- Slot:
+  - 1, 1
+  - 1, 2 
+  - 1, 3 
+  - 1, 4 
+  - 1, 5
+  - 1, 6
+  - 2, 1
+  - 2, 6
+  - 3, 3
+  - 4, 3
+  - 6, 3
+  - 7, 3
+  - 9, 1 
+  - 9, 2 
+  - 9, 3  
+  - 9, 4 
+  - 9, 5
+  - 9, 6
+  - 8, 6
+  - 3, 1
+  - 7, 1
+  - 8, 1
+  - 3, 5
+  - 4, 5
+  - 5, 5
+  - 7, 5
+  - 6, 5
+  - 4, 1
+  - 5, 1
+  - 6, 1
+  - 9, 2
+  Material: stained_glass_pane:1:4
+  Name: '&r'
+- Slot:
+  - 3, 5
+  - 3, 6
+  - 5, 5
+  - 6, 5
+  - 4, 5
+  - 7, 6
+  - 7, 5
+  Material: stained_glass_pane:1:1
+  Name: '&r'
+- Slot: 4, 6
+  Material: 'barrier'
+  Name: '§cПУСТО'   
+  Hide-Flags: 63
+- Slot: 6, 6
+  Material: 'barrier'
+  Name: '§cПУСТО'   
+  Hide-Flags: 63
+- Slot: 5, 6
+  Material: 'arrow'
+  Name: '&4&lП&c&lЕРЕХОД'
+  Lore:
+  - ''
+  - '&e• &fВы перейдете на предыдущию страницу'   
+  - ''
+  - '&aНажми, чтобы перейти на предыдущию страницу'
+  Hide-Flags: 63
+  Commands:
+  - 'menu: BGshop'
+- Slot: 6, 2
+  Material: tipped_arrow:32:0
+  Name: '&f&LСТРЕЛЛА &7&LИССУШЕНИЯ'
+  NBT:
+    CustomPotionColor: 2981393
+  Lore:
+     - '&cИссушение IV (0:05)'
+     - '&r'    
+     - '&e• &fЦена:&e&l 255 &6Р'
+     - '&e• &fКоличество:&e 32&6 шт'
+     - '&r'
+     - '&aНажмите, чтобы купить'
+  Points: 255
+  Points-message: '&6&lМАГАЗИН&7: &fУ вас недостаточно рублей, купить можно на сайте &a&lwww.WiseGrief.fun'
+  Close: on-failure
+  Hide-Flags: 'potion_effects'
+  Commands:
+  - 'console:serveritem give arrow2 32 %player_name% serveritemlent'
+  - 'message: &6&lМАГАЗИН&7: &fВы купили предмет &aУспешно'
+- Slot: 3, 2
+  Material: tipped_arrow:32:0
+  Name: '&f&LСТРЕЛЛА &9&lУТОМЛЕНИЯ'
+  NBT:
+    CustomPotionColor: 16777215
+  Lore:
+     - '&cУтомление (0:30)'
+     - '&r'    
+     - '&e• &fЦена:&e&l 155 &6Р'
+     - '&e• &fКоличество:&e 8&32 шт'
+     - '&r'
+     - '&aНажмите, чтобы купить'
+  Points: 155
+  Script-Message: '&6&lМАГАЗИН&7: &fУ вас недостаточно рублей, купить можно на сайте &a&lForumcraft.ru'
+  Close: on-failure
+  Hide-Flags: 'potion_effects'
+  Commands:
+  - 'console:serveritem give arrow3 32 %player_name% serveritemlent'
+  - 'message: &6&lМАГАЗИН&7: &fВы купили предмет &aУспешно'
+- Slot: 4, 2
+  Material: tipped_arrow:32:0
+  Name: '&f&LСТРЕЛЛА &b&lЗАМОРОЗКИ'
+  NBT:
+    CustomPotionColor: 11377215
+  Lore:
+     - '&cЗамедление X (0:20)'
+     - '&r'    
+     - '&e• &fЦена:&e&l 345 &6Р'
+     - '&e• &fКоличество:&e 32&6 шт'
+     - '&r'
+     - '&aНажмите, чтобы купить'
+  Points: 345
+  Script-Message: '&6&lМАГАЗИН&7: &fУ вас недостаточно рублей, купить можно на сайте &a&lForumcraft.ru'
+  Close: on-failure
+  Hide-Flags: 'potion_effects'
+  Commands:
+  - 'console:serveritem give arrow4 32 %player_name% serveritemlent'
+  - 'message: &6&lМАГАЗИН&7: &fВы купили предмет &aУспешно'
+- Slot: 7, 2
+  Material: tipped_arrow:32:0
+  Name: '&f&LСТРЕЛЛА &e&lЛЕВИТАЦИИ'
+  NBT:
+    CustomPotionColor: 12109633
+  Lore:
+     - '&cЛевитация (0:10)'
+     - '&r'    
+     - '&e• &fЦена:&e&l 250 &6Р'
+     - '&e• &fКоличество:&e 32&6 шт'
+     - '&r'
+     - '&aНажмите, чтобы купить'
+  Points: 250
+  Script-Message: '&6&lМАГАЗИН&7: &fУ вас недостаточно рублей, купить можно на сайте &a&lForumcraft.ru'
+  Close: on-failure
+  Hide-Flags: 'potion_effects'
+  Commands:
+  - 'console:serveritem give arrow5 32 %player_name% serveritemlent'
+  - 'message: &6&lМАГАЗИН&7: &fВы купили предмет &aУспешно'
+- Slot: 5, 2
+  Material: tipped_arrow:32:0
+  Name: '&f&LСТРЕЛЛА &3&lСЛАБОСТИ'
+  NBT:
+    CustomPotionColor: 13129136
+  Lore:
+     - '&cСлабость II (0:25)'
+     - '&r'    
+     - '&e• &fЦена:&e&l 199 &6Р'
+     - '&e• &fКоличество:&e 32&6 шт'
+     - '&r'
+     - '&aНажмите, чтобы купить'
+  Points: 199
+  Script-Message: '&6&lМАГАЗИН&7: &fУ вас недостаточно рублей, купить можно на сайте &a&lForumcraft.ru'
+  Close: on-failure
+  Hide-Flags: 'potion_effects'
+  Commands:
+  - 'console:serveritem give arrow6 32 %player_name% serveritemlent'
+  - 'message: &6&lМАГАЗИН&7: &fВы купили предмет &aУспешно'
+- Slot: 3, 4
+  Material: tipped_arrow:6:0
+  Name: '&f&LСТРЕЛЛА &6&lЛОМАНИЯ БЛОКА'
+  NBT:
+    CustomPotionColor: 13629136
+  Lore:
+     - '&e• &fСтрела которая ломает блок при попадании'
+     - '&r'    
+     - '&e• &fЦена:&e&l 445 &6Р'
+     - '&e• &fКоличество:&e 6&6 шт'
+     - '&r'
+     - '&aНажмите, чтобы купить'
+  Points: 445
+  Script-Message: '&6&lМАГАЗИН&7: &fУ вас недостаточно рублей, купить можно на сайте &a&lForumcraft.ru'
+  Close: on-failure
+  Hide-Flags: 'potion_effects'
+  Commands:
+  - 'console:cookiearrows give %player_name% BREAK 6'
+  - 'message: &6&lМАГАЗИН&7: &fВы купили предмет &aУспешно'
+- Slot: 4, 4
+  Material: tipped_arrow:10:0
+  Name: '&f&LСТРЕЛЛА &6&lТЕЛЕПОРТ ВВЕРХ'
+  NBT:
+    CustomPotionColor: 15429136
+  Lore:
+     - '&e• &fСтрела которая тепает вверх'
+     - '&r'    
+     - '&e• &fЦена:&e&l 650 &6Р'
+     - '&e• &fКоличество:&e 10&6 шт'
+     - '&r'
+     - '&aНажмите, чтобы купить'
+  Points: 650
+  Script-Message: '&6&lМАГАЗИН&7: &fУ вас недостаточно рублей, купить можно на сайте &a&lForumcraft.ru'
+  Close: on-failure
+  Hide-Flags: 'potion_effects'
+  Commands:
+  - 'console:cookiearrows give %player_name% toptp 10'
+  - 'message: &6&lМАГАЗИН&7: &fВы купили предмет &aУспешно'
+- Slot: 5, 4
+  Material: tipped_arrow:8:0
+  Name: '&f&LСТРЕЛЛА &6&lБРОНЕБОЙНАЯ'
+  NBT:
+    CustomPotionColor: 14129136
+  Lore:
+     - '&e• &fСтрела которая наносит огромный урон в броне'
+     - '&r'    
+     - '&e• &fЦена:&e&l 450 &6Р'
+     - '&e• &fКоличество:&e 8&6 шт'
+     - '&r'
+     - '&aНажмите, чтобы купить'
+  Points: 450
+  Script-Message: '&6&lМАГАЗИН&7: &fУ вас недостаточно рублей, купить можно на сайте &a&lForumcraft.ru'
+  Close: on-failure
+  Hide-Flags: 'potion_effects'
+  Commands:
+  - 'console:cookiearrows give %player_name% armor 8'
+  - 'message: &6&lМАГАЗИН&7: &fВы купили предмет &aУспешно'
+- Slot: 6, 4
+  Material: tipped_arrow:12:0
+  Name: '&f&LСТРЕЛЛА &6&lТЕЛЕПОРТ'
+  NBT:
+    CustomPotionColor: 11229136
+  Lore:
+     - '&e• &fТелепортирует на место стрелы'
+     - '&r'    
+     - '&e• &fЦена:&e&l 750 &6Р'
+     - '&e• &fКоличество:&e 12&6 шт'
+     - '&r'
+     - '&aНажмите, чтобы купить'
+  Points: 750
+  Script-Message: '&6&lМАГАЗИН&7: &fУ вас недостаточно рублей, купить можно на сайте &a&lForumcraft.ru'
+  Close: on-failure
+  Hide-Flags: 'potion_effects'
+  Commands:
+  - 'console:cookiearrows give %player_name% teleport 12'
+  - 'message: &6&lМАГАЗИН&7: &fВы купили предмет &aУспешно'
+- Slot: 7, 4
+  Material: tipped_arrow:5:0
+  Name: '&f&LСТРЕЛЛА &6&lМУЛЬТИ'
+  NBT:
+    CustomPotionColor: 12929136
+  Lore:
+     - '&e• &fСтреляет 5 стрелами'
+     - '&r'    
+     - '&e• &fЦена:&e&l 575 &6Р'
+     - '&e• &fКоличество:&e 5&6 шт'
+     - '&r'
+     - '&aНажмите, чтобы купить'
+  Points: 575
+  Script-Message: '&6&lМАГАЗИН&7: &fУ вас недостаточно рублей, купить можно на сайте &a&lForumcraft.ru'
+  Close: on-failure
+  Hide-Flags: 'potion_effects'
+  Commands:
+  - 'console:cookiearrows give %player_name% multishoot 5'
+  - 'message: &6&lМАГАЗИН&7: &fВы купили предмет &aУспешно'
+- Slot: 5, 3
+  Material: tipped_arrow
+  NBT:
+    CustomPotionColor: 13697068
+  Name: '&e↬ &6&lУНИКАЛЬНЫЕ СТРЕЛЫ &e↫'
+  Lore:
+  - ''
+  - '&e╔ §fРаздел &6уникальных стрел&f, который'
+  - '&e╚ §fТебе поможет, убить &6противника&f'   
+  - ''
+  - '&aНажми, чтобы закрыть меню'
+  - ''   
+  Commands:
+  - 'menu: unicarrows'

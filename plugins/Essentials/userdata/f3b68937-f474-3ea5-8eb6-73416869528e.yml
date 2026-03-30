@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 37.25.98.144
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1680631166887
+  login: 1680630689550
+money: '0'
+last-account-name: Banan4ikYT
+lastlocation:
+  world: 50e83d7b-bd31-4b59-b085-d04edc199449
+  world-name: world
+  x: 96.5
+  y: 81.0
+  z: 261.5
+  yaw: 4.912293910980225
+  pitch: 0.0
+logoutlocation:
+  world: f426770c-0cf2-4454-94e7-0f4170382838
+  world-name: lobby
+  x: 1001.4195090258265
+  y: 68.0
+  z: -286.8235403137
+  yaw: 200.8379364013672
+  pitch: 27.37701988220215

@@ -1,0 +1,231 @@
+quests:
+  1:
+    name: 'Головорез'
+    type: kill-player
+    variable: none
+    required-progress: 320
+    points: 350
+    item:
+      material: book:0
+      amount: 1
+      name: '§6§lНЕДЕЛЬНОЕ ЗАДАНИЕ'
+      lore:
+        - ''
+        - '&6&lИНФОРМАЦИЯ:'
+        - ''
+        - '&fЗадание: &aГоловорез'
+        - '&fОпыт: &6350'
+        - '§fПрогресс: §e%total_progress%§8/§e%required_progress% &f[&7%progress_bar%&f] &7| &e%percentage_progress%&f'
+        - ''
+        - ''
+        - '&6&lЦЕЛЬ:'
+        - ''
+        - '&f- Убить &6%required_progress% &fигроков'
+        - ''
+  2:
+    name: 'Укротитель'
+    type: kill-mob
+    variable: enderman:0
+    required-progress: 128
+    points: 400
+    item:
+      material: book:0
+      amount: 1
+      name: '§6§lНЕДЕЛЬНОЕ ЗАДАНИЕ'
+      lore:
+        - ''
+        - '&6&lИНФОРМАЦИЯ:'
+        - ''
+        - '&fЗадание: &aУкротитель'
+        - '&fОпыт: &6400'
+        - '§fПрогресс: §e%total_progress%§8/§e%required_progress% &f[&7%progress_bar%&f] &7| &e%percentage_progress%&f'
+        - ''
+        - ''
+        - '&6&lЦЕЛЬ:'
+        - ''
+        - '&f- Убить &6%required_progress% &fэндерменов'
+        - ''
+  3:
+    name: 'Астрал'
+    type: kill-mob
+    variable: shulker:0
+    required-progress: 200
+    points: 250
+    item:
+      material: book:0
+      amount: 1
+      name: '§6§lНЕДЕЛЬНОЕ ЗАДАНИЕ'
+      lore:
+        - ''
+        - '&6&lИНФОРМАЦИЯ:'
+        - ''
+        - '&fЗадание: &aАстрал'
+        - '&fОпыт: &6250'
+        - '§fПрогресс: §e%total_progress%§8/§e%required_progress% &f[&7%progress_bar%&f] &7| &e%percentage_progress%&f'
+        - ''
+        - ''
+        - '&6&lЦЕЛЬ:'
+        - ''
+        - '&f- Убить &6%required_progress% &fшалкеров'
+        - ''
+  4:
+    name: 'Потрошитель'
+    type: kill-mob
+    variable: zombie_villager:0
+    required-progress: 32
+    points: 200
+    item:
+      material: book:0
+      amount: 1
+      name: '§6§lНЕДЕЛЬНОЕ ЗАДАНИЕ'
+      lore:
+        - ''
+        - '&6&lИНФОРМАЦИЯ:'
+        - ''
+        - '&fЗадание: &aПотрошитель'
+        - '&fОпыт: &6200'
+        - '§fПрогресс: §e%total_progress%§8/§e%required_progress% &f[&7%progress_bar%&f] &7| &e%percentage_progress%&f'
+        - ''
+        - ''
+        - '&6&lЦЕЛЬ:'
+        - ''
+        - '&f- Убить &6%required_progress% &fзомби-крестьянина'
+        - ''
+  5:
+    name: 'Арбузный магнат'
+    type: block-break
+    variable: melon_block:0
+    required-progress: 250
+    points: 500
+    item:
+      material: book:0
+      amount: 1
+      name: '§6§lНЕДЕЛЬНОЕ ЗАДАНИЕ'
+      lore:
+        - ''
+        - '&6&lИНФОРМАЦИЯ:'
+        - ''
+        - '&fЗадание: &aАрбузный магнат'
+        - '&fОпыт: &6500'
+        - '§fПрогресс: §e%total_progress%§8/§e%required_progress% &f[&7%progress_bar%&f] &7| &e%percentage_progress%&f'
+        - ''
+        - ''
+        - '&6&lЦЕЛЬ:'
+        - ''
+        - '&f- Добыть &6%required_progress% &fарбуза'
+        - ''
+  6:
+    name: 'Тыквенный магнат'
+    type: block-break
+    variable: PUMPKIN:0
+    required-progress: 400
+    points: 350
+    item:
+      material: book:0
+      amount: 1
+      name: '§6§lНЕДЕЛЬНОЕ ЗАДАНИЕ'
+      lore:
+        - ''
+        - '&6&lИНФОРМАЦИЯ:'
+        - ''
+        - '&fЗадание: &aТыквенный магнат'
+        - '&fОпыт: &6350'
+        - '§fПрогресс: §e%total_progress%§8/§e%required_progress% &f[&7%progress_bar%&f] &7| &e%percentage_progress%&f'
+        - ''
+        - ''
+        - '&6&lЦЕЛЬ:'
+        - ''
+        - '&f- Добыть &6%required_progress% &fтыкв'
+        - ''
+  7:
+    name: 'Общительный'
+    type: chat
+    variable: none:0
+    required-progress: 1000
+    points: 300
+    item:
+      material: book:0
+      amount: 1
+      name: '§6§lНЕДЕЛЬНОЕ ЗАДАНИЕ'
+      lore:
+        - ''
+        - '&6&lИНФОРМАЦИЯ:'
+        - ''
+        - '&fЗадание: &aОбщительный'
+        - '&fОпыт: &6300'
+        - '§fПрогресс: §e%total_progress%§8/§e%required_progress% &f[&7%progress_bar%&f] &7| &e%percentage_progress%&f'
+        - ''
+        - ''
+        - '&6&lЦЕЛЬ:'
+        - ''
+        - '&f- Написать &6%required_progress% &fраз в чат'
+        - ''
+  8:
+    name: 'Адский вояка'
+    type: block-break
+    variable: netherrack:0
+    required-progress: 3200
+    points: 250
+    item:
+      material: book:0
+      amount: 1
+      name: '§6§lНЕДЕЛЬНОЕ ЗАДАНИЕ'
+      lore:
+        - ''
+        - '&6&lИНФОРМАЦИЯ:'
+        - ''
+        - '&fЗадание: &aАдский вояка'
+        - '&fОпыт: &6250'
+        - '§fПрогресс: §e%total_progress%§8/§e%required_progress% &f[&7%progress_bar%&f] &7| &e%percentage_progress%&f'
+        - ''
+        - ''
+        - '&6&lЦЕЛЬ:'
+        - ''
+        - '&f- Добыть &6%required_progress% &fнезерита'
+        - ''
+  9:
+    name: 'Хрупкий'
+    type: smelt
+    variable: glass:0
+    required-progress: 32
+    points: 50
+    item:
+      material: book:0
+      amount: 1
+      name: '§6§lНЕДЕЛЬНОЕ ЗАДАНИЕ'
+      lore:
+        - ''
+        - '&6&lИНФОРМАЦИЯ:'
+        - ''
+        - '&fЗадание: &aХрупкий'
+        - '&fОпыт: &650'
+        - '§fПрогресс: §e%total_progress%§8/§e%required_progress% &f[&7%progress_bar%&f] &7| &e%percentage_progress%&f'
+        - ''
+        - ''
+        - '&6&lЦЕЛЬ:'
+        - ''
+        - '&f- Переплавить &6%required_progress% &fпеска'
+        - ''
+  10:
+    name: 'Коллекционер'
+    type: block-break
+    variable: emerald_ore:0
+    required-progress: 32
+    points: 350
+    item:
+      material: book:0
+      amount: 1
+      name: '§6§lНЕДЕЛЬНОЕ ЗАДАНИЕ'
+      lore:
+        - ''
+        - '&6&lИНФОРМАЦИЯ:'
+        - ''
+        - '&fЗадание: &aКоллекционер'
+        - '&fОпыт: &6350'
+        - '§fПрогресс: §e%total_progress%§8/§e%required_progress% &f[&7%progress_bar%&f] &7| &e%percentage_progress%&f'
+        - ''
+        - ''
+        - '&6&lЦЕЛЬ:'
+        - ''
+        - '&f- Добыть &6%required_progress% &fизумрудной руды'
+        - ''

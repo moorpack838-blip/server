@@ -1,0 +1,125 @@
+#
+# This is the gui layout file.
+# You can change any messages that are in this file
+#
+# If you want to reset a message back to the default,
+# delete the entire line the message is on and restart the server.
+#
+# IMPORTANT: Slots numbers between 1-9, if not, the plugin will crash
+#
+
+Layout:
+
+  # GUI Title
+  Title: §0§lFC ∫ КЕЙСЫ
+
+  # GUI rows options
+  Size:
+    # Max rows of cubelets, (1 to 5) 1 row reserved to navigation buttons
+    Max-Cubelets-Rows: 5
+    # If gui size is resizable or fixed size
+    Dynamic: false
+
+  # GUI items
+  Items:
+
+    # Close item
+    Close:
+      Name: '&cЗакрыть'
+      Material: REDSTONE_BLOCK
+      Slot: 3
+      Lore: []
+
+    # Item when you dont have any cubelets
+    # Slot only works if you have dinamic gui size disabled, with this enabled, slot is always 0
+    NoCubelets:
+      Name: '&c&lУ ВАС НЕТ &4&lК&c&lЕЙСОВ'
+      Material: BARRIER
+      Slot: 22
+      Lore:
+      - ''
+      - '&e╔'
+      - '&e╠ &fУ вас &eотсутствуют&f какие либо &eкейсы'
+      - '&e╠ &fИх можно &eкупить&f на сайте: &e&lForumCraft.ru'
+      - '&e╚'
+
+    # Item to order cubelets by date or type
+    Ordered:
+      Enabled: true
+      Slot: 1
+      Type:
+        Name: '&eСортировка &5&l#1'
+        Material: GLOWSTONE_DUST
+        Lore:
+        - ''
+        - '&fСортирует ваши кейсы в меню &f&o(по типу)'
+        - ''
+        - '&5&l↳ &eНажмите для сортировки.'
+        - ''
+      Date:
+        Name: '&eСортировка &5&l#2'
+        Material: GUNPOWDER
+        Lore:
+        - ''
+        - '&fСортирует ваши кейсы в меню &f&o(по дате получения)'
+        - ''
+        - '&5&l↳ &eНажмите для сортировки.'
+        - ''
+
+    # Item to open crafting GUI
+    Crafting:
+      Name: '&eСоздание кейсов'
+      Material: CRAFTING_TABLE
+      Slot: 3
+      Lore:
+      - ''
+      - '&f Здесь вы можете сделать кейсы получше,'
+      - '&f добавив им бонусы и более хороший дроп.'
+      - ''
+      - '&f Приобрести кейсы/привилегии » &e&lForumCraft.ru'
+      - ''
+      - '&a ► Нажмите для крафтинга...'
+      - ''
+
+    # Item to select your cubelet opening animation
+    Animations:
+      Name: '&eАнимации'
+      Material: REDSTONE
+      Slot: 3
+      Lore:
+      - ''
+      - '&f Здесь вы можете выбрать анимацию,'
+      - '&f отображающаяся при открытии кейса.'
+      - ''
+      - '&f Приобрести кейсы/привилегии » &e&lForumCraft.ru'
+      - ''
+      - '&a ► Нажмите, чтобы выбрать анимацию...'
+      - ''
+
+    # Item to gift cubelets, only shown if gift command is enabled
+    Gift:
+      Name: '&eПодарить кейс'
+      Slot: 2
+      Lore:
+      - ''
+      - '&f Здесь вы можете подарить кейс своему'
+      - '&f другу или рандомному игроку.'
+      - ''
+      - '&f Приобрести кейсы/привилегии » &e&lForumCraft.ru'
+      - ''
+      - '&a ► Нажмите, чтобы подарить...'
+      - ''
+
+    # Next page item
+    NextPage:
+      Name: '&fСледующая страница →'
+      Material: ARROW
+      Slot: 6
+      ShowPageNumber: false
+
+    # Previous page item
+    PreviousPage:
+      Name: '&f← Предыдущая страница'
+      Material: ARROW
+      Slot: 4
+      ShowPageNumber: false

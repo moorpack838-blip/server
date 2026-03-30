@@ -1,0 +1,117 @@
+Menu-Name: '&0&lFC ∫ ТИТУЛЫ ∫ ПОВЕЛИТЕЛЬ'
+Open-Sound: BLOCK_NOTE_XYLOPHONE
+Open-Sound-Pitch: 2
+Rows: 6
+Command: 
+  Name: dragontitul
+  Fallback: '123'
+Items:
+- Slot:
+  - 1, 1
+  - 1, 2 
+  - 1, 3 
+  - 1, 4 
+  - 1, 5
+  - 1, 6
+  - 2, 1
+  - 2, 6
+  - 9, 1 
+  - 9, 2 
+  - 9, 3  
+  - 9, 4 
+  - 9, 5
+  - 9, 6
+  - 8, 6
+  - 8, 1
+  - 9, 2
+  Material: stained_glass_pane:1:4
+  Name: '&r'
+- Slot:
+  - 2, 5
+  - 2, 2
+  - 3, 1
+  - 4, 1
+  - 5, 1
+  - 6, 1
+  - 7, 1
+  - 8, 2
+  - 3, 6
+  - 7, 6
+  - 8, 5
+  Material: stained_glass_pane:1:1
+  Name: '&r'
+- Slot:
+  - 2, 3
+  - 2, 4
+  - 8, 3 
+  - 8, 4
+  Material: stained_glass_pane:1:7
+  Name: '&r'
+- Slot: 4, 6
+  Material: 'barrier'
+  Name: '§cПУСТО'   
+  Hide-Flags: 63
+- Slot: 6, 6
+  Material: 'barrier'
+  Name: '§cПУСТО'   
+  Hide-Flags: 63
+  Name: '&r'
+- Slot: 5, 6
+  Material: 'arrow'
+  Name: '&4&lП&c&lЕРЕХОД'
+  Lore:
+  - ''
+  - '&e• &fВы перейдете на предыдущию страницу'   
+  - ''
+  - '&aНажми, чтобы перейти на предыдущию страницу'
+  Hide-Flags: 63
+  Commands:
+  - 'menu: suffixdon'
+  
+  ##############################################################
+
+
+
+
+- Slot: 4, 3 #число, строка
+  Material: record_6
+  Name: ' &b&nСнежанна ☡'
+  Lore:
+  - ''
+  - '&e• &fКликай чтобы &aустановить&7 себе суффикс!'
+  - '&e• &fНету этой привилегии? Не бена!'
+  - '&e• &fПокупать на сайте: &e&lForumcraft.ru'
+  - ''
+  - '&aНажми, пкм чтобы поставить титул'
+  Permission: 'group.povel'
+  Permission-message: '&6&lМАГАЗИН:&f Недостаточно прав на это!'
+  Commands:
+  - 'console: lp user %player_name% meta setsuffix "&b&nСнежанна ☡"'
+- Slot: 5, 3 #число, строка
+  Material: record_6
+  Name: ' &b&nМамочка ☡'
+  Lore:
+  - ''
+  - '&e• &fКликай чтобы &aустановить&7 себе суффикс!'
+  - '&e• &fНету этой привилегии? Не бена!'
+  - '&e• &fПокупать на сайте: &e&lForumcraft.ru'
+  - ''
+  - '&aНажми, пкм чтобы поставить титул'
+  Permission: 'group.povel'
+  Permission-message: '&6&lМАГАЗИН:&f Недостаточно прав на это!'
+  Commands:
+  - 'console: lp user %player_name% meta setsuffix "&b&nМамочка ☡"'
+- Slot: 6, 3 #число, строка
+  Material: record_6
+  Name: ' &b&nСфинкс ☡'
+  Lore:
+  - ''
+  - '&e• &fКликай чтобы &aустановить&7 себе суффикс!'
+  - '&e• &fНету этой привилегии? Не бена!'
+  - '&e• &fПокупать на сайте: &e&lForumcraft.ru'
+  - ''
+  - '&aНажми, пкм чтобы поставить титул'
+  Permission: 'group.povel'
+  Permission-message: '&6&lМАГАЗИН:&f Недостаточно прав на это!'
+  Commands:
+  - 'console: lp user %player_name% meta setsuffix "&b&nСфинкс ☡"'

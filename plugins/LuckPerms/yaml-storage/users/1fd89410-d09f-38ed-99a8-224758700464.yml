@@ -1,0 +1,12 @@
+uuid: 1fd89410-d09f-38ed-99a8-224758700464
+name: CrazyBoy
+primary-group: default
+parents:
+- default
+- elay
+- gladiator
+- hero
+- voin
+suffixes:
+- '&r&nФАНАТ ДИМЫ ☡':
+    priority: 1

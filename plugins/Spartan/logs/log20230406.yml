@@ -1,0 +1,139 @@
+(1)[2023/04/06 16:04:13]: '[Spartan Build 411.1-10352/-9280289409] 1zi4ka failed Speed
+  (VL: 1) [(Version: Paper 1.12), (C-V: 3) (Silent: false), (Ping: 133ms), (TPS: 19.932),
+  (Plib: true), (Online: 1), (t: normal, reason: air, d: 0.6098219212869759, dm: 0.3675,
+  dm_s: 0.3675, dy: 0.5, a: 0)]'
+(2)[2023/04/06 16:04:13]: '[Spartan Build 411.1-10352/-9280289409] 1zi4ka failed Speed
+  (VL: 2) [(Version: Paper 1.12), (C-V: 3) (Silent: false), (Ping: 133ms), (TPS: 19.932),
+  (Plib: true), (Online: 1), (t: air(decreased), d: 0.3802461508284154)]'
+(3)[2023/04/06 16:04:13]: '[Spartan Build 411.1-10352/-9280289409] 1zi4ka failed Speed
+  (VL: 3) [(Version: Paper 1.12), (C-V: 3) (Silent: false), (Ping: 133ms), (TPS: 19.932),
+  (Plib: true), (Online: 1), (t: normal, reason: air, d: 0.370524021848883, dm: 0.3675,
+  dm_s: 0.3675, dy: 0.24813599859093927, a: 2)]'
+(4)[2023/04/06 16:05:41]: '[Spartan Build 411.1-10352/-9280289409] 1zi4ka failed Speed
+  (VL: 1) [(Version: Paper 1.12), (C-V: 3) (Silent: false), (Ping: 144ms), (TPS: 19.948),
+  (Plib: true), (Online: 1), (t: normal, reason: ypos, d: 0.8472663706516707, dm:
+  0.68, dm_s: 0.68, dy: 0.41999998688697815, a: 0)]'
+(5)[2023/04/06 16:05:41]: '[Spartan Build 411.1-10352/-9280289409] 1zi4ka failed Speed
+  (VL: 2) [(Version: Paper 1.12), (C-V: 3) (Silent: false), (Ping: 144ms), (TPS: 19.932),
+  (Plib: true), (Online: 1), (t: normal, reason: air, d: 0.48710749839910533, dm:
+  0.3675, dm_s: 0.3675, dy: 0.33319999363422426, a: 1)]'
+(6)[2023/04/06 16:05:41]: '[Spartan Build 411.1-10352/-9280289409] 1zi4ka failed Speed
+  (VL: 3) [(Version: Paper 1.12), (C-V: 3) (Silent: false), (Ping: 144ms), (TPS: 19.928),
+  (Plib: true), (Online: 1), (t: air(decreased), d: 0.46676780497997594)]'
+(7)[2023/04/06 16:07:31]: '[Spartan Build 411.1-10352/-9280289409] 1zi4ka failed IrregularMovements
+  (VL: 1) [(Version: Paper 1.12), (C-V: 4) (Silent: false), (Ping: 148ms), (TPS: 19.9),
+  (Plib: true), (Online: 1), (t: jump(illegal), d: 0.33319999363422426, od: 0.41999998688697815,
+  a: 22, r: 0.7531999805212024, c: (jump movement must remain on ground), diff: 0.025075993252753892,
+  f: false)]'
+(8)[2023/04/06 16:07:33]: '[Spartan Build 411.1-10352/-9280289409] 1zi4ka failed Fly
+  (VL: 1) [(Version: Paper 1.12), (C-V: 4) (Silent: false), (Ping: 148ms), (TPS: 19.872),
+  (Plib: true), (Online: 1), (t: calculated, d: -0.22768848754498094, ds: 0.07535330069443091,
+  diff: 0.03712730069443092, a: 53, r: 0.7967356006687112, e: false)]'
+(9)[2023/04/06 16:07:33]: '[Spartan Build 411.1-10352/-9280289409] 1zi4ka failed Fly
+  (VL: 2) [(Version: Paper 1.12), (C-V: 4) (Silent: false), (Ping: 148ms), (TPS: 19.833),
+  (Plib: true), (Online: 1), (t: calculated, d: -0.3015347236627832, ds: 0.07384623611780228,
+  diff: 0.036378236117802276, a: 54, r: 0.49520087700592796, e: false)]'
+(10)[2023/04/06 16:07:33]: '[Spartan Build 411.1-10352/-9280289409] 1zi4ka failed
+  Fly (VL: 3) [(Version: Paper 1.12), (C-V: 4) (Silent: false), (Ping: 148ms), (TPS:
+  19.876), (Plib: true), (Online: 1), (t: calculated, d: -0.15233518685055003, ds:
+  0.07990738317010937, diff: 0.05001938317010937, a: 64, r: 0.02442408821369213, e:
+  false)]'
+(11)[2023/04/06 16:07:33]: '[Spartan Build 411.1-10352/-9280289409] 1zi4ka failed
+  Fly (VL: 4) [(Version: Paper 1.12), (C-V: 4) (Silent: false), (Ping: 148ms), (TPS:
+  19.872), (Plib: true), (Online: 1), (t: calculated, d: -0.3739040364667261, ds:
+  0.07236931280394288, diff: 0.044755312803942876, a: 67, r: 0.12129684053920187,
+  e: false)]'
+(12)[2023/04/06 16:08:30]: '[Spartan Build 411.1-10352/-9280289409] 1zi4ka failed
+  Speed (VL: 1) [(Version: Paper 1.12), (C-V: 3) (Silent: false), (Ping: 149ms), (TPS:
+  19.92), (Plib: true), (Online: 1), (t: normal, reason: air, d: 1.3057259456668344,
+  dm: 0.3675, dm_s: 0.3675, dy: -0.3015347236627832, a: 9)]'
+(13)[2023/04/06 16:08:31]: '[Spartan Build 411.1-10352/-9280289409] 1zi4ka failed
+  Speed (VL: 2) [(Version: Paper 1.12), (C-V: 3) (Silent: false), (Ping: 150ms), (TPS:
+  19.928), (Plib: true), (Online: 1), (t: normal, reason: air, d: 1.2924446462083752,
+  dm: 0.3675, dm_s: 0.3675, dy: 0.08307781780646906, a: 3)]'
+(14)[2023/04/06 16:08:32]: '[Spartan Build 411.1-10352/-9280289409] 1zi4ka failed
+  Speed (VL: 3) [(Version: Paper 1.12), (C-V: 3) (Silent: false), (Ping: 150ms), (TPS:
+  19.924), (Plib: true), (Online: 1), (t: air(decreased), d: 1.2823278742772457)]'
+(15)[2023/04/06 16:08:32]: '[Spartan Build 411.1-10352/-9280289409] 1zi4ka failed
+  Speed (VL: 4) [(Version: Paper 1.12), (C-V: 3) (Silent: false), (Ping: 150ms), (TPS:
+  19.936), (Plib: true), (Online: 1), (t: normal, reason: air, d: 1.2031340259768535,
+  dm: 0.3675, dm_s: 0.3675, dy: 0.0, a: 1)]'
+(16)[2023/04/06 16:08:32]: '[Spartan Build 411.1-10352/-9280289409] 1zi4ka failed
+  Speed (VL: 5) [(Version: Paper 1.12), (C-V: 3) (Silent: false), (Ping: 150ms), (TPS:
+  19.92), (Plib: true), (Online: 1), (t: normal, reason: ground, d: 1.195490013249344,
+  dm: 0.3675, dm_s: 0.3675, dy: 0.0, a: 0)]'
+(17)[2023/04/06 16:08:33]: '[Spartan Build 411.1-10352/-9280289409] 1zi4ka failed
+  Clip (VL: 1) [(Version: Paper 1.12), (C-V: -2) (Silent: false), (Ping: 150ms), (TPS:
+  19.92), (Plib: true), (Online: 1), (t: instant, d: 0.5783749999999941, l: 0.47,
+  r: down, a: 2)]'
+(18)[2023/04/06 16:11:19]: '[Spartan Build 411.1-10352/-9280289409] 1zi4ka failed
+  Speed (VL: 1) [(Version: Paper 1.12), (C-V: 3) (Silent: false), (Ping: 150ms), (TPS:
+  19.88), (Plib: true), (Online: 1), (t: normal, reason: ypos, d: 0.8453728892137579,
+  dm: 0.68, dm_s: 0.68, dy: 0.41999998688697815, a: 0)]'
+(19)[2023/04/06 16:11:19]: '[Spartan Build 411.1-10352/-9280289409] 1zi4ka failed
+  Speed (VL: 2) [(Version: Paper 1.12), (C-V: 3) (Silent: false), (Ping: 150ms), (TPS:
+  19.908), (Plib: true), (Online: 1), (t: normal, reason: air, d: 0.4870536043910002,
+  dm: 0.3675, dm_s: 0.3675, dy: 0.33319999363422426, a: 0)]'
+(20)[2023/04/06 16:11:19]: '[Spartan Build 411.1-10352/-9280289409] 1zi4ka failed
+  Speed (VL: 3) [(Version: Paper 1.12), (C-V: 3) (Silent: false), (Ping: 150ms), (TPS:
+  19.9), (Plib: true), (Online: 1), (t: air(decreased), d: 0.46869823395894383)]'
+(21)[2023/04/06 16:11:19]: '[Spartan Build 411.1-10352/-9280289409] 1zi4ka failed
+  Speed (VL: 4) [(Version: Paper 1.12), (C-V: 3) (Silent: false), (Ping: 150ms), (TPS:
+  19.912), (Plib: true), (Online: 1), (t: normal, reason: air, d: 0.9360329174353004,
+  dm: 0.3675, dm_s: 0.3675, dy: 0.07837499999999409, a: 0)]'
+(22)[2023/04/06 16:11:20]: '[Spartan Build 411.1-10352/-9280289409] 1zi4ka failed
+  Speed (VL: 5) [(Version: Paper 1.12), (C-V: 3) (Silent: false), (Ping: 150ms), (TPS:
+  19.916), (Plib: true), (Online: 1), (t: normal, reason: walking, d: 0.9361002038226218,
+  dm: 0.3675, dm_s: 0.3675, dy: 0.07837499999999409, a: 0)]'
+(23)[2023/04/06 16:11:51]: '[Spartan Build 411.1-10352/-9280289409] 1zi4ka failed
+  Speed (VL: 6) [(Version: Paper 1.12), (C-V: 3) (Silent: false), (Ping: 161ms), (TPS:
+  19.833), (Plib: true), (Online: 1), (t: hop(illegal), d: 0.20765865981771173, dm:
+  0.3675)]'
+(24)[2023/04/06 16:12:03]: '[Spartan Build 411.1-10352/-9280289409] 1zi4ka failed
+  Speed (VL: 7) [(Version: Paper 1.12), (C-V: 3) (Silent: false), (Ping: 159ms), (TPS:
+  19.916), (Plib: true), (Online: 1), (t: normal, reason: ground, d: 0.5660631431139275,
+  dm: 0.525, dm_s: 0.525, dy: 0.0, a: 0)]'
+(25)[2023/04/06 16:12:03]: '[Spartan Build 411.1-10352/-9280289409] 1zi4ka failed
+  Speed (VL: 8) [(Version: Paper 1.12), (C-V: 3) (Silent: false), (Ping: 159ms), (TPS:
+  19.872), (Plib: true), (Online: 1), (t: normal, reason: air, d: 1.033717806581397,
+  dm: 0.525, dm_s: 0.525, dy: 0.07837499999999409, a: 5)]'
+(26)[2023/04/06 16:12:03]: '[Spartan Build 411.1-10352/-9280289409] 1zi4ka failed
+  Speed (VL: 9) [(Version: Paper 1.12), (C-V: 3) (Silent: false), (Ping: 159ms), (TPS:
+  19.88), (Plib: true), (Online: 1), (t: normal, reason: walking, d: 0.9317978232177013,
+  dm: 0.525, dm_s: 0.525, dy: 0.07837499999999409, a: 0)]'
+(27)[2023/04/06 16:12:04]: '[Spartan Build 411.1-10352/-9280289409] 1zi4ka failed
+  Speed (VL: 10) [(Version: Paper 1.12), (C-V: 3) (Silent: false), (Ping: 159ms),
+  (TPS: 19.872), (Plib: true), (Online: 1), (t: normal, reason: walking, d: 1.033717806581397,
+  dm: 0.525, dm_s: 0.525, dy: 0.07837499999999409, a: 0)]'
+(28)[2023/04/06 16:12:04]: '[Spartan Build 411.1-10352/-9280289409] 1zi4ka failed
+  Speed (VL: 11) [(Version: Paper 1.12), (C-V: 3) (Silent: false), (Ping: 159ms),
+  (TPS: 19.872), (Plib: true), (Online: 1), (t: normal, reason: walking, d: 0.9317965608052361,
+  dm: 0.525, dm_s: 0.525, dy: 0.07837499999999409, a: 0)]'
+(29)[2023/04/06 16:12:04]: '[Spartan Build 411.1-10352/-9280289409] 1zi4ka was kicked
+  for Speed'
+(30)[2023/04/06 16:12:19]: '[Spartan Build 411.1-10352/-9280289409] 1zi4ka failed
+  Speed (VL: 1) [(Version: Paper 1.12), (C-V: 3) (Silent: false), (Ping: 0ms), (TPS:
+  19.88), (Plib: true), (Online: 1), (t: normal, reason: ypos, d: 0.790496308074983,
+  dm: 0.68, dm_s: 0.68, dy: 0.41999998688697815, a: 0)]'
+(31)[2023/04/06 16:12:19]: '[Spartan Build 411.1-10352/-9280289409] 1zi4ka failed
+  Speed (VL: 2) [(Version: Paper 1.12), (C-V: 3) (Silent: false), (Ping: 0ms), (TPS:
+  19.884), (Plib: true), (Online: 1), (t: normal, reason: air, d: 0.4542889504652264,
+  dm: 0.3675, dm_s: 0.3675, dy: 0.33319999363422426, a: 1)]'
+(32)[2023/04/06 16:12:19]: '[Spartan Build 411.1-10352/-9280289409] 1zi4ka failed
+  Speed (VL: 3) [(Version: Paper 1.12), (C-V: 3) (Silent: false), (Ping: 0ms), (TPS:
+  19.88), (Plib: true), (Online: 1), (t: air(decreased), d: 0.43643487211938076)]'
+(33)[2023/04/06 16:12:19]: '[Spartan Build 411.1-10352/-9280289409] 1zi4ka failed
+  Speed (VL: 4) [(Version: Paper 1.12), (C-V: 3) (Silent: false), (Ping: 0ms), (TPS:
+  19.876), (Plib: true), (Online: 1), (t: normal, reason: air, d: 0.929189228592802,
+  dm: 0.3675, dm_s: 0.3675, dy: 0.07837499999999409, a: 0)]'
+(34)[2023/04/06 16:12:19]: '[Spartan Build 411.1-10352/-9280289409] 1zi4ka failed
+  Speed (VL: 5) [(Version: Paper 1.12), (C-V: 3) (Silent: false), (Ping: 0ms), (TPS:
+  19.868), (Plib: true), (Online: 1), (t: normal, reason: walking, d: 0.9361014967850905,
+  dm: 0.3675, dm_s: 0.3675, dy: 0.07837499999999409, a: 0)]'
+(35)[2023/04/06 16:12:39]: '[Spartan Build 411.1-10352/-9280289409] 1zi4ka failed
+  Speed (VL: 6) [(Version: Paper 1.12), (C-V: 3) (Silent: false), (Ping: 38ms), (TPS:
+  19.956), (Plib: true), (Online: 1), (t: normal, reason: ypos, d: 0.8620009760073574,
+  dm: 0.68, dm_s: 0.68, dy: 0.41999998688697815, a: 0)]'
+(36)[2023/04/06 16:13:06]: '[Spartan Build 411.1-10352/-9280289409] 1zi4ka failed
+  ImpossibleInventory (VL: 1) [(Version: Paper 1.12), (C-V: 2) (Silent: false), (Ping:
+  86ms), (TPS: 19.896), (Plib: true), (Online: 1), (t: closed inventory, c: 6)]'

@@ -1,0 +1,97 @@
+# Создатель плагина yellowakyloff - vk.com.yellowakyloff
+# Права:
+# AkyloffCheck.check - вызвывать игрока на проверку
+# AkyloffCheck.ally - признать игрока чистым на проверке
+# AkyloffCheck.confess - признаться в использовании читов
+# AkyloffCheck.getloggs - получить логи игрока
+# AkyloffCheck.bypass - защита от вызова на проверку
+# AkyloffCheck.reload - перезагрузить конфиг
+#
+# Пример использования title, actionbar
+# no-permission: 'У вас нет прав;title:&cУ вас нет прав %nl% Да-да, у тебя нет прав;actionbar:&cУ тебя нет прав, купи донат'
+
+messages:
+  prefix: '&e&lПРОВЕРКА: &f'
+  only-players: 'Команда только для игроков!'
+  no-permission: 'У вас недостаточно прав!'
+  no-allowed: 'Нет доступных команд.'
+  not-found: 'Игрок не в сети!'
+  unknown: 'Команда не найдена.'
+  start:
+    usage: 'Вызвать игрока на проверку: &e/check start <игрок>'
+    sender: 'Вы не можете вызвать себя на проверку!'
+    bypass: 'У игрока защита от вызовов на проверку!'
+    already: 'Игрок уже на проверке!'
+    successfully: 'Вы успешно вызвали игрока &e%player% &fна проверку!'
+  ally:
+    usage: 'Признать игрока невиновным: &e/check ally <игрок>'
+    sender: 'Вы не можете себя признать невиновным!'
+    already: 'Игрок не на проверке!'
+    successfully: 'Вы успешно признали игрока &e%player% &fневиновным!'
+    successfully-target: 'Вас признали невиновным;title:&aВас признали чистым%nl%&fУдачной игры!'
+  confess:
+    usage: 'Признаться в использовании читов: &e/check confess'
+    already: 'Вы не на проверке!'
+  getloggs:
+    usage: 'Посмотреть логи проверок игрока: &e/check getloggs <игрок>'
+    successfully: 'Вы успешно посмотрели логи проверок игрока &e%player%'
+  reload:
+    usage: 'Перезагрузить конфиг - /check reload'
+    successfully: 'Вы успешно перезагрузили конфиг!'
+  acceptance:
+    usage: 'Забанить игрока: &e/check acceptance <игрок>'
+    sender: 'Чтобы признать себя виновным используйте /check confess!'
+    already: 'Игрок не на проверке!'
+    successfully: 'Вы успешно признали игрока &e%player% &cвиновным!'
+    successfully-target: 'Вас признали &cвиновным;title:&aВас признали &cВИНОВНЫМ%nl%fДо встречи!!'
+check:
+  check-target: # сообщение, которые будет писаться игроку, которого вызвали на проверку
+    - ''
+    - '&f &e╔        &e&lПРОВЕРКА!'
+    - '&f &e╠ &fВы были вызваны на проверку'
+    - '&f &e╠ &fВ подозрении использовании читов'
+    - '&f &e╠ '
+    - '&f &e╠ &fДо конца проверки: %time%'
+    - '&f &e╠ &fПришлите свой дискорд/скайп модератору:'
+    - '&f &e╠ &7/m %player% ваш дискорд/скайп'
+    - '&f &e╠'
+    - '&f &e╠ &fПо истечению времени, Вы будете'
+    - '&f &e╚ &fЗабанены на &e30 &fдней;title:&e&lПРОВЕРКА %nl% &fСмотри в чат!'
+    - ''
+  actionbar: '&fОсталось времени: %time%'
+
+format-logs:
+  start: |-
+    &f &f
+    &f &e╔ &a[ВЫЗВАН НА ПРОВЕРКУ]
+    &f &e╠ &fДата: &e%date%
+    &f &e╠ &fИгрок: &e%target%
+    &f &e╚ &fМодератор: &e%player%
+    &f &f
+
+settings:
+  cooldown: 900 # длительность проверки (в секундах) (3600 секунд - 15 минут)
+  message-delay: 15 # каждые 15 сек будет писаться сообщение о том, что он вызван на проверку
+  abilities:
+    move: true
+    drop: true
+    inventory: true
+    chat: true
+    break: true
+    place: true
+  confess-commands: # команды при использовании /check confess (во время проверки)
+    - 'tempban -s %player% 7d Признание в использовании читов'
+  timer-commands: # команды, если таймер закончится
+    - 'tempban -s %player% 7d Истечении времени таймера'
+  quit-commands: # команды при выходе с сервера во время проверки
+    - 'tempban -s %player% 7d Выход с проверки'
+  acceptance-commands:
+    - 'tempban -s %player% 14d Использование читов'
+
+time:
+  seconds: '&e&l&n%size%&e сек.'
+  minutes: '&e&l&n%size%&e мин.'
+  hours: '&e&l&n%size%&e час.'
+  days: '&e&l&n%size%&e дн.'
+  now: '&e&lсейчас'
+

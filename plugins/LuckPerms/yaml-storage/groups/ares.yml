@@ -1,0 +1,173 @@
+name: ares
+permissions:
+- worldguard.region.addmember.own.*
+- worldguard.region.info.own.*
+- worldguard.region.remove.own.*
+- worldguard.region.removemember.own.*
+- worldguard.region.select.own.*
+- titlemanager.command.scoreboard.*
+- deluxemenus.menu.*
+- adodvrtp.rtp
+- advancedsmelting.smelt
+- antirelog.bypass:
+    value: false
+- aresnear
+- auctionhouse.help
+- auctionhouse.menu
+- cases.use
+- chatty.chat
+- chatty.chat.global
+- chatty.chat.global.see
+- chatty.chat.local
+- chatty.chat.local.see
+- chatty.command.ignore
+- chatty.command.msg
+- chatty.command.reply
+- clans.create
+- clans.help
+- clans.user
+- cmi.command.fly
+- cmi.command.getpos.others
+- essentials.balance
+- essentials.balancetop
+- essentials.clearinventory
+- essentials.craft
+- essentials.day
+- essentials.delhome
+- essentials.ec
+- essentials.enderchest
+- essentials.enderchest.others
+- essentials.ext
+- essentials.feed
+- essentials.fly
+- essentials.getpos
+- essentials.getpos.others
+- essentials.hat
+- essentials.heal
+- essentials.home
+- essentials.home.voin
+- essentials.ignore
+- essentials.invsee
+- essentials.kits.ares
+- essentials.msg
+- essentials.near
+- essentials.night
+- essentials.pay
+- essentials.ptime
+- essentials.realname
+- essentials.repair
+- essentials.repair.all
+- essentials.seen
+- essentials.sethome
+- essentials.sethome.multiple.ares
+- essentials.sethome.multiple.ronin
+- essentials.setwarp
+- essentials.spawn
+- essentials.spawn-on-join
+- essentials.time
+- essentials.time.set
+- essentials.tpa
+- essentials.tpacancel
+- essentials.tpaccept
+- essentials.tpdeny
+- essentials.warp
+- essentials.warp.list
+- essentials.weather
+- essentials.whois
+- essentials.workbench
+- great.kits.ares
+- great.kits.elay:
+    value: false
+- great.kits.geroy:
+    value: false
+- great.kits.gladiator:
+    value: false
+- great.kits.legend:
+    value: false
+- great.kits.nameitel:
+    value: false
+- great.kits.start
+- great.kits.voin:
+    value: false
+- greatkits.kits.ares
+- greatkits.kits.elay:
+    value: false
+- greatkits.kits.geroy:
+    value: false
+- greatkits.kits.gladiator:
+    value: false
+- greatkits.kits.legend:
+    value: false
+- greatkits.kits.nameitel:
+    value: false
+- greatkits.kits.ronin
+- greatkits.kits.start:
+    value: false
+- greatkits.kits.voin:
+    value: false
+- kit.ares
+- kit.povel:
+    value: false
+- kits.ares
+- litebans.group.ares
+- litebans.json.hover_text
+- litebans.kick
+- litebans.tempmute
+- main.command.fly
+- mixshop
+- mixshops.open
+- none:
+    value: false
+- nte.default
+- nte.hype
+- rtp.channel.far
+- rtp.channel.near
+- rtp.channel.normal
+- rtp.channel.safe
+- serversigns.use
+- supernear100
+- supernear200
+- supernear300
+- supernear400
+- supernear500
+- supernear600
+- tab.scoreboard.admin
+- titlemanager.command.scoreboard
+- umine.command.salary
+- umine.salary
+- wcode.code
+- wcontrol.admin
+- wcontrol.control
+- wcutter.salary
+- weight.8
+- westoriasutils.enderchest.other
+- westoriasutils.enderchest.others
+- westoriasutils.feed.other
+- westoriasutils.feed.others
+- westoriasutils.fly
+- westoriasutils.heal.other
+- westoriasutils.heal.others
+- westoriasutils.sethome.limit.100
+- westoriasutils.setwarp.limit.10
+- westoriasutils.weather
+- westoriasutils.weather.storm
+- westoriasutils.weather.sun
+- westoriasutils.whois
+- wmines.command.salary
+- woodcutter.salary
+- worldedit.selection.expand
+- worldedit.selection.hpos
+- worldedit.selection.pos
+- worldedit.wand
+- worldguard.region.claim
+- worldguard.region.info.own
+- worldguard.region.list.own
+- worldguard.region.wand
+- zarplata.hype
+- никога:
+    value: false
+parents:
+- povel
+prefixes:
+- §4§lАРЕС §7:
+    priority: 8

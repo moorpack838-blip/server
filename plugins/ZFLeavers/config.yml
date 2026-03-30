@@ -1,0 +1,34 @@
+# Command: /zfleaver give <Player> <NameLeaver>
+# Permission: "*"
+# Author: white4mid
+# Studio: vk.com/ZFLeavers
+BossBar:
+  Title: '&fУ вас осталось: &e%time%'
+  Color: YELLOW
+Message:
+  prefix: '&e&lGrief&f&lTool: '
+  usage: '&fИспользуйте:&e /zfleaver give <Ник> <Название>'
+  none: '&fЛивалка не найдена!'
+Items:
+  TELEPORT:
+    material: MAGMA_CREAM
+    nbt: 'teleport'
+    name: '&c&lЛИВАЛКА &8• &e&lКЕНГУРУ'
+    lore:
+      - ''
+      - '&e• &fКликай &eПКМ&f чтобы'
+      - '&e• &fЛивалка подбрасывает на 200 блоков вверх!'
+      - ''
+      - '&e╔ &fНа ливалке &eприсутствует'
+      - '&e╚ &eCooldown&8 (20s)'
+  LEAVE:
+    material: CHORUS_FRUIT
+    nbt: 'leave'
+    name: '&c&lЛИВАЛКА &8• &6&lLOL'
+    lore:
+      - ''
+      - '&e• &fКликай &6ПКМ&f чтобы'
+      - '&e• &fТелепортирует вас на спавн!'
+      - ''
+      - '&e╔ &fНа ливалке &6присутствует'
+      - '&e╚ &6Cooldown&8 (20s)'

@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 185.177.189.118
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1680536736106
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1680537209946
+  login: 1680536641799
+money: '31.0'
+last-account-name: 20KKEASY
+lastlocation:
+  world: f426770c-0cf2-4454-94e7-0f4170382838
+  world-name: lobby
+  x: 1005.121128779965
+  y: 67.0
+  z: -317.39965479415
+  yaw: 230.0997772216797
+  pitch: 12.300023078918457
+logoutlocation:
+  world: 50e83d7b-bd31-4b59-b085-d04edc199449
+  world-name: world
+  x: 221.97757316924515
+  y: 67.0
+  z: -696.5095593255783
+  yaw: 280.7545166015625
+  pitch: 23.70001983642578

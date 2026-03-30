@@ -1,0 +1,12 @@
+uuid: b4468e1a-9e35-36ff-a004-4816698660f5
+name: Arecsom
+primary-group: default
+parents:
+- default
+- gladiator
+prefixes:
+- §c§lГЛАДИАТОР §7:
+    priority: 15
+    context:
+      server: grief
+      world: lobby

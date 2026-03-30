@@ -1,0 +1,11 @@
+uuid: 831b74c4-dc88-3065-913f-f2be1208a34d
+name: ABOBA2022
+primary-group: default
+parents:
+- default
+prefixes:
+- §7§lИГРОК §7:
+    priority: 11
+    context:
+      server: grief
+      world: lobby

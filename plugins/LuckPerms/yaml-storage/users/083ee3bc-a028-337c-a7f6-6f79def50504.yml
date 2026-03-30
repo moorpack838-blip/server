@@ -1,0 +1,8 @@
+uuid: 083ee3bc-a028-337c-a7f6-6f79def50504
+name: BlackAngelsDeath
+primary-group: sthelper
+parents:
+- sthelper
+suffixes:
+- '&b&nМамочка ☡':
+    priority: 1

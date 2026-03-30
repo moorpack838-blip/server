@@ -1,0 +1,293 @@
+menu_title: '&0&lFC ∫ Путешественник'
+open_command:
+- quests
+size: 54
+items:
+  'shop':
+    material: GLOWSTONE_DUST
+    slot: 38
+    priority: 1
+    display_name: '&6Магазин'
+    left_click_commands:
+      - '[openguimenu] quests_shop'
+  'unic':
+    material: DIAMOND
+    slot: 40
+    priority: 1
+    display_name: '&6Уникальные возможности'
+    left_click_commands:
+      - '[openguimenu] quests_cans'
+  'redstone':
+    material: redstone
+    slot: 42
+    priority: 1
+    display_name: '&6Скупка'
+    left_click_commands:
+      - '[openguimenu] quests_skupka'
+  # квест 1
+  'quest_1_yes':
+    material: BOOK
+    slot: 20
+    priority: 2
+    display_name: '&6Кампания &f&l№1'
+    left_click_commands:
+      - '[openguimenu] quests_company_one'
+  'quest_1_yes_well_done':
+    material: BOOK_AND_QUILL
+    enchantments:
+    - 'knockback;1' 
+    hide_enchantments: true
+    hide_attributes: true
+    slot: 20
+    priority: 1
+    display_name: '&6Кампания &f&l№1 &2[&a&lПРОЙДЕНО&2]'
+    lore:
+    - '&7Пройдено начало пути!'
+    - '&7Не сбавляйте темп и идите &6дальше!'
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'company.one.yes'
+    left_click_commands:
+      - '[openguimenu] quests_company_one'
+  'quest_2_no':
+    material: BARRIER
+    slot: 22
+    priority: 3
+    display_name: '&6Кампания &f&l№2'
+    lore:
+    - '&cЗавершите предыдущую компанию'
+    - '&cдля открытия этой компании!'
+  'quest_2_yes':
+    material: BOOK
+    slot: 22
+    priority: 2
+    display_name: '&6Кампания &f&l№2'
+    view_requirement:
+      requirements:
+        complete1:
+         type: has permission
+         permission: 'company.one.yes'
+    left_click_commands:
+      - '[openguimenu] quests_company_two'
+  'quest_2_yes_well_done':
+    material: BOOK_AND_QUILL
+    enchantments:
+    - 'knockback;1' 
+    hide_enchantments: true
+    hide_attributes: true
+    slot: 22
+    priority: 1
+    display_name: '&6Кампания &f&l№2 &2[&a&lПРОЙДЕНО&2]'
+    lore:
+    - '&7Пройдено начало пути!'
+    - '&7Не сбавляйте темп и идите &6дальше!'
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'company.two.yes'
+    left_click_commands:
+      - '[openguimenu] quests_company_two'
+  'quest_3_no':
+    material: BARRIER
+    slot: 24
+    priority: 3
+    display_name: '&6Кампания &f&l№3'
+    lore:
+    - '&cЗавершите предыдущую компанию'
+    - '&cдля открытия этой компании!'
+  'quest_23_yes_well_done':
+    material: BOOK_AND_QUILL
+    enchantments:
+    - 'knockback;1' 
+    hide_enchantments: true
+    hide_attributes: true
+    slot: 24
+    priority: 1
+    display_name: '&6Кампания &f&l№3 &2[&a&lПРОЙДЕНО&2]'
+    lore:
+    - '&7Пройдены все квесты'
+    - '&7Вы &6большой молодец!'
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'company.three.yes'
+    left_click_commands:
+      - '[openguimenu] quests_company_three'
+  'quest_3_yes':
+    material: BOOK
+    slot: 24
+    priority: 2
+    display_name: '&6Кампания &f&l№3'
+    view_requirement:
+      requirements:
+        complete1:
+         type: has permission
+         permission: 'company.two.yes'
+    left_click_commands:
+      - '[openguimenu] quests_company_three'
+
+  'ramka':
+    material: stained_glass_pane
+    data: 4
+    slot: 0
+    display_name: ''       
+  'ramka1':
+    material: stained_glass_pane
+    data: 4
+    slot: 1
+    display_name: ''
+  'ramka2':
+    material: stained_glass_pane
+    data: 4
+    slot: 2
+    display_name: ''
+  'ramka3':
+    material: stained_glass_pane
+    data: 4
+    slot: 3
+    display_name: ''
+  'ramka4':
+    material: stained_glass_pane
+    data: 4
+    slot: 4
+    display_name: ''
+  'ramka5':
+    material: stained_glass_pane
+    data: 4
+    slot: 5
+    display_name: ''
+  'ramka6':
+    material: stained_glass_pane
+    data: 4
+    slot: 6
+    display_name: ''
+  'ramka7':
+    material: stained_glass_pane
+    data: 4
+    slot: 7
+    display_name: ''
+  'ramka8':
+    material: stained_glass_pane
+    data: 4
+    slot: 8
+    display_name: ''
+  'ramka9':
+    material: stained_glass_pane
+    data: 4
+    slot: 9
+    display_name: ''
+  'ramka10':
+    material: stained_glass_pane
+    data: 4
+    slot: 18
+    display_name: ''
+  'ramka11':
+    material: stained_glass_pane
+    data: 4
+    slot: 27
+    display_name: ''
+  'ramka12':
+    material: stained_glass_pane
+    data: 4
+    slot: 36
+    display_name: ''
+  'ramka19':
+    material: stained_glass_pane
+    data: 4
+    slot: 46
+    display_name: ''
+  'ramka20':
+    material: stained_glass_pane
+    data: 4
+    slot: 52
+    display_name: ''
+  'ramka21':
+    material: stained_glass_pane
+    data: 1
+    slot: 47
+    display_name: ''
+  'ramka23':
+    material: stained_glass_pane
+    data: 1
+    slot: 38
+    display_name: ''
+  'ramka24':
+    material: stained_glass_pane
+    data: 1
+    slot: 42
+    display_name: ''
+  'ramka25':
+    material: stained_glass_pane
+    data: 1
+    slot: 39
+    display_name: ''
+  'barrier1':
+    material: barrier
+    data: 1
+    slot: 48
+    display_name: ''
+  'arr':
+    material: arrow
+    slot: 49
+    display_name: "&4&LЗ&c&lАКРЫТЬ"
+    lore: 
+     - ''
+     - '&e• &fВы закроете меню квестов.'   
+     - ''
+     - '&aНажми, чтобы закрыть меню'
+    left_click_commands:
+    - '[close]'
+  'barrier2':
+    material: barrier
+    data: 1
+    slot: 50
+    display_name: ''
+  'ramka26':
+    material: stained_glass_pane
+    data: 1
+    slot: 40
+    display_name: ''
+  'ramka27':
+    material: stained_glass_pane
+    data: 1
+    slot: 41
+    display_name: ''
+  'ramka22':
+    material: stained_glass_pane
+    data: 1
+    slot: 51
+    display_name: ''
+  'ramka13':
+    material: stained_glass_pane
+    data: 4
+    slot: 45
+    display_name: ''
+  'ramka14':
+    material: stained_glass_pane
+    data: 4
+    slot: 53
+    display_name: ''
+  'ramka15':
+    material: stained_glass_pane
+    data: 4
+    slot: 44
+    display_name: ''
+  'ramka16':
+    material: stained_glass_pane
+    data: 4
+    slot: 35
+    display_name: ''
+  'ramka17':
+    material: stained_glass_pane
+    data: 4
+    slot: 26
+    display_name: ''
+  'ramka18':
+    material: stained_glass_pane
+    data: 4
+    slot: 17
+    display_name: ''

@@ -1,0 +1,47 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 2.132.82.188
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1681135578011
+  lastheal: 1681135434011
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1681135602524
+  login: 1681133773156
+money: '1090.0'
+last-account-name: ColrBu
+lastlocation:
+  world: 50e83d7b-bd31-4b59-b085-d04edc199449
+  world-name: world
+  x: 248.4922726130021
+  y: 79.0
+  z: 108.29132934010798
+  yaw: -347.25054931640625
+  pitch: 9.450111389160156
+logoutlocation:
+  world: f426770c-0cf2-4454-94e7-0f4170382838
+  world-name: lobby
+  x: 1004.6939971384016
+  y: 71.66385857365526
+  z: -284.56495318582563
+  yaw: -14.100133895874023
+  pitch: 14.85002326965332
+homes:
+  home:
+    world: 50e83d7b-bd31-4b59-b085-d04edc199449
+    world-name: world
+    x: 255.09373206087406
+    y: 78.0
+    z: 108.9820588828539
+    yaw: 41.84911346435547
+    pitch: 24.15007781982422

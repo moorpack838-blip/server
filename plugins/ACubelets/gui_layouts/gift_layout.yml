@@ -1,0 +1,63 @@
+#
+# This is the gui layout file.
+# You can change any messages that are in this file
+#
+# If you want to reset a message back to the default,
+# delete the entire line the message is on and restart the server.
+#
+# IMPORTANT: Slots numbers between 1-9, if not, the plugin will crash
+#
+
+Layout:
+
+  # GUI Title
+  Title: Подарить кейс
+
+  # GUI items
+  Items:
+
+    # Cubelet item
+    Cubelet:
+      Name: '&a%cubelet_name%'
+      Lore:
+      - ''
+      - '&f Доступно: &e%cubelets_available%'
+      - ''
+      - '&a ► Нажмите, чтобы подарить...'
+      - ''
+
+    # Next page item
+    NextPage:
+      Name: '&fСледующая страница →'
+      Material: ARROW
+      Slot: 9
+      ShowPageNumber: false
+
+    # Previous page item
+    PreviousPage:
+      Name: '&f← Предыдущая страница'
+      Material: ARROW
+      Slot: 1
+      ShowPageNumber: false
+
+    # Close item, this item is shown if gui is opened by command
+    Close:
+      Name: '&cЗакрыть'
+      Material: BOOK
+      Slot: 5
+      Lore:
+      - ''
+      - '&f Закончились или отсутствуют кейсы?'
+      - '&f Приобрести кейсы/привилегии » &eForumCraft.ru'
+      - ''
+
+    # Back item, this item is shown if gui is opened by cubelet open gui
+    Back:
+      Name: '&cОбратно'
+      Material: BOOK
+      Slot: 5
+      Lore:
+      - ''
+      - '&f Закончились или отсутствуют кейсы?'
+      - '&f Приобрести кейсы/привилегии » &eForumCraft.ru'
+      - ''

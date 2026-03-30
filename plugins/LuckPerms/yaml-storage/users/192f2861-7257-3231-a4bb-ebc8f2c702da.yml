@@ -1,0 +1,9 @@
+uuid: 192f2861-7257-3231-a4bb-ebc8f2c702da
+name: NeonOFF
+primary-group: default
+parents:
+- default
+- dhelper
+suffixes:
+- '&b&nСнежанна ☡':
+    priority: 1

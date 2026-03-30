@@ -1,0 +1,11 @@
+uuid: 244d184a-5166-3798-b228-4f8f674bce9f
+name: PaNTeRa_YT
+primary-group: default
+parents:
+- default
+prefixes:
+- §7§lИГРОК §7:
+    priority: 11
+    context:
+      server: grief
+      world: world

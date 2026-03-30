@@ -1,0 +1,17 @@
+data:
+  CHORUS_FRUIT:
+    slot: 21
+    price: 13
+    limited: false
+  MAGMA_CREAM:
+    slot: 9
+    price: 434
+    limited: true
+  BEETROOT:
+    slot: 10
+    price: 36
+    limited: true
+  FLINT:
+    slot: 16
+    price: 10
+    limited: true

@@ -1,0 +1,10 @@
+title: "&6&lＷＩＳＥ&e&lＧＲＩＥＦ"
+subtitle: "&fОтключите &e/god, /fly, /gm"
+permission: "nopickup.bypass"
+message: "&c&lВы не можете взаимодействовать с предметами и игроками еще &c10 &fсекунд!"
+blocked-items:
+  - 49
+  - 261
+  - 426
+  - 326
+  - 327

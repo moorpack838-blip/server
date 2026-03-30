@@ -1,0 +1,98 @@
+# Переменные equipmentSlot
+# HAND - основная рука
+# OFF_HAND - левая рука
+# HEAD - слот шлема
+# CHEST - слот нагрудника
+# LEGS - слот штанов
+# FEET - слот ботинок
+perks:
+  spectator:
+    distance: 500.0
+    noPlayers: "§cВ радиусе 500 блоков нет игроков."
+    players: "§eВ радиусе 500 блоков %size% игроков: %entries%"
+  health:
+    addHealth: 2 # 1 сердечко = 2 ед. здоровья
+  expGenerator:
+    addExp: 3.0 # сколько опыта добавлять
+    equipmentSlot: HAND
+  moneyGenerator:
+    addMoney: 5.0 # сколько давать денег
+    equipmentSlot: HAND
+    actionBar: "§6+5$"
+  godPickaxe:
+    dropAllBlocks: true
+
+messages:
+  cantBreak: "§6§lТОРГОВЕЦ: §fЭтот блок нельзя сломать этим предметом."
+  noMoney: "§6§lТОРГОВЕЦ: §fДля покупки этого предмета у тебя не хватает %money%$"
+  fullInventory: "§6§lТОРГОВЕЦ: §fТвой инвентарь полон"
+  transactionError: "§6§lТОРГОВЕЦ: §fВо время проведения оплаты произошла ошибка: %error%"
+  transactionSuccess: "§6§lТОРГОВЕЦ: §fПоздравляем с покупкой предмета"
+
+gui:
+  title: "§0§lFC ∫ ЧОКНУТЫЙ"
+  rows: 6
+  sallableItems:
+    "1":
+      slot: 21
+      id: "345"
+      name: "§6§lН§e§lАБЛЮДАТЕЛЬ"
+      lore:
+      - "§f"
+      - "§e╔ §fКликни на компас в руке,"
+      - "§e╠ §fи он покажет ближайших игроков"
+      - "§e╠ §fв радиусе §e500 §fблоков"
+      - "§e╠"
+      - "§e╚ §fЦена: §a150000$"
+      perk: spectator
+      price: 150000
+    "2":
+      slot: 19
+      id: "270"
+      name: "§6§lК§e§lИРКА §6§lБ§e§lОГА"
+      lore:
+      - "§f"
+      - "§e╔ §fКирка, способная ломать любой блок"
+      - "§e╠ §fОдноразовое §cиспользование §7(не в чужом привате)"
+      - "§e╠"
+      - "§e╚ §fЦена: §a150000$"
+      perk: godpickaxe
+      price: 150000
+    "3":
+      slot: 23
+      id: "322"
+      name: "§6§lЗ§e§lОЛОТОЕ §6§lЯ§e§lБЛОКО"
+      lore:
+      - "§f"
+      - "§e╔ §fПосле покупки этого яблока вы получите"
+      - "§e╠ §c+1 сердце §fк своему ХП §aНАВСЕГДА"
+      - "§e╠ §7(До вайпа)"
+      - "§e╠"
+      - "§e╚ §fЦена: §a3000000$"
+      perk: health
+      price: 3000000
+    "4":
+      slot: 25
+      id: "452"
+      name: "§6§lГ§e§lЕНЕРАТОР §6§lО§e§lПЫТА"
+      lore:
+      - "§f"
+      - "§e╔ §fПросто возьми в руку §eгенератор"
+      - "§e╠ §fи получай §a+3xp/сек"
+      - "§e╠"
+      - "§e╚ §fЦена: §a300000$"
+      perk: expgenerator
+      price: 300000
+    "5":
+      slot: 31
+      id: "371"
+      name: "§6§lГ§e§lЕНЕРАТОР §6§lД§e§lЕНЕГ"
+      lore:
+      - "§f"
+      - "§e╔ §fПросто возьми в руку §eгенератор"
+      - "§e╠ §fи получай §a+5$/сек"
+      - "§e╠"
+      - "§e╚ §fЦена: §a500000$"
+      perk: moneygenerator
+      price: 500000
+  unusedItems: {}

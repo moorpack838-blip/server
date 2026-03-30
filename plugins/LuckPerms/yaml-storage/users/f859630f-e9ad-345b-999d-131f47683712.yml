@@ -1,0 +1,6 @@
+uuid: f859630f-e9ad-345b-999d-131f47683712
+name: panosus
+primary-group: default
+parents:
+- default
+- voin

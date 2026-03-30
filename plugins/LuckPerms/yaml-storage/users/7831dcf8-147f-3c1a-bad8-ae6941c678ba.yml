@@ -1,0 +1,11 @@
+uuid: 7831dcf8-147f-3c1a-bad8-ae6941c678ba
+name: samshkila
+primary-group: default
+parents:
+- default
+prefixes:
+- §7§lИГРОК §7:
+    priority: 11
+    context:
+      server: grief
+      world: lobby

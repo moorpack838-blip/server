@@ -1,0 +1,13 @@
+uuid: 8f03db57-0857-395d-917f-07c7338787a6
+name: Dimasiko0070
+primary-group: default
+parents:
+- default
+- elay
+- gladiator
+prefixes:
+- §c§lГЛАДИАТОР §7:
+    priority: 15
+    context:
+      server: grief
+      world: lobby

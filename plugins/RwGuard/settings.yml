@@ -1,0 +1,62 @@
+
+messages:
+  prefix: "&6АнтиКраш &7>> "
+  notification-permission: "rwguard.notification"
+  notification-message: "%nl%{PREFIX}&fИгрок &e{PLAYER}&f попытался крашнуть сервер.%nl%{PREFIX}&fПакет: &6{PACKET}%nl%{PREFIX}&fДетали: &e{DETAILS}"
+debug: false
+block-itemname-when-no-anvil: true
+# Увеличить если слишком много ошибочных ByteBuf/Too big packet size
+# Максимальный размер одного пакета
+viaversion-max-capacity: 5000
+# Разрешать ли пакет SetCreativeSlot для игроков без Gamemode 1?
+allow-creative-inventory-click-without-gamemode: false
+
+payload-settings:
+  # Максимальный размер пакета CustomPayload
+  max-capacity: 4800
+  # Блокировать ли PAYLOAD пакеты, когда игрок не держит книгу
+  fail-when-not-holding-book: true
+  # Блокировать ли Payload c MC|BSign, когда книга не была использована
+  block-book-signing-when-no-book-placed: true
+
+book:
+  max-pages: 50
+  # Укажите более высокое значение, если выходят ошибочные кики too large page
+  max-page-size: 900
+  # Максимальный размер страницы без цветовых кодов
+  max-stripped-page-size: 256
+  # Блокировать ли книги на сервере?
+  ban-books: false
+  # Максимальное количество одинаковых страниц
+  max-similar-pages: 4
+  # Лимит 2-байтовых символов (китайщина, смайлики, армянская лепетня и тд)
+  max-2byte-chars: 15
+  # Быстрые проверки книг (Не рекомендуется)
+  fast-check: false
+  # Максимальная длина NBT предмета
+  fast-check-max-length: 500
+
+other-nbt:
+  max-lists: 10
+  max-list-size: 50
+  # Укажите значение больше, если выходят ошибочные кики too large list length
+  max-list-content: 900
+  max-keys: 20
+  max-array-size: 50
+  fireworks-charge-limit: 800
+  firework-limit: 300
+  banner-limit: 200
+  simple-nbt-limit: true
+  max-simple-nbt-limit: 10000
+
+position-checks:
+  # Разрешать ли пакет POSITION со значением Integer.MAX_VALUE?
+  allow-invalid-movement-v1: false
+  # Разрешать ли пакет POSITION со значением Double.MAX_VALUE?
+  allow-invalid-movement-v2: false
+  allow-invalid-vehicle-movement-v3: false
+  allow-invalid-vehicle-movement-v4: false
+
+skull-checks:
+  # Блокировать ли текстуры без http://textures.minecraft.net?
+  block-invalid-head-texture: true

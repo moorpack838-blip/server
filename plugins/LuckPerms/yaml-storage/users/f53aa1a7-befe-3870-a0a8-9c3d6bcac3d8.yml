@@ -1,0 +1,11 @@
+uuid: f53aa1a7-befe-3870-a0a8-9c3d6bcac3d8
+name: NevilSYT
+primary-group: yt
+parents:
+- yt
+prefixes:
+- §c§lЮ§f§lТ §7:
+    priority: 22
+    context:
+      server: grief
+      world: lobby

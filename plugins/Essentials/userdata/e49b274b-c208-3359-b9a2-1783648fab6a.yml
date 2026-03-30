@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 188.19.62.180
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1681383934141
+  login: 1681383750359
+money: '0'
+last-account-name: ZeMiX_WoRlD
+lastlocation:
+  world: 50e83d7b-bd31-4b59-b085-d04edc199449
+  world-name: world
+  x: 100.5
+  y: 68.0
+  z: 259.5
+  yaw: 1.5895227193832397
+  pitch: 0.0
+logoutlocation:
+  world: f426770c-0cf2-4454-94e7-0f4170382838
+  world-name: lobby
+  x: 1001.2717950796489
+  y: 67.0
+  z: -314.0547150652858
+  yaw: 5.305743217468262
+  pitch: 10.414444923400879

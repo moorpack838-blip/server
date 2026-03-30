@@ -1,0 +1,47 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 188.237.101.61
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1681229061406
+  lastheal: 1681229017854
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1681229438784
+  login: 1681227715354
+money: '90.0'
+last-account-name: Freeze
+lastlocation:
+  world: 50e83d7b-bd31-4b59-b085-d04edc199449
+  world-name: world
+  x: 347.77704707101844
+  y: 77.0
+  z: -18.683947474375955
+  yaw: -104.33065795898438
+  pitch: 23.662357330322266
+logoutlocation:
+  world: 50e83d7b-bd31-4b59-b085-d04edc199449
+  world-name: world
+  x: 349.1059876939893
+  y: 101.0
+  z: 7.354910449785427
+  yaw: -261.9632568359375
+  pitch: 0.6832423210144043
+homes:
+  home:
+    world: 50e83d7b-bd31-4b59-b085-d04edc199449
+    world-name: world
+    x: 341.30161576164505
+    y: 101.0
+    z: 7.595702239545618
+    yaw: -186.4744873046875
+    pitch: 3.769238233566284

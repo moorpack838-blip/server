@@ -1,0 +1,136 @@
+#
+# This is the animations settings file.
+# You can change any setting that are in this file
+#
+# If you want to reset a setting back to the default,
+# delete the entire line of the setting is on and restart the plugin.
+#
+
+default_animation: animation2
+
+animations:
+
+  animation_0:
+    DisplayName: Без анимации
+    OutlineParticles: true
+    FloorParticles: true
+    NeedPermission: true
+
+  animation_1:
+    DisplayName: 'Анимация #1'
+    AroundParticles: true
+    NeedPermission: true
+
+  animation_2:
+    DisplayName: 'Анимация #2'
+    OutlineParticles: true
+    FloorParticles: true
+    NeedPermission: true
+
+  animation_3:
+    DisplayName: 'Анимация #3'
+    OutlineParticles: true
+    FloorParticles: true
+    NeedPermission: true
+
+  animation_4:
+    DisplayName: 'Анимация #4 [Адская]'
+    OutlineParticles: true
+    FloorParticles: true
+    NeedPermission: true
+
+  animation_5:
+    DisplayName: Animation 5 (Summer)
+    OutlineParticles: true
+    FloorParticles: true
+    NeedPermission: true
+
+  animation_6:
+    DisplayName: Animation 6 (Easter)
+    OutlineParticles: true
+    FloorParticles: true
+    NeedPermission: true
+
+  animation_7:
+    DisplayName: Animation 7 (Halloween)
+    OutlineParticles: true
+    FloorParticles: true
+    NeedPermission: true
+
+  animation_8:
+    DisplayName: Animation 8 (Christmas)
+    OutlineParticles: true
+    FloorParticles: true
+    NeedPermission: true
+
+  animation_9:
+    DisplayName: 'Анимация #9 [Взрывная]'
+    OutlineParticles: true
+    FloorParticles: true
+    NeedPermission: true
+
+  animation_10:
+    DisplayName: 'Анимация #10 [Облачная]'
+    OutlineParticles: true
+    FloorParticles: true
+    NeedPermission: true
+
+  animation_11:
+    DisplayName: Animation 11 (Galaxy)
+    OutlineParticles: true
+    FloorParticles: true
+    NeedPermission: true
+
+  animation_12:
+    DisplayName: 'Анимация #12 [Ведьмина]'
+    OutlineParticles: true
+    FloorParticles: true
+    NeedPermission: true
+
+  animation_13:
+    DisplayName: 'Анимация #13 [Морская]'
+    OutlineParticles: true
+    FloorParticles: true
+    NeedPermission: true
+
+  animation_14:
+    DisplayName: 'Анимация #14 [Пчёлы]'
+    OutlineParticles: true
+    FloorParticles: false
+    NeedPermission: true
+
+  animation_15:
+    DisplayName: 'Анимация #15 [Адский дух]'
+    OutlineParticles: true
+    FloorParticles: true
+    NeedPermission: true
+
+  animation_16:
+    DisplayName: 'Анимация #16 [Радужная]'
+    OutlineParticles: true
+    FloorParticles: true
+    NeedPermission: true
+
+  animation_17:
+    DisplayName: 'Анимация #17 [Снежная]'
+    OutlineParticles: true
+    FloorParticles: true
+    NeedPermission: true
+
+  animation_18:
+    DisplayName: 'Анимация #18 [Круговая]'
+    OutlineParticles: true
+    FloorParticles: true
+    NeedPermission: true
+
+  animation_19:
+    DisplayName: Animation 19
+    OutlineParticles: true
+    FloorParticles: true
+    NeedPermission: true
+
+  animation_20:
+    DisplayName: Animation 20
+    OutlineParticles: true
+    FloorParticles: true
+    NeedPermission: true

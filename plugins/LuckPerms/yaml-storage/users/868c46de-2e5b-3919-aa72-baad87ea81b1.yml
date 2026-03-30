@@ -1,0 +1,9 @@
+uuid: 868c46de-2e5b-3919-aa72-baad87ea81b1
+name: xtrafrancyz
+primary-group: default
+parents:
+- default
+- elay
+- gladiator
+- hero
+- voin

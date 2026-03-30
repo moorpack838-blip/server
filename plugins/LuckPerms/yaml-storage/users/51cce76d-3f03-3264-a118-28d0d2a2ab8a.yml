@@ -1,0 +1,12 @@
+uuid: 51cce76d-3f03-3264-a118-28d0d2a2ab8a
+name: MrVersckraft
+primary-group: frost
+parents:
+- elay
+- gladiator
+- hero
+- voin
+- wise
+suffixes:
+- '&d&nАнимешник ☡':
+    priority: 1

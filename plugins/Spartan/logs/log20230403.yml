@@ -1,0 +1,568 @@
+(1)[2023/04/03 14:27:23]: '[Spartan Build 411.1-10352/-9280289409] ColrBu failed Speed
+  (VL: 2) [(Version: Paper 1.12), (C-V: 3) (Silent: false), (Ping: 67ms), (TPS: 19.972),
+  (Plib: true), (Online: 1), (t: ground(jump-speed), d: 0.3858988148570708, dm: 0.525)]'
+(2)[2023/04/03 17:13:55]: '[Spartan Build 411.1-10352/-9280289409] BEFF failed ImpossibleInventory
+  (VL: 1) [(Version: Paper 1.12), (C-V: 2) (Silent: false), (Ping: 136ms), (TPS: 19.794),
+  (Plib: true), (Online: 1), (t: closed inventory, c: 8)]'
+(3)[2023/04/03 17:13:55]: '[Spartan Build 411.1-10352/-9280289409] BEFF failed ImpossibleInventory
+  (VL: 2) [(Version: Paper 1.12), (C-V: 2) (Silent: false), (Ping: 136ms), (TPS: 19.77),
+  (Plib: true), (Online: 1), (t: closed inventory, c: 8)]'
+(4)[2023/04/03 17:13:56]: '[Spartan Build 411.1-10352/-9280289409] BEFF failed ImpossibleInventory
+  (VL: 3) [(Version: Paper 1.12), (C-V: 2) (Silent: false), (Ping: 136ms), (TPS: 19.896),
+  (Plib: true), (Online: 1), (t: closed inventory, c: 8)]'
+(5)[2023/04/03 17:13:56]: '[Spartan Build 411.1-10352/-9280289409] BEFF failed FastEat
+  (VL: 1) [(Version: Paper 1.12), (C-V: -2) (Silent: false), (Ping: 136ms), (TPS:
+  19.813), (Plib: true), (Online: 1), (t: interact, ms: 620, d: 1000)]'
+(6)[2023/04/03 17:13:57]: '[Spartan Build 411.1-10352/-9280289409] BEFF failed ImpossibleInventory
+  (VL: 4) [(Version: Paper 1.12), (C-V: 2) (Silent: false), (Ping: 136ms), (TPS: 19.892),
+  (Plib: true), (Online: 1), (t: closed inventory, c: 8)]'
+(7)[2023/04/03 17:13:57]: '[Spartan Build 411.1-10352/-9280289409] BEFF failed ImpossibleInventory
+  (VL: 5) [(Version: Paper 1.12), (C-V: 2) (Silent: false), (Ping: 136ms), (TPS: 19.964),
+  (Plib: true), (Online: 1), (t: closed inventory, c: 8)]'
+(8)[2023/04/03 17:13:58]: '[Spartan Build 411.1-10352/-9280289409] BEFF failed FastEat
+  (VL: 2) [(Version: Paper 1.12), (C-V: 2) (Silent: false), (Ping: 136ms), (TPS: 19.956),
+  (Plib: true), (Online: 1), (t: interact, ms: 998, d: 1000)]'
+(9)[2023/04/03 17:16:44]: '[Spartan Build 411.1-10352/-9280289409] BEFF failed ImpossibleInventory
+  (VL: 1) [(Version: Paper 1.12), (C-V: 2) (Silent: false), (Ping: 136ms), (TPS: 19.924),
+  (Plib: true), (Online: 1), (t: closed inventory, c: 8)]'
+(10)[2023/04/03 17:16:44]: '[Spartan Build 411.1-10352/-9280289409] BEFF failed ImpossibleInventory
+  (VL: 2) [(Version: Paper 1.12), (C-V: 2) (Silent: false), (Ping: 136ms), (TPS: 19.731),
+  (Plib: true), (Online: 1), (t: closed inventory, c: 8)]'
+(11)[2023/04/03 17:16:44]: '[Spartan Build 411.1-10352/-9280289409] BEFF failed ImpossibleInventory
+  (VL: 3) [(Version: Paper 1.12), (C-V: 2) (Silent: false), (Ping: 136ms), (TPS: 19.936),
+  (Plib: true), (Online: 1), (t: closed inventory, c: 8)]'
+(12)[2023/04/03 17:16:44]: '[Spartan Build 411.1-10352/-9280289409] BEFF failed ImpossibleInventory
+  (VL: 4) [(Version: Paper 1.12), (C-V: 2) (Silent: false), (Ping: 136ms), (TPS: 19.96),
+  (Plib: true), (Online: 1), (t: closed inventory, c: 6)]'
+(13)[2023/04/03 17:16:45]: '[Spartan Build 411.1-10352/-9280289409] BEFF failed ImpossibleInventory
+  (VL: 5) [(Version: Paper 1.12), (C-V: 2) (Silent: false), (Ping: 136ms), (TPS: 19.952),
+  (Plib: true), (Online: 1), (t: closed inventory, c: 8)]'
+(14)[2023/04/03 17:16:46]: '[Spartan Build 411.1-10352/-9280289409] BEFF failed FastEat
+  (VL: 1) [(Version: Paper 1.12), (C-V: -2) (Silent: false), (Ping: 133ms), (TPS:
+  19.996), (Plib: true), (Online: 1), (t: interact, ms: 102, d: 1000)]'
+(15)[2023/04/03 17:18:41]: '[Spartan Build 411.1-10352/-9280289409] BEFF failed ImpossibleInventory
+  (VL: 1) [(Version: Paper 1.12), (C-V: 2) (Silent: false), (Ping: 128ms), (TPS: 19.976),
+  (Plib: true), (Online: 1), (t: closed inventory, c: 8)]'
+(16)[2023/04/03 17:18:41]: '[Spartan Build 411.1-10352/-9280289409] BEFF failed ImpossibleInventory
+  (VL: 2) [(Version: Paper 1.12), (C-V: 2) (Silent: false), (Ping: 128ms), (TPS: 19.976),
+  (Plib: true), (Online: 1), (t: closed inventory, c: 8)]'
+(17)[2023/04/03 17:18:41]: '[Spartan Build 411.1-10352/-9280289409] BEFF failed ImpossibleInventory
+  (VL: 3) [(Version: Paper 1.12), (C-V: 2) (Silent: false), (Ping: 128ms), (TPS: 19.98),
+  (Plib: true), (Online: 1), (t: closed inventory, c: 8)]'
+(18)[2023/04/03 17:18:41]: '[Spartan Build 411.1-10352/-9280289409] BEFF failed ImpossibleInventory
+  (VL: 4) [(Version: Paper 1.12), (C-V: 2) (Silent: false), (Ping: 128ms), (TPS: 19.972),
+  (Plib: true), (Online: 1), (t: closed inventory, c: 8)]'
+(19)[2023/04/03 17:18:41]: '[Spartan Build 411.1-10352/-9280289409] BEFF failed ImpossibleInventory
+  (VL: 5) [(Version: Paper 1.12), (C-V: 2) (Silent: false), (Ping: 128ms), (TPS: 19.976),
+  (Plib: true), (Online: 1), (t: closed inventory, c: 8)]'
+(20)[2023/04/03 17:18:41]: '[Spartan Build 411.1-10352/-9280289409] BEFF failed ImpossibleInventory
+  (VL: 6) [(Version: Paper 1.12), (C-V: 2) (Silent: false), (Ping: 128ms), (TPS: 19.984),
+  (Plib: true), (Online: 1), (t: closed inventory, c: 8)]'
+(21)[2023/04/03 17:18:42]: '[Spartan Build 411.1-10352/-9280289409] BEFF failed ImpossibleInventory
+  (VL: 7) [(Version: Paper 1.12), (C-V: 2) (Silent: false), (Ping: 128ms), (TPS: 19.976),
+  (Plib: true), (Online: 1), (t: closed inventory, c: 8)]'
+(22)[2023/04/03 17:18:42]: '[Spartan Build 411.1-10352/-9280289409] BEFF was kicked
+  for ImpossibleInventory'
+(23)[2023/04/03 17:20:06]: '[Spartan Build 411.1-10352/-9280289409] BEFF failed NoSwing
+  (VL: 1) [(Version: Paper 1.12), (C-V: 2) (Silent: false), (Ping: 72ms), (TPS: 19.932),
+  (Plib: true), (Online: 1), (t: break, b: grass, i: stone sword)]'
+(24)[2023/04/03 17:20:46]: '[Spartan Build 411.1-10352/-9280289409] BEFF failed NoSlowdown
+  (VL: 1) [(Version: Paper 1.12), (C-V: 3) (Silent: false), (Ping: 173ms), (TPS: 19.932),
+  (Plib: true), (Online: 1), (t: packets, holding: (cooked-rabbit, air), c: 1, los:
+  5713)]'
+(25)[2023/04/03 17:20:47]: '[Spartan Build 411.1-10352/-9280289409] BEFF failed NoSlowdown
+  (VL: 2) [(Version: Paper 1.12), (C-V: 3) (Silent: false), (Ping: 173ms), (TPS: 19.944),
+  (Plib: true), (Online: 1), (t: packets, holding: (cooked-rabbit, air), c: 1, los:
+  1747)]'
+(26)[2023/04/03 17:22:05]: '[Spartan Build 411.1-10352/-9280289409] BEFF failed ImpossibleInventory
+  (VL: 1) [(Version: Paper 1.12), (C-V: 2) (Silent: false), (Ping: 147ms), (TPS: 19.952),
+  (Plib: true), (Online: 1), (t: closed inventory, c: 8)]'
+(27)[2023/04/03 17:22:05]: '[Spartan Build 411.1-10352/-9280289409] BEFF failed ImpossibleInventory
+  (VL: 2) [(Version: Paper 1.12), (C-V: 2) (Silent: false), (Ping: 147ms), (TPS: 19.964),
+  (Plib: true), (Online: 1), (t: closed inventory, c: 8)]'
+(28)[2023/04/03 17:22:05]: '[Spartan Build 411.1-10352/-9280289409] BEFF failed ImpossibleInventory
+  (VL: 3) [(Version: Paper 1.12), (C-V: 2) (Silent: false), (Ping: 147ms), (TPS: 19.96),
+  (Plib: true), (Online: 1), (t: closed inventory, c: 8)]'
+(29)[2023/04/03 17:22:05]: '[Spartan Build 411.1-10352/-9280289409] BEFF failed ImpossibleInventory
+  (VL: 4) [(Version: Paper 1.12), (C-V: 2) (Silent: false), (Ping: 147ms), (TPS: 19.96),
+  (Plib: true), (Online: 1), (t: closed inventory, c: 8)]'
+(30)[2023/04/03 17:22:05]: '[Spartan Build 411.1-10352/-9280289409] BEFF failed ImpossibleInventory
+  (VL: 5) [(Version: Paper 1.12), (C-V: 2) (Silent: false), (Ping: 147ms), (TPS: 19.96),
+  (Plib: true), (Online: 1), (t: closed inventory, c: 8)]'
+(31)[2023/04/03 17:25:46]: '[Spartan Build 411.1-10352/-9280289409] BEFF failed ImpossibleInventory
+  (VL: 1) [(Version: Paper 1.12), (C-V: 2) (Silent: false), (Ping: 134ms), (TPS: 19.63),
+  (Plib: true), (Online: 1), (t: closed inventory, c: 7)]'
+(32)[2023/04/03 17:27:35]: '[Spartan Build 411.1-10352/-9280289409] BEFF failed ImpossibleInventory
+  (VL: 1) [(Version: Paper 1.12), (C-V: 2) (Silent: false), (Ping: 131ms), (TPS: 19.996),
+  (Plib: true), (Online: 1), (t: closed inventory, c: 8)]'
+(33)[2023/04/03 17:32:26]: '[Spartan Build 411.1-10352/-9280289409] BEFF failed ImpossibleInventory
+  (VL: 1) [(Version: Paper 1.12), (C-V: 2) (Silent: false), (Ping: 128ms), (TPS: 19.88),
+  (Plib: true), (Online: 1), (t: closed inventory, c: 8)]'
+(34)[2023/04/03 17:32:26]: '[Spartan Build 411.1-10352/-9280289409] BEFF failed ImpossibleInventory
+  (VL: 2) [(Version: Paper 1.12), (C-V: 2) (Silent: false), (Ping: 128ms), (TPS: 19.685),
+  (Plib: true), (Online: 1), (t: closed inventory, c: 8)]'
+(35)[2023/04/03 17:36:38]: '[Spartan Build 411.1-10352/-9280289409] BEFF failed KillAura
+  (VL: 1) [(Version: Paper 1.12), (C-V: 1) (Silent: false), (Ping: 148ms), (TPS: 19.968),
+  (Plib: true), (Online: 1), (t: block raytrace, r-d: 4.215419246460492, c-d: 2.7138442511964236,
+  b-a: stone, b-c: 1.204381336526548)]'
+(36)[2023/04/03 17:37:40]: '[Spartan Build 411.1-10352/-9280289409] BEFF failed KillAura
+  (VL: 1) [(Version: Paper 1.12), (C-V: 1) (Silent: false), (Ping: 159ms), (TPS: 19.908),
+  (Plib: true), (Online: 1), (t: hit-box, c: 5, p: 45.37850570678711, d: 3.4112791683037993)]'
+(37)[2023/04/03 17:38:01]: '[Spartan Build 411.1-10352/-9280289409] BEFF failed Speed
+  (VL: 1) [(Version: Paper 1.12), (C-V: 3) (Silent: false), (Ping: 143ms), (TPS: 19.92),
+  (Plib: true), (Online: 2), (t: normal, reason: walking, d: 0.2933187625470077, dm:
+  0.292, dm_s: 0.292, dy: 0.0, a: 0)]'
+(38)[2023/04/03 17:46:16]: '[Spartan Build 411.1-10352/-9280289409] BEFF failed Fly
+  (VL: 1) [(Version: Paper 1.12), (C-V: 4) (Silent: false), (Ping: 129ms), (TPS: 19.964),
+  (Plib: true), (Online: 1), (t: change, d: -0.07840000152587834, od: -0.23152379758701613,
+  a: 17, r: 0.9215999984741217, e: false)]'
+(39)[2023/04/03 17:48:01]: '[Spartan Build 411.1-10352/-9280289409] BEFF failed KillAura
+  (VL: 1) [(Version: Paper 1.12), (C-V: 1) (Silent: false), (Ping: 123ms), (TPS: 19.932),
+  (Plib: true), (Online: 1), (t: block raytrace, r-d: 4.848278476856114, c-d: 3.819841611406137,
+  b-a: grass, b-c: 0.41946999414857444)]'
+(40)[2023/04/03 18:03:03]: '[Spartan Build 411.1-10352/-9280289409] CrazyHaze failed
+  NoSlowdown (VL: 1) [(Version: Paper 1.12), (C-V: -3) (Silent: false), (Ping: 50ms),
+  (TPS: 19.988), (Plib: true), (Online: 1), (t: food eating, c: 1)]'
+(41)[2023/04/03 18:03:05]: '[Spartan Build 411.1-10352/-9280289409] CrazyHaze failed
+  NoSlowdown (VL: 2) [(Version: Paper 1.12), (C-V: -3) (Silent: false), (Ping: 56ms),
+  (TPS: 19.992), (Plib: true), (Online: 1), (t: food eating, c: 1)]'
+(42)[2023/04/03 18:07:10]: '[Spartan Build 411.1-10352/-9280289409] CrazyHaze failed
+  Fly (VL: 1) [(Version: Paper 1.12), (C-V: 4) (Silent: false), (Ping: 74ms), (TPS:
+  19.984), (Plib: true), (Online: 1), (t: stable, d: 0.0, ds: 0.0, ods: 0.0, a: 17/17,
+  r: 0.0, h: 0.0, e: false)]'
+(43)[2023/04/03 18:07:10]: '[Spartan Build 411.1-10352/-9280289409] CrazyHaze failed
+  Fly (VL: 2) [(Version: Paper 1.12), (C-V: -4) (Silent: false), (Ping: 74ms), (TPS:
+  19.996), (Plib: true), (Online: 1), (t: stable, d: 0.0, ds: 0.0, ods: 0.0, a: 19/19,
+  r: 0.0, h: 0.0, e: false)]'
+(44)[2023/04/03 18:07:34]: '[Spartan Build 411.1-10352/-9280289409] CrazyHaze failed
+  Fly (VL: 1) [(Version: Paper 1.12), (C-V: 4) (Silent: false), (Ping: 74ms), (TPS:
+  19.948), (Plib: true), (Online: 1), (t: stable, d: 0.0, ds: 0.0, ods: 0.0, a: 18/18,
+  r: 0.0, h: 0.09854427653574195, e: false)]'
+(45)[2023/04/03 18:07:35]: '[Spartan Build 411.1-10352/-9280289409] CrazyHaze failed
+  Fly (VL: 2) [(Version: Paper 1.12), (C-V: 4) (Silent: false), (Ping: 74ms), (TPS:
+  19.948), (Plib: true), (Online: 1), (t: stable, d: 0.0, ds: 0.0, ods: 0.0, a: 21/21,
+  r: 0.0, h: 0.09892712993908864, e: false)]'
+(46)[2023/04/03 18:07:35]: '[Spartan Build 411.1-10352/-9280289409] CrazyHaze failed
+  Fly (VL: 3) [(Version: Paper 1.12), (C-V: 4) (Silent: false), (Ping: 74ms), (TPS:
+  19.932), (Plib: true), (Online: 1), (t: stable, d: 0.0, ds: 0.0, ods: 0.0, a: 31/31,
+  r: 0.0, h: 0.0, e: false)]'
+(47)[2023/04/03 18:07:35]: '[Spartan Build 411.1-10352/-9280289409] CrazyHaze failed
+  Fly (VL: 4) [(Version: Paper 1.12), (C-V: 4) (Silent: false), (Ping: 74ms), (TPS:
+  19.944), (Plib: true), (Online: 1), (t: stable, d: 0.0, ds: 0.0, ods: 0.0, a: 32/32,
+  r: 0.0, h: 0.10042648238922927, e: false)]'
+(48)[2023/04/03 18:08:16]: '[Spartan Build 411.1-10352/-9280289409] CrazyHaze failed
+  Jesus (VL: 1) [(Version: Paper 1.12), (C-V: 3) (Silent: false), (Ping: 80ms), (TPS:
+  19.841), (Plib: true), (Online: 1), (t: speed(13), d: 0.28009496200944606, dm: 0.22,
+  dm_s: 0.22)]'
+(49)[2023/04/03 18:08:16]: '[Spartan Build 411.1-10352/-9280289409] CrazyHaze failed
+  Jesus (VL: 2) [(Version: Paper 1.12), (C-V: 3) (Silent: false), (Ping: 80ms), (TPS:
+  19.86), (Plib: true), (Online: 1), (t: speed(13), d: 0.2797639931965834, dm: 0.22,
+  dm_s: 0.22)]'
+(50)[2023/04/03 18:08:16]: '[Spartan Build 411.1-10352/-9280289409] CrazyHaze failed
+  Fly (VL: 1) [(Version: Paper 1.12), (C-V: -4) (Silent: false), (Ping: 80ms), (TPS:
+  19.849), (Plib: true), (Online: 1), (t: stable, d: 0.0, ds: 0.0, ods: 0.0, a: 12/12,
+  r: 0.0, h: 0.2791576799777751, e: false)]'
+(51)[2023/04/03 18:08:20]: '(False Positive) [Spartan Build 411.1-10352/-9280289409]
+  CrazyHaze failed Fly (VL: 1) [(Version: Paper 1.12), (C-V: -4) (Silent: false),
+  (Ping: 81ms), (TPS: 19.857), (Plib: true), (Online: 1), (t: stable, d: 0.0, ds:
+  0.0, ods: 0.0, a: 19/19, r: 0.0, h: 0.1791882028369902, e: false)]'
+(52)[2023/04/03 18:08:20]: '[Spartan Build 411.1-10352/-9280289409] CrazyHaze failed
+  Fly (VL: 2) [(Version: Paper 1.12), (C-V: -4) (Silent: false), (Ping: 81ms), (TPS:
+  19.864), (Plib: true), (Online: 1), (t: stable, d: 0.0, ds: 0.0, ods: 0.0, a: 20/20,
+  r: 0.0, h: 0.1988451666743693, e: false)]'
+(53)[2023/04/03 18:08:30]: '[Spartan Build 411.1-10352/-9280289409] CrazyHaze failed
+  Fly (VL: 3) [(Version: Paper 1.12), (C-V: 4) (Silent: false), (Ping: 81ms), (TPS:
+  19.758), (Plib: true), (Online: 1), (t: stable, d: 0.0, ds: 0.0, ods: 0.0, a: 26/26,
+  r: 0.0, h: 0.0826978385457348, e: false)]'
+(54)[2023/04/03 18:08:30]: '(False Positive) [Spartan Build 411.1-10352/-9280289409]
+  CrazyHaze failed Fly (VL: 3) [(Version: Paper 1.12), (C-V: -4) (Silent: false),
+  (Ping: 81ms), (TPS: 19.538), (Plib: true), (Online: 1), (t: stable, d: 0.0, ds:
+  0.0, ods: 0.0, a: 34/34, r: 0.0, h: 0.18441161045905302, e: false)]'
+(55)[2023/04/03 18:08:32]: '[Spartan Build 411.1-10352/-9280289409] CrazyHaze failed
+  Fly (VL: 4) [(Version: Paper 1.12), (C-V: 4) (Silent: false), (Ping: 81ms), (TPS:
+  19.692), (Plib: true), (Online: 1), (t: stable, d: 0.0, ds: 0.0, ods: 0.0, a: 13/13,
+  r: 0.0, h: 0.21579837081234354, e: false)]'
+(56)[2023/04/03 18:08:42]: '[Spartan Build 411.1-10352/-9280289409] CrazyHaze failed
+  Fly (VL: 5) [(Version: Paper 1.12), (C-V: 4) (Silent: false), (Ping: 81ms), (TPS:
+  19.63), (Plib: true), (Online: 1), (t: stable, d: 0.0, ds: 0.0, ods: 0.0, a: 12/12,
+  r: 0.0, h: 0.0, e: false)]'
+(57)[2023/04/03 18:08:44]: '[Spartan Build 411.1-10352/-9280289409] CrazyHaze failed
+  Fly (VL: 6) [(Version: Paper 1.12), (C-V: 4) (Silent: false), (Ping: 81ms), (TPS:
+  19.794), (Plib: true), (Online: 1), (t: stable, d: 0.0, ds: 0.0, ods: 0.0, a: 13/13,
+  r: 0.0, h: 0.07014106330598224, e: false)]'
+(58)[2023/04/03 18:12:30]: '[Spartan Build 411.1-10352/-9280289409] CrazyHaze failed
+  Exploits (VL: 1) [(Version: Paper 1.12), (C-V: 3) (Silent: false), (Ping: 18ms),
+  (TPS: 19.964), (Plib: true), (Online: 1), (t: undetected movement, ms: 1550, d:
+  0.04285920427959519)]'
+(59)[2023/04/03 18:14:14]: '[Spartan Build 411.1-10352/-9280289409] CrazyHaze failed
+  Fly (VL: 1) [(Version: Paper 1.12), (C-V: 4) (Silent: false), (Ping: 317ms), (TPS:
+  19.964), (Plib: true), (Online: 1), (t: illegal, d: -0.07840000152587834, ds: 0.4102385526806245,
+  a: 25, r: 0.9215999984741217, e: false)]'
+(60)[2023/04/03 18:15:45]: '[Spartan Build 411.1-10352/-9280289409] CrazyHaze failed
+  IrregularMovements (VL: 1) [(Version: Paper 1.12), (C-V: 4) (Silent: false), (Ping:
+  138ms), (TPS: 19.747), (Plib: true), (Online: 2), (t: jump(illegal), d: 0.08307781780646906,
+  od: 0.1647732818260721, a: 22, r: 0.24918707874468282, c: (jump movement must remain
+  on ground), diff: 0.019971464019603036, f: false)]'
+(61)[2023/04/03 18:16:11]: '[Spartan Build 411.1-10352/-9280289409] CrazyHaze failed
+  Jesus (VL: 1) [(Version: Paper 1.12), (C-V: 3) (Silent: false), (Ping: 126ms), (TPS:
+  19.845), (Plib: true), (Online: 3), (t: repeated, ms: 50, d: 0.19599995119310915,
+  l: 0.1, a: false)]'
+(62)[2023/04/03 18:16:12]: '[Spartan Build 411.1-10352/-9280289409] CrazyHaze failed
+  Jesus (VL: 2) [(Version: Paper 1.12), (C-V: 3) (Silent: false), (Ping: 126ms), (TPS:
+  19.79), (Plib: true), (Online: 3), (t: repeated, ms: 50, d: 0.19599995119310915,
+  l: 0.1, a: false)]'
+(63)[2023/04/03 18:16:13]: '[Spartan Build 411.1-10352/-9280289409] CrazyHaze failed
+  Jesus (VL: 3) [(Version: Paper 1.12), (C-V: 3) (Silent: false), (Ping: 126ms), (TPS:
+  19.665), (Plib: true), (Online: 3), (t: repeated, ms: 50, d: 0.19599995119310915,
+  l: 0.1, a: false)]'
+(64)[2023/04/03 18:16:23]: '[Spartan Build 411.1-10352/-9280289409] CrazyHaze failed
+  Jesus (VL: 1) [(Version: Paper 1.12), (C-V: 3) (Silent: false), (Ping: 113ms), (TPS:
+  19.872), (Plib: true), (Online: 2), (t: ypos(attempts), dy: 0.17500000297890494,
+  l: 0.175)]'
+(65)[2023/04/03 18:16:23]: '[Spartan Build 411.1-10352/-9280289409] CrazyHaze failed
+  Jesus (VL: 2) [(Version: Paper 1.12), (C-V: 3) (Silent: false), (Ping: 113ms), (TPS:
+  19.88), (Plib: true), (Online: 2), (t: ypos(attempts), dy: 0.17500000357522083,
+  l: 0.175)]'
+(66)[2023/04/03 18:16:25]: '[Spartan Build 411.1-10352/-9280289409] CrazyHaze failed
+  Jesus (VL: 3) [(Version: Paper 1.12), (C-V: 3) (Silent: false), (Ping: 113ms), (TPS:
+  19.896), (Plib: true), (Online: 2), (t: ypos(attempts), dy: 0.2806113422304861,
+  l: 0.175)]'
+(67)[2023/04/03 18:16:42]: '[Spartan Build 411.1-10352/-9280289409] CrazyHaze failed
+  NoSlowdown (VL: 1) [(Version: Paper 1.12), (C-V: -3) (Silent: false), (Ping: 102ms),
+  (TPS: 19.849), (Plib: true), (Online: 2), (t: food eating, c: 1)]'
+(68)[2023/04/03 18:23:51]: '[Spartan Build 411.1-10352/-9280289409] sasha26082012
+  failed MorePackets (VL: 1) [(Version: Paper 1.12), (C-V: 5) (Silent: false), (Ping:
+  126ms), (TPS: 19.809), (Plib: true), (Online: 2), (at: -1, de: 1.52, lm: 0.15, corr:
+  0.0, mpt: 32, dis: 0.11/0.157)]'
+(69)[2023/04/03 18:23:51]: '[Spartan Build 411.1-10352/-9280289409] sasha26082012
+  failed MorePackets (VL: 2) [(Version: Paper 1.12), (C-V: 5) (Silent: false), (Ping:
+  126ms), (TPS: 19.805), (Plib: true), (Online: 2), (at: -1, de: 1.52, lm: 0.15, corr:
+  0.0, mpt: 33, dis: 0.0/Infinity)]'
+(70)[2023/04/03 18:23:51]: '[Spartan Build 411.1-10352/-9280289409] sasha26082012
+  failed MorePackets (VL: 3) [(Version: Paper 1.12), (C-V: 5) (Silent: false), (Ping:
+  126ms), (TPS: 19.801), (Plib: true), (Online: 2), (at: -1, de: 1.52, lm: 0.15, corr:
+  0.0, mpt: 34, dis: 0.0/NaN)]'
+(71)[2023/04/03 18:23:51]: '[Spartan Build 411.1-10352/-9280289409] sasha26082012
+  failed MorePackets (VL: 4) [(Version: Paper 1.12), (C-V: 5) (Silent: false), (Ping:
+  126ms), (TPS: 19.798), (Plib: true), (Online: 2), (at: -1, de: 1.52, lm: 0.15, corr:
+  0.0, mpt: 35, dis: 0.0/NaN)]'
+(72)[2023/04/03 18:23:51]: '[Spartan Build 411.1-10352/-9280289409] sasha26082012
+  failed MorePackets (VL: 5) [(Version: Paper 1.12), (C-V: 5) (Silent: false), (Ping:
+  126ms), (TPS: 19.794), (Plib: true), (Online: 2), (at: -1, de: 1.52, lm: 0.15, corr:
+  0.0, mpt: 36, dis: 0.0/NaN)]'
+(73)[2023/04/03 18:23:51]: '[Spartan Build 411.1-10352/-9280289409] CrazyHaze failed
+  MorePackets (VL: 1) [(Version: Paper 1.12), (C-V: 5) (Silent: false), (Ping: 73ms),
+  (TPS: 19.864), (Plib: true), (Online: 2), (at: -1, de: 0.0, lm: 0.15, corr: 0.0,
+  mpt: 30, dis: 0.0/344.956)]'
+(74)[2023/04/03 18:23:51]: '[Spartan Build 411.1-10352/-9280289409] CrazyHaze failed
+  MorePackets (VL: 2) [(Version: Paper 1.12), (C-V: -5) (Silent: false), (Ping: 73ms),
+  (TPS: 19.833), (Plib: true), (Online: 2), (at: -1, de: 0.0, lm: 0.15, corr: 0.0,
+  mpt: 30, dis: 0.11/0.079)]'
+(1)[2023/04/03 18:44:52]: '[Spartan Build 411.1-10352/-9280289409] gavno007 failed
+  IrregularMovements (VL: 1) [(Version: Paper 1.12), (C-V: 4) (Silent: false), (Ping:
+  33ms), (TPS: 19.86), (Plib: true), (Online: 4), (t: jump(illegal), d: 0.41999998688697815,
+  od: -0.30431682745754074, a: 1, r: 0.8515238321577101, c: (jump cannot start while
+  in negative distance), diff: 0.6466748143445189, f: false)]'
+(2)[2023/04/03 18:44:53]: '[Spartan Build 411.1-10352/-9280289409] gavno007 failed
+  IrregularMovements (VL: 2) [(Version: Paper 1.12), (C-V: 4) (Silent: false), (Ping:
+  33ms), (TPS: 19.892), (Plib: true), (Online: 4), (t: jump(illegal), d: 0.41999998688697815,
+  od: 0.33319999363422426, a: 2, r: 0.17319996740818056, c: (new distance must remain
+  smaller), diff: 0.009915993252753899, f: false)]'
+(3)[2023/04/03 18:44:53]: '[Spartan Build 411.1-10352/-9280289409] gavno007 failed
+  IrregularMovements (VL: 3) [(Version: Paper 1.12), (C-V: -4) (Silent: false), (Ping:
+  33ms), (TPS: 19.88), (Plib: true), (Online: 4), (t: step(scheduler), h: 0.41356844575610024,
+  v: 1.385103120503203, l: 1.3)]'
+(4)[2023/04/03 18:45:52]: '[Spartan Build 411.1-10352/-9280289409] sasha26082012 failed
+  Velocity (VL: 1) [(Version: Paper 1.12), (C-V: 2) (Silent: false), (Ping: 130ms),
+  (TPS: 19.833), (Plib: true), (Online: 3), (d: 0.6257942693180839, h: 1.153199980521208,
+  ddiff: 1.244719371415623, hdiff: 0.04710611177584667, dcorr: 1.1255815435988634,
+  hcorr: 0.0, dthr: 2.9509005513764768, lcorr: 0.3650466571022156, in: 0.3, mp: 0.8999999999999999,
+  kb: true)]'
+(5)[2023/04/03 18:46:15]: '[Spartan Build 411.1-10352/-9280289409] sasha26082012 failed
+  Speed (VL: 1) [(Version: Paper 1.12), (C-V: 3) (Silent: false), (Ping: 124ms), (TPS:
+  19.86), (Plib: true), (Online: 3), (t: normal, reason: air, d: 0.6283797666861348,
+  dm: 0.42, dm_s: 0.42, dy: -0.2888370781579255, a: 1)]'
+(6)[2023/04/03 18:46:15]: '[Spartan Build 411.1-10352/-9280289409] sasha26082012 failed
+  Speed (VL: 2) [(Version: Paper 1.12), (C-V: 3) (Silent: false), (Ping: 124ms), (TPS:
+  19.829), (Plib: true), (Online: 3), (t: normal, reason: air, d: 0.5522393838109514,
+  dm: 0.42, dm_s: 0.42, dy: -0.36146034362978696, a: 2)]'
+(7)[2023/04/03 18:46:40]: '[Spartan Build 411.1-10352/-9280289409] sasha26082012 failed
+  IrregularMovements (VL: 1) [(Version: Paper 1.12), (C-V: 4) (Silent: false), (Ping:
+  127ms), (TPS: 19.892), (Plib: true), (Online: 3), (t: jump(unusual), d: 0.22892801043701638,
+  a: 5, r: 0.4783686415850923)]'
+(8)[2023/04/03 18:46:40]: '[Spartan Build 411.1-10352/-9280289409] sasha26082012 failed
+  IrregularMovements (VL: 2) [(Version: Paper 1.12), (C-V: 4) (Silent: false), (Ping:
+  127ms), (TPS: 19.888), (Plib: true), (Online: 3), (t: jump(unusual), d: 0.14594945306885165,
+  a: 6, r: 0.624318094653944)]'
+(9)[2023/04/03 18:46:40]: '[Spartan Build 411.1-10352/-9280289409] sasha26082012 failed
+  Speed (VL: 3) [(Version: Paper 1.12), (C-V: 3) (Silent: false), (Ping: 127ms), (TPS:
+  19.896), (Plib: true), (Online: 3), (t: air(decreased), d: 0.7806472848009589)]'
+(10)[2023/04/03 18:47:14]: '[Spartan Build 411.1-10352/-9280289409] sasha26082012
+  failed Jesus (VL: 1) [(Version: Paper 1.12), (C-V: 3) (Silent: false), (Ping: 127ms),
+  (TPS: 19.853), (Plib: true), (Online: 3), (t: ypos(normal), dy: 0.4299999991059309,
+  l: 0.38)]'
+(11)[2023/04/03 18:47:15]: '[Spartan Build 411.1-10352/-9280289409] sasha26082012
+  failed Jesus (VL: 2) [(Version: Paper 1.12), (C-V: 3) (Silent: false), (Ping: 127ms),
+  (TPS: 19.853), (Plib: true), (Online: 3), (t: ypos(attempts), dy: 0.26896000782251406,
+  l: 0.175)]'
+(12)[2023/04/03 18:47:15]: '[Spartan Build 411.1-10352/-9280289409] sasha26082012
+  failed Jesus (VL: 3) [(Version: Paper 1.12), (C-V: 3) (Silent: false), (Ping: 127ms),
+  (TPS: 19.857), (Plib: true), (Online: 3), (t: ypos(attempts), dy: 0.2081344087655097,
+  l: 0.175)]'
+(13)[2023/04/03 18:47:27]: '[Spartan Build 411.1-10352/-9280289409] 20KKEASY failed
+  Exploits (VL: 1) [(Version: Paper 1.12), (C-V: 3) (Silent: false), (Ping: 64ms),
+  (TPS: 19.805), (Plib: true), (Online: 3), (t: undetected movement, ms: 2152, d:
+  0.0336876258669551)]'
+(14)[2023/04/03 18:47:31]: '[Spartan Build 411.1-10352/-9280289409] sasha26082012
+  failed Jesus (VL: 4) [(Version: Paper 1.12), (C-V: 3) (Silent: false), (Ping: 128ms),
+  (TPS: 19.849), (Plib: true), (Online: 3), (t: ypos(normal), dy: 0.4598749991059279,
+  l: 0.38)]'
+(15)[2023/04/03 18:47:59]: '[Spartan Build 411.1-10352/-9280289409] sasha26082012
+  failed Jesus (VL: 1) [(Version: Paper 1.12), (C-V: 3) (Silent: false), (Ping: 123ms),
+  (TPS: 19.876), (Plib: true), (Online: 3), (t: ypos(normal), dy: 0.4299999991059309,
+  l: 0.38)]'
+(16)[2023/04/03 18:47:59]: '[Spartan Build 411.1-10352/-9280289409] sasha26082012
+  failed Jesus (VL: 2) [(Version: Paper 1.12), (C-V: 3) (Silent: false), (Ping: 123ms),
+  (TPS: 19.944), (Plib: true), (Online: 3), (t: ypos(attempts), dy: 0.22896000871658373,
+  l: 0.175)]'
+(17)[2023/04/03 18:50:17]: '[Spartan Build 411.1-10352/-9280289409] 20KKEASY failed
+  Speed (VL: 1) [(Version: Paper 1.12), (C-V: 3) (Silent: false), (Ping: 177ms), (TPS:
+  19.884), (Plib: true), (Online: 3), (t: normal, reason: ground, d: 0.32974873634413565,
+  dm: 0.325, dm_s: 0.325, dy: 0.0, a: 0)]'
+(18)[2023/04/03 18:58:56]: '[Spartan Build 411.1-10352/-9280289409] sasha26082012
+  failed IrregularMovements (VL: 1) [(Version: Paper 1.12), (C-V: -4) (Silent: false),
+  (Ping: 146ms), (TPS: 19.92), (Plib: true), (Online: 2), (t: step(scheduler), h:
+  0.499182895282925, v: 1.5013359791121417, l: 1.3)]'
+(19)[2023/04/03 19:15:10]: '[Spartan Build 411.1-10352/-9280289409] sasha26082012
+  failed IrregularMovements (VL: 1) [(Version: Paper 1.12), (C-V: 4) (Silent: false),
+  (Ping: 126ms), (TPS: 19.94), (Plib: true), (Online: 2), (t: jump(illegal), d: 0.1647732818260721,
+  od: 0.24813599859093927, a: 16, r: 0.6661092609382138, c: (jump must start on the
+  ground), diff: 0.017090716764867175, f: false)]'
+(20)[2023/04/03 19:43:33]: '[Spartan Build 411.1-10352/-9280289409] asetic failed
+  Speed (VL: 1) [(Version: Paper 1.12), (C-V: 3) (Silent: false), (Ping: 2456ms),
+  (TPS: 19.948), (Plib: true), (Online: 1), (t: normal, reason: air, d: 0.6178137199628608,
+  dm: 0.3675, dm_s: 0.5475, dy: 0.4375, a: 0)]'
+(21)[2023/04/03 19:43:33]: '[Spartan Build 411.1-10352/-9280289409] asetic failed
+  Speed (VL: 2) [(Version: Paper 1.12), (C-V: 3) (Silent: false), (Ping: 2456ms),
+  (TPS: 19.948), (Plib: true), (Online: 1), (t: normal, reason: ground, d: 0.3333645601502629,
+  dm: 0.325, dm_s: 0.325, dy: 0.0, a: 0)]'
+(22)[2023/04/03 19:54:04]: '[Spartan Build 411.1-10352/-9280289409] ORbYg failed Speed
+  (VL: 1) [(Version: Paper 1.12), (C-V: -3) (Silent: false), (Ping: 60ms), (TPS: 19.876),
+  (Plib: true), (Online: 2), (t: normal, reason: air, d: 18.362338925517317, dm: 0.3675,
+  dm_s: 0.3675, dy: -1.0, a: 0)]'
+(23)[2023/04/03 19:54:04]: '[Spartan Build 411.1-10352/-9280289409] ORbYg failed Clip
+  (VL: 1) [(Version: Paper 1.12), (C-V: 2) (Silent: false), (Ping: 60ms), (TPS: 19.837),
+  (Plib: true), (Online: 2), (t: instant, d: 1.0, l: 0.47, r: down, a: 0)]'
+(24)[2023/04/03 19:54:04]: '[Spartan Build 411.1-10352/-9280289409] ORbYg failed IrregularMovements
+  (VL: 1) [(Version: Paper 1.12), (C-V: 4) (Silent: false), (Ping: 60ms), (TPS: 19.868),
+  (Plib: true), (Online: 2), (t: step(high), d: 1.0, dm: 0.60001, a: 0)]'
+(25)[2023/04/03 19:54:04]: '[Spartan Build 411.1-10352/-9280289409] ORbYg failed Speed
+  (VL: 2) [(Version: Paper 1.12), (C-V: -3) (Silent: false), (Ping: 60ms), (TPS: 19.77),
+  (Plib: true), (Online: 2), (t: normal, reason: air, d: 18.323995116076, dm: 0.3675,
+  dm_s: 0.3675, dy: -1.0, a: 0)]'
+(26)[2023/04/03 19:54:05]: '[Spartan Build 411.1-10352/-9280289409] ORbYg failed Speed
+  (VL: 3) [(Version: Paper 1.12), (C-V: 3) (Silent: false), (Ping: 60ms), (TPS: 19.88),
+  (Plib: true), (Online: 2), (t: normal, reason: air, d: 0.9896345285003122, dm: 0.3675,
+  dm_s: 0.3675, dy: 0.07837499999999409, a: 0)]'
+(27)[2023/04/03 19:54:05]: '[Spartan Build 411.1-10352/-9280289409] ORbYg failed Speed
+  (VL: 4) [(Version: Paper 1.12), (C-V: 3) (Silent: false), (Ping: 60ms), (TPS: 19.801),
+  (Plib: true), (Online: 2), (t: air(decreased), d: 0.9896345285003122)]'
+(28)[2023/04/03 19:54:05]: '[Spartan Build 411.1-10352/-9280289409] ORbYg failed Speed
+  (VL: 5) [(Version: Paper 1.12), (C-V: 3) (Silent: false), (Ping: 60ms), (TPS: 19.805),
+  (Plib: true), (Online: 2), (t: normal, reason: walking, d: 0.9896345285003122, dm:
+  0.3675, dm_s: 0.3675, dy: 0.07837499999999409, a: 0)]'
+(29)[2023/04/03 19:54:05]: '[Spartan Build 411.1-10352/-9280289409] ORbYg failed Speed
+  (VL: 6) [(Version: Paper 1.12), (C-V: 3) (Silent: false), (Ping: 60ms), (TPS: 19.805),
+  (Plib: true), (Online: 2), (t: normal, reason: walking, d: 0.9896345285003122, dm:
+  0.3675, dm_s: 0.3675, dy: 0.07837499999999409, a: 0)]'
+(30)[2023/04/03 19:54:06]: '[Spartan Build 411.1-10352/-9280289409] ORbYg failed Speed
+  (VL: 7) [(Version: Paper 1.12), (C-V: 3) (Silent: false), (Ping: 60ms), (TPS: 19.786),
+  (Plib: true), (Online: 2), (t: air(decreased), d: 0.9896345285003122)]'
+(31)[2023/04/03 19:55:40]: '[Spartan Build 411.1-10352/-9280289409] ORbYg failed MorePackets
+  (VL: 1) [(Version: Paper 1.12), (C-V: 5) (Silent: false), (Ping: 122ms), (TPS: 19.872),
+  (Plib: true), (Online: 2), (at: -2, de: 1.44, lm: 0.15, corr: 0.6299999803304672,
+  mpt: 2, dis: 0.87/0.072)]'
+(32)[2023/04/03 19:57:24]: '[Spartan Build 411.1-10352/-9280289409] ORbYg failed IrregularMovements
+  (VL: 1) [(Version: Paper 1.12), (C-V: 4) (Silent: false), (Ping: 134ms), (TPS: 19.92),
+  (Plib: true), (Online: 2), (t: jump(illegal), d: 0.41999998688697815, od: 0.33319999363422426,
+  a: 2, r: 0.17319996740818056, c: (new distance must remain smaller), diff: 0.009915993252753899,
+  f: false)]'
+(33)[2023/04/03 19:57:25]: '[Spartan Build 411.1-10352/-9280289409] ORbYg failed IrregularMovements
+  (VL: 2) [(Version: Paper 1.12), (C-V: 4) (Silent: false), (Ping: 134ms), (TPS: 19.916),
+  (Plib: true), (Online: 2), (t: step(scheduler), h: 0.31900377749582276, v: 2.0877359532675683,
+  l: 1.3)]'
+(34)[2023/04/03 19:57:25]: '[Spartan Build 411.1-10352/-9280289409] ORbYg failed IrregularMovements
+  (VL: 3) [(Version: Paper 1.12), (C-V: 4) (Silent: false), (Ping: 134ms), (TPS: 19.924),
+  (Plib: true), (Online: 2), (t: jump(illegal), d: 0.24813599859093927, od: 0.33319999363422426,
+  a: 12, r: 0.5104078983788298, c: (jump must start on the ground), diff: 0.015759995043284986,
+  f: false)]'
+(35)[2023/04/03 19:57:26]: '[Spartan Build 411.1-10352/-9280289409] ORbYg failed IrregularMovements
+  (VL: 4) [(Version: Paper 1.12), (C-V: 4) (Silent: false), (Ping: 134ms), (TPS: 19.924),
+  (Plib: true), (Online: 2), (t: jump(illegal), d: 0.1647732818260721, od: 0.24813599859093927,
+  a: 30, r: 0.18558907858373175, c: (jump movement must remain on ground), diff: 0.027702716764867172,
+  f: false)]'
+(36)[2023/04/03 19:57:29]: '[Spartan Build 411.1-10352/-9280289409] ORbYg failed IrregularMovements
+  (VL: 5) [(Version: Paper 1.12), (C-V: 4) (Silent: false), (Ping: 165ms), (TPS: 19.964),
+  (Plib: true), (Online: 2), (t: step(high), d: 3.9000000953674316, dm: 0.60001, a:
+  1)]'
+(37)[2023/04/03 19:57:31]: '[Spartan Build 411.1-10352/-9280289409] ORbYg failed IrregularMovements
+  (VL: 6) [(Version: Paper 1.12), (C-V: 4) (Silent: false), (Ping: 165ms), (TPS: 19.944),
+  (Plib: true), (Online: 2), (t: step(high), d: 3.9000000953674316, dm: 0.60001, a:
+  1)]'
+(38)[2023/04/03 19:57:31]: '[Spartan Build 411.1-10352/-9280289409] ORbYg failed Speed
+  (VL: 1) [(Version: Paper 1.12), (C-V: -3) (Silent: false), (Ping: 165ms), (TPS:
+  19.936), (Plib: true), (Online: 2), (t: normal, reason: air, d: 0.8274785967775867,
+  dm: 0.3675, dm_s: 0.3675, dy: 0.07837499999999409, a: 0)]'
+(39)[2023/04/03 19:57:31]: '[Spartan Build 411.1-10352/-9280289409] ORbYg failed Speed
+  (VL: 2) [(Version: Paper 1.12), (C-V: -3) (Silent: false), (Ping: 165ms), (TPS:
+  19.924), (Plib: true), (Online: 2), (t: normal, reason: walking, d: 0.8274785967775867,
+  dm: 0.3675, dm_s: 0.3675, dy: 0.07837499999999409, a: 0)]'
+(40)[2023/04/03 19:57:31]: '[Spartan Build 411.1-10352/-9280289409] ORbYg failed Speed
+  (VL: 3) [(Version: Paper 1.12), (C-V: 3) (Silent: false), (Ping: 165ms), (TPS: 19.924),
+  (Plib: true), (Online: 2), (t: air(decreased), d: 0.8274785967775867)]'
+(41)[2023/04/03 19:57:32]: '[Spartan Build 411.1-10352/-9280289409] ORbYg failed Speed
+  (VL: 4) [(Version: Paper 1.12), (C-V: 3) (Silent: false), (Ping: 165ms), (TPS: 19.936),
+  (Plib: true), (Online: 2), (t: normal, reason: walking, d: 0.8274785967775867, dm:
+  0.3675, dm_s: 0.3675, dy: 0.07837499999999409, a: 0)]'
+(42)[2023/04/03 19:57:32]: '[Spartan Build 411.1-10352/-9280289409] ORbYg failed Speed
+  (VL: 5) [(Version: Paper 1.12), (C-V: 3) (Silent: false), (Ping: 165ms), (TPS: 19.932),
+  (Plib: true), (Online: 2), (t: normal, reason: walking, d: 0.8274785967775867, dm:
+  0.3675, dm_s: 0.3675, dy: 0.07837499999999409, a: 0)]'
+(43)[2023/04/03 19:57:32]: '[Spartan Build 411.1-10352/-9280289409] ORbYg failed Speed
+  (VL: 6) [(Version: Paper 1.12), (C-V: 3) (Silent: false), (Ping: 165ms), (TPS: 19.932),
+  (Plib: true), (Online: 2), (t: normal, reason: walking, d: 0.8274785967775867, dm:
+  0.292, dm_s: 0.292, dy: 0.07837499999999409, a: 0)]'
+(44)[2023/04/03 19:57:32]: '[Spartan Build 411.1-10352/-9280289409] ORbYg failed Speed
+  (VL: 7) [(Version: Paper 1.12), (C-V: 3) (Silent: false), (Ping: 165ms), (TPS: 19.924),
+  (Plib: true), (Online: 2), (t: normal, reason: walking, d: 0.8274785967775867, dm:
+  0.292, dm_s: 0.292, dy: 0.07837499999999409, a: 0)]'
+(45)[2023/04/03 19:57:33]: '[Spartan Build 411.1-10352/-9280289409] ORbYg failed Speed
+  (VL: 8) [(Version: Paper 1.12), (C-V: 3) (Silent: false), (Ping: 165ms), (TPS: 19.928),
+  (Plib: true), (Online: 2), (t: normal, reason: walking, d: 0.8274785967775867, dm:
+  0.292, dm_s: 0.292, dy: 0.07837499999999409, a: 0)]'
+(46)[2023/04/03 19:57:33]: '[Spartan Build 411.1-10352/-9280289409] ORbYg failed Speed
+  (VL: 9) [(Version: Paper 1.12), (C-V: 3) (Silent: false), (Ping: 165ms), (TPS: 19.924),
+  (Plib: true), (Online: 2), (t: normal, reason: walking, d: 0.8274785967775867, dm:
+  0.292, dm_s: 0.292, dy: 0.07837499999999409, a: 0)]'
+(47)[2023/04/03 19:57:33]: '[Spartan Build 411.1-10352/-9280289409] ORbYg failed Speed
+  (VL: 10) [(Version: Paper 1.12), (C-V: 3) (Silent: false), (Ping: 165ms), (TPS:
+  19.924), (Plib: true), (Online: 2), (t: normal, reason: walking, d: 0.8274785967775867,
+  dm: 0.292, dm_s: 0.292, dy: 0.07837499999999409, a: 0)]'
+(48)[2023/04/03 19:57:33]: '[Spartan Build 411.1-10352/-9280289409] ORbYg failed Speed
+  (VL: 11) [(Version: Paper 1.12), (C-V: 3) (Silent: false), (Ping: 165ms), (TPS:
+  19.924), (Plib: true), (Online: 2), (t: normal, reason: walking, d: 0.8274785967775867,
+  dm: 0.292, dm_s: 0.292, dy: 0.07837499999999409, a: 0)]'
+(49)[2023/04/03 19:57:33]: '[Spartan Build 411.1-10352/-9280289409] ORbYg was kicked
+  for Speed'
+(50)[2023/04/03 19:57:49]: '[Spartan Build 411.1-10352/-9280289409] ORbYg failed Speed
+  (VL: 12) [(Version: Paper 1.12), (C-V: 3) (Silent: false), (Ping: 0ms), (TPS: 19.976),
+  (Plib: true), (Online: 2), (t: normal, reason: air, d: 1.0195999998851457, dm: 0.3675,
+  dm_s: 0.3675, dy: -0.15233518685055003, a: 7)]'
+(51)[2023/04/03 19:57:49]: '[Spartan Build 411.1-10352/-9280289409] ORbYg failed Speed
+  (VL: 13) [(Version: Paper 1.12), (C-V: 3) (Silent: false), (Ping: 0ms), (TPS: 19.952),
+  (Plib: true), (Online: 2), (t: air(decreased), d: 1.0080925756163224)]'
+(52)[2023/04/03 20:01:19]: '[Spartan Build 411.1-10352/-9280289409] vKYYs failed Sprint
+  (VL: 1) [(Version: Paper 1.12), (C-V: -2) (Silent: false), (Ping: 33ms), (TPS: 19.944),
+  (Plib: true), (Online: 2), (t: omnidirectional, d: backwards, l: 0.29)]'
+(53)[2023/04/03 20:01:48]: '[Spartan Build 411.1-10352/-9280289409] vKYYs failed Speed
+  (VL: 1) [(Version: Paper 1.12), (C-V: 3) (Silent: false), (Ping: 77ms), (TPS: 19.956),
+  (Plib: true), (Online: 2), (t: normal, reason: walking, d: 0.327842554258127, dm:
+  0.292, dm_s: 0.292, dy: 0.0, a: 0)]'
+(54)[2023/04/03 20:12:40]: '[Spartan Build 411.1-10352/-9280289409] oKaiB failed Speed
+  (VL: 1) [(Version: Paper 1.12), (C-V: 3) (Silent: false), (Ping: 34ms), (TPS: 19.96),
+  (Plib: true), (Online: 3), (t: normal, reason: walking, d: 0.2972445541791444, dm:
+  0.292, dm_s: 0.292, dy: 0.0, a: 0)]'
+(55)[2023/04/03 20:12:41]: '[Spartan Build 411.1-10352/-9280289409] asetic failed
+  MorePackets (VL: 1) [(Version: Paper 1.12), (C-V: 5) (Silent: false), (Ping: 748ms),
+  (TPS: 19.723), (Plib: true), (Online: 3), (at: -2, de: 9.0, lm: 0.15, corr: 0.5,
+  mpt: 22, dis: 0.28/0.0)]'
+(56)[2023/04/03 20:13:15]: '[Spartan Build 411.1-10352/-9280289409] asetic failed
+  Exploits (VL: 1) [(Version: Paper 1.12), (C-V: 3) (Silent: false), (Ping: 2327ms),
+  (TPS: 19.747), (Plib: true), (Online: 2), (t: ping-spoof(packets))]'
+(57)[2023/04/03 20:16:06]: '[Spartan Build 411.1-10352/-9280289409] oKaiB failed Speed
+  (VL: 1) [(Version: Paper 1.12), (C-V: 3) (Silent: false), (Ping: 135ms), (TPS: 19.976),
+  (Plib: true), (Online: 2), (t: normal, reason: walking, d: 0.30202543455003344,
+  dm: 0.292, dm_s: 0.292, dy: 0.0, a: 0)]'
+(58)[2023/04/03 20:16:06]: '[Spartan Build 411.1-10352/-9280289409] oKaiB failed Speed
+  (VL: 2) [(Version: Paper 1.12), (C-V: 3) (Silent: false), (Ping: 135ms), (TPS: 19.972),
+  (Plib: true), (Online: 2), (t: normal, reason: walking, d: 0.2923031381371138, dm:
+  0.292, dm_s: 0.292, dy: 0.0, a: 0)]'
+(59)[2023/04/03 20:31:57]: '[Spartan Build 411.1-10352/-9280289409] asetic failed
+  Exploits (VL: 1) [(Version: Paper 1.12), (C-V: 3) (Silent: false), (Ping: 6687ms),
+  (TPS: 19.964), (Plib: true), (Online: 1), (t: ping-spoof(packets))]'
+(60)[2023/04/03 20:32:24]: '[Spartan Build 411.1-10352/-9280289409] asetic failed
+  Velocity (VL: 1) [(Version: Paper 1.12), (C-V: 2) (Silent: false), (Ping: 5907ms),
+  (TPS: 19.833), (Plib: true), (Online: 1), (d: 0.0, h: 0.0, ddiff: 0.2999999999999999,
+  hdiff: 0.0, dcorr: 0.0, hcorr: 0.0, dthr: 1.0, lcorr: 0.0, in: 0.3, mp: 0.3, kb:
+  false)]'
+(61)[2023/04/03 20:33:22]: '[Spartan Build 411.1-10352/-9280289409] asetic failed
+  Jesus (VL: 1) [(Version: Paper 1.12), (C-V: 3) (Silent: false), (Ping: 3313ms),
+  (TPS: 19.94), (Plib: true), (Online: 1), (t: repeated, ms: 50, d: 0.19599994979612526,
+  l: 0.1, a: false)]'
+(62)[2023/04/03 20:33:25]: '[Spartan Build 411.1-10352/-9280289409] asetic failed
+  Jesus (VL: 2) [(Version: Paper 1.12), (C-V: 3) (Silent: false), (Ping: 3313ms),
+  (TPS: 19.92), (Plib: true), (Online: 1), (t: repeated, ms: 50, d: 0.19599995072744786,
+  l: 0.1, a: false)]'
+(63)[2023/04/03 20:33:26]: '[Spartan Build 411.1-10352/-9280289409] asetic failed
+  Jesus (VL: 3) [(Version: Paper 1.12), (C-V: 3) (Silent: false), (Ping: 3313ms),
+  (TPS: 19.912), (Plib: true), (Online: 1), (t: repeated, ms: 50, d: 0.19599995072744786,
+  l: 0.1, a: false)]'
+(64)[2023/04/03 20:33:29]: '[Spartan Build 411.1-10352/-9280289409] asetic failed
+  Jesus (VL: 4) [(Version: Paper 1.12), (C-V: 3) (Silent: false), (Ping: 2780ms),
+  (TPS: 19.944), (Plib: true), (Online: 1), (t: ypos(attempts), dy: 0.18632728506098317,
+  l: 0.175)]'
+(65)[2023/04/03 20:33:30]: '[Spartan Build 411.1-10352/-9280289409] asetic failed
+  Jesus (VL: 5) [(Version: Paper 1.12), (C-V: 3) (Silent: false), (Ping: 2780ms),
+  (TPS: 19.94), (Plib: true), (Online: 1), (t: ypos(attempts), dy: 0.1754517538047864,
+  l: 0.175)]'
+(66)[2023/04/03 20:33:31]: '[Spartan Build 411.1-10352/-9280289409] asetic failed
+  Jesus (VL: 6) [(Version: Paper 1.12), (C-V: 3) (Silent: false), (Ping: 2780ms),
+  (TPS: 19.944), (Plib: true), (Online: 1), (t: ypos(attempts), dy: 0.1818029891866999,
+  l: 0.175)]'
+(67)[2023/04/03 20:33:31]: '[Spartan Build 411.1-10352/-9280289409] asetic failed
+  Jesus (VL: 7) [(Version: Paper 1.12), (C-V: 3) (Silent: false), (Ping: 2780ms),
+  (TPS: 19.952), (Plib: true), (Online: 1), (t: ypos(attempts), dy: 0.1754517538047864,
+  l: 0.175)]'
+(68)[2023/04/03 20:33:37]: '[Spartan Build 411.1-10352/-9280289409] asetic failed
+  Jesus (VL: 8) [(Version: Paper 1.12), (C-V: 3) (Silent: false), (Ping: 2780ms),
+  (TPS: 19.857), (Plib: true), (Online: 1), (t: ypos(attempts), dy: 0.1750000024367111,
+  l: 0.175)]'
+(69)[2023/04/03 20:33:38]: '[Spartan Build 411.1-10352/-9280289409] asetic failed
+  Jesus (VL: 9) [(Version: Paper 1.12), (C-V: 3) (Silent: false), (Ping: 2780ms),
+  (TPS: 19.857), (Plib: true), (Online: 1), (t: ypos(attempts), dy: 0.1793804440030229,
+  l: 0.175)]'
+(70)[2023/04/03 20:35:59]: '[Spartan Build 411.1-10352/-9280289409] asetic failed
+  Exploits (VL: 1) [(Version: Paper 1.12), (C-V: 3) (Silent: false), (Ping: 6189ms),
+  (TPS: 19.92), (Plib: true), (Online: 1), (t: ping-spoof(packets))]'
+(71)[2023/04/03 20:44:16]: '[Spartan Build 411.1-10352/-9280289409] asetic failed
+  Exploits (VL: 1) [(Version: Paper 1.12), (C-V: 3) (Silent: false), (Ping: 5135ms),
+  (TPS: 19.841), (Plib: true), (Online: 1), (t: ping-spoof(packets))]'
+(72)[2023/04/03 21:13:43]: '[Spartan Build 411.1-10352/-9280289409] asetic failed
+  Exploits (VL: 1) [(Version: Paper 1.12), (C-V: 3) (Silent: false), (Ping: 8223ms),
+  (TPS: 19.94), (Plib: true), (Online: 2), (t: ping-spoof(packets))]'
+(73)[2023/04/03 21:14:14]: '[Spartan Build 411.1-10352/-9280289409] Freeze failed
+  InventoryClicks (VL: 1) [(Version: Paper 1.12), (C-V: 1) (Silent: false), (Ping:
+  87ms), (TPS: 19.916), (Plib: true), (Online: 2), (t: speed, s: fast, ms: 0, i: lapis-block)]'
+(74)[2023/04/03 21:14:14]: '[Spartan Build 411.1-10352/-9280289409] Freeze failed
+  InventoryClicks (VL: 2) [(Version: Paper 1.12), (C-V: 1) (Silent: false), (Ping:
+  87ms), (TPS: 19.849), (Plib: true), (Online: 2), (t: speed, s: fast, ms: 16, i:
+  potato-item)]'
+(75)[2023/04/03 21:15:39]: '[Spartan Build 411.1-10352/-9280289409] asetic failed
+  Exploits (VL: 1) [(Version: Paper 1.12), (C-V: 3) (Silent: false), (Ping: 2202ms),
+  (TPS: 19.956), (Plib: true), (Online: 2), (t: ping-spoof(packets))]'
+(76)[2023/04/03 21:16:27]: '[Spartan Build 411.1-10352/-9280289409] Freeze failed
+  Exploits (VL: 1) [(Version: Paper 1.12), (C-V: 3) (Silent: false), (Ping: 89ms),
+  (TPS: 19.9), (Plib: true), (Online: 2), (t: undetected movement, ms: 1651, d: 0.07641934137791395)]'
+(77)[2023/04/03 21:47:26]: '[Spartan Build 411.1-10352/-9280289409] Freeze failed
+  Exploits (VL: 1) [(Version: Paper 1.12), (C-V: 3) (Silent: false), (Ping: 89ms),
+  (TPS: 19.908), (Plib: true), (Online: 1), (t: undetected movement, ms: 4668, d:
+  0.04476089450008275)]'
+(78)[2023/04/03 21:48:53]: '[Spartan Build 411.1-10352/-9280289409] Freeze failed
+  IrregularMovements (VL: 1) [(Version: Paper 1.12), (C-V: 4) (Silent: false), (Ping:
+  102ms), (TPS: 19.813), (Plib: true), (Online: 1), (t: jump(illegal), d: 0.41999998688697815,
+  od: 0.0, a: 2, r: 0.47879682742618, c: (jump cannot start while on air), diff: 0.34311598688697814,
+  f: false)]'
+(79)[2023/04/03 21:48:54]: '[Spartan Build 411.1-10352/-9280289409] Freeze failed
+  Speed (VL: 1) [(Version: Paper 1.12), (C-V: 3) (Silent: false), (Ping: 102ms), (TPS:
+  19.833), (Plib: true), (Online: 1), (t: normal, reason: ground, d: 0.3325849676683777,
+  dm: 0.325, dm_s: 0.325, dy: 0.0, a: 0)]'

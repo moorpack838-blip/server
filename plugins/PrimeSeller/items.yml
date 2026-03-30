@@ -1,0 +1,43 @@
+unlimited:
+  update: 86400 # время обновления в секундах
+  items:
+    CHORUS_FRUIT: # id предмета
+      min-price: 3 # минимальная цена
+      max-price: 30 # максимальная цена
+    HONEY_BOTTLE:
+      min-price: 12
+      max-price: 120
+    COCOA_BEANS:
+      min-price: 4
+      max-price: 40
+limited:
+  limit: 2500 # сколько предметов игрок может продать до обновления
+  update: 1800 # время обновления в секундах
+  items:
+    MAGMA_CREAM: # id предмета
+      min-price: 50 # минимальная цена
+      max-price: 500 # максимальная цена
+    SWEET_BERRIES:
+      min-price: 5
+      max-price: 50
+    BEETROOT:
+      min-price: 35
+      max-price: 350
+    SPIDER_EYE:
+      min-price: 6
+      max-price: 60
+    PUFFERFISH:
+      min-price: 100
+      max-price: 1000
+    DRIED_KELP:
+      min-price: 8
+      max-price: 80
+    CHARCOAL:
+      min-price: 40
+      max-price: 400
+    TURTLE_EGG:
+      min-price: 230
+      max-price: 2300
+    FLINT:
+      min-price: 4
+      max-price: 40

@@ -1,0 +1,164 @@
+menu-title: '§e☀ §6§lНАГРАДЫ §e☀ '
+menu-rows: 6
+draw-past-max-tier: false
+
+free-reward-slots:
+  slots: '10...16'
+
+premium-reward-slots:
+  slots: '37...43'
+
+progress-track-slots:
+  slots: ''
+
+menu:
+  '0':
+    item:
+      material: stained_glass_pane:4
+      name: '§7'
+      lore: []
+  '1':
+    item:
+      material: stained_glass_pane:4
+      name: '§7'
+      lore: []
+  '2':
+    item:
+      material: stained_glass_pane:4
+      name: '§7'
+      lore: []
+  '3':
+    item:
+      material: stained_glass_pane:4
+      name: '§7'
+      lore: []
+  '4':
+    item:
+      material: stained_glass_pane:4
+      name: '§7'
+      lore: [] 
+  '5':
+    item:
+      material: stained_glass_pane:4
+      name: '§7'
+      lore: []
+  '6':
+    item:
+      material: stained_glass_pane:4
+      name: '§7'
+      lore: []
+  '7':
+    item:
+      material: stained_glass_pane:4
+      name: '§7'
+      lore: []       
+  '8':
+    item:
+      material: stained_glass_pane:4
+      name: '§7'
+      lore: []
+  '9':
+    item:
+      material: stained_glass_pane:4
+      name: '§7'
+      lore: []
+  '17':
+    item:
+      material: stained_glass_pane:4
+      name: '§7'
+      lore: []
+  '18':
+    item:
+      material: stained_glass_pane:4
+      name: '§7'
+      lore: []
+  '26':
+    item:
+      material: stained_glass_pane:4
+      name: '§7'
+      lore: []
+  '27':
+    item:
+      material: stained_glass_pane:4
+      name: '§7'
+      lore: []
+  '35':
+    item:
+      material: stained_glass_pane:4
+      name: '§7'
+      lore: []
+  '36':
+    item:
+      material: stained_glass_pane:4
+      name: '§7'
+      lore: []
+  '44':
+    item:
+      material: stained_glass_pane:4
+      name: '§7'
+      lore: []
+  '45':
+    item:
+      material: stained_glass_pane:4
+      name: '§7'
+      lore: []
+  '46':
+    item:
+      material: stained_glass_pane:4
+      name: '§7'
+      lore: []
+  '47':
+    item:
+      material: stained_glass_pane:4
+      name: '§7'
+      lore: []
+  '51':
+    item:
+      material: stained_glass_pane:4
+      name: '§7'
+      lore: []
+  '52':
+    item:
+      material: stained_glass_pane:4
+      name: '§7'
+      lore: []      
+  '53':
+    item:
+      material: stained_glass_pane:4
+      name: '§7'
+      lore: []
+
+
+
+  '48':
+    item:
+      material: spectral_arrow:0
+      name: '§e☀ §6§lНАЗАД §e☀'
+      lore:
+        - ''
+    actions:
+      - '[menu](page = 1) {portal}'
+      - '[menu](page ! 1) {previous-page}'
+  '50':
+    item:
+      material: spectral_arrow:0
+      name: '§e☀ §6§lВПЕРЕД §e☀'
+      lore:
+        - ''
+    actions:
+      - '[menu] {next-page}'
+  '49':
+    item:
+      material: barrier:0
+      name: '§e☀ §6§lВЫЙТИ §e☀'
+      lore: []
+    actions:
+      - '[menu] {close}'
+
+static-items:
+  progress-track-locked-item:
+    material: 'black_stained_glass_pane:0'
+    name: 'Уровень %tier%'
+  progress-track-unlocked-item:
+    material: 'lime_stained_glass_pane:0'
+    name: 'Уровень %tier%'

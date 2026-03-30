@@ -1,0 +1,1339 @@
+menu_title: '&8Скупщик'
+open_command: cubeseller
+size: 54
+items:
+################# ДЕКОРАЦИИ #####################################################################
+  'orange':
+    material: ORANGE_STAINED_GLASS_PANE
+    slots:
+    - 53
+    - 52
+    - 51
+    - 50
+    - 48
+    - 47 
+    - 46
+    - 45
+    display_name: '&r'
+  'barrier':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWZkMjQwMDAwMmFkOWZiYmJkMDA2Njk0MWViNWIxYTM4NGFiOWIwZTQ4YTE3OGVlOTZlNGQxMjlhNTIwODY1NCJ9fX0=
+    slot: 49
+    display_name: '&cВыйти'
+    left_click_commands:
+    - '[sound] BLOCK_ANVIL_PLACE'
+    - '[close]'
+    right_click_commands:
+    - '[sound] BLOCK_ANVIL_PLACE'
+    - '[close]'
+################################### ПРЕДМЕТЫ #####################################################
+  'emerald':
+    material: EMERALD
+    slot: 0
+    display_name: '&#fbcd47&nИзумруд'
+    lore:
+    - ''
+    - '&fЦена за &61 &fштуку &e100⛃'
+    - '&fУ вас &a%checkitem_amount_mat:EMERALD% &fшт. этого предмета'
+    - ''
+    - '&aЛКМ ► &fПродать &eвесь &fтовар'
+    - ''
+    - '&fВы получите: &e%math_{checkitem_amount_mat:EMERALD}*100%⛃'
+    - '&fВаш баланс: &e%vault_eco_balance_fixed%⛃'
+    - ''
+    left_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: EMERALD
+          amount: 1
+          deny_commands:
+          - '[console] execute as %player_name% at @s run playsound minecraft:block.anvil.place ambient @s ~ ~ ~ 99999 2'
+          - '[message] &6&lСКУПЩИК &8| &fНет &cнеобходимого &fпредмета, либо &eкол-ва &fпредметов для &aпродажи&f!'
+    left_click_commands:
+      - '[console] execute as %player_name% at @s run playsound minecraft:entity.villager.trade ambient @s ~ ~ ~ 99999 1'
+      - '[console] money give %player_name% %math_{checkitem_amount_mat:EMERALD}*100%'
+      - '[refresh]'
+      - '[message] &6&lСКУПЩИК &8| &fВы продали &6изумруд &fв количестве &e%checkitem_amount_mat:EMERALD%x'
+      - '[console] minecraft:clear %player_name% emerald %checkitem_amount_mat:EMERALD%'
+  'diamond':
+    material: DIAMOND
+    slot: 1
+    display_name: '&#fbcd47&nАлмаз'
+    lore:
+    - ''
+    - '&fЦена за &61 &fштуку &e60⛃'
+    - '&fУ вас &a%checkitem_amount_mat:DIAMOND% &fшт. этого предмета'
+    - ''
+    - '&aЛКМ ► &fПродать &eвесь &fтовар'
+    - ''
+    - '&fВы получите: &e%math_{checkitem_amount_mat:DIAMOND}*60%⛃'
+    - '&fВаш баланс: &e%vault_eco_balance_fixed%⛃'
+    - ''
+    left_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: DIAMOND
+          amount: 1
+          deny_commands:
+          - '[console] execute as %player_name% at @s run playsound minecraft:block.anvil.place ambient @s ~ ~ ~ 99999 2'
+          - '[message] &6&lСКУПЩИК &8| &fНет &cнеобходимого &fпредмета, либо &eкол-ва &fпредметов для &aпродажи&f!'
+    left_click_commands:
+      - '[console] execute as %player_name% at @s run playsound minecraft:entity.villager.trade ambient @s ~ ~ ~ 99999 1'
+      - '[console] money give %player_name% %math_{checkitem_amount_mat:DIAMOND}*60%'
+      - '[refresh]'
+      - '[message] &6&lСКУПЩИК &8| &fВы продали &6алмаз &fв количестве &e%checkitem_amount_mat:DIAMOND%x'
+      - '[console] minecraft:clear %player_name% diamond %checkitem_amount_mat:DIAMOND%'
+  'gold':
+    material: GOLD_INGOT
+    slot: 2
+    display_name: '&#fbcd47&nЗолотой слиток'
+    lore:
+    - ''
+    - '&fЦена за &61 &fштуку &e40⛃'
+    - '&fУ вас &a%checkitem_amount_mat:GOLD_INGOT% &fшт. этого предмета'
+    - ''
+    - '&aЛКМ ► &fПродать &eвесь &fтовар'
+    - ''
+    - '&fВы получите: &e%math_{checkitem_amount_mat:GOLD_INGOT}*40%⛃'
+    - '&fВаш баланс: &e%vault_eco_balance_fixed%⛃'
+    - ''
+    left_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: GOLD_INGOT
+          amount: 1
+          deny_commands:
+          - '[console] execute as %player_name% at @s run playsound minecraft:block.anvil.place ambient @s ~ ~ ~ 99999 2'
+          - '[message] &6&lСКУПЩИК &8| &fНет &cнеобходимого &fпредмета, либо &eкол-ва &fпредметов для &aпродажи&f!'
+    left_click_commands:
+      - '[console] execute as %player_name% at @s run playsound minecraft:entity.villager.trade ambient @s ~ ~ ~ 99999 1'
+      - '[console] money give %player_name% %math_{checkitem_amount_mat:GOLD_INGOT}*40%'
+      - '[refresh]'
+      - '[message] &6&lСКУПЩИК &8| &fВы продали &6золотой слиток &fв количестве &e%checkitem_amount_mat:GOLD_INGOT%x'
+      - '[console] minecraft:clear %player_name% gold_ingot %checkitem_amount_mat:GOLD_INGOT%'
+  'iron':
+    material: IRON_INGOT
+    slot: 3
+    display_name: '&#fbcd47&nЖелезный слиток'
+    lore:
+    - ''
+    - '&fЦена за &61 &fштуку &e⛃30'
+    - '&fУ вас &a%checkitem_amount_mat:IRON_INGOT% &fшт. этого предмета'
+    - ''
+    - '&aЛКМ ► &fПродать &eвесь &fтовар'
+    - ''
+    - '&fВы получите: &e%math_{checkitem_amount_mat:IRON_INGOT}*30%⛃'
+    - '&fВаш баланс: &e%vault_eco_balance_fixed%⛃'
+    - ''
+    left_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: IRON_INGOT
+          amount: 1
+          deny_commands:
+          - '[console] execute as %player_name% at @s run playsound minecraft:block.anvil.place ambient @s ~ ~ ~ 99999 2'
+          - '[message] &6&lСКУПЩИК &8| &fНет &cнеобходимого &fпредмета, либо &eкол-ва &fпредметов для &aпродажи&f!'
+    left_click_commands:
+      - '[console] execute as %player_name% at @s run playsound minecraft:entity.villager.trade ambient @s ~ ~ ~ 99999 1'
+      - '[console] money give %player_name% %math_{checkitem_amount_mat:IRON_INGOT}*30%'
+      - '[refresh]'
+      - '[message] &6&lСКУПЩИК &8| &fВы продали &6железный слиток &fв количестве &e%checkitem_amount_mat:IRON_INGOT%x'
+      - '[console] minecraft:clear %player_name% iron_ingot %checkitem_amount_mat:IRON_INGOT%'
+  'coal':
+    material: COAL
+    slot: 4
+    display_name: '&#fbcd47&nУголь'
+    lore:
+    - ''
+    - '&fЦена за &61 &fштуку &e15⛃'
+    - '&fУ вас &a%checkitem_amount_mat:COAL% &fшт. этого предмета'
+    - ''
+    - '&aЛКМ ► &fПродать &eвесь &fтовар'
+    - ''
+    - '&fВы получите: &e%math_{checkitem_amount_mat:COAL}*15%⛃'
+    - '&fВаш баланс: &e%vault_eco_balance_fixed%⛃'
+    - ''
+    left_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: COAL
+          amount: 1
+          deny_commands:
+          - '[console] execute as %player_name% at @s run playsound minecraft:block.anvil.place ambient @s ~ ~ ~ 99999 2'
+          - '[message] &6&lСКУПЩИК &8| &fНет &cнеобходимого &fпредмета, либо &eкол-ва &fпредметов для &aпродажи&f!'
+    left_click_commands:
+      - '[console] execute as %player_name% at @s run playsound minecraft:entity.villager.trade ambient @s ~ ~ ~ 99999 1'
+      - '[console] money give %player_name% %math_{checkitem_amount_mat:COAL}*15%'
+      - '[refresh]'
+      - '[message] &6&lСКУПЩИК &8| &fВы продали &6уголь &fв количестве &e%checkitem_amount_mat:COAL%x'
+      - '[console] minecraft:clear %player_name% coal %checkitem_amount_mat:COAL%'
+  'redstone':
+    material: REDSTONE
+    slot: 5
+    display_name: '&#fbcd47&nРедстоуновая пыль'
+    lore:
+    - ''
+    - '&fЦена за &61 &fштуку &e10⛃'
+    - '&fУ вас &a%checkitem_amount_mat:REDSTONE% &fшт. этого предмета'
+    - ''
+    - '&aЛКМ ► &fПродать &eвесь &fтовар'
+    - ''
+    - '&fВы получите: &e%math_{checkitem_amount_mat:REDSTONE}*10%⛃'
+    - '&fВаш баланс: &e%vault_eco_balance_fixed%⛃'
+    - ''
+    left_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: REDSTONE
+          amount: 1
+          deny_commands:
+          - '[console] execute as %player_name% at @s run playsound minecraft:block.anvil.place ambient @s ~ ~ ~ 99999 2'
+          - '[message] &6&lСКУПЩИК &8| &fНет &cнеобходимого &fпредмета, либо &eкол-ва &fпредметов для &aпродажи&f!'
+    left_click_commands:
+      - '[console] execute as %player_name% at @s run playsound minecraft:entity.villager.trade ambient @s ~ ~ ~ 99999 1'
+      - '[console] money give %player_name% %math_{checkitem_amount_mat:REDSTONE}*10%'
+      - '[refresh]'
+      - '[message] &6&lСКУПЩИК &8| &fВы продали &6изумруд &fв количестве &e%checkitem_amount_mat:REDSTONE%x'
+      - '[console] minecraft:clear %player_name% redstone %checkitem_amount_mat:REDSTONE%'
+  'lapis':
+    material: LAPIS_LAZULI
+    slot: 6
+    display_name: '&#fbcd47&nЛазурит'
+    lore:
+    - ''
+    - '&fЦена за &61 &fштуку &e20⛃'
+    - '&fУ вас &a%checkitem_amount_mat:LAPIS_LAZULI% &fшт. этого предмета'
+    - ''
+    - '&aЛКМ ► &fПродать &eвесь &fтовар'
+    - ''
+    - '&fВы получите: &e%math_{checkitem_amount_mat:LAPIS_LAZULI}*20%⛃'
+    - '&fВаш баланс: &e%vault_eco_balance_fixed%⛃'
+    - ''
+    left_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: LAPIS_LAZULI
+          amount: 1
+          deny_commands:
+          - '[console] execute as %player_name% at @s run playsound minecraft:block.anvil.place ambient @s ~ ~ ~ 99999 2'
+          - '[message] &6&lСКУПЩИК &8| &fНет &cнеобходимого &fпредмета, либо &eкол-ва &fпредметов для &aпродажи&f!'
+    left_click_commands:
+      - '[console] execute as %player_name% at @s run playsound minecraft:entity.villager.trade ambient @s ~ ~ ~ 99999 1'
+      - '[console] money give %player_name% %math_{checkitem_amount_mat:LAPIS_LAZULI}*20%'
+      - '[refresh]'
+      - '[message] &6&lСКУПЩИК &8| &fВы продали &6лазурит &fв количестве &e%checkitem_amount_mat:LAPIS_LAZULI%x'
+      - '[console] minecraft:clear %player_name% lapis_lazuli %checkitem_amount_mat:LAPIS_LAZULI%'
+  'gunpowder':
+    material: GUNPOWDER
+    slot: 7
+    display_name: '&#fbcd47&nПорох'
+    lore:
+    - ''
+    - '&fЦена за &61 &fштуку &e60⛃'
+    - '&fУ вас &a%checkitem_amount_mat:GUNPOWDER% &fшт. этого предмета'
+    - ''
+    - '&aЛКМ ► &fПродать &eвесь &fтовар'
+    - ''
+    - '&fВы получите: &e%math_{checkitem_amount_mat:GUNPOWDER}*60%⛃'
+    - '&fВаш баланс: &e%vault_eco_balance_fixed%⛃'
+    - ''
+    left_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: GUNPOWDER
+          amount: 1
+          deny_commands:
+          - '[console] execute as %player_name% at @s run playsound minecraft:block.anvil.place ambient @s ~ ~ ~ 99999 2'
+          - '[message] &6&lСКУПЩИК &8| &fНет &cнеобходимого &fпредмета, либо &eкол-ва &fпредметов для &aпродажи&f!'
+    left_click_commands:
+      - '[console] execute as %player_name% at @s run playsound minecraft:entity.villager.trade ambient @s ~ ~ ~ 99999 1'
+      - '[console] money give %player_name% %math_{checkitem_amount_mat:GUNPOWDER}*60%'
+      - '[refresh]'
+      - '[message] &6&lСКУПЩИК &8| &fВы продали &6порох &fв количестве &e%checkitem_amount_mat:GUNPOWDER%x'
+      - '[console] minecraft:clear %player_name% gunpowder %checkitem_amount_mat:GUNPOWDER%'
+  'blazepowder':
+    material: BLAZE_POWDER
+    slot: 8
+    display_name: '&#fbcd47&nОгненый порошок'
+    lore:
+    - ''
+    - '&fЦена за &61 &fштуку &e45⛃'
+    - '&fУ вас &a%checkitem_amount_mat:BLAZE_POWDER% &fшт. этого предмета'
+    - ''
+    - '&aЛКМ ► &fПродать &eвесь &fтовар'
+    - ''
+    - '&fВы получите: &e%math_{checkitem_amount_mat:BLAZE_POWDER}*45%⛃'
+    - '&fВаш баланс: &e%vault_eco_balance_fixed%⛃'
+    - ''
+    left_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: BLAZE_POWDER
+          amount: 1
+          deny_commands:
+          - '[console] execute as %player_name% at @s run playsound minecraft:block.anvil.place ambient @s ~ ~ ~ 99999 2'
+          - '[message] &6&lСКУПЩИК &8| &fНет &cнеобходимого &fпредмета, либо &eкол-ва &fпредметов для &aпродажи&f!'
+    left_click_commands:
+      - '[console] execute as %player_name% at @s run playsound minecraft:entity.villager.trade ambient @s ~ ~ ~ 99999 1'
+      - '[console] money give %player_name% %math_{checkitem_amount_mat:BLAZE_POWDER}*45%'
+      - '[refresh]'
+      - '[message] &6&lСКУПЩИК &8| &fВы продали &6огненый порошок &fв количестве &e%checkitem_amount_mat:BLAZE_POWDER%x'
+      - '[console] minecraft:clear %player_name% blaze_powder %checkitem_amount_mat:BLAZE_POWDER%'
+  'apple':
+    material: APPLE
+    slot: 9
+    display_name: '&#fbcd47&nЯблоко'
+    lore:
+    - ''
+    - '&fЦена за &61 &fштуку &e150⛃'
+    - '&fУ вас &a%checkitem_amount_mat:APPLE% &fшт. этого предмета'
+    - ''
+    - '&aЛКМ ► &fПродать &eвесь &fтовар'
+    - ''
+    - '&fВы получите: &e%math_{checkitem_amount_mat:APPLE}*150%⛃'
+    - '&fВаш баланс: &e%vault_eco_balance_fixed%⛃'
+    - ''
+    left_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: APPLE
+          amount: 1
+          deny_commands:
+          - '[console] execute as %player_name% at @s run playsound minecraft:block.anvil.place ambient @s ~ ~ ~ 99999 2'
+          - '[message] &6&lСКУПЩИК &8| &fНет &cнеобходимого &fпредмета, либо &eкол-ва &fпредметов для &aпродажи&f!'
+    left_click_commands:
+      - '[console] execute as %player_name% at @s run playsound minecraft:entity.villager.trade ambient @s ~ ~ ~ 99999 1'
+      - '[console] money give %player_name% %math_{checkitem_amount_mat:APPLE}*150%'
+      - '[refresh]'
+      - '[message] &6&lСКУПЩИК &8| &fВы продали &6яблоко &fв количестве &e%checkitem_amount_mat:APPLE%x'
+      - '[console] minecraft:clear %player_name% apple %checkitem_amount_mat:APPLE%'
+  'turtleegg':
+    material: TURTLE_EGG
+    slot: 10
+    display_name: '&#fbcd47&nЧерепашье яйцо'
+    lore:
+    - ''
+    - '&fЦена за &61 &fштуку &e250⛃'
+    - '&fУ вас &a%checkitem_amount_mat:TURTLE_EGG% &fшт. этого предмета'
+    - ''
+    - '&aЛКМ ► &fПродать &eвесь &fтовар'
+    - ''
+    - '&fВы получите: &e%math_{checkitem_amount_mat:TURTLE_EGG}*250%⛃'
+    - '&fВаш баланс: &e%vault_eco_balance_fixed%⛃'
+    - ''
+    left_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: TURTLE_EGG
+          amount: 1
+          deny_commands:
+          - '[console] execute as %player_name% at @s run playsound minecraft:block.anvil.place ambient @s ~ ~ ~ 99999 2'
+          - '[message] &6&lСКУПЩИК &8| &fНет &cнеобходимого &fпредмета, либо &eкол-ва &fпредметов для &aпродажи&f!'
+    left_click_commands:
+      - '[console] execute as %player_name% at @s run playsound minecraft:entity.villager.trade ambient @s ~ ~ ~ 99999 1'
+      - '[console] money give %player_name% %math_{checkitem_amount_mat:TURTLE_EGG}*250%'
+      - '[refresh]'
+      - '[message] &6&lСКУПЩИК &8| &fВы продали &6черепашье яйцо &fв количестве &e%checkitem_amount_mat:TURTLE_EGG%x'
+      - '[console] minecraft:clear %player_name% turtle_egg %checkitem_amount_mat:TURTLE_EGG%'
+  'bottle':
+    material: GLASS_BOTTLE
+    slot: 11
+    display_name: '&#fbcd47&nБутылочка'
+    lore:
+    - ''
+    - '&fЦена за &61 &fштуку &e15⛃'
+    - '&fУ вас &a%checkitem_amount_mat:GLASS_BOTTLE% &fшт. этого предмета'
+    - ''
+    - '&aЛКМ ► &fПродать &eвесь &fтовар'
+    - ''
+    - '&fВы получите: &e%math_{checkitem_amount_mat:GLASS_BOTTLE}*15%⛃'
+    - '&fВаш баланс: &e%vault_eco_balance_fixed%⛃'
+    - ''
+    left_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: GLASS_BOTTLE
+          amount: 1
+          deny_commands:
+          - '[console] execute as %player_name% at @s run playsound minecraft:block.anvil.place ambient @s ~ ~ ~ 99999 2'
+          - '[message] &6&lСКУПЩИК &8| &fНет &cнеобходимого &fпредмета, либо &eкол-ва &fпредметов для &aпродажи&f!'
+    left_click_commands:
+      - '[console] execute as %player_name% at @s run playsound minecraft:entity.villager.trade ambient @s ~ ~ ~ 99999 1'
+      - '[console] money give %player_name% %math_{checkitem_amount_mat:GLASS_BOTTLE}*15%'
+      - '[refresh]'
+      - '[message] &6&lСКУПЩИК &8| &fВы продали &6бутылочку &fв количестве &e%checkitem_amount_mat:GLASS_BOTTLE%x'
+      - '[console] minecraft:clear %player_name% glass_bottle %checkitem_amount_mat:GLASS_BOTTLE%'
+  'enderpearl':
+    material: ENDER_PEARL
+    slot: 12
+    display_name: '&#fbcd47&nЭндер-жемчуг'
+    lore:
+    - ''
+    - '&fЦена за &61 &fштуку &e85⛃'
+    - '&fУ вас &a%checkitem_amount_mat:ENDER_PEARL% &fшт. этого предмета'
+    - ''
+    - '&aЛКМ ► &fПродать &eвесь &fтовар'
+    - ''
+    - '&fВы получите: &e%math_{checkitem_amount_mat:ENDER_PEARL}*85%⛃'
+    - '&fВаш баланс: &e%vault_eco_balance_fixed%⛃'
+    - ''
+    left_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: ENDER_PEARL
+          amount: 1
+          deny_commands:
+          - '[console] execute as %player_name% at @s run playsound minecraft:block.anvil.place ambient @s ~ ~ ~ 99999 2'
+          - '[message] &6&lСКУПЩИК &8| &fНет &cнеобходимого &fпредмета, либо &eкол-ва &fпредметов для &aпродажи&f!'
+    left_click_commands:
+      - '[console] execute as %player_name% at @s run playsound minecraft:entity.villager.trade ambient @s ~ ~ ~ 99999 1'
+      - '[console] money give %player_name% %math_{checkitem_amount_mat:ENDER_PEARL}*85%'
+      - '[refresh]'
+      - '[message] &6&lСКУПЩИК &8| &fВы продали &6эндер-жемчуг &fв количестве &e%checkitem_amount_mat:ENDER_PEARL%x'
+      - '[console] minecraft:clear %player_name% ender_pearl %checkitem_amount_mat:ENDER_PEARL%'
+  'string':
+    material: STRING
+    slot: 13
+    display_name: '&#fbcd47&nНить'
+    lore:
+    - ''
+    - '&fЦена за &61 &fштуку &e30⛃'
+    - '&fУ вас &a%checkitem_amount_mat:STRING% &fшт. этого предмета'
+    - ''
+    - '&aЛКМ ► &fПродать &eвесь &fтовар'
+    - ''
+    - '&fВы получите: &e%math_{checkitem_amount_mat:STRING}*30%⛃'
+    - '&fВаш баланс: &e%vault_eco_balance_fixed%⛃'
+    - ''
+    left_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: STRING
+          amount: 1
+          deny_commands:
+          - '[console] execute as %player_name% at @s run playsound minecraft:block.anvil.place ambient @s ~ ~ ~ 99999 2'
+          - '[message] &6&lСКУПЩИК &8| &fНет &cнеобходимого &fпредмета, либо &eкол-ва &fпредметов для &aпродажи&f!'
+    left_click_commands:
+      - '[console] execute as %player_name% at @s run playsound minecraft:entity.villager.trade ambient @s ~ ~ ~ 99999 1'
+      - '[console] money give %player_name% %math_{checkitem_amount_mat:STRING}*30%'
+      - '[refresh]'
+      - '[message] &6&lСКУПЩИК &8| &fВы продали &6нить &fв количестве &e%checkitem_amount_mat:STRING%x'
+      - '[console] minecraft:clear %player_name% string %checkitem_amount_mat:STRING%'
+  'magmacream':
+    material: MAGMA_CREAM
+    slot: 14
+    display_name: '&#fbcd47&nСгусток магмы'
+    lore:
+    - ''
+    - '&fЦена за &61 &fштуку &e75⛃'
+    - '&fУ вас &a%checkitem_amount_mat:MAGMA_CREAM% &fшт. этого предмета'
+    - ''
+    - '&aЛКМ ► &fПродать &eвесь &fтовар'
+    - ''
+    - '&fВы получите: &e%math_{checkitem_amount_mat:MAGMA_CREAM}*75%⛃'
+    - '&fВаш баланс: &e%vault_eco_balance_fixed%⛃'
+    - ''
+    left_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: MAGMA_CREAM
+          amount: 1
+          deny_commands:
+          - '[console] execute as %player_name% at @s run playsound minecraft:block.anvil.place ambient @s ~ ~ ~ 99999 2'
+          - '[message] &6&lСКУПЩИК &8| &fНет &cнеобходимого &fпредмета, либо &eкол-ва &fпредметов для &aпродажи&f!'
+    left_click_commands:
+      - '[console] execute as %player_name% at @s run playsound minecraft:entity.villager.trade ambient @s ~ ~ ~ 99999 1'
+      - '[console] money give %player_name% %math_{checkitem_amount_mat:MAGMA_CREAM}*75%'
+      - '[refresh]'
+      - '[message] &6&lСКУПЩИК &8| &fВы продали &6яблоко &fв количестве &e%checkitem_amount_mat:MAGMA_CREAM%x'
+      - '[console] minecraft:clear %player_name% magma_cream %checkitem_amount_mat:MAGMA_CREAM%'
+  'GLISTERING_MELON_SLICE':
+    material: GLISTERING_MELON_SLICE
+    slot: 15
+    display_name: '&#fbcd47&nСверкающий ломтик арбуза'
+    lore:
+    - ''
+    - '&fЦена за &61 &fштуку &e65⛃'
+    - '&fУ вас &a%checkitem_amount_mat:GLISTERING_MELON_SLICE% &fшт. этого предмета'
+    - ''
+    - '&aЛКМ ► &fПродать &eвесь &fтовар'
+    - ''
+    - '&fВы получите: &e%math_{checkitem_amount_mat:GLISTERING_MELON_SLICE}*65%⛃'
+    - '&fВаш баланс: &e%vault_eco_balance_fixed%⛃'
+    - ''
+    left_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: GLISTERING_MELON_SLICE
+          amount: 1
+          deny_commands:
+          - '[console] execute as %player_name% at @s run playsound minecraft:block.anvil.place ambient @s ~ ~ ~ 99999 2'
+          - '[message] &6&lСКУПЩИК &8| &fНет &cнеобходимого &fпредмета, либо &eкол-ва &fпредметов для &aпродажи&f!'
+    left_click_commands:
+      - '[console] execute as %player_name% at @s run playsound minecraft:entity.villager.trade ambient @s ~ ~ ~ 99999 1'
+      - '[console] money give %player_name% %math_{checkitem_amount_mat:GLISTERING_MELON_SLICE}*65%'
+      - '[refresh]'
+      - '[message] &6&lСКУПЩИК &8| &fВы продали &6яблоко &fв количестве &e%checkitem_amount_mat:GLISTERING_MELON_SLICE%x'
+      - '[console] minecraft:clear %player_name% glistering_melon_slice %checkitem_amount_mat:GLISTERING_MELON_SLICE%'
+  'cookie':
+    material: COOKIE
+    slot: 16
+    display_name: '&#fbcd47&nПеченье'
+    lore:
+    - ''
+    - '&fЦена за &61 &fштуку &e85⛃'
+    - '&fУ вас &a%checkitem_amount_mat:COOKIE% &fшт. этого предмета'
+    - ''
+    - '&aЛКМ ► &fПродать &eвесь &fтовар'
+    - ''
+    - '&fВы получите: &e%math_{checkitem_amount_mat:APPLE}*85%⛃'
+    - '&fВаш баланс: &e%vault_eco_balance_fixed%⛃'
+    - ''
+    left_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: COOKIE
+          amount: 1
+          deny_commands:
+          - '[console] execute as %player_name% at @s run playsound minecraft:block.anvil.place ambient @s ~ ~ ~ 99999 2'
+          - '[message] &6&lСКУПЩИК &8| &fНет &cнеобходимого &fпредмета, либо &eкол-ва &fпредметов для &aпродажи&f!'
+    left_click_commands:
+      - '[console] execute as %player_name% at @s run playsound minecraft:entity.villager.trade ambient @s ~ ~ ~ 99999 1'
+      - '[console] money give %player_name% %math_{checkitem_amount_mat:COOKIE}*85%'
+      - '[refresh]'
+      - '[message] &6&lСКУПЩИК &8| &fВы продали &6печенье &fв количестве &e%checkitem_amount_mat:COOKIE%x'
+      - '[console] minecraft:clear %player_name% cookie %checkitem_amount_mat:COOKIE%'
+  'cake':
+    material: CAKE
+    slot: 17
+    display_name: '&#fbcd47&nТорт'
+    lore:
+    - ''
+    - '&fЦена за &61 &fштуку &e350⛃'
+    - '&fУ вас &a%checkitem_amount_mat:CAKE% &fшт. этого предмета'
+    - ''
+    - '&aЛКМ ► &fПродать &eвесь &fтовар'
+    - ''
+    - '&fВы получите: &e%math_{checkitem_amount_mat:CAKE}*350%⛃'
+    - '&fВаш баланс: &e%vault_eco_balance_fixed%⛃'
+    - ''
+    left_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: CAKE
+          amount: 1
+          deny_commands:
+          - '[console] execute as %player_name% at @s run playsound minecraft:block.anvil.place ambient @s ~ ~ ~ 99999 2'
+          - '[message] &6&lСКУПЩИК &8| &fНет &cнеобходимого &fпредмета, либо &eкол-ва &fпредметов для &aпродажи&f!'
+    left_click_commands:
+      - '[console] execute as %player_name% at @s run playsound minecraft:entity.villager.trade ambient @s ~ ~ ~ 99999 1'
+      - '[console] money give %player_name% %math_{checkitem_amount_mat:CAKE}*350%'
+      - '[refresh]'
+      - '[message] &6&lСКУПЩИК &8| &fВы продали &6торт &fв количестве &e%checkitem_amount_mat:CAKE%x'
+      - '[console] minecraft:clear %player_name% cake %checkitem_amount_mat:CAKE%'
+  'cod':
+    material: COD
+    slot: 18
+    display_name: '&#fbcd47&nСырая треска'
+    lore:
+    - ''
+    - '&fЦена за &61 &fштуку &e155⛃'
+    - '&fУ вас &a%checkitem_amount_mat:COD% &fшт. этого предмета'
+    - ''
+    - '&aЛКМ ► &fПродать &eвесь &fтовар'
+    - ''
+    - '&fВы получите: &e%math_{checkitem_amount_mat:COD}*155%⛃'
+    - '&fВаш баланс: &e%vault_eco_balance_fixed%⛃'
+    - ''
+    left_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: COD
+          amount: 1
+          deny_commands:
+          - '[console] execute as %player_name% at @s run playsound minecraft:block.anvil.place ambient @s ~ ~ ~ 99999 2'
+          - '[message] &6&lСКУПЩИК &8| &fНет &cнеобходимого &fпредмета, либо &eкол-ва &fпредметов для &aпродажи&f!'
+    left_click_commands:
+      - '[console] execute as %player_name% at @s run playsound minecraft:entity.villager.trade ambient @s ~ ~ ~ 99999 1'
+      - '[console] money give %player_name% %math_{checkitem_amount_mat:COD}*155%'
+      - '[refresh]'
+      - '[message] &6&lСКУПЩИК &8| &fВы продали &6сырую треску &fв количестве &e%checkitem_amount_mat:COD%x'
+      - '[console] minecraft:clear %player_name% cod %checkitem_amount_mat:COD%'
+  'SALMON':
+    material: SALMON
+    slot: 19
+    display_name: '&#fbcd47&nСырой лосось'
+    lore:
+    - ''
+    - '&fЦена за &61 &fштуку &e175⛃'
+    - '&fУ вас &a%checkitem_amount_mat:SALMON% &fшт. этого предмета'
+    - ''
+    - '&aЛКМ ► &fПродать &eвесь &fтовар'
+    - ''
+    - '&fВы получите: &e%math_{checkitem_amount_mat:SALMON}*175%⛃'
+    - '&fВаш баланс: &e%vault_eco_balance_fixed%⛃'
+    - ''
+    left_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: SALMON
+          amount: 1
+          deny_commands:
+          - '[console] execute as %player_name% at @s run playsound minecraft:block.anvil.place ambient @s ~ ~ ~ 99999 2'
+          - '[message] &6&lСКУПЩИК &8| &fНет &cнеобходимого &fпредмета, либо &eкол-ва &fпредметов для &aпродажи&f!'
+    left_click_commands:
+      - '[console] execute as %player_name% at @s run playsound minecraft:entity.villager.trade ambient @s ~ ~ ~ 99999 1'
+      - '[console] money give %player_name% %math_{checkitem_amount_mat:SALMON}*175%'
+      - '[refresh]'
+      - '[message] &6&lСКУПЩИК &8| &fВы продали &6сырой лосось &fв количестве &e%checkitem_amount_mat:APPLE%x'
+      - '[console] minecraft:clear %player_name% salmon %checkitem_amount_mat:SALMON%'
+  'tropicalfish':
+    material: TROPICAL_FISH
+    slot: 20
+    display_name: '&#fbcd47&nТропическая рыба'
+    lore:
+    - ''
+    - '&fЦена за &61 &fштуку &e185⛃'
+    - '&fУ вас &a%checkitem_amount_mat:TROPICAL_FISH% &fшт. этого предмета'
+    - ''
+    - '&aЛКМ ► &fПродать &eвесь &fтовар'
+    - ''
+    - '&fВы получите: &e%math_{checkitem_amount_mat:TROPICAL_FISH}*185%⛃'
+    - '&fВаш баланс: &e%vault_eco_balance_fixed%⛃'
+    - ''
+    left_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: TROPICAL_FISH
+          amount: 1
+          deny_commands:
+          - '[console] execute as %player_name% at @s run playsound minecraft:block.anvil.place ambient @s ~ ~ ~ 99999 2'
+          - '[message] &6&lСКУПЩИК &8| &fНет &cнеобходимого &fпредмета, либо &eкол-ва &fпредметов для &aпродажи&f!'
+    left_click_commands:
+      - '[console] execute as %player_name% at @s run playsound minecraft:entity.villager.trade ambient @s ~ ~ ~ 99999 1'
+      - '[console] money give %player_name% %math_{checkitem_amount_mat:TROPICAL_FISH}*185%'
+      - '[refresh]'
+      - '[message] &6&lСКУПЩИК &8| &fВы продали &6тропическая рыба &fв количестве &e%checkitem_amount_mat:APPLE%x'
+      - '[console] minecraft:clear %player_name% tropicla_fish %checkitem_amount_mat:TROPICAL_FISH%'
+  'pufferfish':
+    material: PUFFERFISH
+    slot: 21
+    display_name: '&#fbcd47&nИглобрюх'
+    lore:
+    - ''
+    - '&fЦена за &61 &fштуку &e375⛃'
+    - '&fУ вас &a%checkitem_amount_mat:PUFFERFISH% &fшт. этого предмета'
+    - ''
+    - '&aЛКМ ► &fПродать &eвесь &fтовар'
+    - ''
+    - '&fВы получите: &e%math_{checkitem_amount_mat:PUFFERFISH}*375%⛃'
+    - '&fВаш баланс: &e%vault_eco_balance_fixed%⛃'
+    - ''
+    left_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: PUFFERFISH
+          amount: 1
+          deny_commands:
+          - '[console] execute as %player_name% at @s run playsound minecraft:block.anvil.place ambient @s ~ ~ ~ 99999 2'
+          - '[message] &6&lСКУПЩИК &8| &fНет &cнеобходимого &fпредмета, либо &eкол-ва &fпредметов для &aпродажи&f!'
+    left_click_commands:
+      - '[console] execute as %player_name% at @s run playsound minecraft:entity.villager.trade ambient @s ~ ~ ~ 99999 1'
+      - '[console] money give %player_name% %math_{checkitem_amount_mat:PUFFERFISH}*375%'
+      - '[refresh]'
+      - '[message] &6&lСКУПЩИК &8| &fВы продали &6иглобрюха &fв количестве &e%checkitem_amount_mat:PUFFERFISH%x'
+      - '[console] minecraft:clear %player_name% pufferfish %checkitem_amount_mat:PUFFERFISH%'
+  'porkchop':
+    material: PORKCHOP
+    slot: 22
+    display_name: '&#fbcd47&nСырая свинина'
+    lore:
+    - ''
+    - '&fЦена за &61 &fштуку &e20⛃'
+    - '&fУ вас &a%checkitem_amount_mat:PORKCHOP% &fшт. этого предмета'
+    - ''
+    - '&aЛКМ ► &fПродать &eвесь &fтовар'
+    - ''
+    - '&fВы получите: &e%math_{checkitem_amount_mat:PORKCHOP}*20%⛃'
+    - '&fВаш баланс: &e%vault_eco_balance_fixed%⛃'
+    - ''
+    left_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: PORKCHOP
+          amount: 1
+          deny_commands:
+          - '[console] execute as %player_name% at @s run playsound minecraft:block.anvil.place ambient @s ~ ~ ~ 99999 2'
+          - '[message] &6&lСКУПЩИК &8| &fНет &cнеобходимого &fпредмета, либо &eкол-ва &fпредметов для &aпродажи&f!'
+    left_click_commands:
+      - '[console] execute as %player_name% at @s run playsound minecraft:entity.villager.trade ambient @s ~ ~ ~ 99999 1'
+      - '[console] money give %player_name% %math_{checkitem_amount_mat:APPLE}*20%'
+      - '[refresh]'
+      - '[message] &6&lСКУПЩИК &8| &fВы продали &6яблоко &fв количестве &e%checkitem_amount_mat:APPLE%x'
+      - '[console] minecraft:clear %player_name% porkchop %checkitem_amount_mat:PORKCHOP%'
+  'nastyakamenski':
+    material: CHICKEN
+    slot: 23
+    display_name: '&#fbcd47&nКурятина'
+    lore:
+    - ''
+    - '&fЦена за &61 &fштуку &e25⛃'
+    - '&fУ вас &a%checkitem_amount_mat:CHICKEN% &fшт. этого предмета'
+    - ''
+    - '&aЛКМ ► &fПродать &eвесь &fтовар'
+    - ''
+    - '&fВы получите: &e%math_{checkitem_amount_mat:CHICKEN}*25%⛃'
+    - '&fВаш баланс: &e%vault_eco_balance_fixed%⛃'
+    - ''
+    left_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: CHICKEN
+          amount: 1
+          deny_commands:
+          - '[console] execute as %player_name% at @s run playsound minecraft:block.anvil.place ambient @s ~ ~ ~ 99999 2'
+          - '[message] &6&lСКУПЩИК &8| &fНет &cнеобходимого &fпредмета, либо &eкол-ва &fпредметов для &aпродажи&f!'
+    left_click_commands:
+      - '[console] execute as %player_name% at @s run playsound minecraft:entity.villager.trade ambient @s ~ ~ ~ 99999 1'
+      - '[console] money give %player_name% %math_{checkitem_amount_mat:CHICKEN}*25%'
+      - '[refresh]'
+      - '[message] &6&lСКУПЩИК &8| &fВы продали &6курятину &fв количестве &e%checkitem_amount_mat:CHICKEN%x'
+      - '[console] minecraft:clear %player_name% chicken %checkitem_amount_mat:CHICKEN%'
+  'beef':
+    material: BEEF
+    slot: 24
+    display_name: '&#fbcd47&nСырая говядина'
+    lore:
+    - ''
+    - '&fЦена за &61 &fштуку &e20⛃'
+    - '&fУ вас &a%checkitem_amount_mat:BEEF% &fшт. этого предмета'
+    - ''
+    - '&aЛКМ ► &fПродать &eвесь &fтовар'
+    - ''
+    - '&fВы получите: &e%math_{checkitem_amount_mat:BEEF}*20%⛃'
+    - '&fВаш баланс: &e%vault_eco_balance_fixed%⛃'
+    - ''
+    left_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: BEEF
+          amount: 1
+          deny_commands:
+          - '[console] execute as %player_name% at @s run playsound minecraft:block.anvil.place ambient @s ~ ~ ~ 99999 2'
+          - '[message] &6&lСКУПЩИК &8| &fНет &cнеобходимого &fпредмета, либо &eкол-ва &fпредметов для &aпродажи&f!'
+    left_click_commands:
+      - '[console] execute as %player_name% at @s run playsound minecraft:entity.villager.trade ambient @s ~ ~ ~ 99999 1'
+      - '[console] money give %player_name% %math_{checkitem_amount_mat:BEEF}*20%'
+      - '[refresh] ' 
+      - '[message] &6&lСКУПЩИК &8| &fВы продали &6сырую говядину &fв количестве &e%checkitem_amount_mat:BEEF%x'
+      - '[console] minecraft:clear %player_name% beef %checkitem_amount_mat:BEEF%'
+  'carrot':
+    material: CARROT
+    slot: 25
+    display_name: '&#fbcd47&nМорковь'
+    lore:
+    - ''
+    - '&fЦена за &61 &fштуку &e25⛃'
+    - '&fУ вас &a%checkitem_amount_mat:CARROT% &fшт. этого предмета'
+    - ''
+    - '&aЛКМ ► &fПродать &eвесь &fтовар'
+    - ''
+    - '&fВы получите: &e%math_{checkitem_amount_mat:CARROT}*25%⛃'
+    - '&fВаш баланс: &e%vault_eco_balance_fixed%⛃'
+    - ''
+    left_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: CARROT
+          amount: 1
+          deny_commands:
+          - '[console] execute as %player_name% at @s run playsound minecraft:block.anvil.place ambient @s ~ ~ ~ 99999 2'
+          - '[message] &6&lСКУПЩИК &8| &fНет &cнеобходимого &fпредмета, либо &eкол-ва &fпредметов для &aпродажи&f!'
+    left_click_commands:
+      - '[console] execute as %player_name% at @s run playsound minecraft:entity.villager.trade ambient @s ~ ~ ~ 99999 1'
+      - '[console] money give %player_name% %math_{checkitem_amount_mat:CARROT}*25%'
+      - '[refresh] ' 
+      - '[message] &6&lСКУПЩИК &8| &fВы продали &6морковь &fв количестве &e%checkitem_amount_mat:CARROT%x'
+      - '[console] minecraft:clear %player_name% carrot %checkitem_amount_mat:CARROT%'
+  'goldcarrot':
+    material: GOLDEN_CARROT
+    slot: 26
+    display_name: '&#fbcd47&nЗолотая морковь'
+    lore:
+    - ''
+    - '&fЦена за &61 &fштуку &e95⛃'
+    - '&fУ вас &a%checkitem_amount_mat:GOLDEN_CARROT% &fшт. этого предмета'
+    - ''
+    - '&aЛКМ ► &fПродать &eвесь &fтовар'
+    - ''
+    - '&fВы получите: &e%math_{checkitem_amount_mat:GOLDEN_CARROT}*95%⛃'
+    - '&fВаш баланс: &e%vault_eco_balance_fixed%⛃'
+    - ''
+    left_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: GOLDEN_CARROT
+          amount: 1
+          deny_commands:
+          - '[console] execute as %player_name% at @s run playsound minecraft:block.anvil.place ambient @s ~ ~ ~ 99999 2'
+          - '[message] &6&lСКУПЩИК &8| &fНет &cнеобходимого &fпредмета, либо &eкол-ва &fпредметов для &aпродажи&f!'
+    left_click_commands:
+      - '[console] execute as %player_name% at @s run playsound minecraft:entity.villager.trade ambient @s ~ ~ ~ 99999 1'
+      - '[console] money give %player_name% %math_{checkitem_amount_mat:GOLDEN_CARROT}*95%'
+      - '[refresh] ' 
+      - '[message] &6&lСКУПЩИК &8| &fВы продали &6золотую морковь &fв количестве &e%checkitem_amount_mat:GOLDEN_CARROT%x'
+      - '[console] minecraft:clear %player_name% golden_carrot %checkitem_amount_mat:GOLDEN_CARROT%'
+  'berries':
+    material: SWEET_BERRIES
+    slot: 27
+    display_name: '&#fbcd47&nСладкие ягоды'
+    lore:
+    - ''
+    - '&fЦена за &61 &fштуку &e25⛃'
+    - '&fУ вас &a%checkitem_amount_mat:SWEET_BERRIES% &fшт. этого предмета'
+    - ''
+    - '&aЛКМ ► &fПродать &eвесь &fтовар'
+    - ''
+    - '&fВы получите: &e%math_{checkitem_amount_mat:SWEET_BERRIES}*25%⛃'
+    - '&fВаш баланс: &e%vault_eco_balance_fixed%⛃'
+    - ''
+    left_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: SWEET_BERRIES
+          amount: 1
+          deny_commands:
+          - '[console] execute as %player_name% at @s run playsound minecraft:block.anvil.place ambient @s ~ ~ ~ 99999 2'
+          - '[message] &6&lСКУПЩИК &8| &fНет &cнеобходимого &fпредмета, либо &eкол-ва &fпредметов для &aпродажи&f!'
+    left_click_commands:
+      - '[console] execute as %player_name% at @s run playsound minecraft:entity.villager.trade ambient @s ~ ~ ~ 99999 1'
+      - '[console] money give %player_name% %math_{checkitem_amount_mat:SWEET_BERRIES}*25%'
+      - '[refresh] ' 
+      - '[message] &6&lСКУПЩИК &8| &fВы продали &6сладкие ягоды &fв количестве &e%checkitem_amount_mat:SWEET_BERRIES%x'
+      - '[console] minecraft:clear %player_name% sweet_berries %checkitem_amount_mat:SWEET_BERRIES%'
+  'melonsl':
+    material: MELON_SLICE
+    slot: 28
+    display_name: '&#fbcd47&nЛомтик арбуза'
+    lore:
+    - ''
+    - '&fЦена за &61 &fштуку &e25⛃'
+    - '&fУ вас &a%checkitem_amount_mat:MELON_SLICE% &fшт. этого предмета'
+    - ''
+    - '&aЛКМ ► &fПродать &eвесь &fтовар'
+    - ''
+    - '&fВы получите: &e%math_{checkitem_amount_mat:MELON_SLICE}*25%⛃'
+    - '&fВаш баланс: &e%vault_eco_balance_fixed%⛃'
+    - ''
+    left_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: MELON_SLICE
+          amount: 1
+          deny_commands:
+          - '[console] execute as %player_name% at @s run playsound minecraft:block.anvil.place ambient @s ~ ~ ~ 99999 2'
+          - '[message] &6&lСКУПЩИК &8| &fНет &cнеобходимого &fпредмета, либо &eкол-ва &fпредметов для &aпродажи&f!'
+    left_click_commands:
+      - '[console] execute as %player_name% at @s run playsound minecraft:entity.villager.trade ambient @s ~ ~ ~ 99999 1'
+      - '[console] money give %player_name% %math_{checkitem_amount_mat:MELON_SLICE}*25%'
+      - '[refresh] ' 
+      - '[message] &6&lСКУПЩИК &8| &fВы продали &6ломтик арбуза &fв количестве &e%checkitem_amount_mat:MELON_SLICE%x'
+      - '[console] minecraft:clear %player_name% melon_slice %checkitem_amount_mat:MELON_SLICE%'
+  'beetroot':
+    material: BEETROOT
+    slot: 29
+    display_name: '&#fbcd47&nСвёкла'
+    lore:
+    - ''
+    - '&fЦена за &61 &fштуку &e65⛃'
+    - '&fУ вас &a%checkitem_amount_mat:BEETROOT% &fшт. этого предмета'
+    - ''
+    - '&aЛКМ ► &fПродать &eвесь &fтовар'
+    - ''
+    - '&fВы получите: &e%math_{checkitem_amount_mat:BEETROOT}*65%⛃'
+    - '&fВаш баланс: &e%vault_eco_balance_fixed%⛃'
+    - ''
+    left_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: BEETROOT
+          amount: 1
+          deny_commands:
+          - '[console] execute as %player_name% at @s run playsound minecraft:block.anvil.place ambient @s ~ ~ ~ 99999 2'
+          - '[message] &6&lСКУПЩИК &8| &fНет &cнеобходимого &fпредмета, либо &eкол-ва &fпредметов для &aпродажи&f!'
+    left_click_commands:
+      - '[console] execute as %player_name% at @s run playsound minecraft:entity.villager.trade ambient @s ~ ~ ~ 99999 1'
+      - '[console] money give %player_name% %math_{checkitem_amount_mat:BEETROOT}*65%'
+      - '[refresh] ' 
+      - '[message] &6&lСКУПЩИК &8| &fВы продали &6свёклу &fв количестве &e%checkitem_amount_mat:BEETROOT%x'
+      - '[console] minecraft:clear %player_name% beetroot %checkitem_amount_mat:BEETROOT%'
+  'potato':
+    material: POTATO
+    slot: 30
+    display_name: '&#fbcd47&nРождение беларуса'
+    lore:
+    - ''
+    - '&fЦена за &61 &fштуку &e45⛃'
+    - '&fУ вас &a%checkitem_amount_mat:POTATO% &fшт. этого предмета'
+    - ''
+    - '&aЛКМ ► &fПродать &eвесь &fтовар'
+    - ''
+    - '&fВы получите: &e%math_{checkitem_amount_mat:POTATO}*45%⛃'
+    - '&fВаш баланс: &e%vault_eco_balance_fixed%⛃'
+    - ''
+    left_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: POTATO
+          amount: 1
+          deny_commands:
+          - '[console] execute as %player_name% at @s run playsound minecraft:block.anvil.place ambient @s ~ ~ ~ 99999 2'
+          - '[message] &6&lСКУПЩИК &8| &fНет &cнеобходимого &fпредмета, либо &eкол-ва &fпредметов для &aпродажи&f!'
+    left_click_commands:
+      - '[console] execute as %player_name% at @s run playsound minecraft:entity.villager.trade ambient @s ~ ~ ~ 99999 1'
+      - '[console] money give %player_name% %math_{checkitem_amount_mat:POTATO}*45%'
+      - '[refresh] ' 
+      - '[message] &6&lСКУПЩИК &8| &fВы продали &6жизнь беларуса в рабство &fв количестве &e%checkitem_amount_mat:POTATO%x'
+      - '[console] minecraft:clear %player_name% potato %checkitem_amount_mat:POTATO%'
+  'rottenfl':
+    material: ROTTEN_FLESH
+    slot: 31
+    display_name: '&#fbcd47&nГнилая плоть'
+    lore:
+    - ''
+    - '&fЦена за &61 &fштуку &e20⛃'
+    - '&fУ вас &a%checkitem_amount_mat:ROTTEN_FLESH% &fшт. этого предмета'
+    - ''
+    - '&aЛКМ ► &fПродать &eвесь &fтовар'
+    - ''
+    - '&fВы получите: &e%math_{checkitem_amount_mat:ROTTEN_FLESH}*20%⛃'
+    - '&fВаш баланс: &e%vault_eco_balance_fixed%⛃'
+    - ''
+    left_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: ROTTEN_FLESH
+          amount: 1
+          deny_commands:
+          - '[console] execute as %player_name% at @s run playsound minecraft:block.anvil.place ambient @s ~ ~ ~ 99999 2'
+          - '[message] &6&lСКУПЩИК &8| &fНет &cнеобходимого &fпредмета, либо &eкол-ва &fпредметов для &aпродажи&f!'
+    left_click_commands:
+      - '[console] execute as %player_name% at @s run playsound minecraft:entity.villager.trade ambient @s ~ ~ ~ 99999 1'
+      - '[console] money give %player_name% %math_{checkitem_amount_mat:ROTTEN_FLESH}*20%'
+      - '[refresh] ' 
+      - '[message] &6&lСКУПЩИК &8| &fВы продали &6гнилую плоть &fв количестве &e%checkitem_amount_mat:ROTTEN_FLESH%x'
+      - '[console] minecraft:clear %player_name% rotten_flesh %checkitem_amount_mat:BEEF%'
+  'melons':
+    material: MELON_SEEDS
+    slot: 32
+    display_name: '&#fbcd47&nСемена арбуза'
+    lore:
+    - ''
+    - '&fЦена за &61 &fштуку &e25⛃'
+    - '&fУ вас &a%checkitem_amount_mat:MELON_SEEDS% &fшт. этого предмета'
+    - ''
+    - '&aЛКМ ► &fПродать &eвесь &fтовар'
+    - ''
+    - '&fВы получите: &e%math_{checkitem_amount_mat:MELON_SEEDS}*25%⛃'
+    - '&fВаш баланс: &e%vault_eco_balance_fixed%⛃'
+    - ''
+    left_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: MELON_SEEDS
+          amount: 1
+          deny_commands:
+          - '[console] execute as %player_name% at @s run playsound minecraft:block.anvil.place ambient @s ~ ~ ~ 99999 2'
+          - '[message] &6&lСКУПЩИК &8| &fНет &cнеобходимого &fпредмета, либо &eкол-ва &fпредметов для &aпродажи&f!'
+    left_click_commands:
+      - '[console] execute as %player_name% at @s run playsound minecraft:entity.villager.trade ambient @s ~ ~ ~ 99999 1'
+      - '[console] money give %player_name% %math_{checkitem_amount_mat:MELON_SEEDS}*25%'
+      - '[refresh] ' 
+      - '[message] &6&lСКУПЩИК &8| &fВы продали &6сырую говядину &fв количестве &e%checkitem_amount_mat:MELON_SEEDS%x'
+      - '[console] minecraft:clear %player_name% melon_seeds %checkitem_amount_mat:MELON_SEEDS%'
+  'wheats':
+    material: WHEAT_SEEDS
+    slot: 33
+    display_name: '&#fbcd47&nСемена пшеницы'
+    lore:
+    - ''
+    - '&fЦена за &61 &fштуку &e15⛃'
+    - '&fУ вас &a%checkitem_amount_mat:WHEAT_SEEDS% &fшт. этого предмета'
+    - ''
+    - '&aЛКМ ► &fПродать &eвесь &fтовар'
+    - ''
+    - '&fВы получите: &e%math_{checkitem_amount_mat:WHEAT_SEEDS}*15%⛃'
+    - '&fВаш баланс: &e%vault_eco_balance_fixed%⛃'
+    - ''
+    left_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: WHEAT_SEEDS
+          amount: 1
+          deny_commands:
+          - '[console] execute as %player_name% at @s run playsound minecraft:block.anvil.place ambient @s ~ ~ ~ 99999 2'
+          - '[message] &6&lСКУПЩИК &8| &fНет &cнеобходимого &fпредмета, либо &eкол-ва &fпредметов для &aпродажи&f!'
+    left_click_commands:
+      - '[console] execute as %player_name% at @s run playsound minecraft:entity.villager.trade ambient @s ~ ~ ~ 99999 1'
+      - '[console] money give %player_name% %math_{checkitem_amount_mat:WHEAT_SEEDS}*15%'
+      - '[refresh] ' 
+      - '[message] &6&lСКУПЩИК &8| &fВы продали &6семена пшеницы &fв количестве &e%checkitem_amount_mat:WHEAT_SEEDS%x'
+      - '[console] minecraft:clear %player_name% wheat_seeds %checkitem_amount_mat:WHEAT_SEEDS%'
+  'sugarcane':
+    material: SUGAR_CANE
+    slot: 34
+    display_name: '&#fbcd47&nСахарный тростник'
+    lore:
+    - ''
+    - '&fЦена за &61 &fштуку &e55⛃'
+    - '&fУ вас &a%checkitem_amount_mat:SUGAR_CANE% &fшт. этого предмета'
+    - ''
+    - '&aЛКМ ► &fПродать &eвесь &fтовар'
+    - ''
+    - '&fВы получите: &e%math_{checkitem_amount_mat:SUGAR_CANE}*55%⛃'
+    - '&fВаш баланс: &e%vault_eco_balance_fixed%⛃'
+    - ''
+    left_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: SUGAR_CANE
+          amount: 1
+          deny_commands:
+          - '[console] execute as %player_name% at @s run playsound minecraft:block.anvil.place ambient @s ~ ~ ~ 99999 2'
+          - '[message] &6&lСКУПЩИК &8| &fНет &cнеобходимого &fпредмета, либо &eкол-ва &fпредметов для &aпродажи&f!'
+    left_click_commands:
+      - '[console] execute as %player_name% at @s run playsound minecraft:entity.villager.trade ambient @s ~ ~ ~ 99999 1'
+      - '[console] money give %player_name% %math_{checkitem_amount_mat:SUGAR_CANE}*55%'
+      - '[refresh] ' 
+      - '[message] &6&lСКУПЩИК &8| &fВы продали &6сахарный тростник &fв количестве &e%checkitem_amount_mat:SUGAR_CANE%x'
+      - '[console] minecraft:clear %player_name% sugar_cane %checkitem_amount_mat:SUGAR_CANE%'
+  'bamboo':
+    material: BAMBOO
+    slot: 35
+    display_name: '&#fbcd47&nБамбук'
+    lore:
+    - ''
+    - '&fЦена за &61 &fштуку &e15⛃'
+    - '&fУ вас &a%checkitem_amount_mat:BAMBOO% &fшт. этого предмета'
+    - ''
+    - '&aЛКМ ► &fПродать &eвесь &fтовар'
+    - ''
+    - '&fВы получите: &e%math_{checkitem_amount_mat:BAMBOO}*15%⛃'
+    - '&fВаш баланс: &e%vault_eco_balance_fixed%⛃'
+    - ''
+    left_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: BAMBOO
+          amount: 1
+          deny_commands:
+          - '[console] execute as %player_name% at @s run playsound minecraft:block.anvil.place ambient @s ~ ~ ~ 99999 2'
+          - '[message] &6&lСКУПЩИК &8| &fНет &cнеобходимого &fпредмета, либо &eкол-ва &fпредметов для &aпродажи&f!'
+    left_click_commands:
+      - '[console] execute as %player_name% at @s run playsound minecraft:entity.villager.trade ambient @s ~ ~ ~ 99999 1'
+      - '[console] money give %player_name% %math_{checkitem_amount_mat:BAMBOO}*15%'
+      - '[refresh] ' 
+      - '[message] &6&lСКУПЩИК &8| &fВы продали &6бамбук &fв количестве &e%checkitem_amount_mat:BAMBOO%x'
+      - '[console] minecraft:clear %player_name% bamboo %checkitem_amount_mat:BAMBOO%'
+  'wheat':
+    material: WHEAT
+    slot: 36
+    display_name: '&#fbcd47&nПшеница'
+    lore:
+    - ''
+    - '&fЦена за &61 &fштуку &e30⛃'
+    - '&fУ вас &a%checkitem_amount_mat:WHEAT% &fшт. этого предмета'
+    - ''
+    - '&aЛКМ ► &fПродать &eвесь &fтовар'
+    - ''
+    - '&fВы получите: &e%math_{checkitem_amount_mat:WHEAT}*30%⛃'
+    - '&fВаш баланс: &e%vault_eco_balance_fixed%⛃'
+    - ''
+    left_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: WHEAT
+          amount: 1
+          deny_commands:
+          - '[console] execute as %player_name% at @s run playsound minecraft:block.anvil.place ambient @s ~ ~ ~ 99999 2'
+          - '[message] &6&lСКУПЩИК &8| &fНет &cнеобходимого &fпредмета, либо &eкол-ва &fпредметов для &aпродажи&f!'
+    left_click_commands:
+      - '[console] execute as %player_name% at @s run playsound minecraft:entity.villager.trade ambient @s ~ ~ ~ 99999 1'
+      - '[console] money give %player_name% %math_{checkitem_amount_mat:WHEAT}*30%'
+      - '[refresh] ' 
+      - '[message] &6&lСКУПЩИК &8| &fВы продали &6пшеницу &fв количестве &e%checkitem_amount_mat:WHEAT%x'
+      - '[console] minecraft:clear %player_name% wheat %checkitem_amount_mat:WHEAT%'
+  'leather':
+    material: LEATHER
+    slot: 37
+    display_name: '&#fbcd47&nКожа'
+    lore:
+    - ''
+    - '&fЦена за &61 &fштуку &e85⛃'
+    - '&fУ вас &a%checkitem_amount_mat:LEATHER% &fшт. этого предмета'
+    - ''
+    - '&aЛКМ ► &fПродать &eвесь &fтовар'
+    - ''
+    - '&fВы получите: &e%math_{checkitem_amount_mat:LEATHER}*85%⛃'
+    - '&fВаш баланс: &e%vault_eco_balance_fixed%⛃'
+    - ''
+    left_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: LEATHER
+          amount: 1
+          deny_commands:
+          - '[console] execute as %player_name% at @s run playsound minecraft:block.anvil.place ambient @s ~ ~ ~ 99999 2'
+          - '[message] &6&lСКУПЩИК &8| &fНет &cнеобходимого &fпредмета, либо &eкол-ва &fпредметов для &aпродажи&f!'
+    left_click_commands:
+      - '[console] execute as %player_name% at @s run playsound minecraft:entity.villager.trade ambient @s ~ ~ ~ 99999 1'
+      - '[console] money give %player_name% %math_{checkitem_amount_mat:LEATHER}*85%'
+      - '[refresh] ' 
+      - '[message] &6&lСКУПЩИК &8| &fВы продали &6кожу &fв количестве &e%checkitem_amount_mat:LEATHER%x'
+      - '[console] minecraft:clear %player_name% leather %checkitem_amount_mat:LEATHER%'
+  'arrow':
+    material: ARROW
+    slot: 38
+    display_name: '&#fbcd47&nСтрела'
+    lore:
+    - ''
+    - '&fЦена за &61 &fштуку &e25⛃'
+    - '&fУ вас &a%checkitem_amount_mat:ARROW% &fшт. этого предмета'
+    - ''
+    - '&aЛКМ ► &fПродать &eвесь &fтовар'
+    - ''
+    - '&fВы получите: &e%math_{checkitem_amount_mat:ARROW}*25%⛃'
+    - '&fВаш баланс: &e%vault_eco_balance_fixed%⛃'
+    - ''
+    left_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: ARROW
+          amount: 1
+          deny_commands:
+          - '[console] execute as %player_name% at @s run playsound minecraft:block.anvil.place ambient @s ~ ~ ~ 99999 2'
+          - '[message] &6&lСКУПЩИК &8| &fНет &cнеобходимого &fпредмета, либо &eкол-ва &fпредметов для &aпродажи&f!'
+    left_click_commands:
+      - '[console] execute as %player_name% at @s run playsound minecraft:entity.villager.trade ambient @s ~ ~ ~ 99999 1'
+      - '[console] money give %player_name% %math_{checkitem_amount_mat:MELON_SEEDS}*25%'
+      - '[refresh] ' 
+      - '[message] &6&lСКУПЩИК &8| &fВы продали &6стрелу &fв количестве &e%checkitem_amount_mat:ARROW%x'
+      - '[console] minecraft:clear %player_name% arrow %checkitem_amount_mat:ARROW%'
+  'bone':
+    material: BONE
+    slot: 39
+    display_name: '&#fbcd47&nКость'
+    lore:
+    - ''
+    - '&fЦена за &61 &fштуку &e35⛃'
+    - '&fУ вас &a%checkitem_amount_mat:BONE% &fшт. этого предмета'
+    - ''
+    - '&aЛКМ ► &fПродать &eвесь &fтовар'
+    - ''
+    - '&fВы получите: &e%math_{checkitem_amount_mat:BONE}*35%⛃'
+    - '&fВаш баланс: &e%vault_eco_balance_fixed%⛃'
+    - ''
+    left_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: BONE
+          amount: 1
+          deny_commands:
+          - '[console] execute as %player_name% at @s run playsound minecraft:block.anvil.place ambient @s ~ ~ ~ 99999 2'
+          - '[message] &6&lСКУПЩИК &8| &fНет &cнеобходимого &fпредмета, либо &eкол-ва &fпредметов для &aпродажи&f!'
+    left_click_commands:
+      - '[console] execute as %player_name% at @s run playsound minecraft:entity.villager.trade ambient @s ~ ~ ~ 99999 1'
+      - '[console] money give %player_name% %math_{checkitem_amount_mat:BONE}*35%'
+      - '[refresh] ' 
+      - '[message] &6&lСКУПЩИК &8| &fВы продали &6кость &fв количестве &e%checkitem_amount_mat:BONE%x'
+      - '[console] minecraft:clear %player_name% bone %checkitem_amount_mat:BONE%'
+  'glass':
+    material: GLASS
+    slot: 40
+    display_name: '&#fbcd47&nСтекло'
+    lore:
+    - ''
+    - '&fЦена за &61 &fштуку &e35⛃'
+    - '&fУ вас &a%checkitem_amount_mat:GLASS% &fшт. этого предмета'
+    - ''
+    - '&aЛКМ ► &fПродать &eвесь &fтовар'
+    - ''
+    - '&fВы получите: &e%math_{checkitem_amount_mat:GLASS}*35%⛃'
+    - '&fВаш баланс: &e%vault_eco_balance_fixed%⛃'
+    - ''
+    left_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: GLASS
+          amount: 1
+          deny_commands:
+          - '[console] execute as %player_name% at @s run playsound minecraft:block.anvil.place ambient @s ~ ~ ~ 99999 2'
+          - '[message] &6&lСКУПЩИК &8| &fНет &cнеобходимого &fпредмета, либо &eкол-ва &fпредметов для &aпродажи&f!'
+    left_click_commands:
+      - '[console] execute as %player_name% at @s run playsound minecraft:entity.villager.trade ambient @s ~ ~ ~ 99999 1'
+      - '[console] money give %player_name% %math_{checkitem_amount_mat:GLASS}*35%'
+      - '[refresh] ' 
+      - '[message] &6&lСКУПЩИК &8| &fВы продали &6стекло &fв количестве &e%checkitem_amount_mat:GLASS%x'
+      - '[console] minecraft:clear %player_name% glass %checkitem_amount_mat:GLASS%'
+  'obsidian':
+    material: OBSIDIAN
+    slot: 41
+    display_name: '&#fbcd47&nОбсидиан'
+    lore:
+    - ''
+    - '&fЦена за &61 &fштуку &e75⛃'
+    - '&fУ вас &a%checkitem_amount_mat:OBSIDIAN% &fшт. этого предмета'
+    - ''
+    - '&aЛКМ ► &fПродать &eвесь &fтовар'
+    - ''
+    - '&fВы получите: &e%math_{checkitem_amount_mat:OBSIDIAN}*75%⛃'
+    - '&fВаш баланс: &e%vault_eco_balance_fixed%⛃'
+    - ''
+    left_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: OBSIDIAN
+          amount: 1
+          deny_commands:
+          - '[console] execute as %player_name% at @s run playsound minecraft:block.anvil.place ambient @s ~ ~ ~ 99999 2'
+          - '[message] &6&lСКУПЩИК &8| &fНет &cнеобходимого &fпредмета, либо &eкол-ва &fпредметов для &aпродажи&f!'
+    left_click_commands:
+      - '[console] execute as %player_name% at @s run playsound minecraft:entity.villager.trade ambient @s ~ ~ ~ 99999 1'
+      - '[console] money give %player_name% %math_{checkitem_amount_mat:OBSIDIAN}*75%'
+      - '[refresh] ' 
+      - '[message] &6&lСКУПЩИК &8| &fВы продали &6обсидиан &fв количестве &e%checkitem_amount_mat:OBSIDIAN%x'
+      - '[console] minecraft:clear %player_name% obsidian %checkitem_amount_mat:OBSIDIAN%'
+  'log':
+    material: OAK_LOG
+    slot: 42
+    display_name: '&#fbcd47&nДубовое бревно'
+    lore:
+    - ''
+    - '&fЦена за &61 &fштуку &e35⛃'
+    - '&fУ вас &a%checkitem_amount_mat:OAK_LOG% &fшт. этого предмета'
+    - ''
+    - '&aЛКМ ► &fПродать &eвесь &fтовар'
+    - ''
+    - '&fВы получите: &e%math_{checkitem_amount_mat:OAK_LOG}*35%⛃'
+    - '&fВаш баланс: &e%vault_eco_balance_fixed%⛃'
+    - ''
+    left_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: OAK_LOG
+          amount: 1
+          deny_commands:
+          - '[console] execute as %player_name% at @s run playsound minecraft:block.anvil.place ambient @s ~ ~ ~ 99999 2'
+          - '[message] &6&lСКУПЩИК &8| &fНет &cнеобходимого &fпредмета, либо &eкол-ва &fпредметов для &aпродажи&f!'
+    left_click_commands:
+      - '[console] execute as %player_name% at @s run playsound minecraft:entity.villager.trade ambient @s ~ ~ ~ 99999 1'
+      - '[console] money give %player_name% %math_{checkitem_amount_mat:OAK_LOG}*35%'
+      - '[refresh] ' 
+      - '[message] &6&lСКУПЩИК &8| &fВы продали &6дубовое бревно &fв количестве &e%checkitem_amount_mat:OAK_LOG%x'
+      - '[console] minecraft:clear %player_name% oak_log %checkitem_amount_mat:OAK_LOG%'
+  'spruce':
+    material: SPRUCE_LOG
+    slot: 43
+    display_name: '&#fbcd47&nЕловое бревно'
+    lore:
+    - ''
+    - '&fЦена за &61 &fштуку &e35⛃'
+    - '&fУ вас &a%checkitem_amount_mat:SPRUCE_LOG% &fшт. этого предмета'
+    - ''
+    - '&aЛКМ ► &fПродать &eвесь &fтовар'
+    - ''
+    - '&fВы получите: &e%math_{checkitem_amount_mat:SPRUCE_LOG}*35%⛃'
+    - '&fВаш баланс: &e%vault_eco_balance_fixed%⛃'
+    - ''
+    left_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: SPRUCE_LOG
+          amount: 1
+          deny_commands:
+          - '[console] execute as %player_name% at @s run playsound minecraft:block.anvil.place ambient @s ~ ~ ~ 99999 2'
+          - '[message] &6&lСКУПЩИК &8| &fНет &cнеобходимого &fпредмета, либо &eкол-ва &fпредметов для &aпродажи&f!'
+    left_click_commands:
+      - '[console] execute as %player_name% at @s run playsound minecraft:entity.villager.trade ambient @s ~ ~ ~ 99999 1'
+      - '[console] money give %player_name% %math_{checkitem_amount_mat:SPRUCE_LOG}*35%'
+      - '[refresh] ' 
+      - '[message] &6&lСКУПЩИК &8| &fВы продали &6еловое бревно &fв количестве &e%checkitem_amount_mat:SPRUCE_LOG%x'
+      - '[console] minecraft:clear %player_name% spruce_log %checkitem_amount_mat:SPRUCE_LOG%'
+  'пиздецязаебальсяужепоследнийпредмет':
+    material: BIRCH_LOG
+    slot: 44
+    display_name: '&#fbcd47&nБерёзовое бревно'
+    lore:
+    - ''
+    - '&fЦена за &61 &fштуку &e35⛃'
+    - '&fУ вас &a%checkitem_amount_mat:BIRCH_LOG% &fшт. этого предмета'
+    - ''
+    - '&aЛКМ ► &fПродать &eвесь &fтовар'
+    - ''
+    - '&fВы получите: &e%math_{checkitem_amount_mat:BIRCH_LOG}*35%⛃'
+    - '&fВаш баланс: &e%vault_eco_balance_fixed%⛃'
+    - ''
+    left_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: BIRCH_LOG
+          amount: 1
+          deny_commands:
+          - '[console] execute as %player_name% at @s run playsound minecraft:block.anvil.place ambient @s ~ ~ ~ 99999 2'
+          - '[message] &6&lСКУПЩИК &8| &fНет &cнеобходимого &fпредмета, либо &eкол-ва &fпредметов для &aпродажи&f!'
+    left_click_commands:
+      - '[console] execute as %player_name% at @s run playsound minecraft:entity.villager.trade ambient @s ~ ~ ~ 99999 1'
+      - '[console] money give %player_name% %math_{checkitem_amount_mat:BIRCH_LOG}*35%'
+      - '[refresh] ' 
+      - '[message] &6&lСКУПЩИК &8| &fВы продали &6берёзовое бревно &fв количестве &e%checkitem_amount_mat:BIRCH_LOG%x'
+      - '[console] minecraft:clear %player_name% birch_log %checkitem_amount_mat:BIRCH_LOG%'
+############################## КОНЕЦ ###########################################################
+# Дальше вы можете добавить свои предметы
+# Или модифицировать уже существующие
+# Вариантов много.
+###############################################################################################
+# by hecker#4871 (HIGHTLEAK.XYZ)

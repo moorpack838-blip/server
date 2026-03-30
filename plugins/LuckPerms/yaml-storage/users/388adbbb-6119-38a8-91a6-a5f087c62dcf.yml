@@ -1,0 +1,12 @@
+uuid: 388adbbb-6119-38a8-91a6-a5f087c62dcf
+name: drim
+primary-group: default
+parents:
+- default
+- elay
+prefixes:
+- §7§lИГРОК §7:
+    priority: 11
+    context:
+      server: grief
+      world: lobby

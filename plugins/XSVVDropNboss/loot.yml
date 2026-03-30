@@ -1,0 +1,580 @@
+loot:
+  air1:
+    '1':
+      ==: org.bukkit.inventory.ItemStack
+      type: MONSTER_EGG
+      meta:
+        ==: ItemMeta
+        meta-type: SPAWN_EGG
+        display-name: СвиНка
+        internal: H4sIAAAAAAAAAONiYOBi4HTNK8ksqQxJTOdgYMpMYeDNzcxLTS5KTCuxKshMZ2AAANkfh0IlAAAA
+        id: pig
+    '2':
+      ==: org.bukkit.inventory.ItemStack
+      type: BREWING_STAND_ITEM
+      meta:
+        ==: ItemMeta
+        meta-type: TILE_ENTITY
+        display-name: §6§lСУПЕР ЗЕЛЬЕВАРКА §7(1 УРОВЕНЬ)§1§4§0§5
+        lore:
+        - §r
+        enchants:
+          FIRE_ASPECT: 1
+        ItemFlags:
+        - HIDE_ENCHANTS
+        blockMaterial: BREWING_STAND_ITEM
+    '3':
+      ==: org.bukkit.inventory.ItemStack
+      type: FURNACE
+      meta:
+        ==: ItemMeta
+        meta-type: TILE_ENTITY
+        display-name: §6§lCУПЕР §6§lПЕЧКА §7(1 УРОВЕНЬ)§1§4§0§5
+        lore:
+        - §r
+        enchants:
+          FIRE_ASPECT: 1
+        ItemFlags:
+        - HIDE_ENCHANTS
+        blockMaterial: FURNACE
+    '4':
+      ==: org.bukkit.inventory.ItemStack
+      type: SKULL_ITEM
+      damage: 3
+      meta:
+        ==: ItemMeta
+        meta-type: SKULL
+        display-name: §6§lРУНА ПАДАЛЬЩИКА §7[Уровень I]
+        lore:
+        - ''
+        - '§e§l▪ §aДобавляет §fвам:'
+        - §e§l▪ §f+ §aСила II
+        - §e§l▪ §f+ §aСкорость I
+        - §e§l▪ §f+ §aОгнестойкость I
+        - ''
+        internal: H4sIAAAAAAAAAE2Q0U6DMBiFq4kJEi98CG+bdFDKuFRZHGSAYzBW7qAtWVnZlgEqPJWPaC+9+ZOT75zkz2cCYIKn3WlU6vN2aaQSBrgPOHghouKVXTNoC8eF2OVL6FlM6NNYSyIwqXBjAlOPruI2SNE/AmMQP8N4E70JALgzwMO+UqMAv2IKUXk4In4IFZsConO2QyoJ2qsbnPdT/R6QoNN8/Uo2k/ev6wxV4Shqh8fyvB3rbo82dqrEOl2wLv9KsrJN/C2KrRWmbSmjj/ybzlzFM52SIrIS/4TLInLozFBSrGyavR2jLkBxFkrN58TPJ81w7HNJ2/RE51w2h4WnvzfAMxv74dLJQXQ9HEeplXgMaSdCK2FWA/GiQrAiaAm56/Da0r64y8EfmuAVW1EBAAA=
+    '5':
+      ==: org.bukkit.inventory.ItemStack
+      type: POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        display-name: §f§lЗЕЛЬE §c§lГЛАДИАТОРА
+        lore:
+        - §9Сила IV (3:00)
+        - §9Замедление V (1:00)
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        internal: H4sIAAAAAAAAAONiYGBmEHQuLS7Jzw3IL8nMz3POz8kvYihmZWUAABjsvUIcAAAA
+        potion-type: minecraft:water
+        custom-color:
+          ==: Color
+          RED: 115
+          BLUE: 5
+          GREEN: 5
+        custom-effects:
+        - ==: PotionEffect
+          effect: 5
+          duration: 3600
+          amplifier: 3
+          ambient: true
+          has-particles: true
+        - ==: PotionEffect
+          effect: 2
+          duration: 1200
+          amplifier: 4
+          ambient: true
+          has-particles: true
+    '6':
+      ==: org.bukkit.inventory.ItemStack
+      type: MAGMA_CREAM
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §c§lЛИВАЛКА §8• §e§lКЕНГУРУ
+        lore:
+        - ''
+        - §e• §fКликай §eПКМ§f чтобы
+        - §e• §fЛивалка подбрасывает на 200 блоков вверх!
+        - ''
+        - §e╔ §fНа ливалке §eприсутствует
+        - §e╚ §eCooldown§8 (20s)
+        internal: H4sIAAAAAAAAAONiYOBg4ChJzUktyC8qYWBgAADGnXrnEQAAAA==
+    '7':
+      ==: org.bukkit.inventory.ItemStack
+      type: ENDER_PEARL
+      amount: 4
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: ЧуДо ГлаЗ
+    '8':
+      ==: org.bukkit.inventory.ItemStack
+      type: TIPPED_ARROW
+      amount: 5
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        display-name: §6Стрела мульти
+        lore:
+        - ''
+        - §fСтреляет 5 стрелами
+        - ''
+        internal: H4sIAAAAAAAAAONiYGBmEHQuLS7Jzw3IL8nMz3POz8kvYvi/4xoDAAQeoYIcAAAA
+        custom-color:
+          ==: Color
+          RED: 255
+          BLUE: 214
+          GREEN: 184
+  air2:
+    '1':
+      ==: org.bukkit.inventory.ItemStack
+      type: CHORUS_FRUIT
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §c§lЛИВАЛКА §8• §6§lLOL
+        lore:
+        - ''
+        - §e• §fКликай §6ПКМ§f чтобы
+        - §e• §fТелепортирует вас на спавн!
+        - ''
+        - §e╔ §fНа ливалке §6присутствует
+        - §e╚ §6Cooldown§8 (20s)
+        internal: H4sIAAAAAAAAAONiYOBgYM1JTSxLZWBgAABBH9AUDgAAAA==
+    '2':
+      ==: org.bukkit.inventory.ItemStack
+      type: SKULL_ITEM
+      damage: 3
+      meta:
+        ==: ItemMeta
+        meta-type: SKULL
+        display-name: §6§lРУНА БИЛДЕРА §5[Уровень V]
+        lore:
+        - ''
+        - '§e§l▪ §aДобавляет §fвам:'
+        - §e§l▪ §f+ §aСкорость II
+        - §e§l▪ §f+ §aСпешка III
+        - §e§l▪ §f+ §aРегенерация I
+        - §e§l▪ §f+ §aПрыгучесть III
+        - §e§l▪ §f+ §aОгнестойкость II
+        - ''
+        internal: H4sIAAAAAAAAAE2QQU+DMACFq4kJEg/+CK9NOjo6d/CwOOcgA5QxGNxa2gZou5kBOvhd/kA5enx53zt8zwbABg971Wv9cTnLWgsL3HocPBHChXRFCaXLBZwjvIDPEknIHEIFdZcML5AN7Gn0JS5dLdp7YHXi2vUX0doAgBsL3KVU9wL8isFHxbFC/OjrcvDIlJM90pHXfC28UzqwV494Zuq3K7Iblv9Yt6OZq3PsV8Xps2cmRTsca7GNZ6U5fBfvgRMlys3HjQkT5YTrwhTJ6ho0mypKtIoy76cwqQlG5YYmVeFYNaGJmzA5zIJxo/LMb3LnDQfrqgmyuCkadQ1rfymP6GUysMBj2bfd2dSdMC3s+3q6BUlGEKUUloRLOJ+zElLOMGQScU5L7GAkwB+B1xv2VQEAAA==
+    '3':
+      ==: org.bukkit.inventory.ItemStack
+      type: MAGMA_CREAM
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §c§lЛИВАЛКА §8• §e§lКЕНГУРУ
+        lore:
+        - ''
+        - §e• §fКликай §eПКМ§f чтобы
+        - §e• §fЛивалка подбрасывает на 200 блоков вверх!
+        - ''
+        - §e╔ §fНа ливалке §eприсутствует
+        - §e╚ §eCooldown§8 (20s)
+        internal: H4sIAAAAAAAAAONiYOBg4ChJzUktyC8qYWBgAADGnXrnEQAAAA==
+    '4':
+      ==: org.bukkit.inventory.ItemStack
+      type: POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        display-name: §f§lЗЕЛЬE §2§lТАНКА
+        lore:
+        - §9Сопротивление IV (1:00)
+        - §9Тошнота I (0:20)
+        - §9Замедление VII (0:05)
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        internal: H4sIAAAAAAAAAONiYGBmEHQuLS7Jzw3IL8nMz3POz8kvYgABAMTVi0AcAAAA
+        potion-type: minecraft:water
+        custom-color:
+          ==: Color
+          RED: 0
+          BLUE: 0
+          GREEN: 0
+        custom-effects:
+        - ==: PotionEffect
+          effect: 11
+          duration: 1200
+          amplifier: 3
+          ambient: true
+          has-particles: true
+        - ==: PotionEffect
+          effect: 9
+          duration: 400
+          amplifier: 0
+          ambient: true
+          has-particles: true
+        - ==: PotionEffect
+          effect: 2
+          duration: 100
+          amplifier: 6
+          ambient: true
+          has-particles: true
+    '5':
+      ==: org.bukkit.inventory.ItemStack
+      type: TIPPED_ARROW
+      amount: 4
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        display-name: §6Стрела телепорта
+        lore:
+        - ''
+        - §fТелепортирует на место стрелы
+        - ''
+        internal: H4sIAAAAAAAAAONiYGBmEHQuLS7Jzw3IL8nMz3POz8kvYljN9JEBAFJPwtQcAAAA
+        custom-color:
+          ==: Color
+          RED: 171
+          BLUE: 241
+          GREEN: 2
+    '6':
+      ==: org.bukkit.inventory.ItemStack
+      type: ENDER_PEARL
+      amount: 5
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: ЧуДо ГлаЗ
+    '7':
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_SWORD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §6§l§nМЕЧ §e§lW§6§lISE
+        enchants:
+          DAMAGE_ALL: 7
+          FIRE_ASPECT: 3
+          LOOT_BONUS_MOBS: 3
+          DURABILITY: 6
+          MENDING: 1
+          VANISHING_CURSE: 1
+  air3:
+    '1':
+      ==: org.bukkit.inventory.ItemStack
+      type: BREWING_STAND_ITEM
+      meta:
+        ==: ItemMeta
+        meta-type: TILE_ENTITY
+        display-name: §6§lСУПЕР ЗЕЛЬЕВАРКА §7(1 УРОВЕНЬ)§1§4§0§5
+        lore:
+        - §r
+        enchants:
+          FIRE_ASPECT: 1
+        ItemFlags:
+        - HIDE_ENCHANTS
+        blockMaterial: BREWING_STAND_ITEM
+    '2':
+      ==: org.bukkit.inventory.ItemStack
+      type: CHORUS_FRUIT
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §c§lЛИВАЛКА §8• §6§lLOL
+        lore:
+        - ''
+        - §e• §fКликай §6ПКМ§f чтобы
+        - §e• §fТелепортирует вас на спавн!
+        - ''
+        - §e╔ §fНа ливалке §6присутствует
+        - §e╚ §6Cooldown§8 (20s)
+        internal: H4sIAAAAAAAAAONiYOBgYM1JTSxLZWBgAABBH9AUDgAAAA==
+    '3':
+      ==: org.bukkit.inventory.ItemStack
+      type: MAGMA_CREAM
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §c§lЛИВАЛКА §8• §e§lКЕНГУРУ
+        lore:
+        - ''
+        - §e• §fКликай §eПКМ§f чтобы
+        - §e• §fЛивалка подбрасывает на 200 блоков вверх!
+        - ''
+        - §e╔ §fНа ливалке §eприсутствует
+        - §e╚ §eCooldown§8 (20s)
+        internal: H4sIAAAAAAAAAONiYOBg4ChJzUktyC8qYWBgAADGnXrnEQAAAA==
+    '4':
+      ==: org.bukkit.inventory.ItemStack
+      type: SKULL_ITEM
+      damage: 3
+      meta:
+        ==: ItemMeta
+        meta-type: SKULL
+        display-name: §6§lРУНА ЦИЦЕРОНА §b[Уровень IV]
+        lore:
+        - ''
+        - '§e§l▪ §aДобавляет §fвам:'
+        - §e§l▪ §f+ §aСила II
+        - §e§l▪ §f+ §aСкорость II
+        - §e§l▪ §f+ §aСопротивление II
+        - §e§l▪ §f+ §aОгнестойкость
+        - ''
+        internal: H4sIAAAAAAAAAE2Qy06DQABFRxMTJC78CLeTDDAPWHTR2MYOEbAtj8JuoEOADm1TQAtf5SfK0uXNPTe5OToAOnjZnwalvm6XslZSA4/8CN5sQSlFgkILFwxiSwgoLGZCgTApmC1LJpkO9Hl0lbe+lt0z0Hp574eb7HQAwIMGnmKhBgl+5eii7FCh48FVxcjpnMM9UgFvroyf4zF/55S3c79Z0s/R+ceSXiREpZZbZeftkLcx+rR2Sm52RtFG314SGUHIkT+dcBpusW+mJEjcyltVyg93lZ/wuzctzSB0m3SKsN+cfrx2PXPRPfuIldesp2C1nrIkxemUmvxsOOV2sZjfa+C1GLr+0ta9bDs4DPWshBIHU4dhaBVkVlLmGArTcGBJcklt22YWysEfc0WwK1EBAAA=
+    '5':
+      ==: org.bukkit.inventory.ItemStack
+      type: ENDER_PEARL
+      amount: 6
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: ЧуДо ГлаЗ
+    '6':
+      ==: org.bukkit.inventory.ItemStack
+      type: FURNACE
+      meta:
+        ==: ItemMeta
+        meta-type: TILE_ENTITY
+        display-name: §6§lСУПЕР §6§lПЕЧКА §7(5 УРОВЕНЬ)§1§4§0§5
+        lore:
+        - §r
+        enchants:
+          FIRE_ASPECT: 1
+        ItemFlags:
+        - HIDE_ENCHANTS
+        blockMaterial: FURNACE
+    '7':
+      ==: org.bukkit.inventory.ItemStack
+      type: END_ROD
+      amount: 6
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: Стержень Энда
+  air4:
+    '1':
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_CHESTPLATE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §6§l§nНАГРУДНИК §e§lW§6§lISE
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 6
+          PROTECTION_FIRE: 6
+          PROTECTION_PROJECTILE: 6
+          DURABILITY: 3
+          MENDING: 1
+    '2':
+      ==: org.bukkit.inventory.ItemStack
+      type: ENDER_PEARL
+      amount: 6
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: ЧуДо ГлаЗ
+    '3':
+      ==: org.bukkit.inventory.ItemStack
+      type: BLAZE_ROD
+      amount: 9
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: Огненный стерженb
+    '4':
+      ==: org.bukkit.inventory.ItemStack
+      type: END_ROD
+      amount: 4
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: Стержень Энда
+  air5:
+    '1':
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_BOOTS
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §6§l§nБОТИНКИ §e§lW§6§lISE
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 6
+          PROTECTION_FIRE: 6
+          PROTECTION_FALL: 6
+          PROTECTION_PROJECTILE: 6
+          DEPTH_STRIDER: 3
+          DURABILITY: 3
+          MENDING: 1
+    '2':
+      ==: org.bukkit.inventory.ItemStack
+      type: POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        display-name: §f§lЗЕЛЬE §2§lТАНКА
+        lore:
+        - §9Сопротивление IV (1:00)
+        - §9Тошнота I (0:20)
+        - §9Замедление VII (0:05)
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        internal: H4sIAAAAAAAAAONiYGBmEHQuLS7Jzw3IL8nMz3POz8kvYgABAMTVi0AcAAAA
+        potion-type: minecraft:water
+        custom-color:
+          ==: Color
+          RED: 0
+          BLUE: 0
+          GREEN: 0
+        custom-effects:
+        - ==: PotionEffect
+          effect: 11
+          duration: 1200
+          amplifier: 3
+          ambient: true
+          has-particles: true
+        - ==: PotionEffect
+          effect: 9
+          duration: 400
+          amplifier: 0
+          ambient: true
+          has-particles: true
+        - ==: PotionEffect
+          effect: 2
+          duration: 100
+          amplifier: 6
+          ambient: true
+          has-particles: true
+    '3':
+      ==: org.bukkit.inventory.ItemStack
+      type: MAGMA_CREAM
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §c§lЛИВАЛКА §8• §e§lКЕНГУРУ
+        lore:
+        - ''
+        - §e• §fКликай §eПКМ§f чтобы
+        - §e• §fЛивалка подбрасывает на 200 блоков вверх!
+        - ''
+        - §e╔ §fНа ливалке §eприсутствует
+        - §e╚ §eCooldown§8 (20s)
+        internal: H4sIAAAAAAAAAONiYOBg4ChJzUktyC8qYWBgAADGnXrnEQAAAA==
+    '4':
+      ==: org.bukkit.inventory.ItemStack
+      type: BREWING_STAND_ITEM
+      meta:
+        ==: ItemMeta
+        meta-type: TILE_ENTITY
+        display-name: §6§lСУПЕР ЗЕЛЬЕВАРКА §7(1 УРОВЕНЬ)§1§4§0§5
+        lore:
+        - §r
+        enchants:
+          FIRE_ASPECT: 1
+        ItemFlags:
+        - HIDE_ENCHANTS
+        blockMaterial: BREWING_STAND_ITEM
+    '5':
+      ==: org.bukkit.inventory.ItemStack
+      type: TIPPED_ARROW
+      amount: 4
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        display-name: §6Стрела телепорта
+        lore:
+        - ''
+        - §fТелепортирует на место стрелы
+        - ''
+        internal: H4sIAAAAAAAAAONiYGBmEHQuLS7Jzw3IL8nMz3POz8kvYljN9JEBAFJPwtQcAAAA
+        custom-color:
+          ==: Color
+          RED: 171
+          BLUE: 241
+          GREEN: 2
+    '6':
+      ==: org.bukkit.inventory.ItemStack
+      type: ENDER_PEARL
+      amount: 6
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: ЧуДо ГлаЗ
+  air6:
+    '1':
+      ==: org.bukkit.inventory.ItemStack
+      type: BLAZE_ROD
+      amount: 4
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: Огненный стерженb
+    '2':
+      ==: org.bukkit.inventory.ItemStack
+      type: MAGMA_CREAM
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §c§lЛИВАЛКА §8• §e§lКЕНГУРУ
+        lore:
+        - ''
+        - §e• §fКликай §eПКМ§f чтобы
+        - §e• §fЛивалка подбрасывает на 200 блоков вверх!
+        - ''
+        - §e╔ §fНа ливалке §eприсутствует
+        - §e╚ §eCooldown§8 (20s)
+        internal: H4sIAAAAAAAAAONiYOBg4ChJzUktyC8qYWBgAADGnXrnEQAAAA==
+    '3':
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_BOOTS
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §6§l§nБОТИНКИ §e§lW§6§lISE
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 6
+          PROTECTION_FIRE: 6
+          PROTECTION_FALL: 6
+          PROTECTION_PROJECTILE: 6
+          DEPTH_STRIDER: 3
+          DURABILITY: 3
+          MENDING: 1
+    '4':
+      ==: org.bukkit.inventory.ItemStack
+      type: FURNACE
+      meta:
+        ==: ItemMeta
+        meta-type: TILE_ENTITY
+        display-name: §6§lСУПЕР §6§lПЕЧКА §7(5 УРОВЕНЬ)§1§4§0§5
+        lore:
+        - §r
+        enchants:
+          FIRE_ASPECT: 1
+        ItemFlags:
+        - HIDE_ENCHANTS
+        blockMaterial: FURNACE
+    '5':
+      ==: org.bukkit.inventory.ItemStack
+      type: END_ROD
+      amount: 4
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: Стержень Энда
+    '6':
+      ==: org.bukkit.inventory.ItemStack
+      type: ENDER_PEARL
+      amount: 5
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: ЧуДо ГлаЗ

@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 178.252.127.214
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1680447983309
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1680448209002
+  login: 1680446702752
+money: '1060.0'
+last-account-name: Heegor228
+lastlocation:
+  world: f426770c-0cf2-4454-94e7-0f4170382838
+  world-name: lobby
+  x: 990.7083535453168
+  y: 67.0
+  z: -305.19736697737414
+  yaw: -45.57615661621094
+  pitch: 15.34792423248291
+logoutlocation:
+  world: f426770c-0cf2-4454-94e7-0f4170382838
+  world-name: lobby
+  x: 1016.6403559028641
+  y: 67.9375
+  z: -281.28650145261787
+  yaw: 11.746052742004395
+  pitch: 25.160064697265625

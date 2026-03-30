@@ -1,0 +1,12 @@
+uuid: c593671c-2996-3ef7-a81a-3360e4ef8585
+name: top4ik7788k19
+primary-group: default
+parents:
+- default
+- elay
+- gladiator
+- hero
+- voin
+suffixes:
+- '&r&nЧСВ ☡':
+    priority: 1

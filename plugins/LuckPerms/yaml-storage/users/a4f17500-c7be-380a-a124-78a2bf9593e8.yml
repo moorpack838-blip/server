@@ -1,0 +1,11 @@
+uuid: a4f17500-c7be-380a-a124-78a2bf9593e8
+name: VpnTopLoxi
+primary-group: default
+parents:
+- default
+prefixes:
+- §7§lИГРОК §7:
+    priority: 11
+    context:
+      server: grief
+      world: lobby

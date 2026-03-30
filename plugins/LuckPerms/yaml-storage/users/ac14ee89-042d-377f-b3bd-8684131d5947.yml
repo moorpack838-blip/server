@@ -1,0 +1,11 @@
+uuid: ac14ee89-042d-377f-b3bd-8684131d5947
+name: Anal_Klesh
+primary-group: default
+parents:
+- default
+prefixes:
+- §7§lИГРОК §7:
+    priority: 11
+    context:
+      server: grief
+      world: lobby

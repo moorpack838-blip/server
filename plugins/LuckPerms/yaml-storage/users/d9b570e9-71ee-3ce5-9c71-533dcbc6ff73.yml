@@ -1,0 +1,11 @@
+uuid: d9b570e9-71ee-3ce5-9c71-533dcbc6ff73
+name: krytol_4el
+primary-group: default
+parents:
+- default
+prefixes:
+- §7§lИГРОК §7:
+    priority: 11
+    context:
+      server: grief
+      world: lobby

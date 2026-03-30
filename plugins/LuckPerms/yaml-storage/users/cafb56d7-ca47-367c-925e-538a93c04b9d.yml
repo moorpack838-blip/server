@@ -1,0 +1,11 @@
+uuid: cafb56d7-ca47-367c-925e-538a93c04b9d
+name: makaka1414
+primary-group: default
+parents:
+- default
+prefixes:
+- §7§lИГРОК §7:
+    priority: 11
+    context:
+      server: grief
+      world: lobby

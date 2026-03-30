@@ -1,0 +1,11 @@
+uuid: 4640a21f-9e45-39c2-a335-74612d3b3ff0
+name: loxi
+primary-group: default
+parents:
+- default
+prefixes:
+- §7§lИГРОК §7:
+    priority: 11
+    context:
+      server: grief
+      world: lobby

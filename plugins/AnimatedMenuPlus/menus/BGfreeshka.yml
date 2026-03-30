@@ -1,0 +1,96 @@
+Menu-Name: '&0&lFC ∫ ХАЛЯВА'
+Open-Sound: BLOCK_NOTE_GUITAR
+Open-Sound-Pitch: 2
+Rows: 6
+Command: 
+  Name: free;getcase;getbox;
+Items:
+- Slot:
+  - 1, 1
+  - 1, 2 
+  - 1, 3 
+  - 1, 4 
+  - 1, 5
+  - 1, 6
+  - 2, 1
+  - 2, 6
+  - 9, 1 
+  - 9, 2 
+  - 9, 3  
+  - 9, 4 
+  - 9, 5
+  - 9, 6
+  - 8, 6
+  - 8, 1
+  - 9, 2
+  Material: stained_glass_pane:1:4
+  Name: '&r'
+- Slot:
+  - 2, 5
+  - 2, 2
+  - 3, 1
+  - 4, 1
+  - 5, 1
+  - 6, 1
+  - 7, 1
+  - 8, 2
+  - 3, 6
+  - 7, 6
+  - 8, 5
+  Material: stained_glass_pane:1:1
+  Name: '&r'
+- Slot:
+  - 2, 3
+  - 2, 4
+  - 8, 3 
+  - 8, 4
+  Material: stained_glass_pane:1:7
+  Name: '&r'
+- Slot: 4, 6
+  Material: 'barrier'
+  Name: '§cПУСТО'   
+  Hide-Flags: 63
+- Slot: 6, 6
+  Material: 'barrier'
+  Name: '§cПУСТО'   
+  Hide-Flags: 63
+  Name: '&r'
+- Slot: 5, 6
+  Material: 'arrow'
+  Name: '&4&lП&c&lЕРЕХОД'
+  Lore:
+  - ''
+  - '&e• &fВы перейдете на предыдущию страницу'   
+  - ''
+  - '&aНажми, чтобы перейти на предыдущию страницу'
+  Hide-Flags: 63
+  Commands:
+  - 'menu: BGmenu'
+- Slot: 4, 3
+  Material: Gold_Ingot
+  Name: '&e↬ &6&lБЕСПЛАТНЫЙ ДОНАТ &e↫'
+  Lore:
+  - ''
+  - '&e• &fЕсли ты хочешь получить бесплатный донат,'
+  - '&e• &fто отыграй время и получай.'
+  - ''
+  - '&aНажми, чтобы открыть меню'
+  Commands:
+  - 'menu: BGfreecases'
+  Hide-Flags: 63
+  enchantments:
+  - protection:1
+- Slot: 6, 3
+  Material: 371
+  Name: '&e↬ &6&lБЕСПЛАТНЫЕ РУБЛИ &e↫'
+  Lore:
+  - ''
+  - '&e• &fЕсли ты хочешь получить бесплатные рубли,'
+  - '&e• &fто отыграй время и получай.'
+  - ''
+  - '&aНажми, чтобы открыть меню'
+  Commands:
+  - 'menu: BGrubs'
+  Hide-Flags: 63
+  enchantments:
+  - protection:1

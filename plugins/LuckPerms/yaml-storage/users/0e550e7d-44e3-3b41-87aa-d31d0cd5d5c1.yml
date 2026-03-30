@@ -1,0 +1,11 @@
+uuid: 0e550e7d-44e3-3b41-87aa-d31d0cd5d5c1
+name: Lalka122
+primary-group: default
+parents:
+- default
+prefixes:
+- §7§lИГРОК §7:
+    priority: 11
+    context:
+      server: grief
+      world: lobby

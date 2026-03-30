@@ -1,0 +1,13 @@
+uuid: 5f4b5cc3-072c-3d1a-b12a-31d7651c3e2f
+name: MrDeathGun
+primary-group: default
+parents:
+- default
+- elay
+- gladiator
+- hero
+- legend
+- voin
+suffixes:
+- '&a&nКиберспортсмен ☡':
+    priority: 1

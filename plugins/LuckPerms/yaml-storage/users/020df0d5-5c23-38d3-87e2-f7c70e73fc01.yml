@@ -1,0 +1,13 @@
+uuid: 020df0d5-5c23-38d3-87e2-f7c70e73fc01
+name: Morti392
+primary-group: default
+parents:
+- default
+- hero
+- voin
+prefixes:
+- §9§lГЕРОЙ §7:
+    priority: 14
+    context:
+      server: grief
+      world: lobby

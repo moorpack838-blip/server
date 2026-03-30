@@ -1,0 +1,7 @@
+uuid: 2640122d-4ba7-354c-b570-9623a4ed2b40
+name: SoSaquery
+primary-group: default
+permissions:
+- chat.bypass
+parents:
+- default

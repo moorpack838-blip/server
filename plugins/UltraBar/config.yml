@@ -1,0 +1,153 @@
+# 
+#                        UltraBar                          #
+config_version: 1
+bstats: false
+update_checker: false
+save_persistent_bars: false
+WorldGuardRegion:
+  Enabled: false
+  Message: '&6<< &b%region% &6>>'
+  Message2: '&b%region% &3<<>> &6and &6%number%&6 more.'
+OnJoin:
+  BossBar:
+    Enabled: false
+    Message: '&6Welcome Back &5{player}&6!'
+    Color: green
+    Time: 10
+    Style: '6'
+    Health: 1
+  Title:
+    Enabled: false
+    Message: '&6Welcome Back &5{player}&6'
+    SubTitle: '&bto the best server ever!'
+    fadein: 5
+    fadeout: 5
+    time: 20
+  ActionBar:
+    Enabled: false
+    Message: '&6Welcome Back &5{player}&6!'
+OnDeath:
+  BossBar:
+    Enabled: false
+    Message: '&6Welcome Back &5{player}&6!'
+    Color: green
+    Time: 10
+    Style: '6'
+    Health: 1
+  Title:
+    Enabled: false
+    Message: '&6Welcome Back &5{player}&6'
+    SubTitle: '&bto the best server ever!'
+    fadein: 5
+    fadeout: 5
+    time: 20
+  ActionBar:
+    Enabled: false
+    Message: '&6Welcome Back &5{player}&6!'
+OnCommand:
+  list:
+  - examplecmd
+  examplecmd:
+    BossBar:
+      Message: '&6You ran a command!'
+      Color: green
+      Time: 10
+      Style: '6'
+      Health: 1
+    ActionBar:
+      Message: '&6ActionBars can be used&6!'
+    Title:
+      Message: '&6Along with titles.&6'
+      SubTitle: '&bThese support placeholderapi!'
+      fadein: 5
+      fadeout: 5
+      time: 20
+BossBarMessages:
+  Enabled: true
+  World_Whitelist_Enabled: false
+  Random_Order: false
+  No_Progress: false
+  World_Whitelist:
+  - world
+  Messages:
+    Message1:
+      Message: '&8▪ &fНашли нарушителя прави майнкрафт сервера &8∫ &fПишите репорт
+        команда /report &8∫ /report Ник и правило которое нарушает'
+      Color: yellow
+      Style: '6'
+      Time: 10
+    Message2:
+      Message: '&8▪ &fСоздайте свой &6непобедимый клан &8∫&f и станьте лучшими - &6／ＣＬＡＮ
+        &8▪'
+      Color: yellow
+      Style: '6'
+      Time: 10
+    Message3:
+      Message: '&8▪ &fЛучшие товары собраны &8∫&f в &6магазине &f- &6／ＳＨＯＰ &8▪'
+      Color: yellow
+      Style: '6'
+      Time: 10
+    Message4:
+      Message: '&8▪ &fПодробная информация о &6привилегиях &8∫&f &fи &6возможностях&f,
+        в меню доната - &6／ＤＯＮＡＴＥ &8▪'
+      Color: yellow
+      Style: '6'
+      Time: 10
+    Message5:
+      Message: '&8▪ &fОкупаемость кейсов &6100% &8∫ &fПокупка на сайте &6Forumcraft.ru
+        &8▪'
+      Color: yellow
+      Style: '6'
+      Time: 10
+    Message6:
+      Message: '&8▪ &fВыигрывай, и &6собирай&f кушы, &8∫&f и становись &6богатым&f
+        на сервере - &6／ＷＡＲＰ ＣＡＳＩＮＯ &8▪'
+      Color: yellow
+      Style: '6'
+      Time: 10
+    Message7:
+      Message: '&8▪ &fВыполняй &6квесты&f, ежедневно, &8∫&f что-бы &6получить&f опыт
+        и ресурсы - &6／ＢＰ &8▪'
+      Color: yellow
+      Style: '6'
+      Time: 10
+    Message8:
+      Message: '&8▪ &fСобери всю &6халяву&f сервера, &8∫&f за &6отыгранное&f время
+        - &6／ＦＲＥＥ &8▪'
+      Color: yellow
+      Style: '6'
+      Time: 10
+Title_Announcements:
+  Enabled: false
+  Random_Order: false
+  Number_Of_Messages: 3
+  Time: 20
+  '1':
+    Message: '&6Message 1&6'
+    SubTitle: '&bMeassage 1'
+    fadein: 5
+    fadeout: 5
+    time: 20
+  '2':
+    Message: '&6Message 2&6'
+    SubTitle: '&bMessage 2'
+    fadein: 5
+    fadeout: 5
+    time: 20
+  '3':
+    Message: '&6Message 3&6'
+    SubTitle: '&bMessage 3'
+    fadein: 5
+    fadeout: 5
+    time: 20
+Action_Announcements:
+  Enabled: false
+  Random_Order: false
+  Number_Of_Messages: 3
+  Time: 10
+  '1':
+    Message: Message 1
+  '2':
+    Message: Message 2
+  '3':
+    Message: Message 3

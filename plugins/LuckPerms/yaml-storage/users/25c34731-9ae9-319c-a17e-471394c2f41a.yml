@@ -1,0 +1,14 @@
+uuid: 25c34731-9ae9-319c-a17e-471394c2f41a
+name: Eugen_YT
+primary-group: default
+parents:
+- default
+- elay
+- hero
+- voin
+prefixes:
+- §9§lГЕРОЙ §7:
+    priority: 14
+    context:
+      server: grief
+      world: world_the_end

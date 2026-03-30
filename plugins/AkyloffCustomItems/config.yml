@@ -1,0 +1,302 @@
+messages:
+  prefix: '&6&lПРЕДМЕТЫ: &f'
+  no-allowed: 'У вас недостаточно прав.'
+  no-permission: 'У вас недостаточно прав.'
+  unknown-command: 'Вы ввели неверный аргумент.'
+  only-players: 'Команду можно выполнить только от имени игрока.'
+
+  give:
+    usage: 'Использование: &6&l/customitems &7(&6&lник&7) &7(&6&lпредмет&7)'
+    player-null: 'Игрока нет на сервере.'
+    item-null: 'Предмета не сущевствует.'
+  reload:
+    usage: 'Использование: &6&l/customitems'
+    reload: 'Конфигурация перезагружена.'
+
+disable-worlds:
+  - 'spawn_the_end'
+  - 'spawn'
+
+blacklist-blocks:
+  - 'CHEST'
+  - 'GRAY_SHULKER_BOX'
+  - 'GREEN_SHULKER_BOX'
+  - 'LIGHT_BLUE_SHULKER_BOX'
+  - 'LIME_SHULKER_BOX'
+  - 'MAGENTA_SHULKER_BOX'
+  - 'ORANGE_SHULKER_BOX'
+  - 'PINK_SHULKER_BOX'
+  - 'PURPLE_SHULKER_BOX'
+  - 'RED_SHULKER_BOX'
+  - 'SHULKER_SHELL '
+  - 'SILVER_SHULKER_BOX'
+  - 'WHITE_SHULKER_BOX'
+  - 'YELLOW_SHULKER_BOX'
+  - 'CYAN_SHULKER_BOX'
+  - 'BLACK_SHULKER_BOX'
+  - 'BROWN_SHULKER_BOX'
+  - 'BLUE_SHULKER_BOX'
+  - 'TRAPPED_CHEST'
+  - 'FURNACE'
+items:
+  item-1:
+    item:
+      type: DIAMOND_PICKAXE
+      title: '§6§lСАМОПЛАВЛЮЮЩАЯ КИРКА'
+      lore:
+        - ''
+        - '§6§l+ §fПри разрушении блока, переплавит его'
+        - ''
+        - '&6&l⚠ &fЗапрещено совмещать с другими кирками &6&l⚠'
+        - ''
+    type: MELT
+  item-2:
+    item:
+      type: DIAMOND_PICKAXE
+      title: '§6§lРАДИУСНАЯ КИРКА I'
+      lore:
+        - ''
+        - '§6§l+ §fКирка ломает блоки в радиусе 3x3x3'
+        - ''
+        - '&b&l⚠ &fЗапрещено совмещать с другими кирками &6&l⚠'
+        - ''
+    type: RADIUS
+    radius: 1
+  item-4:
+    item:
+      type: DIAMOND_PICKAXE
+      title: '§6§lРАДИУСНАЯ КИРКА II'
+      lore:
+        - ''
+        - '§6§l+ §fКирка ломает блоки в радиусе 5x5x5'
+        - ''
+        - '&b&l⚠ &fЗапрещено совмещать с другими кирками &6&l⚠'
+        - ''
+    type: RADIUS
+    radius: 2.5
+
+  item-5:
+    item:
+      type: DIAMOND_PICKAXE
+      title: '§6§lРАДИУСНАЯ КИРКА III'
+      lore:
+        - ''
+        - '§6§l+ §fКирка ломает блоки в радиусе 6x6x6'
+        - ''
+        - '&b&l⚠ &fЗапрещено совмещать с другими кирками &6&l⚠'
+        - ''
+    type: RADIUS
+    radius: 3
+
+  item-6:
+    item:
+      type: DIAMOND_PICKAXE
+      title: '§6§lМАГИЧЕСКАЯ КИРКА'
+      lore:
+        - ''
+        - '§6§l+ §fКирка ломает блоки в регионах'
+        - ''
+        - '&6&l⚠ &fЗапрещено совмещать с другими кирками &6&l⚠'
+        - ''
+    type: REGION
+    time: 4
+    message: '&6&lСЕРВЕР: &fВы не можете данный блок сломать.'
+    sounds: ENTITY_CHICKEN_EGG BLOCK_ANVIL_PLACE
+
+    ##РУНЫ ###
+  rune-1:
+    item:
+      type: SKULL_ITEM
+      texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzM2ODdlMjVjNjMyYmNlOGFhNjFlMGQ2NGMyNGU2OTRjM2VlYTYyOWVhOTQ0ZjRjZjMwZGNmYjRmYmNlMDcxIn19fQ==
+      data: 3
+      title: '§6§lРУНА СТАЖЕРА &7[Уровень II]'
+      lore:
+        - ''
+        - '&e&l▪ &aДобавляет &fвам:'
+        - '&e&l▪ &f+ &aСила II'
+        - '&e&l▪ &f+ &aСкорость II'
+        - '&e&l▪ &f+ &aОгнестойкость'
+        - ''
+    type: RUNE
+    effects:
+      - 'INCREASE_DAMAGE:2'
+      - 'SPEED:2'
+      - 'FIRE_RESISTANCE:1'
+  rune-2:
+    item:
+      type: SKULL_ITEM
+      texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTY3OTliZmFhM2EyYzYzYWQ4NWRkMzc4ZTY2ZDU3ZDlhOTdhM2Y4NmQwZDlmNjgzYzQ5ODYzMmY0ZjVjIn19fQ==
+      data: 3
+      title: '§6§lРУНА СЕЛЬМЕНИРА &3[Уровень III]'
+      lore:
+        - ''
+        - '&e&l▪ &aДобавляет &fвам:'
+        - '&e&l▪ &f+ &aСила II'
+        - '&e&l▪ &f+ &aСкорость II'
+        - '&e&l▪ &f+ &aСопротивление'
+        - '&e&l▪ &f+ &aОгнестойкость'
+        - ''
+    type: RUNE
+    effects:
+      - 'INCREASE_DAMAGE:2'
+      - 'DAMAGE_RESISTANCE:1'
+      - 'SPEED:2'
+      - 'FIRE_RESISTANCE:1'
+  rune-3:
+    item:
+      type: SKULL_ITEM
+      texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWU1OTI0Nzk4YTQ4N2Y5OWJhMDhlNTRhNWIxMzA2OTJjYzU4NjkwMmE4N2UxZGVlMjEzODEzZWY4YzY2In19fQ==
+      data: 3
+      title: '§6§lРУНА ЦИЦЕРОНА &b[Уровень IV]'
+      lore:
+        - ''
+        - '&e&l▪ &aДобавляет &fвам:'
+        - '&e&l▪ &f+ &aСила II'
+        - '&e&l▪ &f+ &aСкорость II'
+        - '&e&l▪ &f+ &aСопротивление II'
+        - '&e&l▪ &f+ &aОгнестойкость'
+        - ''
+    type: RUNE
+    effects:
+      - 'INCREASE_DAMAGE:2'
+      - 'FIRE_RESISTANCE:1'
+      - 'SPEED:2'
+      - 'DAMAGE_RESISTANCE:2'
+  rune-4:
+    item:
+      type: SKULL_ITEM
+      texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTZjODQ0N2E4YjZiMGUwYzdlNzYyOWM2ODk4ZWM5Yzc0OWE3YTBhMmI0NTJiOWMzODUyYzc4NDdiYjRkYzUifX19
+      data: 3
+      title: '§6§lРУНА ПАДАЛЬЩИКА &7[Уровень I]'
+      lore:
+        - ''
+        - '&e&l▪ &aДобавляет &fвам:'
+        - '&e&l▪ &f+ &aСила II'
+        - '&e&l▪ &f+ &aСкорость I'
+        - '&e&l▪ &f+ &aОгнестойкость I'
+        - ''
+    type: RUNE
+    effects:
+      - 'INCREASE_DAMAGE:2'
+      - 'SPEED:1'
+      - 'FIRE_RESISTANCE:1'
+  rune-5:
+    item:
+      type: SKULL_ITEM
+      texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjFjOTY3NTBmNTM3ZTU4YTU5ODgwNDJhNjIyZGMxZmNiZWJiYzVjYmJhZjQ5MzU3ZGFjYjc2NGIzYjkxNiJ9fX0=
+      data: 3
+      title: '§6§lРУНА МУДРОГО &5[Уровень V]'
+      lore:
+        - ''
+        - '&e&l▪ &aДобавляет &fвам:'
+        - '&e&l▪ &f+ &aСила III'
+        - '&e&l▪ &f+ &aСкорость II'
+        - '&e&l▪ &f+ &aОгнестойкость'
+        - '&e&l▪ &f+ &aСопротивление'
+        - '&e&l▪ &f+ &c&l❤❤'
+        - ''
+    type: RUNE
+    effects:
+      - 'INCREASE_DAMAGE:3'
+      - 'SPEED:2'
+      - 'FIRE_RESISTANCE:1'
+      - 'DAMAGE_RESISTANCE:1'
+      - 'HEALTH_BOOST:1'
+  rune-10:
+    item:
+      type: SKULL_ITEM
+      texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTZhMThmOWQxYWU1YWIwNDQ2MTEyN2UzMWM1MTkwYzc2YjQ0MmRhNTAyODc3YWE2NDdmZDAzNDA1MDdiMzNhNSJ9fX0=
+      data: 3
+      title: '§6§lРУНА БИЛДЕРА &7[Уровень I]'
+      lore:
+        - ''
+        - '&e&l▪ &aДобавляет &fвам:'
+        - '&e&l▪ &f+ &aСкорость I'
+        - '&e&l▪ &f+ &aСпешка I'
+        - ''
+    type: RUNE
+    effects:
+      - 'SPEED:1'
+      - 'FAST_DIGGING:1'
+  rune-11:
+    item:
+      type: SKULL_ITEM
+      texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzYxOWJmNjI4NjNlYzExNTc3ZDZlZjY1ZWZkYzNmOWRlNGRmNDE0MjAyZWQxZmYxZGU5ZWM3NmI2MWEzZjY2NyJ9fX0=
+      data: 3
+      title: '§6§lРУНА БИЛДЕРА &7[Уровень II]'
+      lore:
+        - ''
+        - '&e&l▪ &aДобавляет &fвам:'
+        - '&e&l▪ &f+ &aСкорость II'
+        - '&e&l▪ &f+ &aСпешка II'
+        - '&e&l▪ &f+ &aРегенерация I'
+        - ''
+    type: RUNE
+    effects:
+      - 'SPEED:2'
+      - 'FAST_DIGGING:2'
+      - 'REGENERATION:1'
+  rune-12:
+    item:
+      type: SKULL_ITEM
+      texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzQ4N2ZmYWIxNWQ2MjhjYjBlZDQ5MzkxOWUxNTRkYTBiOTdiMDYxM2JiNDBmOGIzODc1N2RlNTA3YmJkNjA5NCJ9fX0=
+      data: 3
+      title: '§6§lРУНА БИЛДЕРА &3[Уровень III]'
+      lore:
+        - ''
+        - '&e&l▪ &aДобавляет &fвам:'
+        - '&e&l▪ &f+ &aСкорость II'
+        - '&e&l▪ &f+ &aСпешка II'
+        - '&e&l▪ &f+ &aРегенерация I'
+        - '&e&l▪ &f+ &aПрыгучесть II'
+        - ''
+    type: RUNE
+    effects:
+      - 'SPEED:2'
+      - 'FAST_DIGGING:2'
+      - 'REGENERATION:1'
+      - 'JUMP:2'
+  rune-13:
+    item:
+      type: SKULL_ITEM
+      texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGM1MDYzZjk1NzY1NzBhODkzOTAwNjIwNzY1OTk4OWZmODFiOWM4N2EyOGNlMzQxN2NhYWU4MmI2ZTdkNjJlIn19fQ==
+      data: 3
+      title: '§6§lРУНА БИЛДЕРА &b[Уровень IV]'
+      lore:
+        - ''
+        - '&e&l▪ &aДобавляет &fвам:'
+        - '&e&l▪ &f+ &aСкорость II'
+        - '&e&l▪ &f+ &aСпешка III'
+        - '&e&l▪ &f+ &aРегенерация I'
+        - '&e&l▪ &f+ &aПрыгучесть II'
+        - '&e&l▪ &f+ &aОгнестойкость I'
+        - ''
+    type: RUNE
+    effects:
+      - 'SPEED:2'
+      - 'FAST_DIGGING:3'
+      - 'REGENERATION:1'
+      - 'JUMP:2'
+      - 'FIRE_RESISTANCE:1'
+  rune-14:
+    item:
+      type: SKULL_ITEM
+      texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGM2OTk5YzFmNTk2NDZmZTAxMjFhOTlkOWIwZmVmMzk5NmVkNzhjNmRjNTU1MzFkYWJjY2E3MDhjMWRjZjkxNiJ9fX0=
+      data: 3
+      title: '§6§lРУНА БИЛДЕРА &5[Уровень V]'
+      lore:
+        - ''
+        - '&e&l▪ &aДобавляет &fвам:'
+        - '&e&l▪ &f+ &aСкорость II'
+        - '&e&l▪ &f+ &aСпешка III'
+        - '&e&l▪ &f+ &aРегенерация I'
+        - '&e&l▪ &f+ &aПрыгучесть III'
+        - '&e&l▪ &f+ &aОгнестойкость II'
+        - ''
+    type: RUNE
+    effects:
+      - 'SPEED:2'
+      - 'FAST_DIGGING:3'
+      - 'REGENERATION:1'
+      - 'JUMP:3'
+      - 'FIRE_RESISTANCE:2'

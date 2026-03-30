@@ -1,0 +1,84 @@
+server_name: '&6&lFORUMCRAFT'
+verbose_disable: '&8[&2АнтиЧит&8] &cВы отключили подробный режим.'
+violations_reset: '&8[&2АнтиЧит&8] &cVLs &7кикнуты&8!'
+config_reload: Конфигурация перезагружена
+kick_reason: '&8[&2АнтиЧит&8]&c {reason}'
+kick_broadcast_message: '&8[&2АнтиЧит&8]&cКикнул игрока {player}&7 по причине&4 {reason}'
+command_no_access: '&cУ вас нет доступа к этой команде.'
+menu_gui_no_access: '&cУ вас нет разрешения на это.'
+ping_command_message: '&2{player} &7пинг&8:&a {ping}мс'
+player_not_found_message: '&cИгрок не найден.'
+non_console_command: '&cЭта команда может использоваться только игроком.'
+player_violation_reset_message: '&8[&2АнтиЧит&8]&a Сброшены нарушения для игрока &2{player}
+  &8!'
+blocked_command_message: '&cВы не можете отправить эту команду.'
+blocked_word_message: '&cВам не разрешено писать это.'
+verbose_message: '&8[&2АнтиЧит&8] &cИгроку {player} не удалось {detection} (VL: {vls:detection})
+  &8[&7(&fВерсия: {server:type} {server:version}&7)&8, &7(&fСкрыто: {silent:detection}&7)&8,
+  (&fПинг: {ping}мс&7)&8, &7(&fTPS: {tps}&7)&8, &7(&fPlib: {plib}&7)&8, &7(&fАсинхронная:
+  {async}&7)&8, &7(&fОнлайн: {online}&7)&8, &7(&f{info}&7)&8]'
+non_existing_check: '&8[&2АнтиЧит&8] &cЭта проверка не существует.'
+massive_command_reason: '&cСлишком длинная причина.'
+check_enable_message: '&8[&2АнтиЧит&8] &aВы включили проверку&8:&7 {detection}'
+check_disable_message: '&8[&2АнтиЧит&8] &cВы отключили проверку&8:&7 {detection}'
+warning_message: '&8[&2АнтиЧит&8]&c {reason}'
+warning_feedback_message: '&8[&2АнтиЧит&8]&7 Вы предупредили игрока &c{player} &7о&8:
+  &4{reason}'
+bypass_message: '&8[&2АнтиЧит&8] &7Игрок &c{player} &7обходит проверку &4{detection}
+  &7на протяжении &e{time} &7секунд.'
+ban_message: '&8[&2АнтиЧит&8]&7 Вы забанили игрока &c{player} &7по причине &4{reason}'
+unban_message: '&8[&2АнтиЧит&8]&7 Вы разбанили игрока &c{player}'
+player_not_banned: '&8[&2АнтиЧит&8]&c Этот игрок не забанен.'
+ban_broadcast_message: '&8[&2АнтиЧит&8]&c {player}&7 забанен по причине&4 {reason}'
+ban_reason: '&8[&2АнтиЧит&8]&c {reason}'
+chat_cooldown_message: '&cПожалуйста, подождите {time} секунд.'
+mining_notifications_enable: '&8[&2АнтиЧит&8] &aВы включили уведомления о добыче.'
+mining_notifications_disable: '&8[&2АнтиЧит&8] &cВы отключили  уведомления о добыче.'
+reconnect_kick_message: '&8[&2АнтиЧит&8]&c Пожалуйста, подождите несколько секунд,
+  прежде чем войти.'
+empty_ban_list: '&8[&2АнтиЧит&8]&c На данный момент список забаненных игроков пуст.'
+command_cooldown_message: '&cПожалуйста, подождите {time} секунд, чтобы снова отправите
+  команду.'
+wave_start_message: '&8[&2АнтиЧит&8]&c Волна начинается.'
+wave_end_message: '&8[&2АнтиЧит&8]&c Волна закончилась с {total} действием(ями).'
+wave_clear_message: '&8[&2АнтиЧит&8]&c Волна очищена.'
+wave_add_message: '&8[&2АнтиЧит&8]&a Игрок {player} добавлен к волне.'
+wave_remove_message: '&8[&2АнтиЧит&8]&c Игрок {player} удален из волны.'
+full_wave_list: '&8[&2АнтиЧит&8]&c Список волн полон.'
+empty_wave_list: '&8[&2АнтиЧит&8]&c Список волн пуст.'
+wave_not_added_message: '&8[&2АнтиЧит&8]&c Игрок {player} не добавлен в волну.'
+staff_chat_message: '&8[&4АдминЧат&8]&c {player} &e{message}'
+staff_chat_character: '@'
+report_message: '&a{player} &7оповещен &c{reported} &7за&8: &4{reason}'
+self_report_message: '&cВы не можете сообщить о себе.'
+debug_player_message: '&8[&2АнтиЧит&8]&7 Отладка игрока &6{player}&7 &e{type}&8: &f{info}'
+debug_enable_message: '&8[&2АнтиЧит&8]&7 Включена отладка для игрока &6{player}&7
+  &e{type}'
+debug_disable_message: '&8[&2АнтиЧит&8]&7 Отключена отладка для игрока &6{player}&7
+  &e{type}'
+debug_disable_all_message: '&8[&2АнтиЧит&8]&7 Отключена отладка для игрока &6{player}'
+same_message_warning: '&8[&2АнтиЧит&8]&c Пожалуйста, не отправляйте то же сообщение
+  несколько раз.'
+player_ip_limit_kick_message: '&8[&2АнтиЧит&8]&c Достигнут предел подключения по вашему
+  IP.'
+disabled_log_saving: '&8[&2АнтиЧит&8]&c Все параметры сохранения логов отключены.'
+not_enough_saved_logs: '&8[&2АнтиЧит&8]&c Не хватает сохраненных логов. Должено быть
+  не менее {amount} строк.'
+unknown_command: '&fНеизвестная команда.  Пожалуйста, введите "/help" для помощи.'
+failed_command: '&8[&2АнтиЧит&8]&c Команда не выполнена. Пожалуйста, проверьте ваши
+  аргументы и попробуйте еще раз.'
+mining_message: '&8[&2АнтиЧит&8] &c{player} &7нашел &4{material} &7по координатам
+  &8{material-x}&7, &8{material-y}&7, &8{material-z}'
+awareness_notification: '&8[&2АнтиЧит уведомление&8]&a {info}'
+configuration_recommendations: '&8[&2Spartan&8]&e {amount} Important configuration
+  recommendations. Open the Manage Checks inventory menu and study the description
+  of the items for more information.'
+no_permission: '&cYou don''t have permission to interact with this.'
+detection_notification: '&8[&2Spartan&8] &c{player} failed {detection} x{vls:detection}
+  &8[&7(&fSilent: {silent:detection}&7)&8, §7(&fPing: {ping}ms&7)&8, &7(&fTPS: {tps}&7)&8,
+  &7(&fPlib: {plib}&7)&8, &7(&f{info}&7)&8]'
+notifications_clickable_command: /teleport {player}
+mining_notification: '&8[&2Spartan&8] &c{player} &7found &4{material} &7on &8{material-x}&7,
+  &8{material-y}&7, &8{material-z}'
+notifications_enable: '&8[&2Spartan&8] &aYou enabled notifications.'
+notifications_disable: '&8[&2Spartan&8] &cYou disabled notifications.'

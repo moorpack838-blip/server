@@ -1,0 +1,11 @@
+uuid: 028a9446-18d5-39f1-80a3-b24441b878d3
+name: gop4yk
+primary-group: default
+parents:
+- default
+prefixes:
+- §7§lИГРОК §7:
+    priority: 11
+    context:
+      server: grief
+      world: lobby

@@ -1,0 +1,73 @@
+# ItemEdit by Emanon
+# Wiki https://github.com/emanondev/ItemEdit/wiki
+# Discord https://discord.gg/w5HVCDPtRp
+# Donations https://www.paypal.me/FlavioLiponi/
+# Spigot https://www.spigotmc.org/resources/40993/
+serveritem:
+  replace-holders: true
+storage:
+  store-by-uuid: true
+  player-item-limit: 45
+log:
+  console: true
+  file: true
+  file-format: yyyy.MM.dd
+  log-date-format: '[dd.MM.yyyy HH:mm:ss]'
+  action:
+    give: true
+    take: true
+    sell: true
+    buy: true
+gui:
+  playeritems:
+    rows: 5
+    title: '&9%player_name% items - page &b%page%'
+    previus-page:
+      material: ARROW
+      durability: 0
+      glow: false
+      description:
+      - '&9Go to page &e%target_page%'
+    next-page:
+      material: ARROW
+      durability: 0
+      glow: false
+      description:
+      - '&9Go to page &e%target_page%'
+    page-info:
+      material: NAME_TAG
+      durability: 0
+      glow: false
+      description:
+      - '&9&lPage &e&l%page%'
+      - '&9Click &ehere &9to &atoggle view of item/ID'
+      - '&eLeft &9Click on items to &egain 1'
+      - '&eShift+Left &9Click on items to &egain 64'
+      - '&eShift+Right &9Click on items to &cdelete &9item'
+  serveritems:
+    rows: 5
+    title: '&9Server items - page &b%page%'
+    previus-page:
+      material: ARROW
+      durability: 0
+      glow: false
+      description:
+      - '&9Go to page &e%target_page%'
+    next-page:
+      material: ARROW
+      durability: 0
+      glow: false
+      description:
+      - '&9Go to page &e%target_page%'
+    page-info:
+      material: NAME_TAG
+      durability: 0
+      glow: false
+      description:
+      - '&9&lPage &e&l%page%'
+      - '&9Click &ehere &9to &atoggle view of item/ID'
+      - '&eLeft &9Click on items to &egain 1'
+      - '&eShift+Left &9Click on items to &egain 64'
+      - '&eShift+Right &9Click on items to &cdelete &9item'
+language: {}
+config-version: 2

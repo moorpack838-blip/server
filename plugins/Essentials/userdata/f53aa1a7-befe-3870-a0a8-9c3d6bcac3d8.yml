@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 193.235.207.57
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1680532999752
+  login: 1680532997172
+money: '0'
+last-account-name: NevilSYT
+lastlocation:
+  world: 50e83d7b-bd31-4b59-b085-d04edc199449
+  world-name: world
+  x: 83.5
+  y: 72.0
+  z: 256.5
+  yaw: 3.0487945079803467
+  pitch: 0.0
+logoutlocation:
+  world: f426770c-0cf2-4454-94e7-0f4170382838
+  world-name: lobby
+  x: 999.5076807886362
+  y: 68.92159999847412
+  z: -285.02142791840623
+  yaw: 180.59988403320312
+  pitch: 2.4000234603881836

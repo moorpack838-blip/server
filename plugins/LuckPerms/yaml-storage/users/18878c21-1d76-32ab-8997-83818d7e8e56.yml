@@ -1,0 +1,9 @@
+uuid: 18878c21-1d76-32ab-8997-83818d7e8e56
+name: tidudos
+primary-group: default
+parents:
+- default
+- elay
+- gladiator
+- hero
+- voin

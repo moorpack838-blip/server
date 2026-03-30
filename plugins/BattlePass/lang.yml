@@ -1,0 +1,39 @@
+# start new
+
+give-points: '§e§lБОЕВОЙ§8§l: §fВы &aуспешно выдали§f игроку&c %player% &lпоинты§f!'
+set-points: '§e§lБОЕВОЙ§8§l: §fВы &aуспешно установили&a игроку&c %player% &lпоинты§f!'
+new-season: '§e§lБОЕВОЙ§8§l: §fВы &aуспешно §fначали &eновый сезон§f.'
+confirm-new-season: '§e§lБОЕВОЙ§8§l: §f&eПодтвердите §fначала нового сезона'
+successful-refresh-daily: '§e§lБОЕВОЙ§8§l: §fВы &aуспешно перезагрузили §fквесты дня!'
+cooldown-has-seconds: '§e§lБОЕВОЙ§8§l: §fПодождите &eнесколько &lсекунд§f!'
+invalid-pass-id: '§e§lБОЕВОЙ§8§l: §fНеверный тип &cпропуска§f. Пример: &afree/premium'
+failed-set-pass: '§e§lБОЕВОЙ§8§l: §fВы &cне можете установить§f игроку тип battlepass.'
+set-pass: '§e§lБОЕВОЙ§8§l: §fВы &aуспешно сменили§f игроку&c %player%§f тип пропуска.'
+
+# end new
+could-not-find-user: "§e§lБОЕВОЙ§8§l: §fИгрок &c%player%§f не найден!"
+no-permission: "§e§lБОЕВОЙ§8§l: §fУ вас &cнет доступа§f!"
+collectable-rewards-notification: "§e§lБОЕВОЙ§8§l: §fУ вас есть неоткрытые награды &e/bp"
+daily-quest-reset: '§e§lБОЕВОЙ§8§l: §fЕжедневные задания &aобновлены§f!'
+week-status-locked: '&cЗакрыт'
+week-status-unlocked: '&aОткрыт'
+week-status-claimed: '&eВыполняется'
+season-finished-message: '&aЗавершен'
+progress-bar:
+  complete-color: '&a'
+  incomplete-color: '&c'
+  symbol: '|'
+
+stats-command:
+  - '&6Статистика &eBattlePass&6:'
+  - '  &8| §fТип BattlePass: &e%pass_type%'
+  - '  &8| §fУровень: &a%tier%'
+  - '  &8| §fКоличество поинтов: &c%total_points%'
+
+quests:
+  base-message-progressed: "§fВыполение ежедневного задания: §c%quest_name%&f. &fПрогресс: &8(&a%progress%§f/&8&c%required_progress%&8)"
+  base-message-completed: "§fВы выполнили ежедневное задание: §c§c%quest_name%"
+
+daily-quests:
+  base-message-progressed: "§fВыполение ежедневного задания: §c%quest_name%&f. &fПрогресс: &8(&a%progress%§f/&8&c%required_progress%&8)"
+  base-message-completed: "§fВы выполнили ежедневное задание: §c%quest_name%"

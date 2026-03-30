@@ -1,0 +1,11 @@
+uuid: b94c6827-951f-30de-82b7-e398ce0a4ee4
+name: _ve1chka_
+primary-group: default
+parents:
+- default
+prefixes:
+- §7§lИГРОК §7:
+    priority: 11
+    context:
+      server: grief
+      world: lobby

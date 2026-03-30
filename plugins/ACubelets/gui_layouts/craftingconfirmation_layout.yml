@@ -1,0 +1,50 @@
+#
+# This is the gui layout file.
+# You can change any messages that are in this file
+#
+# If you want to reset a message back to the default,
+# delete the entire line the message is on and restart the server.
+#
+
+Layout:
+
+  # GUI Title
+  Title: Создание кейса
+
+  # Ingredient messages
+  Ingredients:
+
+    # Ingredient lore line
+    Ingredient:
+      Cubelet: '&f- &e%name% &ex%amount%'
+      Money: '&f- &e%amount% флёрнов&f.'
+      Points: '&f- &e%amount% очков&f.'
+
+  # GUI items
+  Items:
+
+    # Accept craft
+    Craft:
+      Name: '&aСОЗДАТЬ'
+      Material: LIME_STAINED_GLASS_PANE
+      Lore:
+      - ''
+      - '&f Вы создаете кейс за определенную цену.'
+      - ''
+      - '&f Cтоимость:'
+      - ' %ingredients%'
+      - ''
+      - ' &e&k|&f Процесс не может быть отменен.'
+      - ''
+      - '&a ► Нажмите для создания...'
+      - ''
+
+    # Cancel craft
+    Cancel:
+      Name: '&cОТМЕНИТЬ'
+      Material: RED_STAINED_GLASS_PANE
+      Lore:
+      - ''
+      - '&f Закончились или отсутствуют кейсы?'
+      - '&f Приобрести кейсы/привилегии » &eForumCraft.ru'
+      - ''

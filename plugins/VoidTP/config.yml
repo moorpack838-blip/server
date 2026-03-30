@@ -1,0 +1,7 @@
+teleport-location: lobby;0;0;0;0;0
+yPosition: 20
+teleport-cmd: "spawn %p% "
+disabledWorlds:
+- world_the_end
+- world_nether
+- world

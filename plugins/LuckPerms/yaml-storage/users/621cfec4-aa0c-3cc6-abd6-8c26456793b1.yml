@@ -1,0 +1,12 @@
+uuid: 621cfec4-aa0c-3cc6-abd6-8c26456793b1
+name: PvP_Monkey
+primary-group: default
+parents:
+- default
+- elay
+prefixes:
+- §2§lЭЛЕЙ §7:
+    priority: 13
+    context:
+      server: grief
+      world: world

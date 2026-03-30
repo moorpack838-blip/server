@@ -1,0 +1,175 @@
+Menu-Name: '&0&lFC ∫ КЕЙСЫ ЗА ВРЕМЯ'
+Open-Sound: BLOCK_ENCHANTMENT_TABLE_USE
+Open-Sound-Pitch: 2
+Rows: 6
+Command:
+  Name: freecase;getbox;freecase;newcase;case;getdon;getcase;getadm;freeadm;getbox;
+Items:
+- Slot:
+  - 1, 1
+  - 1, 2 
+  - 1, 3 
+  - 1, 4 
+  - 1, 5
+  - 1, 6
+  - 2, 1
+  - 2, 6
+  - 9, 1 
+  - 9, 2 
+  - 9, 3  
+  - 9, 4 
+  - 9, 5
+  - 9, 6
+  - 8, 6
+  - 3, 1
+  - 7, 1
+  - 8, 1
+  - 3, 5
+  - 4, 5
+  - 5, 5
+  - 7, 5
+  - 6, 5
+  - 4, 1
+  - 5, 1
+  - 6, 1
+  - 9, 2
+  Material: stained_glass_pane:1:4
+  Name: '&r'
+- Slot:
+  - 3, 5
+  - 3, 6
+  - 5, 5
+  - 6, 5
+  - 4, 5
+  - 7, 6
+  - 7, 5
+  Material: stained_glass_pane:1:1
+  Name: '&r'
+- Slot: 4, 6
+  Material: 'barrier'
+  Name: '§cПУСТО'   
+  Hide-Flags: 63
+- Slot: 6, 6
+  Material: 'barrier'
+  Name: '§cПУСТО'   
+  Hide-Flags: 63
+  Name: '&r'
+- Slot: 5, 6
+  Material: 'arrow'
+  Name: '&4&lП&c&lЕРЕХОД'
+  Lore:
+  - ''
+  - '&e• &fВы перейдете на предыдущию страницу'   
+  - ''
+  - '&aНажми, чтобы перейти на предыдущию страницу'
+  Hide-Flags: 63
+  Commands:
+  - 'menu: BGfreeshka'
+- Slot: 3, 3
+  Material: skull:1:3
+  Skull-Owner: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2JkYjhmMzc5NjE0MmFhYTNlYjg5Y2NiZWM3MTcwNWQ0YTIxNjkyZWI3Yzg0NjZkMmE3OWIyMWFlMTRiMzI2In19fQ=='
+  Name: '&6&lБЕСПЛАТНЫЕ КЕЙСЫ'
+  close: always
+  Lore:
+  - '&e• &61&f уровень наград'
+  - ''
+  - '&e&lНАГРАДЫ:'
+  - ' &e• &f1 &6&nдонат&f кейс'
+  - ''
+  - '&a♺ &fДля получение уровня'
+  - '&a♺ &fНужно отыграть: &6&n40&f минут.'
+  - '&a♺ &fОткрыть кейс можно на &6/warp case'
+  - ''
+  - '&aНажмите, чтобы получить награду'
+  Commands:
+  - 'reward 1' 
+- Slot: 4, 3
+  Material: skull:1:3
+  Skull-Owner: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2JkYjhmMzc5NjE0MmFhYTNlYjg5Y2NiZWM3MTcwNWQ0YTIxNjkyZWI3Yzg0NjZkMmE3OWIyMWFlMTRiMzI2In19fQ=='
+  Name: '&6&lБЕСПЛАТНЫЕ КЕЙСЫ'
+  close: always
+  Lore:
+  - '&e• &62&f уровень наград'
+  - ''
+  - '&e&lНАГРАДЫ:'
+  - ' &e• &f3 &6&nдонат&f кейса'
+  - ''
+  - '&a♺ &fДля получение уровня'
+  - '&a♺ &fНужно отыграть: &6&n40&f минут.'
+  - '&a♺ &fОткрыть кейс можно на &6/warp case'
+  - ''
+  - '&aНажмите, чтобы получить награду'
+  Commands:
+  - 'reward 2'
+- Slot: 5, 3
+  Material: skull:1:3
+  Skull-Owner: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2JkYjhmMzc5NjE0MmFhYTNlYjg5Y2NiZWM3MTcwNWQ0YTIxNjkyZWI3Yzg0NjZkMmE3OWIyMWFlMTRiMzI2In19fQ=='
+  Name: '&6&lБЕСПЛАТНЫЕ КЕЙСЫ'
+  close: always
+  Lore:
+  - '&e• &63&f уровень наград'
+  - ''
+  - '&e&lНАГРАДЫ:'
+  - ' &e• &f3 &6&nдонат&f кейса'
+  - ''
+  - '&a♺ &fДля получение уровня'
+  - '&a♺ &fНужно отыграть: &6&n40&f минут.'
+  - '&a♺ &fОткрыть кейс можно на &6/warp case'
+  - ''
+  - '&aНажмите, чтобы получить награду'
+  Commands:
+  - 'reward 3'  
+- Slot: 6, 3
+  Material: skull:1:3
+  Skull-Owner: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2JkYjhmMzc5NjE0MmFhYTNlYjg5Y2NiZWM3MTcwNWQ0YTIxNjkyZWI3Yzg0NjZkMmE3OWIyMWFlMTRiMzI2In19fQ=='
+  Name: '&6&lБЕСПЛАТНЫЕ КЕЙСЫ'
+  close: always
+  Lore:
+  - '&e• &64&f уровень наград'
+  - ''
+  - '&e&lНАГРАДЫ:'
+  - ' &e• &f3 &6&nдонат&f кейса'
+  - ''
+  - '&a♺ &fДля получение уровня'
+  - '&a♺ &fНужно отыграть: &6&n40&f минут.'
+  - '&a♺ &fОткрыть кейс можно на &6/warp case'
+  - ''
+  - '&aНажмите, чтобы получить награду'
+  Commands:
+  - 'reward 4'  
+- Slot: 7, 3
+  Material: skull:1:3
+  Skull-Owner: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2JkYjhmMzc5NjE0MmFhYTNlYjg5Y2NiZWM3MTcwNWQ0YTIxNjkyZWI3Yzg0NjZkMmE3OWIyMWFlMTRiMzI2In19fQ=='
+  Name: '&6&lБЕСПЛАТНЫЕ КЕЙСЫ'
+  close: always
+  Lore:
+  - '&e• &65&f уровень наград'
+  - ''
+  - '&e&lНАГРАДЫ:'
+  - ' &e• &f5 &6&nдонат&f кейса'
+  - ''
+  - '&a♺ &fДля получение уровня'
+  - '&a♺ &fНужно отыграть: &6&n40&f минут.'
+  - '&a♺ &fОткрыть кейс можно на &6/warp case'
+  - ''
+  - '&aНажмите, чтобы получить награду'
+  Commands:
+  - 'reward 5' 
+- Slot: 5, 4
+  Material: skull:1:3
+  Skull-Owner: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2JkYjhmMzc5NjE0MmFhYTNlYjg5Y2NiZWM3MTcwNWQ0YTIxNjkyZWI3Yzg0NjZkMmE3OWIyMWFlMTRiMzI2In19fQ=='
+  Name: '&6&lБЕСПЛАТНЫЕ КЕЙСЫ'
+  close: always
+  Lore:
+  - '&e• &66&f уровень наград'
+  - ''
+  - '&e&lНАГРАДЫ:'
+  - ' &e• &f7 &6&nдонат&f кейса'
+  - ''
+  - '&a♺ &fДля получение уровня'
+  - '&a♺ &fНужно отыграть: &6&n40&f минут.'
+  - '&a♺ &fОткрыть кейс можно на &6/warp case'
+  - ''
+  - '&aНажмите, чтобы получить награду'
+  Commands:
+  - 'reward 6'

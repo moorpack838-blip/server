@@ -1,0 +1,11 @@
+uuid: 3de728a0-cc8c-3c85-82ee-954c92753955
+name: ya_skrey
+primary-group: default
+parents:
+- default
+prefixes:
+- §7§lИГРОК §7:
+    priority: 11
+    context:
+      server: grief
+      world: world

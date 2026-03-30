@@ -1,0 +1,8 @@
+prefix: '&6&lFORUM&e&lCRAFT '
+notEnoughPermission: '&7Вы не можете использовать это!'
+reloaded: '&7Конфигурация и сообщения успешно обновлены!'
+waitCooldown: '&7Вы сможете использовать эту команду только через &e&l{time}'
+allCleaned: '&7Все кулдауны успешно очищены!'
+playerNotOnline: '&7Игрок &e&l{0} &fне в сети'
+playerCleaned: '&7У игрока &e&l{0} &fуспешно очищены все кулдауны'
+cooldownExpireNotify: '&7Задержка на команду &e&l{0} &fистекла'

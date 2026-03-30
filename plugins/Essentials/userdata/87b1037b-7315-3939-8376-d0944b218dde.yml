@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 178.68.126.35
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1680621167306
+  login: 1680618603369
+money: '0'
+lastlocation:
+  world: 50e83d7b-bd31-4b59-b085-d04edc199449
+  world-name: world
+  x: 85.5
+  y: 73.0
+  z: 251.5
+  yaw: 1.5849552154541016
+  pitch: 0.0
+last-account-name: Chupik228
+logoutlocation:
+  world: 50e83d7b-bd31-4b59-b085-d04edc199449
+  world-name: world
+  x: 102.0
+  y: 64.0
+  z: -131.0
+  yaw: -164.62109375
+  pitch: 16.097749710083008

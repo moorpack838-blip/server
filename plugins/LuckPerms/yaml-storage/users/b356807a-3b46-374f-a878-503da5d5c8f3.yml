@@ -1,0 +1,14 @@
+uuid: b356807a-3b46-374f-a878-503da5d5c8f3
+name: frzlPvP
+primary-group: default
+parents:
+- default
+- elay
+- gladiator
+- hero
+prefixes:
+- §c§lГЛАДИАТОР §7:
+    priority: 15
+    context:
+      server: grief
+      world: world

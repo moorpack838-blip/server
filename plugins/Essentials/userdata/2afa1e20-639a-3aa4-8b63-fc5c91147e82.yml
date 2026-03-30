@@ -1,0 +1,47 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 31.171.198.163
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1680538310156
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1680538603446
+  login: 1680535789294
+money: '0'
+last-account-name: CrazyHaze
+lastlocation:
+  world: 8ade207d-e013-4ead-90c7-e009b86bc0e3
+  world-name: world_the_end
+  x: 76.28390202248079
+  y: -308.4155140926651
+  z: -3.4172628108594925
+  yaw: 81.64834594726562
+  pitch: -60.000022888183594
+logoutlocation:
+  world: f426770c-0cf2-4454-94e7-0f4170382838
+  world-name: lobby
+  x: 1000.2782724539861
+  y: 68.0
+  z: -293.7026827810274
+  yaw: 190.0520477294922
+  pitch: 20.250307083129883
+homes:
+  home:
+    world: 50e83d7b-bd31-4b59-b085-d04edc199449
+    world-name: world
+    x: 841.3089481242305
+    y: 63.0
+    z: 762.7110124397844
+    yaw: -314.24755859375
+    pitch: 23.9999942779541

@@ -1,0 +1,12 @@
+uuid: 058936a0-1b47-3b58-a1e3-741ad1a57b2f
+name: ggbball11
+primary-group: default
+parents:
+- default
+- gladiator
+prefixes:
+- §c§lГЛАДИАТОР §7:
+    priority: 15
+    context:
+      server: grief
+      world: lobby

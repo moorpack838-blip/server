@@ -1,0 +1,11 @@
+uuid: 5081df6a-cd0c-39f3-86f0-edfc937b1ef7
+name: markul
+primary-group: default
+parents:
+- default
+prefixes:
+- §7§lИГРОК §7:
+    priority: 11
+    context:
+      server: grief
+      world: world

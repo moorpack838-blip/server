@@ -1,0 +1,12 @@
+uuid: 4885e77e-94da-3e83-ba27-c41996b7658f
+name: FaNatIk
+primary-group: default
+parents:
+- default
+- dhelper
+- hero
+- legend
+- povel
+suffixes:
+- '&d&nУгомонитель ☡':
+    priority: 1

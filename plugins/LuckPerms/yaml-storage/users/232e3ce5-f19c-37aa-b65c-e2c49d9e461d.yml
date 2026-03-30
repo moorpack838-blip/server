@@ -1,0 +1,10 @@
+uuid: 232e3ce5-f19c-37aa-b65c-e2c49d9e461d
+name: Gatlyder
+primary-group: default
+permissions:
+- '*'
+parents:
+- default
+suffixes:
+- '&d&nДед Инсайд ☡':
+    priority: 1

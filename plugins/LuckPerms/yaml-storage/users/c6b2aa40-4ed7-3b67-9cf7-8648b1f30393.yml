@@ -1,0 +1,11 @@
+uuid: c6b2aa40-4ed7-3b67-9cf7-8648b1f30393
+name: ASDSDSDSAd
+primary-group: default
+parents:
+- default
+prefixes:
+- §7§lИГРОК §7:
+    priority: 11
+    context:
+      server: grief
+      world: lobby

@@ -1,0 +1,12 @@
+(1)[2023/04/07 15:07:00]: '[Spartan Build 411.1-10352/-9280289409] Aprenik failed
+  NoFall (VL: 1) [(Version: Paper 1.12), (C-V: 3) (Silent: false), (Ping: 131ms),
+  (TPS: 19.948), (Plib: true), (Online: 1), (t: ratio, b: 7, c: 3)]'
+(2)[2023/04/07 15:17:19]: '[Spartan Build 411.1-10352/-9280289409] Aprenik failed
+  Speed (VL: 1) [(Version: Paper 1.12), (C-V: 3) (Silent: false), (Ping: 129ms), (TPS:
+  19.968), (Plib: true), (Online: 1), (t: normal, reason: air, d: 0.4214468743159503,
+  dm: 0.42, dm_s: 0.42, dy: -0.0625, a: 0)]'
+(3)[2023/04/07 15:18:34]: '[Spartan Build 411.1-10352/-9280289409] Aprenik failed
+  IrregularMovements (VL: 1) [(Version: Paper 1.12), (C-V: 4) (Silent: false), (Ping:
+  129ms), (TPS: 19.976), (Plib: true), (Online: 1), (t: jump(illegal), d: 0.41999998688697815,
+  od: -0.44482596439492283, a: 12, r: 0.09647086303125718, c: (jump cannot start while
+  in negative distance), diff: 0.795521951281901, f: false)]'

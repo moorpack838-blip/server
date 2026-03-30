@@ -1,0 +1,232 @@
+# LightLeak.pro
+# Все типы стрел находяться на оригинальной странице
+World_guard_region_check: true
+Spider_region_check: true
+
+# Право на команду - cookiearrows.command
+Messages:
+  prefix: '&6&lFORUM&e&lCRAFT &8|'
+  not_found: '%prefix% &fТакой стрелы не существует!'
+  no_perms: '%prefix% &fУ вас нету прав на эту команду'
+  unknown_command: '%prefix% &fДанный аргумент не существует'
+
+  help:
+    - ''
+    - ' &6CookieArrows &f- 1.0'
+    - ''
+    - ' &6Аргументы:'
+    - ' &6<> &f- &cобязательный'
+    - ' &6[] &f- &aнеобязательный'
+    - ''
+    - ' &6/cookiearrows reload &f- &eперезагрузить плагин'
+    - ' &6/cookiearrows give &f<игрок> <стрела> [кол-во] &f- &eвыдать стрелы игроку'
+    - ''
+  reload:
+    success: '%prefix% &fПлагин перезагружен без ошибок'
+    error: '%prefix% &fПроизошла ошибка при загрузке плагина'
+  give:
+    player_offline: '%prefix% &fИгрок не в сети'
+    not_int: '%prefix% &fВы ввели строку, но не число!'
+    usage: '%prefix% &fВыдать стрелы игроку - &6/cookiearrows give &f<игрок> <стрела> [кол-во]'
+    gived: '%prefix% &fВы успешно выдали игроку &6%player% &fстрелу &6%arrow% &fв количестве &6%amount% &fштук. Название стрелы: &6%arrow_name%'
+
+########### САМА КОНФИГУРАЦИЯ СТРЕЛ #######################################################################
+
+Arrows:
+  BREAK:
+    name: '&6Стрела ломания блока'
+    lore:
+      - ''
+      - '&fСтрела которая ломает блок при попадании'
+      - ''
+    color: 0, 255, 216 # Цвет стрелы в RGB формате
+    types:
+      aboba:
+        type: BREAK
+  SNIPER:
+    name: '&6Стрела снайпера'
+    lore:
+      - ''
+      - '&fСтрела которая плавно стреляет'
+      - ''
+    color: 64, 55, 255
+    types:
+      aboba:
+        type: SNIPER
+        multiplify: 2
+  TOPTP:
+    name: '&6Стрела телепорта вверх'
+    lore:
+      - ''
+      - '&fСтрела которая тепает вверх'
+      - ''
+    color: 255, 5, 200
+    types:
+      aboba:
+        type: TOP_TELEPORT
+  DISORGANISATION:
+    name: '&6Стрела дизорганизации'
+    lore:
+      - ''
+      - '&fСтрела которая меняет инвентарь игрока'
+      - ''
+    color: 60, 100, 100
+    types:
+      aboba:
+        type: DISORGANISATION
+  SPIDER:
+    name: '&6Стрела паука'
+    lore:
+      - ''
+      - '&fСтрела которая ставит паутину'
+      - ''
+    color: 60, 201, 255
+    types:
+      aboba:
+        type: SPIDER
+  ARMOR:
+    name: '&6Бронебойная стрела'
+    lore:
+      - ''
+      - '&fСтрела которая наносит огромный урон в броне'
+      - ''
+    flags:
+      - 'HIDE_POTION_EFFECTS'
+    color: 125, 100, 30
+    types:
+      aboba:
+        type: ARMOR
+        damage: 3
+  REM_EFFECT:
+    name: '&6Очищающая стрела'
+    lore:
+      - ''
+      - '&fСнимает эффекты зелий с игрока'
+      - ''
+    flags:
+      - 'HIDE_POTION_EFFECTS'
+    color: 200, 255, 200
+    types:
+      aboba:
+        type: REM_EFFECT
+        effect: SPEED
+  TELEPORT:
+    name: '&6Стрела телепорта'
+    lore:
+      - ''
+      - '&fТелепортирует на место стрелы'
+      - ''
+    flags:
+      - 'HIDE_POTION_EFFECTS'
+    color: 171, 2, 241
+    types:
+      aboba:
+        type: TELEPORT
+  FREEZE:
+    name: '&6Стрела обморожения'
+    lore:
+      - ''
+      - '&fЗамораживает игрока на 10 секунд'
+      - ''
+    flags:
+      - 'HIDE_POTION_EFFECTS'
+    color: 171, 2, 241
+    types:
+      aboba:
+        type: FREEZE
+        seconds: 10
+  VAMPIRISM:
+    name: '&6Стрела вампиризма'
+    lore:
+      - ''
+      - '&fКрадет 5 хп игрока вам'
+      - ''
+    flags:
+      - 'HIDE_POTION_EFFECTS'
+    color: 141, 0, 0
+    types:
+      aboba:
+        type: VAMPIRISM
+        health: 5
+  CHANGE:
+    name: '&6Стрела замены'
+    lore:
+      - ''
+      - '&fМеняет местами игроков'
+      - ''
+    flags:
+      - 'HIDE_POTION_EFFECTS'
+    color: 255, 255, 0
+    types:
+      aboba:
+        type: CHANGE
+  KNOCKBACK:
+    name: '&6Стрела откидывания'
+    lore:
+      - ''
+      - '&fОткидывает любое существо на 10 блоков'
+      - ''
+    flags:
+      - 'HIDE_POTION_EFFECTS'
+    color: 255, 137, 51
+    types:
+      aboba:
+        type: KNOCKBACK
+        blocks: 10.0
+  BOOM:
+    name: '&6Стрела взрыва'
+    lore:
+      - ''
+      - '&fВзрывает место попадания стрелы с силой 5'
+      - ''
+    flags:
+      - 'HIDE_POTION_EFFECTS'
+    color: 17, 137, 51
+    types:
+      aboba:
+        type: BOOM
+        power: 5
+  AIM:
+    name: '&6Стрела аима'
+    lore:
+      - ''
+      - '&fСтрела плавно аимится на игрока'
+      - ''
+    flags:
+      - 'HIDE_POTION_EFFECTS'
+    color: 96, 184, 214
+    types:
+      aboba:
+        type: AIM
+  MULTISHOOT:
+    name: '&6Стрела мульти'
+    lore:
+      - ''
+      - '&fСтреляет 5 стрелами'
+      - ''
+    flags:
+      - 'HIDE_POTION_EFFECTS'
+    color: 255, 184, 214
+    types:
+      aboba:
+        type: MULTISHOOT
+        amount: 5
+        delay: 0
+
+
+###################################################################### 
+# ©LIGHTLEAK
+#                           «LIGHTLEAK»
+#                          © 2022-2023
+#                       Только безопасные сливы 
+#
+# • Ресурс: https://lightleak.pro/resources/cookiearrows-luchshij-plagin-na-strely-unikalnye-tipy.1822/
+# • Ресурс был скачан: https://lightleak.pro/members/122
+# • Website: https://lightleak.pro/
+# • Discord: https://discord.gg/RFthgjSDc7
+#
+#
+#
+#
+#                                                          ©LIGHTLEAK 
+######################################################################

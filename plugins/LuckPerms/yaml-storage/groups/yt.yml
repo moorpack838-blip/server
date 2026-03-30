@@ -1,0 +1,185 @@
+name: yt
+permissions:
+- worldguard.region.addmember.own.*
+- worldguard.region.info.own.*
+- worldguard.region.remove.own.*
+- worldguard.region.removemember.own.*
+- worldguard.region.select.own.*
+- titlemanager.command.scoreboard.*
+- deluxemenus.menu.*
+- Main.command.fly
+- adodvrtp.rtp
+- advancedsmelting.smelt
+- antirelog.bypass:
+    value: false
+- auctionhouse.help
+- auctionhouse.menu
+- cases.use
+- chatty.chat
+- chatty.chat.global
+- chatty.chat.global.see
+- chatty.chat.local
+- chatty.chat.local.see
+- chatty.command.ignore
+- chatty.command.msg
+- chatty.command.reply
+- clans.create
+- clans.help
+- clans.user
+- cmi.command.afk
+- cmi.command.balance
+- cmi.command.clear
+- cmi.command.command.spawn
+- cmi.command.delhome
+- cmi.command.feed
+- cmi.command.fly
+- cmi.command.god:
+    value: false
+- cmi.command.heal
+- cmi.command.home
+- cmi.command.kit
+- cmi.command.kits
+- cmi.command.kits.default
+- cmi.command.kits.free
+- cmi.command.kits.start
+- cmi.command.money
+- cmi.command.msg
+- cmi.command.pay
+- cmi.command.ping
+- cmi.command.removehome
+- cmi.command.sethome
+- cmi.command.sethome.100
+- cmi.command.sethome.5
+- cmi.command.spawn
+- cmi.command.tpa
+- cmi.command.tpaccept
+- cmi.command.tpdeny
+- cmi.command.warp
+- cmi.kit.*.preview
+- cmi.kit.dadmin:
+    value: false
+- cmi.kit.free
+- cmi.kit.gerakl:
+    value: false
+- cmi.kit.master:
+    value: false
+- cmi.kit.neron:
+    value: false
+- cmi.kit.oboroten:
+    value: false
+- cmi.kit.orden:
+    value: false
+- cmi.kit.provitel:
+    value: false
+- cmi.kit.ronin:
+    value: false
+- cmi.kit.start
+- cmi.kit.voin:
+    value: false
+- cmi.kit.yt
+- essentials.balance
+- essentials.balancetop
+- essentials.broadcast
+- essentials.clearinventory
+- essentials.craft
+- essentials.day
+- essentials.delhome
+- essentials.ec
+- essentials.enderchest
+- essentials.enderchest.others
+- essentials.ext
+- essentials.feed
+- essentials.fly
+- essentials.getpos
+- essentials.getpos.others
+- essentials.hat
+- essentials.heal
+- essentials.home
+- essentials.home.voin
+- essentials.ignore
+- essentials.invsee
+- essentials.keepinv:
+    value: false
+- essentials.kits.yt
+- essentials.msg
+- essentials.near
+- essentials.night
+- essentials.pay
+- essentials.ptime
+- essentials.realname
+- essentials.repair
+- essentials.repair.all
+- essentials.sethome
+- essentials.sethome.multiple.gerakl
+- essentials.sethome.multiple.master
+- essentials.sethome.multiple.nameitel
+- essentials.sethome.multiple.oboroten
+- essentials.sethome.multiple.orden
+- essentials.sethome.multiple.ronin
+- essentials.sethome.multiple.voin
+- essentials.sethome.multiple.yt
+- essentials.sethome.multiple.ytplus
+- essentials.setwarp
+- essentials.spawn
+- essentials.spawn-on-join
+- essentials.time
+- essentials.time.set
+- essentials.tpa
+- essentials.tpacancel
+- essentials.tpaccept
+- essentials.tpdeny
+- essentials.warp
+- essentials.warp.list
+- essentials.weather
+- 'false':
+    value: false
+- greatkits.kits.yt
+- kit.dhelper:
+    value: false
+- kit.yt
+- litebans.ban
+- litebans.json.hover_text
+- litebans.tempban
+- litebans.tempmute
+- mixshop
+- mixshops.open
+- none:
+    value: false
+- nte.default
+- rtp.channel.far
+- rtp.channel.near
+- rtp.channel.normal
+- rtp.channel.safe
+- serversigns.use
+- tab.scoreboard.admin
+- titlemanager.command.scoreboard
+- ucheck
+- ucheck.ally
+- ucheck.ban
+- ucheck.check
+- ucheck.confess
+- ucheck.leave
+- umine.command.salary
+- umine.salary
+- wcode.code
+- wcontrol.admin
+- wcontrol.control
+- wcutter.salary
+- weight.12
+- wmines.command.salary
+- woodcutter.salary
+- worldedit.selection.expand
+- worldedit.selection.hpos
+- worldedit.selection.pos
+- worldedit.wand
+- worldguard.region.claim
+- worldguard.region.info.own
+- worldguard.region.list.own
+- worldguard.region.wand
+- никога:
+    value: false
+parents:
+- dhelper
+prefixes:
+- §c§lЮ§f§lТ §7:
+    priority: 12

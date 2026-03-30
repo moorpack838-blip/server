@@ -1,0 +1,106 @@
+Menu-Name: '&0&lFC ∫ КЛАНЫ'
+Open-Sound: BLOCK_NOTE_XYLOPHONE
+Open-Sound-Pitch: 2
+Rows: 6
+Command:
+  Name: clans
+Items:
+- Slot:
+  - 1, 1
+  - 1, 2 
+  - 1, 3 
+  - 1, 4 
+  - 1, 5
+  - 1, 6
+  - 2, 1
+  - 2, 6
+  - 9, 1 
+  - 9, 2 
+  - 9, 3  
+  - 9, 4 
+  - 9, 5
+  - 9, 6
+  - 8, 6
+  - 8, 1
+  - 9, 2
+  Material: stained_glass_pane:1:4
+  Name: '&r'
+- Slot:
+  - 2, 5
+  - 2, 2
+  - 3, 1
+  - 4, 1
+  - 5, 1
+  - 6, 1
+  - 7, 1
+  - 8, 2
+  - 3, 6
+  - 7, 6
+  - 8, 5
+  Material: stained_glass_pane:1:1
+  Name: '&r'
+- Slot:
+  - 2, 3
+  - 2, 4
+  - 8, 3 
+  - 8, 4
+  Material: stained_glass_pane:1:7
+  Name: '&r'
+- Slot: 4, 6
+  Material: 'barrier'
+  Name: '§cПУСТО'   
+  Hide-Flags: 63
+- Slot: 6, 6
+  Material: 'barrier'
+  Name: '§cПУСТО'   
+  Hide-Flags: 63
+  Name: '&r'
+- Slot: 5, 6
+  Material: 'arrow'
+  Name: '&4&lП&c&lЕРЕХОД'
+  Lore:
+  - ''
+  - '&e• &fВы перейдете на предыдущию страницу'   
+  - ''
+  - '&aНажми, чтобы перейти на предыдущию страницу'
+  Hide-Flags: 63
+  Commands:
+  - 'menu: BGmenu'
+- Slot: 4, 3
+  Material: chest
+  Name: '&6&LСУНДУК КЛАНА'
+  close: always
+  Lore:
+    - ''
+    - '&e╔ &fСдесь вы &6сможете&f складывать ресурсы'
+    - '&e╚ &6Ценные&f или простые, &6используйте&f как хотите'
+    - ''
+    - '&aНажми, чтобы перейти в меню'
+  close: always
+  Commands:
+  - 'clan chest'
+- Slot: 6, 3
+  Material: shield
+  Name: '&6&LСПИСОК ВСЕХ КЛАНОВ'
+  close: always
+  Lore:
+    - ''
+    - '&e╔ &fВсе &6кланы&f сервера, будут &6показаны&f сдесь'
+    - '&e╚ &fИ так-же &6дополнительная&f информация'
+    - ''
+    - '&aНажми, чтобы перейти в меню'
+  close: always
+  Commands:
+  - 'clan list'
+- Slot: 5, 4
+  Material: dye:1:5
+  Name: '&6&LЦВЕТОВЫЕ НАСТРОЙКИ'
+  Lore:
+    - ''
+    - '&e╔ &fИзменяйте &6цвет&f клана, на свой &6вкус'
+    - '&e╚ &fЧто-бы &6открыть&f другие цвета &6прокачивайте&f клан'
+    - ''
+    - '&aНажми, чтобы перейти в меню'
+  close: always
+  Commands:
+  - 'clan color'

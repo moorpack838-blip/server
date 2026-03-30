@@ -1,0 +1,9 @@
+uuid: a23b1aa4-f411-3014-a0ca-0275f6c5c389
+name: asetics
+primary-group: default
+parents:
+- default
+- gladiator
+suffixes:
+- '&r&nЧСВ ☡':
+    priority: 1

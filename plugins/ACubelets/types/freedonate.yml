@@ -1,0 +1,118 @@
+type:
+  name: '&e&lПривилегии &8&o(бесплатный)'
+  animation: animation2
+  expiration: 365d
+  icon:
+    texture: base64:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzg3ZjZlNzFjYzUyMmM3ZjRmMTZkYTI5ODFjMWI5MmUyZDg1Y2EyM2NlNjA4MWVjNTY5OWI1YjBlMmE3In19fQ==
+  description:
+  - ''
+  - '&e╔ &fПоследняя привилегия, которую'
+  - '&e╠ &fВы получите из кейса &f&lНЕ &fзаменит'
+  - '&e╚ &fВашу текущую привилегию'
+  - ''
+  - '&e&l↳ &fПокупка на сайте &e&lwww.WiseGrief.fun'
+  - ''
+  lore:
+    opening:
+      available:
+      - ''
+      - '&f Получен: &e&l%received% назад'
+      - '&f Истекает через: &e&l%expires%'
+      - ''
+      - '%description%'
+      - ''
+      - '&e&l↳ &fНажмите для открытия.'
+      - ''
+      expired:
+      - ''
+      - '&f Получен: &e&l%received% назад'
+      - '&f Можно открыть: &e&lуже истёк'
+      - ''
+      - '%description%'
+      - ''
+      - '&e&l↳ &fДанный кейс истёк.'
+      - ''
+  rarities:
+    '4':
+      name: ''
+      chance: 55.0
+      duplicatePointsRange: 0-20
+    '2':
+      name: ''
+      chance: 35.0
+      duplicatePointsRange: 0-100
+    '1':
+      name: ''
+      chance: 30.0
+      duplicatePointsRange: 0-100
+    '3':
+      name: ''
+      chance: 20.0
+      duplicatePointsRange: 0-100
+  rewards:
+    reward_0:
+      name: '&6&lВОИН'
+      rarity: '4'
+      command:
+      - lp user %player% parent add voin
+      icon:
+        material: SKULL_ITEM
+        damage: 3
+        unbreakable: false
+        enchanted: false
+        skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2NkZjg2OGM1ZDkyNmI1YjFmYjlhMTQ1MmQyYTkxNzI4YWVhMjQxMWJhZDFjMDAzZTg5Y2QyMDhlZjVjOWU1NSJ9fX0=
+    reward_1:
+      name: '&2&lЭЛЕЙ'
+      rarity: '2'
+      command:
+      - lp user %player% parent add elay
+      icon:
+        material: SKULL_ITEM
+        damage: 3
+        unbreakable: false
+        enchanted: false
+        skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2NkZjg2OGM1ZDkyNmI1YjFmYjlhMTQ1MmQyYTkxNzI4YWVhMjQxMWJhZDFjMDAzZTg5Y2QyMDhlZjVjOWU1NSJ9fX0=
+    reward_2:
+      name: '&9&lГЕРОЙ'
+      rarity: '1'
+      command:
+      - lp user %player% parent add hero
+      icon:
+        material: SKULL_ITEM
+        damage: 3
+        unbreakable: false
+        enchanted: false
+        skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2NkZjg2OGM1ZDkyNmI1YjFmYjlhMTQ1MmQyYTkxNzI4YWVhMjQxMWJhZDFjMDAzZTg5Y2QyMDhlZjVjOWU1NSJ9fX0=
+    reward_3:
+      name: '&c&lГЛАДИАТОР'
+      rarity: '3'
+      command:
+      - lp user %player% parent add gladiator
+      icon:
+        material: SKULL_ITEM
+        damage: 3
+        unbreakable: false
+        enchanted: false
+        skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTZiMTk0MDU5YTBlYmNmMjI3Zjg4ZjIyMjNkZTFlYWY1Mzk3Yzg4MzdlODRlNGIzOWU4YzdmYmUxMjhmMzIifX19
+  key:
+    name: '&a&k|&e Привилегии &a&k|&f'
+    lore:
+    - ' '
+    - '&7 Данный ключ используется для открытия'
+    - '&7 специального кейса с фишками.'
+    - ' '
+    - '&7 Привилегии, которые выпадают:'
+    - ' '
+    - ' &f&7⌜&e&lGOLD&7⌟ - &c&m39&c 30 &fрублей'
+    - ' &f&7⌜&e&lDIAMOND&7⌟ - &c&m100&c 75 &fрублей'
+    - ' &f&7⌜&a&lEMERALD&7⌟ - &c&m230&c 180 &fрублей'
+    - ' &f&7⌜&c&lMAGMA&7⌟ - &c&m360&c 280 &fрублей'
+    - ' &f&7⌜&e&lSHULKER&7⌟ - &c&m715&c 550 &fрублей'
+    - ' '
+    - '&a ► Нажмите ПКМ для открытия...'
+    - ' '
+    material: TRIPWIRE_HOOK
+    enchants:
+      DURABILITY: 1
+    flags:
+    - HIDE_ENCHANTS

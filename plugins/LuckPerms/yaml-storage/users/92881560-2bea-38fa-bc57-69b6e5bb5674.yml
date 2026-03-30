@@ -1,0 +1,10 @@
+uuid: 92881560-2bea-38fa-bc57-69b6e5bb5674
+name: Mixt
+primary-group: default
+parents:
+- ares
+- default
+- elay
+- gladiator
+- hero
+- voin

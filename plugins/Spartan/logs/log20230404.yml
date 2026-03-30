@@ -1,0 +1,166 @@
+(1)[2023/04/04 01:05:04]: '[Spartan Build 411.1-10352/-9280289409] Freeze failed MorePackets
+  (VL: 1) [(Version: Paper 1.12), (C-V: -5) (Silent: false), (Ping: 86ms), (TPS: 19.944),
+  (Plib: true), (Online: 1), (at: -1, de: 0.72, lm: 0.15, corr: 1.3, mpt: 31, dis:
+  0.75/7.729)]'
+(2)[2023/04/04 04:30:47]: '[Spartan Build 411.1-10352/-9280289409] Freeze failed IrregularMovements
+  (VL: 1) [(Version: Paper 1.12), (C-V: 4) (Silent: false), (Ping: 85ms), (TPS: 19.94),
+  (Plib: true), (Online: 1), (t: jump(illegal), d: 0.24813599859093927, od: 0.33319999363422426,
+  a: 6, r: 0.001335979112141672, c: (jump must start on the ground), diff: 0.011211995043284989,
+  f: false)]'
+(3)[2023/04/04 06:03:06]: '[Spartan Build 411.1-10352/-9280289409] Freeze failed IrregularMovements
+  (VL: 1) [(Version: Paper 1.12), (C-V: 4) (Silent: false), (Ping: 96ms), (TPS: 19.928),
+  (Plib: true), (Online: 1), (t: jump(illegal), d: 0.24813599859093927, od: 0.33319999363422426,
+  a: 6, r: 0.001335979112141672, c: (jump must start on the ground), diff: 0.011211995043284989,
+  f: false)]'
+(4)[2023/04/04 10:19:28]: '[Spartan Build 411.1-10352/-9280289409] Freeze failed Exploits
+  (VL: 1) [(Version: Paper 1.12), (C-V: 3) (Silent: false), (Ping: 2161ms), (TPS:
+  19.9), (Plib: true), (Online: 1), (t: ping-spoof(packets))]'
+(5)[2023/04/04 16:47:51]: '[Spartan Build 411.1-10352/-9280289409] Chupik228 failed
+  MorePackets (VL: 1) [(Version: Paper 1.12), (C-V: 5) (Silent: false), (Ping: 126ms),
+  (TPS: 19.924), (Plib: true), (Online: 1), (at: -2, de: 1.52, lm: 0.15, corr: 0.5,
+  mpt: 11, dis: 2.06/-1.0)]'
+(6)[2023/04/04 16:55:19]: '[Spartan Build 411.1-10352/-9280289409] Chupik228 failed
+  MorePackets (VL: 1) [(Version: Paper 1.12), (C-V: 5) (Silent: false), (Ping: 157ms),
+  (TPS: 19.928), (Plib: true), (Online: 1), (at: -2, de: 2.14, lm: 0.15, corr: 0.0,
+  mpt: 16, dis: 0.43/7.241)]'
+(7)[2023/04/04 16:55:43]: '[Spartan Build 411.1-10352/-9280289409] Chupik228 failed
+  IrregularMovements (VL: 1) [(Version: Paper 1.12), (C-V: -4) (Silent: false), (Ping:
+  271ms), (TPS: 19.896), (Plib: true), (Online: 1), (t: step(scheduler), h: 0.4112216109132783,
+  v: 1.544812420399012, l: 1.3)]'
+(1)[2023/04/04 17:43:19]: '[Spartan Build 411.1-10352/-9280289409] Chupik228 failed
+  Exploits (VL: 1) [(Version: Paper 1.12), (C-V: 3) (Silent: false), (Ping: 216ms),
+  (TPS: 19.731), (Plib: true), (Online: 2), (t: ping-spoof(packets))]'
+(2)[2023/04/04 17:58:05]: '[Spartan Build 411.1-10352/-9280289409] Chupik228 failed
+  Exploits (VL: 1) [(Version: Paper 1.12), (C-V: 3) (Silent: false), (Ping: 1905ms),
+  (TPS: 19.944), (Plib: true), (Online: 1), (t: ping-spoof(packets))]'
+(3)[2023/04/04 18:23:39]: '[Spartan Build 411.1-10352/-9280289409] adecvate failed
+  Speed (VL: 1) [(Version: Paper 1.12), (C-V: 3) (Silent: false), (Ping: 94ms), (TPS:
+  19.716), (Plib: true), (Online: 1), (t: normal, reason: ypos, d: 0.8577147213445572,
+  dm: 0.68, dm_s: 0.68, dy: 0.41999998688697815, a: 0)]'
+(4)[2023/04/04 18:23:39]: '[Spartan Build 411.1-10352/-9280289409] adecvate failed
+  Speed (VL: 2) [(Version: Paper 1.12), (C-V: 3) (Silent: false), (Ping: 94ms), (TPS:
+  19.685), (Plib: true), (Online: 1), (t: normal, reason: air, d: 0.49363392324506655,
+  dm: 0.3675, dm_s: 0.3675, dy: 0.33319999363422426, a: 1)]'
+(5)[2023/04/04 18:23:39]: '[Spartan Build 411.1-10352/-9280289409] adecvate failed
+  Speed (VL: 3) [(Version: Paper 1.12), (C-V: 3) (Silent: false), (Ping: 94ms), (TPS:
+  19.692), (Plib: true), (Online: 1), (t: air(decreased), d: 0.47451771187261527)]'
+(6)[2023/04/04 18:23:40]: '[Spartan Build 411.1-10352/-9280289409] adecvate failed
+  Speed (VL: 4) [(Version: Paper 1.12), (C-V: 3) (Silent: false), (Ping: 94ms), (TPS:
+  19.7), (Plib: true), (Online: 1), (t: normal, reason: ypos, d: 1.3005787034605731,
+  dm: 0.68, dm_s: 0.68, dy: 0.41999998688697815, a: 0)]'
+(7)[2023/04/04 18:23:40]: '[Spartan Build 411.1-10352/-9280289409] adecvate failed
+  Speed (VL: 5) [(Version: Paper 1.12), (C-V: 3) (Silent: false), (Ping: 94ms), (TPS:
+  19.739), (Plib: true), (Online: 1), (t: normal, reason: air, d: 0.9976753175821506,
+  dm: 0.3675, dm_s: 0.3675, dy: 0.07837499999999409, a: 0)]'
+(8)[2023/04/04 18:23:41]: '[Spartan Build 411.1-10352/-9280289409] adecvate failed
+  Speed (VL: 6) [(Version: Paper 1.12), (C-V: 3) (Silent: false), (Ping: 94ms), (TPS:
+  19.546), (Plib: true), (Online: 1), (t: normal, reason: walking, d: 0.9935409238983395,
+  dm: 0.3675, dm_s: 0.3675, dy: 0.07837499999999409, a: 1)]'
+(9)[2023/04/04 18:23:43]: '[Spartan Build 411.1-10352/-9280289409] adecvate failed
+  Speed (VL: 7) [(Version: Paper 1.12), (C-V: 3) (Silent: false), (Ping: 94ms), (TPS:
+  19.673), (Plib: true), (Online: 1), (t: normal, reason: walking, d: 0.29999257092565906,
+  dm: 0.292, dm_s: 0.292, dy: 0.0, a: 0)]'
+(10)[2023/04/04 18:23:44]: '[Spartan Build 411.1-10352/-9280289409] adecvate failed
+  Speed (VL: 8) [(Version: Paper 1.12), (C-V: 3) (Silent: false), (Ping: 94ms), (TPS:
+  19.638), (Plib: true), (Online: 1), (t: normal, reason: air, d: 0.9922960610477861,
+  dm: 0.3675, dm_s: 0.3675, dy: 0.07837499999999409, a: 8)]'
+(11)[2023/04/04 18:23:47]: '[Spartan Build 411.1-10352/-9280289409] adecvate failed
+  Speed (VL: 9) [(Version: Paper 1.12), (C-V: 3) (Silent: false), (Ping: 167ms), (TPS:
+  19.758), (Plib: true), (Online: 1), (t: normal, reason: ypos, d: 0.8406413688416003,
+  dm: 0.68, dm_s: 0.78, dy: 0.41999998688697815, a: 0)]'
+(12)[2023/04/04 18:23:48]: '[Spartan Build 411.1-10352/-9280289409] adecvate failed
+  Speed (VL: 10) [(Version: Paper 1.12), (C-V: 3) (Silent: false), (Ping: 167ms),
+  (TPS: 19.841), (Plib: true), (Online: 1), (t: normal, reason: air, d: 0.5424595237233848,
+  dm: 0.3675, dm_s: 0.3675, dy: -0.12129684053920187, a: 0)]'
+(13)[2023/04/04 18:23:49]: '[Spartan Build 411.1-10352/-9280289409] adecvate failed
+  Speed (VL: 11) [(Version: Paper 1.12), (C-V: 3) (Silent: false), (Ping: 167ms),
+  (TPS: 19.735), (Plib: true), (Online: 1), (t: air(decreased), d: 0.9812912136531563)]'
+(14)[2023/04/04 18:23:49]: '[Spartan Build 411.1-10352/-9280289409] adecvate was kicked
+  for Speed'
+(15)[2023/04/04 20:31:47]: '[Spartan Build 411.1-10352/-9280289409] Aprenik failed
+  IrregularMovements (VL: 1) [(Version: Paper 1.12), (C-V: 4) (Silent: false), (Ping:
+  119ms), (TPS: 19.849), (Plib: true), (Online: 1), (t: jump(illegal), d: 0.41999998688697815,
+  od: 0.0, a: 2, r: 0.48249998688697815, c: (jump cannot start while on air), diff:
+  0.34311598688697814, f: false)]'
+(16)[2023/04/04 20:34:54]: '[Spartan Build 411.1-10352/-9280289409] Aprenik failed
+  MorePackets (VL: 1) [(Version: Paper 1.12), (C-V: 5) (Silent: false), (Ping: 127ms),
+  (TPS: 19.924), (Plib: true), (Online: 1), (at: -3, de: 1.54, lm: 0.15, corr: 1.3,
+  mpt: 26, dis: 3.9/-1.0)]'
+(17)[2023/04/04 20:34:57]: '[Spartan Build 411.1-10352/-9280289409] Aprenik failed
+  MorePackets (VL: 2) [(Version: Paper 1.12), (C-V: 5) (Silent: false), (Ping: 127ms),
+  (TPS: 19.864), (Plib: true), (Online: 1), (at: -1, de: 1.54, lm: 0.15, corr: 1.3,
+  mpt: 32, dis: 0.46/1.65)]'
+(18)[2023/04/04 20:34:57]: '[Spartan Build 411.1-10352/-9280289409] Aprenik failed
+  MorePackets (VL: 3) [(Version: Paper 1.12), (C-V: 5) (Silent: false), (Ping: 127ms),
+  (TPS: 19.829), (Plib: true), (Online: 1), (at: -1, de: 1.54, lm: 0.15, corr: 1.3,
+  mpt: 33, dis: 0.0/Infinity)]'
+(19)[2023/04/04 20:34:57]: '[Spartan Build 411.1-10352/-9280289409] Aprenik failed
+  MorePackets (VL: 4) [(Version: Paper 1.12), (C-V: 5) (Silent: false), (Ping: 127ms),
+  (TPS: 19.801), (Plib: true), (Online: 1), (at: -1, de: 1.54, lm: 0.15, corr: 1.3,
+  mpt: 34, dis: 0.0/NaN)]'
+(20)[2023/04/04 20:34:57]: '[Spartan Build 411.1-10352/-9280289409] Aprenik failed
+  MorePackets (VL: 5) [(Version: Paper 1.12), (C-V: 5) (Silent: false), (Ping: 127ms),
+  (TPS: 19.77), (Plib: true), (Online: 1), (at: -1, de: 1.54, lm: 0.15, corr: 1.3,
+  mpt: 35, dis: 0.0/NaN)]'
+(21)[2023/04/04 20:40:16]: '[Spartan Build 411.1-10352/-9280289409] Aprenik failed
+  MorePackets (VL: 1) [(Version: Paper 1.12), (C-V: 5) (Silent: false), (Ping: 128ms),
+  (TPS: 19.723), (Plib: true), (Online: 1), (at: -1, de: 1.56, lm: 0.15, corr: 1.172203997886409,
+  mpt: 32, dis: 1.6/1.913)]'
+(22)[2023/04/04 20:40:16]: '[Spartan Build 411.1-10352/-9280289409] Aprenik failed
+  MorePackets (VL: 2) [(Version: Paper 1.12), (C-V: 5) (Silent: false), (Ping: 128ms),
+  (TPS: 19.688), (Plib: true), (Online: 1), (at: -1, de: 1.56, lm: 0.15, corr: 1.0471599227391082,
+  mpt: 33, dis: 0.0/Infinity)]'
+(23)[2023/04/04 20:43:48]: '[Spartan Build 411.1-10352/-9280289409] Aprenik failed
+  BlockReach (VL: 1) [(Version: Paper 1.12), (C-V: 1) (Silent: false), (Ping: 144ms),
+  (TPS: 19.755), (Plib: true), (Online: 1), (t: break, d: 7.539734453125393, l: 7.5,
+  m: 1.0)]'
+(24)[2023/04/04 20:51:44]: '[Spartan Build 411.1-10352/-9280289409] Aprenik failed
+  IrregularMovements (VL: 1) [(Version: Paper 1.12), (C-V: 4) (Silent: false), (Ping:
+  135ms), (TPS: 19.696), (Plib: true), (Online: 2), (t: jump(illegal), d: 0.24813599859093927,
+  od: 0.33319999363422426, a: 7, r: 0.001335979112141672, c: (jump must start on the
+  ground), diff: 0.011969995043284998, f: false)]'
+(25)[2023/04/04 20:58:38]: '[Spartan Build 411.1-10352/-9280289409] Aprenik failed
+  Speed (VL: 1) [(Version: Paper 1.12), (C-V: 3) (Silent: false), (Ping: 142ms), (TPS:
+  19.841), (Plib: true), (Online: 2), (t: normal, reason: sneaking, d: 0.20428462081574267,
+  dm: 0.16, dm_s: 0.16, dy: 0.0, a: 0)]'
+(26)[2023/04/04 21:09:29]: '(False Positive) [Spartan Build 411.1-10352/-9280289409]
+  Aprenik failed Fly (VL: 0) [(Version: Paper 1.12), (C-V: -4) (Silent: false), (Ping:
+  183ms), (TPS: 19.334), (Plib: true), (Online: 1), (t: stable, d: 0.0, ds: 0.0, ods:
+  0.0, a: 31/31, r: 0.0, h: 0.20082165851704897, e: false)]'
+(27)[2023/04/04 21:09:29]: '[Spartan Build 411.1-10352/-9280289409] Aprenik failed
+  Fly (VL: 1) [(Version: Paper 1.12), (C-V: 4) (Silent: false), (Ping: 183ms), (TPS:
+  19.462), (Plib: true), (Online: 1), (t: stable, d: 0.0, ds: 0.0, ods: 0.0, a: 33/33,
+  r: 0.0, h: 0.23261361609944523, e: false)]'
+(28)[2023/04/04 21:09:29]: '[Spartan Build 411.1-10352/-9280289409] Aprenik failed
+  Fly (VL: 2) [(Version: Paper 1.12), (C-V: 4) (Silent: false), (Ping: 183ms), (TPS:
+  19.466), (Plib: true), (Online: 1), (t: stable, d: 0.0, ds: 0.0, ods: 0.0, a: 34/34,
+  r: 0.0, h: 0.250590832161483, e: false)]'
+(29)[2023/04/04 21:09:29]: '[Spartan Build 411.1-10352/-9280289409] Aprenik failed
+  Fly (VL: 3) [(Version: Paper 1.12), (C-V: -4) (Silent: false), (Ping: 183ms), (TPS:
+  19.413), (Plib: true), (Online: 1), (t: stable, d: 0.0, ds: 0.0, ods: 0.0, a: 35/35,
+  r: 0.0, h: 0.2651883623377975, e: false)]'
+(30)[2023/04/04 21:10:01]: '[Spartan Build 411.1-10352/-9280289409] Aprenik failed
+  IrregularMovements (VL: 1) [(Version: Paper 1.12), (C-V: 4) (Silent: false), (Ping:
+  157ms), (TPS: 19.607), (Plib: true), (Online: 1), (t: jump(illegal), d: 0.33319999363422426,
+  od: 0.41999998688697815, a: 26, r: 0.7531999805212024, c: (jump movement must remain
+  on ground), diff: 0.0281079932527539, f: false)]'
+(31)[2023/04/04 21:21:47]: '[Spartan Build 411.1-10352/-9280289409] Aprenik failed
+  IrregularMovements (VL: 1) [(Version: Paper 1.12), (C-V: 4) (Silent: false), (Ping:
+  139ms), (TPS: 19.739), (Plib: true), (Online: 1), (t: jump(illegal), d: 0.08307781780646906,
+  od: 0.08307781780646906, a: 2, r: 0.24918707874468282, c: (new distance must remain
+  smaller), diff: 0.076884, f: false)]'
+(32)[2023/04/04 21:25:03]: '[Spartan Build 411.1-10352/-9280289409] Aprenik failed
+  Exploits (VL: 1) [(Version: Paper 1.12), (C-V: 3) (Silent: false), (Ping: 132ms),
+  (TPS: 19.892), (Plib: true), (Online: 1), (t: head-position(yaw), c: 1, diff: 9.0)]'
+(33)[2023/04/04 21:28:03]: '[Spartan Build 411.1-10352/-9280289409] Aprenik failed
+  Velocity (VL: 1) [(Version: Paper 1.12), (C-V: 2) (Silent: false), (Ping: 148ms),
+  (TPS: 19.904), (Plib: true), (Online: 1), (d: 0.0, h: 0.0, ddiff: 0.29999999999995186,
+  hdiff: -0.1345716343548773, dcorr: 0.0, hcorr: 0.0, dthr: 1.0, lcorr: 0.0, in: 0.3,
+  mp: 0.3, kb: false)]'
+(34)[2023/04/04 21:44:01]: '[Spartan Build 411.1-10352/-9280289409] Aprenik failed
+  KillAura (VL: 1) [(Version: Paper 1.12), (C-V: 1) (Silent: false), (Ping: 147ms),
+  (TPS: 19.755), (Plib: true), (Online: 1), (t: modulo(cached), pd: 0.0, p: 33.0)]'
+(35)[2023/04/04 22:47:18]: '[Spartan Build 411.1-10352/-9280289409] Aprenik failed
+  Exploits (VL: 1) [(Version: Paper 1.12), (C-V: 3) (Silent: false), (Ping: 131ms),
+  (TPS: 19.968), (Plib: true), (Online: 1), (t: undetected movement, ms: 6199, d:
+  0.07388804433581901)]'

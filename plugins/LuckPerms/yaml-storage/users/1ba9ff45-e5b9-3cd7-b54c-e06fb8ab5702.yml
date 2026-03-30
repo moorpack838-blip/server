@@ -1,0 +1,11 @@
+uuid: 1ba9ff45-e5b9-3cd7-b54c-e06fb8ab5702
+name: Regon89
+primary-group: default
+parents:
+- default
+prefixes:
+- §7§lИГРОК §7:
+    priority: 11
+    context:
+      server: grief
+      world: lobby

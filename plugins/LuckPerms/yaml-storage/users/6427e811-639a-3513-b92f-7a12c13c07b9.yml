@@ -1,0 +1,11 @@
+uuid: 6427e811-639a-3513-b92f-7a12c13c07b9
+name: MrDemerYT
+primary-group: default
+parents:
+- default
+prefixes:
+- §7§lИГРОК §7:
+    priority: 11
+    context:
+      server: grief
+      world: lobby

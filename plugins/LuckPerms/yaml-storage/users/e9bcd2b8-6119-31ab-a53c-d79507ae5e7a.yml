@@ -1,0 +1,10 @@
+uuid: e9bcd2b8-6119-31ab-a53c-d79507ae5e7a
+name: TigranFlash1
+primary-group: admin
+permissions:
+- '*'
+parents:
+- admin
+suffixes:
+- '&d&nДед Инсайд ☡':
+    priority: 1

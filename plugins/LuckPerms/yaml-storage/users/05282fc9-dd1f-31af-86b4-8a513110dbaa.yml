@@ -1,0 +1,12 @@
+uuid: 05282fc9-dd1f-31af-86b4-8a513110dbaa
+name: FanloGames
+primary-group: default
+parents:
+- default
+- voin
+prefixes:
+- §7§lИГРОК §7:
+    priority: 11
+    context:
+      server: grief
+      world: lobby

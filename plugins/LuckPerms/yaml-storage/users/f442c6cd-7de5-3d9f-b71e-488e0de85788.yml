@@ -1,0 +1,11 @@
+uuid: f442c6cd-7de5-3d9f-b71e-488e0de85788
+name: timurka_top1
+primary-group: default
+parents:
+- default
+prefixes:
+- §7§lИГРОК §7:
+    priority: 11
+    context:
+      server: grief
+      world: lobby

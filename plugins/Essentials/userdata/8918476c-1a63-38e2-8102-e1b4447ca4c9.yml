@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 37.22.47.103
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1680786511391
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1680789141910
+  login: 1680786735288
+money: '0'
+last-account-name: 1zi4ka
+lastlocation:
+  world: f426770c-0cf2-4454-94e7-0f4170382838
+  world-name: lobby
+  x: 1040.631647406146
+  y: 74.7531999805212
+  z: -263.99015728384256
+  yaw: 133.25035095214844
+  pitch: 48.599246978759766
+logoutlocation:
+  world: f426770c-0cf2-4454-94e7-0f4170382838
+  world-name: lobby
+  x: 986.4774621730095
+  y: 66.9375
+  z: -272.1375077969843
+  yaw: 110.95719146728516
+  pitch: 35.860450744628906

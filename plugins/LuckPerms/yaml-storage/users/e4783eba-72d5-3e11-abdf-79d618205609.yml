@@ -1,0 +1,11 @@
+uuid: e4783eba-72d5-3e11-abdf-79d618205609
+name: Damir14i14
+primary-group: default
+parents:
+- default
+prefixes:
+- §7§lИГРОК §7:
+    priority: 11
+    context:
+      server: grief
+      world: lobby

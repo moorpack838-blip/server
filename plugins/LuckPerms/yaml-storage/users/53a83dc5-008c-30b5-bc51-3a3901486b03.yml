@@ -1,0 +1,6 @@
+uuid: 53a83dc5-008c-30b5-bc51-3a3901486b03
+name: Protect
+primary-group: default
+parents:
+- default
+- voin

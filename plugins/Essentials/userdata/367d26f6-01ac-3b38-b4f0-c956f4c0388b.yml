@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 31.131.204.235
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1681406878038
+  login: 1681406584738
+money: '401.5'
+last-account-name: ShaKEr1K
+lastlocation:
+  world: 50e83d7b-bd31-4b59-b085-d04edc199449
+  world-name: world
+  x: 96.5
+  y: 72.0
+  z: 249.5
+  yaw: 6.188204288482666
+  pitch: 0.0
+logoutlocation:
+  world: f426770c-0cf2-4454-94e7-0f4170382838
+  world-name: lobby
+  x: 1034.6674179224692
+  y: 67.9375
+  z: -334.65380442753445
+  yaw: -105.75534057617188
+  pitch: 13.973027229309082

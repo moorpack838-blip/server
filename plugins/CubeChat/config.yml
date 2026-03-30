@@ -1,0 +1,170 @@
+chat:
+  # Проверка на анти-спам
+  antispam:
+    mode: false
+    contains: '§e§lЧAТ§7: §fНе спамьте в чате! Вы уже писал такое сообщение ранее!'
+    amount: 3   #сколько предыдущих сообщение не должны быть равны
+    min: 5      #минимум символов для проверки
+  # Проверка на капс
+  caps:
+    mode: true
+    min: 12 #минимум символов для проверки
+    procent: 30 # допустимый процент капса
+    message: '§e§lЧAТ§7: §fНе печатайте сообщение КАПС''ом!'
+  # Проверка на задержку
+  cooldown:
+    mode: true
+    time: 5     #кулдаун сообщений
+    amount: 1   #кол-во сообщений за 'chat.cooldown.time' секунд
+    message: '§e§lЧAТ§7: §fНе спамьте в чате! Подождите ещё §e%time%'
+  # Отключить чат и личные сообщения
+  deny:
+    mode: false
+    message: |
+     §cПриносим извинения, но чат отключён для игроков
+     §cво время проведения технический работ
+    permission: 'chat.bypass.deny' #обход
+  # Запрет на чат новым игрокам
+  newplayer:
+    mode: true
+    message: '§e§lЧAТ§7: §fЧтобы написать в чат, вы должны поиграть ещё §e%time%'
+    time: 1000
+    permission: 'chat.bypass.newplayer' #обход
+  abcdplayer:
+    mode: true
+    message: '§e§lЧAТ§7: §fК сожалению §eанглийскими §fбуквами можно писать наиграв только §a1 час §fна сервере, вы должны поиграть ещё §e%time%'
+    time: 3600
+    permission: 'chat.bypass.abcdplayer' #обход
+  # Формат чата. Доступны плейсхолдеры с PlaceholderAPI.
+  format:
+    local: '§7(§6§lＬ§7) §8| §8(§7%javascript_example%§8) §8|  %vault_prefix%%player_name%%vault_suffix% §6⛂§e%vault_eco_balance_formatted%§8/§6ℙ§e%playerpoints_points_formatted% §7» %message%'
+    global: '§7(§e§lＧ§7) §8| §8(§7%javascript_example%§8) §8| %vault_prefix%%player_name%%vault_suffix% §6⛂§e%vault_eco_balance_formatted%§8/§6ℙ§e%playerpoints_points_formatted% §7» %message%'
+  # дальность локального чата
+  range: 100
+commands:
+  messages:
+  - 'w'
+  - 't'
+  - 'tell'
+  - 'etell'
+  - 'm'
+  - 'msg'
+  - 'emsg'
+  - 'reply'
+  - 'r'
+  - 'er'
+  - 'clan chat'
+  - 'с chat'
+  - 'cc'
+  - 'clanchat'
+  - 'pm'
+  - 'epm'
+  blacklist: #чёрный список команд
+  - '?'
+  message:
+    blacklist: '§6&lСЕРВЕР: &fКоманда не найдена.'
+filter:
+  message: '§e§lЧAТ§7: §fДанное сообщение содержит запрешённый набор символов: §e%str%'
+  characters:
+    mode: false
+    letters:
+    - 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+    - 'abcdefghijklmnopqrstuvwxyz'
+    - 'АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ'
+    - 'абвгдеёжзийклмнопрстуфхцчшщъыьэюя'
+    numbers:
+    - '0123456789'
+    others:
+    - '!@"#№$;%^:?§*()-_=+[]{}''\/|~`,.'
+  blacklist:
+    mode: true
+    list:
+    - '.net'
+    - '. net'
+    - '.co.uk'
+    - '.cо.uk'
+    - '.сo.uk'
+    - '.со.uk'
+    - '. co.uk'
+    - '. cо.uk'
+    - '. сo.uk'
+    - '. со.uk'
+    - '.ru'
+    - ' ru'
+    - '.гu'
+    - '.rи'
+    - '.ги'
+    - '.su'
+    - ' su'
+    - '.sи'
+    - '.net'
+    - '.пet'
+    - '.nеt'
+    - '.пеt'
+    - 'play.'
+    - 'plаy.'
+    - 'рlay.'
+    - 'рlаy.'
+    - 'mc.'
+    - 'mс.'
+    - 'мc.'
+    - 'мс.'
+    - 'mc '
+    - 'мс '
+    - 'mс '
+    - '. ru'
+    - '. гu'
+    - '. rи'
+    - '. ги'
+    - '. su'
+    - '. sи'
+    - '. net'
+    - '. пet'
+    - '. nеt'
+    - '. пеt'
+    - 'play .'
+    - 'plаy .'
+    - 'рlay .'
+    - 'рlаy .'
+    - 'mc .'
+    - 'mс .'
+    - 'мc .'
+    - 'мс .'
+    - '.r u'
+    - '.г u'
+    - '.r и'
+    - '.г и'
+    - '. r u'
+    - '. г u'
+    - '. r и'
+    - '. г и'
+    - '. s u'
+    - '. s и'
+    - 'pla y .'
+    - 'plа y .'
+    - 'рla y .'
+    - 'рlа y .'
+    - 'pl a y .'
+    - 'pl а y .'
+    - 'рl a y .'
+    - 'рl а y .'
+    - 'p l a y .'
+    - 'p l а y .'
+    - 'р l a y .'
+    - 'р l а y .'
+    - 'p l ay .'
+    - 'p l аy .'
+    - 'р l ay .'
+    - 'р l аy .'
+    - 'p la y .'
+    - 'p lа y .'
+    - 'р la y .'
+    - 'р lа y .'
+    - 'pl ay .'
+    - 'pl аy .'
+    - 'рl ay .'
+    - 'рl аy .'
+    - 'm c .'
+    - 'm с .'
+    - 'м c .'
+    - 'м с .'

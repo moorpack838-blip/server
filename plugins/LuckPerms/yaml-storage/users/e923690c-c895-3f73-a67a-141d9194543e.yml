@@ -1,0 +1,10 @@
+uuid: e923690c-c895-3f73-a67a-141d9194543e
+name: z3o
+primary-group: default
+parents:
+- default
+- gladiator
+- hero
+suffixes:
+- '&r&nЧСВ ☡':
+    priority: 1

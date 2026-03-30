@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 22.45.47.64
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1681182492828
+  login: 1681182480470
+money: '0'
+lastlocation:
+  world: 50e83d7b-bd31-4b59-b085-d04edc199449
+  world-name: world
+  x: 95.5
+  y: 68.0
+  z: 266.5
+  yaw: 4.3134355545043945
+  pitch: 0.0
+last-account-name: KOQ6554ZA
+logoutlocation:
+  world: f426770c-0cf2-4454-94e7-0f4170382838
+  world-name: lobby
+  x: 999.5
+  y: 69.0
+  z: -283.5
+  yaw: 180.59988403320312
+  pitch: 2.4000234603881836

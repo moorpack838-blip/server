@@ -1,0 +1,8 @@
+uuid: 2053ac24-3e4f-3912-be2b-f8e1293a2604
+name: Raime
+primary-group: frost
+parents:
+- frost
+suffixes:
+- '&a&nКиберспортсмен ☡':
+    priority: 1

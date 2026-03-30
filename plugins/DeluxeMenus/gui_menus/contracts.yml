@@ -1,0 +1,211 @@
+menu_title: '&0&lFC ∫ КОНТРАКТЫ'
+open_command:
+- contracts
+size: 53
+items:
+  1:
+    material: BARRIER
+    slot: 20
+    display_name: '&e↬ &6&lОТМЕНИТЬ КОНТРАКТ &e↫'
+    lore:
+    - ''
+    - '&e• §fНажмите сюда, чтобы'
+    - '&e• §fотказаться от &6Контракта&f!'
+    - ''
+    - '&aНажмите, чтобы отменить контракт'
+    hide_enchantments: true
+    hide_attributes: true
+    left_click_commands:
+    - '[close]'
+    - '[player] contracts cancel'
+  2:
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDkxOThlYjVlNjUwMDdkZWNlZWMxZWY1NzI3MGQyY2E1ZWJhMTUxZmU1MmZkOWE0YWE3ODQxMGQxYjNiNTNmYSJ9fX0=
+    slot: 22
+    display_name: '&e↬ &6&lЦЕЛЬ ДЛЯ УБИЙСТВА &e↫'
+    lore:
+    - ''
+    - '&e• §fНажмите сюда, чтобы'
+    - '&e• §fузнать цель для &6Убийства&f!'
+    - ''
+    - '&aНажмите, чтобы узнать цель'
+    hide_enchantments: true
+    hide_attributes: true
+    left_click_commands:
+    - '[close]'
+    - '[player] contracts target'
+  3:
+    material: DIAMOND_SWORD
+    slot: 24
+    display_name: '&e↬ &6&lВЗЯТЬ КОНТРАКТ &e↫'
+    lore:
+    - ''
+    - '&e• §fНажмите сюда, чтобы'
+    - '&e• §fвзять &6Контракт&f!'
+    - ''
+    - '&aНажмите, чтобы взять контракт'
+    hide_enchantments: true
+    hide_attributes: true
+    left_click_commands:
+    - '[close]'
+    - '[player] contracts take'
+  'ramka':
+    material: stained_glass_pane
+    data: 4
+    slot: 0
+    display_name: ''       
+  'ramka1':
+    material: stained_glass_pane
+    data: 4
+    slot: 1
+    display_name: ''
+  'ramka2':
+    material: stained_glass_pane
+    data: 4
+    slot: 2
+    display_name: ''
+  'ramka3':
+    material: stained_glass_pane
+    data: 4
+    slot: 3
+    display_name: ''
+  'ramka4':
+    material: stained_glass_pane
+    data: 4
+    slot: 4
+    display_name: ''
+  'ramka5':
+    material: stained_glass_pane
+    data: 4
+    slot: 5
+    display_name: ''
+  'ramka6':
+    material: stained_glass_pane
+    data: 4
+    slot: 6
+    display_name: ''
+  'ramka7':
+    material: stained_glass_pane
+    data: 4
+    slot: 7
+    display_name: ''
+  'ramka8':
+    material: stained_glass_pane
+    data: 4
+    slot: 8
+    display_name: ''
+  'ramka9':
+    material: stained_glass_pane
+    data: 4
+    slot: 9
+    display_name: ''
+  'ramka10':
+    material: stained_glass_pane
+    data: 4
+    slot: 18
+    display_name: ''
+  'ramka11':
+    material: stained_glass_pane
+    data: 4
+    slot: 27
+    display_name: ''
+  'ramka12':
+    material: stained_glass_pane
+    data: 4
+    slot: 36
+    display_name: ''
+  'ramka19':
+    material: stained_glass_pane
+    data: 4
+    slot: 46
+    display_name: ''
+  'ramka20':
+    material: stained_glass_pane
+    data: 4
+    slot: 52
+    display_name: ''
+  'ramka21':
+    material: stained_glass_pane
+    data: 1
+    slot: 47
+    display_name: ''
+  'ramka23':
+    material: stained_glass_pane
+    data: 1
+    slot: 38
+    display_name: ''
+  'ramka24':
+    material: stained_glass_pane
+    data: 1
+    slot: 42
+    display_name: ''
+  'ramka25':
+    material: stained_glass_pane
+    data: 1
+    slot: 39
+    display_name: ''
+  'barrier1':
+    material: barrier
+    data: 1
+    slot: 48
+    display_name: ''
+  'arr':
+    material: arrow
+    slot: 49
+    display_name: "&4&lП&c&lЕРЕХОД"
+    lore: 
+    - ''
+    - '&e• &fВы перейдете на предыдущию страницу'   
+    - ''
+    - '&aНажми, чтобы перейти на предыдущию страницу'
+    left_click_commands:
+    - '[player] menu' 
+  'barrier2':
+    material: barrier
+    data: 1
+    slot: 50
+    display_name: ''
+  'ramka26':
+    material: stained_glass_pane
+    data: 1
+    slot: 40
+    display_name: ''
+  'ramka27':
+    material: stained_glass_pane
+    data: 1
+    slot: 41
+    display_name: ''
+  'ramka22':
+    material: stained_glass_pane
+    data: 1
+    slot: 51
+    display_name: ''
+  'ramka13':
+    material: stained_glass_pane
+    data: 4
+    slot: 45
+    display_name: ''
+  'ramka14':
+    material: stained_glass_pane
+    data: 4
+    slot: 53
+    display_name: ''
+  'ramka15':
+    material: stained_glass_pane
+    data: 4
+    slot: 44
+    display_name: ''
+  'ramka16':
+    material: stained_glass_pane
+    data: 4
+    slot: 35
+    display_name: ''
+  'ramka17':
+    material: stained_glass_pane
+    data: 4
+    slot: 26
+    display_name: ''
+  'ramka18':
+    material: stained_glass_pane
+    data: 4
+    slot: 17
+    display_name: ''

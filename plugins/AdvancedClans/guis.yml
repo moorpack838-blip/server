@@ -1,0 +1,153 @@
+general:
+  nextPage:
+    material: ARROW
+    name: '&fСледующая страница'
+    lore:
+    - '&7Нажмите, чтобы перейти на следующую страницу'
+  backPage:
+    material: ARROW
+    name: '&fПредыдущая страница'
+    lore:
+    - '&7Нажмите, чтобы перейти на предыдущую страницу'
+  decoration:
+    material: STAINED_GLASS_PANE
+    material-data: 15
+    name: ''
+bank:
+  logs:
+    title: '&8Страница журналов клана &6%page%'
+    action-withdraw: Withdraw
+    action-deposit: Deposit
+    log-item:
+      material: PAPER
+      name: '&7Идентификатор транзакции: &a#%id%'
+      lore:
+      - ''
+      - '&7Исполнитель: &d%executor%'
+      - '&7Тип транзакции: &e%action%'
+      - '&7Сумма денег: &a$%amount%'
+      - ''
+      - '&7Дата транзакции: &6%date%'
+    filter-item:
+      material: ANVIL
+      name: '&eОчень скоро'
+clan-info:
+  rows: 6
+  title: '&8Информация: &d%clan%'
+  info:
+    material: PAPER
+    name: '&fСтатистика'
+    slot: 24
+    lore:
+    - ''
+    - '&fУбивийств: &a%kills%'
+    - '&fСмертей: &e%deaths%'
+    - '&fКДР: &6%kdr%'
+  exp:
+    material: EXP_BOTTLE
+    name: '&fИнформация'
+    slot: 20
+    lore:
+    - ''
+    - '&fЛевел Клана: &d%level%'
+    - '&fОпыт Клана: &6%exp%&f/&6%max-exp%'
+  members:
+    material: SKULL_ITEM
+    skin: '%clan-owner%'
+    slot: 22
+    name: '&fУчастники клана'
+    lore:
+    - ''
+    - '&fУчастники:'
+    - '&a%members%&f/&a%max%'
+    - ''
+    - '&eНажмите чтобы узнать больше'
+  allys:
+    material: INK_SACK;10
+    slot: 30
+    name: '&6Союзники клана'
+    format: '&e&l» &f%ally%'
+  enemys:
+    material: INK_SACK;1
+    slot: 32
+    name: '&eВраги клана'
+    format: '&4&l» &f%enemy%'
+clan-list:
+  title: '&8Список кланов &6#%page%'
+  name: '&fКлан: &e%clan%'
+  lore:
+  - ''
+  - '&fЛидер клана: &6%lider%'
+  - '&fУчастники: &e%members%&f/&e%max%'
+  - '&fКонфиденциальность: %privacy%'
+  - ''
+  - '&fКДР: &d%kdr%'
+  no-clan:
+    material: BARRIER
+    name: '&eНету клана'
+    lore:
+    - ''
+    - '&fСозданный клан,'
+    - '&fпоявиться здесь.'
+    - ''
+color-selector:
+  title: '&8Выбора цвета'
+  rows: 4
+  item-name: '&fЦвет: %available%%color%'
+  lores:
+    selected:
+    - '&eЦвет уже выбран!'
+    locked:
+    - ''
+    - '&eЭтот цвет будет разблокирован'
+    - '&eкогда клан достигнет уровня &e%level%'
+    select:
+    - '&aНажмите, чтобы выбрать этот цвет!'
+tops:
+  empty-item:
+    name: '&fПозиция: &e#%position%'
+    lore:
+    - '&7&oПусто...'
+  top-kills:
+    title: '&8Лучшие убийства кланов'
+    item:
+      name: '&fПозиция: &e#%position%'
+      lore:
+      - ''
+      - '&fКлан: &e%clan%'
+      - '&fУбивийств: &a%kills%'
+      - '&fУчастники: &d%members%'
+  top-level:
+    title: '&8Топ клан по левелу'
+    item:
+      name: '&fПозиция: &e#%position%'
+      lore:
+      - ''
+      - '&fКлан: &e%clan%'
+      - '&fЛевел: &a%level%'
+      - '&fУчастники: &d%members%'
+members:
+  rows: 6
+  title: '&8Информация: &d%clan%'
+  top-killers-format: '&e#%position%) &e%player% &fв общей сложности: &a%kills% &fkills.'
+  top-killers-empty: '&e#%position%) &eПустая позиций.'
+  info:
+    material: PAPER
+    name: '&9Дополнительная информация'
+    slot: 28
+    lore:
+    - '&fTop kills:'
+    - '%top-kills-1%'
+    - '%top-kills-2%'
+    - '%top-kills-3%'
+    - ''
+    - '&fУчастники: &a%members%'
+  item-format:
+    name: '&fИгрок: &a%player%'
+    lore:
+    - '&fСтатус: %state%'
+    - '&fРанг: %rank%'
+    - ''
+    - '&fУбивийств: &e%kills%'
+    - '&fСмертей: &e%deaths%'
+    - '&fКДР: &6%kdr%'

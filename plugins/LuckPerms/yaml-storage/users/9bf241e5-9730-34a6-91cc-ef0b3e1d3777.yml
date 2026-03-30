@@ -1,0 +1,8 @@
+uuid: 9bf241e5-9730-34a6-91cc-ef0b3e1d3777
+name: GerlMine
+primary-group: default
+parents:
+- default
+- elay
+- gladiator
+- hero

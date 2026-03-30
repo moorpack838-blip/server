@@ -1,0 +1,11 @@
+uuid: 04466263-b10a-3adf-be06-5d742997020b
+name: Netyideinika
+primary-group: default
+parents:
+- default
+prefixes:
+- §7§lИГРОК §7:
+    priority: 11
+    context:
+      server: grief
+      world: lobby

@@ -1,0 +1,298 @@
+items:
+  k1:
+    ==: org.bukkit.inventory.ItemStack
+    type: GOLDEN_APPLE
+    amount: 8
+  k2:
+    ==: org.bukkit.inventory.ItemStack
+    type: COOKED_BEEF
+    amount: 16
+  k3:
+    ==: org.bukkit.inventory.ItemStack
+    type: IRON_INGOT
+    amount: 32
+  k4:
+    ==: org.bukkit.inventory.ItemStack
+    type: GOLD_INGOT
+    amount: 32
+  k5:
+    ==: org.bukkit.inventory.ItemStack
+    type: GLOWSTONE_DUST
+    amount: 32
+  k6:
+    ==: org.bukkit.inventory.ItemStack
+    type: DRAGONS_BREATH
+    amount: 64
+  YuRAKrz:
+    ==: org.bukkit.inventory.ItemStack
+    type: SLIME_BALL
+    amount: 16
+  SFTXmstqi:
+    ==: org.bukkit.inventory.ItemStack
+    type: ENDER_PEARL
+    amount: 16
+  YO2Yu:
+    ==: org.bukkit.inventory.ItemStack
+    type: INK_SACK
+    damage: 3
+    amount: 48
+  7C:
+    ==: org.bukkit.inventory.ItemStack
+    type: BLAZE_ROD
+    amount: 16
+  ThC:
+    ==: org.bukkit.inventory.ItemStack
+    type: OBSIDIAN
+    amount: 64
+  9F:
+    ==: org.bukkit.inventory.ItemStack
+    type: POTATO_ITEM
+    amount: 64
+  I:
+    ==: org.bukkit.inventory.ItemStack
+    type: NETHER_STALK
+    amount: 48
+  RWXe:
+    ==: org.bukkit.inventory.ItemStack
+    type: SUGAR_CANE
+    amount: 32
+  Wj7:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND
+    amount: 32
+  iJ3xg3P0b:
+    ==: org.bukkit.inventory.ItemStack
+    type: APPLE
+    amount: 16
+  Ra4bt:
+    ==: org.bukkit.inventory.ItemStack
+    type: BONE
+    amount: 64
+  uZClXm7c:
+    ==: org.bukkit.inventory.ItemStack
+    type: STONE_BUTTON
+    amount: 16
+  LxzhnQr9:
+    ==: org.bukkit.inventory.ItemStack
+    type: STONE
+    damage: 4
+    amount: 64
+  5aeLzHK:
+    ==: org.bukkit.inventory.ItemStack
+    type: QUARTZ_STAIRS
+    amount: 64
+  s5Ab:
+    ==: org.bukkit.inventory.ItemStack
+    type: GLASS
+    amount: 32
+  oKp:
+    ==: org.bukkit.inventory.ItemStack
+    type: SULPHUR
+    amount: 64
+  YO:
+    ==: org.bukkit.inventory.ItemStack
+    type: SUGAR
+    amount: 32
+  wjIqyUpq4:
+    ==: org.bukkit.inventory.ItemStack
+    type: RED_NETHER_BRICK
+    amount: 25
+  ji00Us:
+    ==: org.bukkit.inventory.ItemStack
+    type: MAGMA_CREAM
+    amount: 4
+  vyH:
+    ==: org.bukkit.inventory.ItemStack
+    type: STAINED_GLASS_PANE
+    damage: 14
+    amount: 32
+  tHKj:
+    ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      potion-type: minecraft:water
+  d:
+    ==: org.bukkit.inventory.ItemStack
+    type: CHEST
+    amount: 8
+  QZm:
+    ==: org.bukkit.inventory.ItemStack
+    type: LOG
+    amount: 64
+  YiSKHiY:
+    ==: org.bukkit.inventory.ItemStack
+    type: ENDER_STONE
+    amount: 64
+  6NAJNXWZDm:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIODE
+    amount: 12
+  Pkyu51L:
+    ==: org.bukkit.inventory.ItemStack
+    type: REDSTONE
+    amount: 64
+  GLOWSTONE:
+    ==: org.bukkit.inventory.ItemStack
+    type: GLOWSTONE
+    amount: 16
+  SUGAR:
+    ==: org.bukkit.inventory.ItemStack
+    type: SUGAR
+    amount: 32
+  PRISMARIN:
+    ==: org.bukkit.inventory.ItemStack
+    type: PRISMARINE
+    amount: 16
+  QUARTZ_STAIRS:
+    ==: org.bukkit.inventory.ItemStack
+    type: QUARTZ_STAIRS
+    amount: 32
+  SEA_LANTERN:
+    ==: org.bukkit.inventory.ItemStack
+    type: SEA_LANTERN
+    amount: 20
+  LEVER:
+    ==: org.bukkit.inventory.ItemStack
+    type: LEVER
+    amount: 16
+  FLINT:
+    ==: org.bukkit.inventory.ItemStack
+    type: FLINT
+    amount: 32
+  MAGENTA_GLAZED_TERRACOTTA:
+    ==: org.bukkit.inventory.ItemStack
+    type: MAGENTA_GLAZED_TERRACOTTA
+    amount: 16
+  SPONGE:
+    ==: org.bukkit.inventory.ItemStack
+    type: SPONGE
+    amount: 8
+  JACK_O_LANTERN:
+    ==: org.bukkit.inventory.ItemStack
+    type: JACK_O_LANTERN
+    amount: 64
+  CACTUS:
+    ==: org.bukkit.inventory.ItemStack
+    type: CACTUS
+    amount: 64
+  Эндер-жемчуг:
+    ==: org.bukkit.inventory.ItemStack
+    type: ENDER_PEARL
+    amount: 16
+  Железный_слиток:
+    ==: org.bukkit.inventory.ItemStack
+    type: IRON_INGOT
+    amount: 64
+  Огненный_стержень:
+    ==: org.bukkit.inventory.ItemStack
+    type: BLAZE_ROD
+    amount: 64
+price-items:
+  k1: 400
+  k2: 300
+  k3: 250
+  k4: 350
+  k5: 400
+  k6: 500
+  YuRAKrz: 300
+  SFTXmstqi: 300
+  YO2Yu: 200
+  7C: 400
+  ThC: 1000
+  9F: 300
+  I: 200
+  RWXe: 200
+  Wj7: 450
+  iJ3xg3P0b: 150
+  Ra4bt: 300
+  uZClXm7c: 200
+  LxzhnQr9: 700
+  5aeLzHK: 800
+  s5Ab: 200
+  oKp: 600
+  YO: 200
+  wjIqyUpq4: 400
+  ji00Us: 400
+  vyH: 600
+  tHKj: 50
+  d: 100
+  QZm: 400
+  YiSKHiY: 500
+  6NAJNXWZDm: 600
+  Pkyu51L: 100
+  GLOWSTONE: 200
+  SUGAR: 200
+  PRISMARIN: 700
+  QUARTZ_STAIRS: 600
+  SEA_LANTERN: 350
+  LEVER: 20
+  FLINT: 100
+  MAGENTA_GLAZED_TERRACOTTA: 600
+  SPONGE: 9000
+  JACK_O_LANTERN: 500
+  CACTUS: 200
+  Эндер-жемчуг: 190
+  Железный_слиток: 160
+  Огненный_стержень: 130
+standartprice-items:
+  k1: 400
+  k2: 300
+  k3: 250
+  k4: 350
+  k5: 400
+  k6: 500
+  YuRAKrz: 300
+  SFTXmstqi: 300
+  YO2Yu: 200
+  7C: 400
+  ThC: 1000
+  9F: 300
+  I: 200
+  RWXe: 200
+  Wj7: 450
+  iJ3xg3P0b: 150
+  Ra4bt: 300
+  uZClXm7c: 200
+  LxzhnQr9: 700
+  5aeLzHK: 800
+  s5Ab: 200
+  oKp: 600
+  YO: 200
+  wjIqyUpq4: 400
+  ji00Us: 400
+  vyH: 600
+  tHKj: 50
+  d: 100
+  QZm: 400
+  YiSKHiY: 500
+  6NAJNXWZDm: 600
+  Pkyu51L: 100
+  GLOWSTONE: 200.0
+  STAINED_GLASS_PANE: 100.0
+  SUGAR: 200.0
+  PRISMARIN: 700.0
+  END_STONE: 100.0
+  MAGMA: 70.0
+  QUARTZ_STAIRS: 600.0
+  SEA_LANTERN: 350.0
+  QUARTZ_BLOCK: 800.0
+  COMPARATOR: 10.0
+  MUSHROOM_STEW: 120.0
+  LEVER: 20.0
+  LOG: 200.0
+  REPEATER: 70.0
+  STONE: 50.0
+  END_BRICKS: 200.0
+  FLINT: 100.0
+  CHORUS_FRUIT_POPPED: 100.0
+  MAGENTA_GLAZED_TERRACOTTA: 600.0
+  SPONGE: 9000.0
+  RED_NETHER_BRICK: 2000.0
+  JACK_O_LANTERN: 500.0
+  INK_SACK: 300.0
+  CACTUS: 200.0
+  Эндер-жемчуг: 190.0
+  Железный_слиток: 160.0
+  Огненный_стержень: 130.0

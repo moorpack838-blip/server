@@ -1,0 +1,15 @@
+uuid: 67b6d95c-01a8-3d82-bf2b-ee680591e73e
+name: 1408Killer
+primary-group: povel
+parents:
+- elay
+- gladiator
+- hero
+- povel
+- voin
+prefixes:
+- §e§lПОВЕЛИТЕЛЬ §7:
+    priority: 17
+    context:
+      server: grief
+      world: lobby

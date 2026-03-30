@@ -1,0 +1,146 @@
+(1)[2023/04/02 17:01:54]: '[Spartan Build 411.1-10352/-9280289409] NeonOff failed
+  InventoryClicks (VL: 1) [(Version: Paper 1.12), (C-V: 1) (Silent: false), (Ping:
+  88ms), (TPS: 19.876), (Plib: true), (Online: 3), (t: speed, s: fast, ms: 2, i: golden-carrot)]'
+(2)[2023/04/02 17:01:54]: '[Spartan Build 411.1-10352/-9280289409] NeonOff failed
+  InventoryClicks (VL: 2) [(Version: Paper 1.12), (C-V: 1) (Silent: false), (Ping:
+  88ms), (TPS: 19.868), (Plib: true), (Online: 3), (t: speed, s: fast, ms: 3, i: golden-apple)]'
+(3)[2023/04/02 17:01:54]: '[Spartan Build 411.1-10352/-9280289409] NeonOff failed
+  InventoryClicks (VL: 3) [(Version: Paper 1.12), (C-V: 1) (Silent: false), (Ping:
+  88ms), (TPS: 19.86), (Plib: true), (Online: 3), (t: speed, s: fast, ms: 2, i: bow)]'
+(4)[2023/04/02 17:01:54]: '[Spartan Build 411.1-10352/-9280289409] NeonOff failed
+  InventoryClicks (VL: 4) [(Version: Paper 1.12), (C-V: 1) (Silent: false), (Ping:
+  88ms), (TPS: 19.853), (Plib: true), (Online: 3), (t: speed, s: fast, ms: 2, i: diamond-hoe)]'
+(5)[2023/04/02 17:01:54]: '[Spartan Build 411.1-10352/-9280289409] NeonOff failed
+  InventoryClicks (VL: 5) [(Version: Paper 1.12), (C-V: 1) (Silent: false), (Ping:
+  88ms), (TPS: 19.833), (Plib: true), (Online: 3), (t: speed, s: fast, ms: 5, i: bow)]'
+(6)[2023/04/02 17:01:54]: '[Spartan Build 411.1-10352/-9280289409] NeonOff failed
+  InventoryClicks (VL: 6) [(Version: Paper 1.12), (C-V: 1) (Silent: false), (Ping:
+  88ms), (TPS: 19.829), (Plib: true), (Online: 3), (t: speed, s: fast, ms: 1, i: fishing-rod)]'
+(7)[2023/04/02 17:01:54]: '[Spartan Build 411.1-10352/-9280289409] NeonOff failed
+  InventoryClicks (VL: 7) [(Version: Paper 1.12), (C-V: 1) (Silent: false), (Ping:
+  88ms), (TPS: 19.79), (Plib: true), (Online: 3), (t: speed, s: fast, ms: 2, i: ender-pearl)]'
+(8)[2023/04/02 17:01:54]: '[Spartan Build 411.1-10352/-9280289409] NeonOff failed
+  MorePackets (VL: 1) [(Version: Paper 1.12), (C-V: -5) (Silent: false), (Ping: 88ms),
+  (TPS: 19.708), (Plib: true), (Online: 3), (at: -1, de: 0.76, lm: 0.15, corr: 1.7000000000000002,
+  mpt: 31, dis: 0.0/Infinity)]'
+(9)[2023/04/02 17:01:54]: '[Spartan Build 411.1-10352/-9280289409] NeonOff was kicked
+  for InventoryClicks'
+(10)[2023/04/02 17:01:57]: '[Spartan Build 411.1-10352/-9280289409] ColrBu failed
+  Exploits (VL: 1) [(Version: Paper 1.12), (C-V: 3) (Silent: false), (Ping: 2496ms),
+  (TPS: 19.841), (Plib: true), (Online: 2), (t: ping-spoof(packets))]'
+(11)[2023/04/02 17:06:28]: '[Spartan Build 411.1-10352/-9280289409] NeonOff failed
+  MorePackets (VL: 1) [(Version: Paper 1.12), (C-V: -5) (Silent: false), (Ping: 121ms),
+  (TPS: 19.77), (Plib: true), (Online: 3), (at: -1, de: 1.42, lm: 0.15, corr: 1.2000000000000002,
+  mpt: 31, dis: 0.21/0.294)]'
+(12)[2023/04/02 17:06:28]: '[Spartan Build 411.1-10352/-9280289409] ColrBu failed
+  Exploits (VL: 1) [(Version: Paper 1.12), (C-V: 3) (Silent: false), (Ping: 3089ms),
+  (TPS: 19.755), (Plib: true), (Online: 3), (t: ping-spoof(packets))]'
+(13)[2023/04/02 17:30:48]: moksim102090 found 2 gold-ores on -621, 21, 54
+(14)[2023/04/02 17:30:49]: moksim102090 found 1 gold-ore on -621, 21, 53
+(15)[2023/04/02 17:30:52]: moksim102090 found 1 gold-ore on -621, 21, 53
+(16)[2023/04/02 17:32:57]: '[Spartan Build 411.1-10352/-9280289409] moksim102090 failed
+  NoSlowdown (VL: 1) [(Version: Paper 1.12), (C-V: -3) (Silent: false), (Ping: 155ms),
+  (TPS: 19.984), (Plib: true), (Online: 2), (t: food eating, c: 6)]'
+(17)[2023/04/02 17:33:49]: moksim102090 found 1 gold-ore on -648, 14, 99
+(18)[2023/04/02 17:33:50]: moksim102090 found 1 gold-ore on -648, 14, 99
+(19)[2023/04/02 17:33:52]: moksim102090 found 1 gold-ore on -648, 14, 99
+(20)[2023/04/02 17:33:53]: moksim102090 found 1 gold-ore on -648, 14, 99
+(21)[2023/04/02 17:33:57]: moksim102090 found 1 gold-ore on -648, 13, 99
+(22)[2023/04/02 17:33:58]: moksim102090 found 1 gold-ore on -649, 13, 99
+(23)[2023/04/02 17:34:24]: moksim102090 found 1 diamond on -650, 14, 106
+(24)[2023/04/02 17:34:33]: moksim102090 found 1 diamond on -646, 14, 108
+(25)[2023/04/02 17:35:37]: moksim102090 found 1 diamond on -632, 26, 101
+(26)[2023/04/02 17:36:29]: moksim102090 found 1 diamond on -633, 25, 101
+(27)[2023/04/02 17:38:17]: moksim102090 found 1 diamond on -671, 18, 127
+(28)[2023/04/02 17:38:20]: '[Spartan Build 411.1-10352/-9280289409] sandad2 failed
+  IrregularMovements (VL: 1) [(Version: Paper 1.12), (C-V: 4) (Silent: false), (Ping:
+  177ms), (TPS: 19.992), (Plib: true), (Online: 3), (t: step(scheduler), h: 0.42534075614688405,
+  v: 1.4764059206844848, l: 1.3)]'
+(29)[2023/04/02 17:38:27]: moksim102090 found 1 diamond on -682, 14, 123
+(30)[2023/04/02 17:38:28]: moksim102090 found 1 diamond on -682, 14, 122
+(31)[2023/04/02 17:38:30]: moksim102090 found 1 diamond on -682, 13, 122
+(32)[2023/04/02 17:38:30]: moksim102090 found 1 diamond on -682, 13, 122
+(33)[2023/04/02 17:40:50]: moksim102090 found 1 diamond on -709, 12, 133
+(34)[2023/04/02 17:43:25]: '[Spartan Build 411.1-10352/-9280289409] moksim102090 failed
+  GhostHand (VL: 1) [(Version: Paper 1.12), (C-V: 1) (Silent: false), (Ping: 169ms),
+  (TPS: 19.719), (Plib: true), (Online: 2), (t: interact, c: workbench, r: stone)]'
+(35)[2023/04/02 17:49:09]: '[Spartan Build 411.1-10352/-9280289409] Heegor228 failed
+  Fly (VL: 1) [(Version: Paper 1.12), (C-V: 4) (Silent: false), (Ping: 78ms), (TPS:
+  19.825), (Plib: true), (Online: 3), (t: stable, d: -0.09800000190735147, ds: 0.0,
+  ods: 0.0, a: 6/6, r: 0.7059999942779456, h: 0.0, e: false)]'
+(36)[2023/04/02 18:19:26]: '[Spartan Build 411.1-10352/-9280289409] moksim102090 failed
+  MorePackets (VL: 1) [(Version: Paper 1.12), (C-V: 5) (Silent: false), (Ping: 43ms),
+  (TPS: 19.888), (Plib: true), (Online: 2), (at: -1, de: 0.0, lm: 0.15, corr: 0.0,
+  mpt: 30, dis: 0.09/NaN)]'
+(37)[2023/04/02 18:19:26]: '[Spartan Build 411.1-10352/-9280289409] moksim102090 failed
+  MorePackets (VL: 2) [(Version: Paper 1.12), (C-V: 5) (Silent: false), (Ping: 1304ms),
+  (TPS: 19.976), (Plib: true), (Online: 2), (at: -1, de: 0.0, lm: 0.15, corr: 0.0,
+  mpt: 31, dis: 0.0/Infinity)]'
+(38)[2023/04/02 18:19:26]: '[Spartan Build 411.1-10352/-9280289409] moksim102090 failed
+  Exploits (VL: 1) [(Version: Paper 1.12), (C-V: 3) (Silent: false), (Ping: 1304ms),
+  (TPS: 19.864), (Plib: true), (Online: 2), (t: head-position(rotations), r: 100,
+  l: 100)]'
+(39)[2023/04/02 18:19:26]: '[Spartan Build 411.1-10352/-9280289409] moksim102090 failed
+  Exploits (VL: 2) [(Version: Paper 1.12), (C-V: 3) (Silent: false), (Ping: 1304ms),
+  (TPS: 19.86), (Plib: true), (Online: 2), (t: head-position(rotations), r: 101, l:
+  100)]'
+(40)[2023/04/02 18:19:26]: '[Spartan Build 411.1-10352/-9280289409] moksim102090 failed
+  Exploits (VL: 3) [(Version: Paper 1.12), (C-V: 3) (Silent: false), (Ping: 1304ms),
+  (TPS: 19.857), (Plib: true), (Online: 2), (t: head-position(rotations), r: 102,
+  l: 100)]'
+(41)[2023/04/02 18:33:31]: '[Spartan Build 411.1-10352/-9280289409] moksim102090 failed
+  IrregularMovements (VL: 1) [(Version: Paper 1.12), (C-V: -4) (Silent: false), (Ping:
+  179ms), (TPS: 19.755), (Plib: true), (Online: 2), (t: step(scheduler), h: 0.4579607055944155,
+  v: 1.3693736602695026, l: 1.3)]'
+(42)[2023/04/02 18:44:01]: '[Spartan Build 411.1-10352/-9280289409] moksim102090 failed
+  Clip (VL: 1) [(Version: Paper 1.12), (C-V: -2) (Silent: false), (Ping: 181ms), (TPS:
+  19.908), (Plib: true), (Online: 2), (t: instant, d: 1.353317014226036, l: 1.35,
+  r: down, a: 0)]'
+(43)[2023/04/02 18:46:38]: '[Spartan Build 411.1-10352/-9280289409] moksim102090 failed
+  MorePackets (VL: 1) [(Version: Paper 1.12), (C-V: -5) (Silent: false), (Ping: 190ms),
+  (TPS: 19.884), (Plib: true), (Online: 3), (at: -2, de: 2.8, lm: 0.15, corr: 0.0,
+  mpt: 7, dis: 0.25/7.311)]'
+(44)[2023/04/02 18:46:56]: '[Spartan Build 411.1-10352/-9280289409] moksim102090 failed
+  Criticals (VL: 1) [(Version: Paper 1.12), (C-V: 1) (Silent: false), (Ping: 183ms),
+  (TPS: 19.908), (Plib: true), (Online: 3), (t: location, f: 1.1278902)]'
+(45)[2023/04/02 18:47:07]: '[Spartan Build 411.1-10352/-9280289409] moksim102090 failed
+  Criticals (VL: 1) [(Version: Paper 1.12), (C-V: 1) (Silent: false), (Ping: 183ms),
+  (TPS: 19.813), (Plib: true), (Online: 3), (t: location, f: 1.1278902)]'
+(46)[2023/04/02 18:48:11]: '[Spartan Build 411.1-10352/-9280289409] moksim102090 failed
+  IrregularMovements (VL: 1) [(Version: Paper 1.12), (C-V: 4) (Silent: false), (Ping:
+  179ms), (TPS: 19.948), (Plib: true), (Online: 3), (t: jump(unusual), d: 0.5215744683551833,
+  a: 2, r: 0.35937621115144225)]'
+(47)[2023/04/02 18:48:11]: '[Spartan Build 411.1-10352/-9280289409] moksim102090 failed
+  IrregularMovements (VL: 2) [(Version: Paper 1.12), (C-V: 4) (Silent: false), (Ping:
+  179ms), (TPS: 19.952), (Plib: true), (Online: 3), (t: jump(unusual), d: 0.4327429874104496,
+  a: 3, r: 0.7921191985618918)]'
+(48)[2023/04/02 18:48:11]: '[Spartan Build 411.1-10352/-9280289409] moksim102090 failed
+  IrregularMovements (VL: 3) [(Version: Paper 1.12), (C-V: 4) (Silent: false), (Ping:
+  179ms), (TPS: 19.94), (Plib: true), (Online: 3), (t: jump(unusual), d: 0.34568813439027224,
+  a: 4, r: 0.13780733295216407)]'
+(49)[2023/04/02 18:48:11]: '[Spartan Build 411.1-10352/-9280289409] moksim102090 failed
+  IrregularMovements (VL: 4) [(Version: Paper 1.12), (C-V: 4) (Silent: false), (Ping:
+  179ms), (TPS: 19.751), (Plib: true), (Online: 3), (t: jump(unusual), d: 0.26037437677007347,
+  a: 5, r: 0.39818170972223754)]'
+(50)[2023/04/02 18:48:11]: '[Spartan Build 411.1-10352/-9280289409] moksim102090 failed
+  Speed (VL: 1) [(Version: Paper 1.12), (C-V: -3) (Silent: false), (Ping: 179ms),
+  (TPS: 19.94), (Plib: true), (Online: 3), (t: hop(illegal), d: 0.21482588458591284,
+  dm: 0.3675)]'
+(51)[2023/04/02 18:50:35]: '[Spartan Build 411.1-10352/-9280289409] moksim102090 failed
+  Criticals (VL: 1) [(Version: Paper 1.12), (C-V: 1) (Silent: false), (Ping: 178ms),
+  (TPS: 19.92), (Plib: true), (Online: 3), (t: location, f: 1.1278902)]'
+(52)[2023/04/02 18:50:38]: '[Spartan Build 411.1-10352/-9280289409] moksim102090 failed
+  Criticals (VL: 2) [(Version: Paper 1.12), (C-V: 1) (Silent: false), (Ping: 178ms),
+  (TPS: 19.743), (Plib: true), (Online: 3), (t: location, f: 1.1278902)]'
+(53)[2023/04/02 18:50:48]: '[Spartan Build 411.1-10352/-9280289409] moksim102090 failed
+  Criticals (VL: 3) [(Version: Paper 1.12), (C-V: 1) (Silent: false), (Ping: 178ms),
+  (TPS: 19.88), (Plib: true), (Online: 3), (t: location, f: 1.1278902)]'
+(54)[2023/04/02 18:50:49]: '[Spartan Build 411.1-10352/-9280289409] moksim102090 failed
+  Criticals (VL: 4) [(Version: Paper 1.12), (C-V: 1) (Silent: false), (Ping: 178ms),
+  (TPS: 19.868), (Plib: true), (Online: 3), (t: location, f: 1.1278902)]'
+(55)[2023/04/02 18:50:49]: '[Spartan Build 411.1-10352/-9280289409] moksim102090 was
+  kicked for Criticals'
+(56)[2023/04/02 19:18:01]: '[Spartan Build 411.1-10352/-9280289409] MrVersckraft failed
+  IrregularMovements (VL: 1) [(Version: Paper 1.12), (C-V: 4) (Silent: false), (Ping:
+  159ms), (TPS: 19.964), (Plib: true), (Online: 1), (t: step(scheduler), h: 0.4936718821475342,
+  v: 1.3303973946497507, l: 1.3)]'

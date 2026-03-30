@@ -1,0 +1,12 @@
+uuid: 32c418b1-7621-3c12-9ce9-945ff47d8a31
+name: awqixs
+primary-group: default
+parents:
+- default
+- hero
+prefixes:
+- §7§lИГРОК §7:
+    priority: 11
+    context:
+      server: grief
+      world: lobby

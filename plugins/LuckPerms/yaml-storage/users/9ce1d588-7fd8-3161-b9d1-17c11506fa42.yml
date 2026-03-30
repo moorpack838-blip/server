@@ -1,0 +1,11 @@
+uuid: 9ce1d588-7fd8-3161-b9d1-17c11506fa42
+name: PaNTEra_YT
+primary-group: helper
+parents:
+- helper
+prefixes:
+- §6§lХЕЛПЕР §7:
+    priority: 23
+    context:
+      server: grief
+      world: world

@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 91.227.175.218
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1680538014648
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1681228830066
+  login: 1681228756871
+money: '0.0'
+last-account-name: sasha26082012
+lastlocation:
+  world: f426770c-0cf2-4454-94e7-0f4170382838
+  world-name: lobby
+  x: 1037.2597506358695
+  y: 111.0
+  z: -561.5153288334778
+  yaw: 169.51068115234375
+  pitch: 13.773444175720215
+logoutlocation:
+  world: 50e83d7b-bd31-4b59-b085-d04edc199449
+  world-name: world
+  x: 167.80348393891543
+  y: 63.0
+  z: 397.72340661713264
+  yaw: -190.2677001953125
+  pitch: -90.0

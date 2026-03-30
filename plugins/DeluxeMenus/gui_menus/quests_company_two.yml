@@ -1,0 +1,943 @@
+menu_title: '&0&lFC ∫ Кампания №2'
+open_command:
+- quests_company_two
+size: 54
+items:
+  'shop':
+    material: BOOK
+    slot: 4
+    priority: 1
+    amount: 2
+    display_name: '          &6Кампания &f&l№1        &r'
+    lore:
+    - '            &6Глава &f&l№2        &r'
+    - '&r       &8&l&m &7&l&m              &8&l&m &r'
+    - '&7    Нажмите, чтобы вернуться'
+    left_click_commands:
+      - '[openguimenu] quests_main'
+  'quest_1_no':
+    material: POWERED_MINECART
+    slot: 20
+    priority: 4
+    display_name: '&6Задание &f&l№1'
+    lore:
+    - '&fПередать следующие предметы:'
+    - '&8* &fГрибной суп: &6%checkitem_amount_mat:MUSHROOM_SOUP%&7/&615'
+    - '&8* &fСвекольный суп: &6%checkitem_amount_mat:BEETROOT_SOUP%&7/&615'
+    - ''
+    - '&7Нажми, чтобы передать'
+    - '&8&l&m &7&l&m                       &8&l&m &r'
+    - '&6Награда:'
+    - '&8❏ &e32 бирюзового красителя'
+    - '&8❏ &e+400 XP'
+    left_click_requirement:
+      requirements:
+        quest_check:
+          type: javascript
+          expression: '%checkitem_amount_mat:MUSHROOM_SOUP% >= 120'
+          deny_commands:
+          - '[sound] BLOCK_LEVER_CLICK'
+          - '[message] &cВы еще не выполнили этот квест!'
+        quest_check2:
+          type: javascript
+          expression: '%checkitem_amount_mat:BEETROOT_SOUP% >= 120'
+          deny_commands:
+          - '[sound] BLOCK_LEVER_CLICK'
+          - '[message] &cВы еще не выполнили этот квест!'
+  'quest_1_yes_':
+    material: EXPLOSIVE_MINECART
+    slot: 20
+    priority: 3
+    enchantments:
+    - 'knockback;1'      
+    hide_attributes: true
+    hide_enchantments: true
+    display_name: '&6Задание &f&l№1 &2[&a&lВЫПОЛНЕНО&2]'
+    lore:
+    - '&7Нажми, чтобы получить награду'
+    view_requirement:
+      requirements:
+        uest_check:
+         type: has item
+         material: MUSHROOM_SOUP
+         amount: 15
+        u1est_check:
+         type: has item
+         material: BEETROOT_SOUP
+         amount: 15
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[close]'
+      - '[console] lp user %player_name% permission unset company.two.quest.1.no'
+      - '[console] lp user %player_name% permission set company.two.quest.1.yes'
+      - '[console] lp user %player_name% permission set company.two.quest.2.no'
+      - '[console] exp %player_name% 450'
+      - '[console] give %player_name% 351:6 14'
+      - '[console] titlemsg %player_name% &6КАМПАНИЯ&a⇪&f %subtitle%&fЗадание выполнено, Вы получили &nнаграду&f!'
+  'quest_1_yes':
+    material: EXPLOSIVE_MINECART
+    slot: 20
+    priority: 2
+    enchantments:
+    - 'knockback;1'      
+    hide_attributes: true
+    hide_enchantments: true
+    display_name: '&6Задание &f&l№1'
+    lore:
+    - '&fПередать следующие предметы:'
+    - '&8* &fГрибной суп: &615&7/&615'
+    - '&8* &fСвекольный суп: &615&7/&615'
+    - ''
+    - '&7Задание выполняется автоматически'
+    - '&8&l&m &7&l&m                       &8&l&m &r'
+    - '&6Награда:'
+    - '&8❏ &e32 бирюзового красителя'
+    - '&8❏ &e+400 XP'
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'company.two.quest.1.yes'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[message] &cЗадание уже выполнено'
+      - '[refresh]'
+
+#####################################################################################
+
+  'quest_2_no1':
+    material: BARRIER
+    slot: 21
+    priority: 5
+    display_name: '&c&lНЕДОСТУПНО'
+    lore:
+    - '&cДля начала выполните'
+    - '&cпредыдущие задания'
+  'quest_2_no':
+    material: POWERED_MINECART
+    slot: 21
+    priority: 4
+    display_name: '&6Задание &f&l№2'
+    lore:
+    - '&fУбить следующих животных:'
+    - '&8* &fУбито свиней: &6%statistic_kill_entity:PIG%&7/&625'
+    - '&8* &fУбито коров: &6%statistic_kill_entity:COW%&7/&625'
+    - ''
+    - '&7Нажми, чтобы выполнить'
+    - '&8&l&m &7&l&m                       &8&l&m &r'
+    - '&6Награда:'
+    - '&8❏ &e48 фейрверков'
+    - '&8❏ &e+500 XP'
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'company.two.quest.2.no'
+  'quest_2_yes_':
+    material: EXPLOSIVE_MINECART
+    slot: 21
+    priority: 3
+    enchantments:
+    - 'knockback;1'      
+    hide_attributes: true
+    hide_enchantments: true
+    display_name: '&6Задание &f&l№2 &2[&a&lВЫПОЛНЕНО&2]'
+    lore:
+    - '&7Нажми, чтобы получить награду'
+    view_requirement:
+      requirements:
+        uest_check:
+         type: javascript
+         expression: '%statistic_kill_entity:COW% >= 25'
+        uest_check1:
+         type: javascript
+         expression: '%statistic_kill_entity:PIG% >= 25'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[close]'
+      - '[console] lp user %player_name% permission unset company.two.quest.2.no'
+      - '[console] lp user %player_name% permission set company.two.quest.3.no'
+      - '[console] lp user %player_name% permission set company.two.quest.2.yes'
+      - '[console] exp %player_name% 500'
+      - '[console] give %player_name% firework 48'
+      - '[console] titlemsg %player_name% &6КАМПАНИЯ&a⇪&f %subtitle%&fЗадание выполнено, Вы получили &nнаграду&f!'
+  'quest_2_yes':
+    material: EXPLOSIVE_MINECART
+    slot: 21
+    priority: 2
+    enchantments:
+    - 'knockback;1'      
+    hide_attributes: true
+    hide_enchantments: true
+    display_name: '&6Задание &f&l№2'
+    lore:
+    - '&fУбить следующих животных:'
+    - '&8* &fУбито свиней: &625&7/&625'
+    - '&8* &fУбито коров: &625&7/&625'
+    - ''
+    - '&7Задания выполняются автоматически'
+    - '&8&l&m &7&l&m                       &8&l&m &r'
+    - '&6Награда:'
+    - '&8❏ &e48 фейрверков'
+    - '&8❏ &e+500 XP'
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'company.two.quest.2.yes'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[message] &cЗадание уже выполнено'
+      - '[refresh]'
+
+#####################################################################################
+
+  'quest_3_no1':
+    material: BARRIER
+    slot: 22
+    priority: 5
+    display_name: '&c&lНЕДОСТУПНО'
+    lore:
+    - '&cДля начала выполните'
+    - '&cпредыдущие задания'
+  'quest_3_no':
+    material: POWERED_MINECART
+    slot: 22
+    priority: 4
+    display_name: '&6Задание &f&l№3'
+    lore:
+    - '&fУбить следующих мобов:'
+    - '&8* &fУбито криперов: &6%statistic_kill_entity:CREEPER%&7/&625'
+    - '&8* &fУбито зомби: &6%statistic_kill_entity:ZOMBIE%&7/&625'
+    - ''
+    - '&8&l&m &7&l&m                       &8&l&m &r'
+    - '&6Награда:'
+    - '&8❏ &e2 звезды из незера'
+    - '&8❏ &e+1000 XP'
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'company.two.quest.3.no'
+  'quest_3_yes_':
+    material: EXPLOSIVE_MINECART
+    slot: 22
+    priority: 3
+    enchantments:
+    - 'knockback;1'      
+    hide_attributes: true
+    hide_enchantments: true
+    display_name: '&6Задание &f&l№3 &2[&a&lВЫПОЛНЕНО&2]'
+    lore:
+    - '&7Нажми, чтобы получить награду'
+    view_requirement:
+      requirements:
+        uest_check:
+         type: javascript
+         expression: '%statistic_kill_entity:CREEPER% >= 25'
+        uest_check1:
+         type: javascript
+         expression: '%statistic_kill_entity:ZOMBIE% >= 25'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[close]'
+      - '[console] lp user %player_name% permission unset company.two.quest.3.no'
+      - '[console] lp user %player_name% permission set company.two.quest.4.no'
+      - '[console] lp user %player_name% permission set company.two.quest.3.yes'
+      - '[console] exp %player_name% 1000'
+      - '[console] give %player_name% nether_star 2'
+      - '[console] titlemsg %player_name% &6КАМПАНИЯ&a⇪&f %subtitle%&fЗадание выполнено, Вы получили &nнаграду&f!'
+  'quest_3_yes':
+    material: EXPLOSIVE_MINECART
+    slot: 22
+    priority: 2
+    enchantments:
+    - 'knockback;1'      
+    hide_attributes: true
+    hide_enchantments: true
+    display_name: '&6Задание &f&l№3'
+    lore:
+    - '&fУбить следующих мобов:'
+    - '&8* &fУбито криперов: &625&7/&625'
+    - '&8* &fУбито зомби: &625&7/&625'
+    - ''
+    - '&7Задание выполняется автоматически'
+    - '&8&l&m &7&l&m                       &8&l&m &r'
+    - '&6Награда:'
+    - '&8❏ &e2 звезды из незера'
+    - '&8❏ &e+1000 XP'
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'company.two.quest.3.yes'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[message] &cЗадание уже выполнено'
+      - '[refresh]'
+  #####################################################################################
+
+  'quest_4_no1':
+    material: BARRIER
+    slot: 23
+    priority: 5
+    display_name: '&c&lНЕДОСТУПНО'
+    lore:
+    - '&cДля начала выполните'
+    - '&cпредыдущие задания'
+  'quest_4_no':
+    material: POWERED_MINECART
+    slot: 23
+    priority: 4
+    display_name: '&6Задание &f&l№4'
+    lore:
+    - '&fВыловить рыбу удочкой:'
+    - '&fВыловлено: &6%statistic_FISH_CAUGHT%&7/&6120'
+    - ''
+    - '&7Нажмите, чтобы сдать'
+    - '&8&l&m &7&l&m                       &8&l&m &r'
+    - '&6Награда:'
+    - '&8❏ &e1 шалкер'
+    - '&8❏ &e+1200 XP'
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'company.two.quest.4.no'
+  'quest_4_yes_':
+    material: EXPLOSIVE_MINECART
+    slot: 23
+    priority: 3
+    enchantments:
+    - 'knockback;1'      
+    hide_attributes: true
+    hide_enchantments: true
+    display_name: '&6Задание &f&l№4 &2[&a&lВЫПОЛНЕНО&2]'
+    lore:
+    - '&7Нажми, чтобы получить награду'
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'company.two.quest.4.no'
+        uest_check:
+         type: javascript
+         expression: '%statistic_FISH_CAUGHT% >= 120'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[close]'
+      - '[console] lp user %player_name% permission unset company.two.quest.4.no'
+      - '[console] lp user %player_name% permission set company.two.quest.4.yes'
+      - '[console] lp user %player_name% permission set company.two.quest.5.no'
+      - '[console] exp %player_name% 1200'
+      - '[console] give %player_name% shulker_box 1'
+      - '[console] titlemsg %player_name% &6КАМПАНИЯ&a⇪&f %subtitle%&fЗадание выполнено, Вы получили &nнаграду&f!'
+  'quest_4_yes':
+    material: EXPLOSIVE_MINECART
+    slot: 23
+    priority: 2
+    enchantments:
+    - 'knockback;1'      
+    hide_attributes: true
+    hide_enchantments: true
+    display_name: '&6Задание &f&l№4'
+    lore:
+    - '&fВыловить рыбу удочкой:'
+    - '&fВыловлено: &6%statistic_FISH_CAUGHT%&7/&6120'
+    - ''
+    - '&7Задание выполняется автоматически'
+    - '&8&l&m &7&l&m                       &8&l&m &r'
+    - '&6Награда:'
+    - '&8❏ &e1 шалкер'
+    - '&8❏ &e+1200 XP'
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'company.two.quest.4.yes'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[message] &cЗадание уже выполнено'
+      - '[refresh]'
+  #####################################################################################
+
+  'quest_6_no1':
+    material: BARRIER
+    slot: 29
+    priority: 5
+    display_name: '&c&lНЕДОСТУПНО'
+    lore:
+    - '&cДля начала выполните'
+    - '&cпредыдущие задания'
+  'quest_6_no':
+    material: POWERED_MINECART
+    slot: 29
+    priority: 4
+    display_name: '&6Задание &f&l№6'
+    lore:
+    - '&fПередать дольки арбуза:'
+    - '&fПередано: &6%checkitem_amount_mat:MELON%&7/&6800'
+    - ''
+    - '&7Задание выполняется автоматически'
+    - '&8&l&m &7&l&m                       &8&l&m &r'
+    - '&6Награда:'
+    - '&8❏ &e48 золотых слитков'
+    - '&8❏ &e+450 XP'
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'company.two.quest.6.no'
+  'quest_6_yes11_':
+    material: EXPLOSIVE_MINECART
+    slot: 29
+    priority: 3
+    enchantments:
+    - 'knockback;1'      
+    hide_attributes: true
+    hide_enchantments: true
+    display_name: '&6Задание &f&l№6 &2[&a&lВЫПОЛНЕНО&2]'
+    lore:
+    - '&7Нажми, чтобы получить награду'
+    view_requirement:
+      requirements:
+        complete:
+         type: has item
+         material: MELON
+         amount: 800
+        complete1:
+         type: has permission
+         permission: 'company.two.quest.6.no'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[close]'
+      - '[console] lp user %player_name% permission unset company.two.quest.6.no'
+      - '[console] lp user %player_name% permission set company.two.quest.6.yes'
+      - '[console] lp user %player_name% permission set company.two.quest.7.no'
+      - '[console] exp %player_name% 450'
+      - '[console] give %player_name% gold_ingot 48'
+      - '[console] titlemsg %player_name% &6КАМПАНИЯ&a⇪&f %subtitle%&fЗадание выполнено, Вы получили &nнаграду&f!'
+  'quest_6_yes12':
+    material: EXPLOSIVE_MINECART
+    slot: 29
+    priority: 2
+    enchantments:
+    - 'knockback;1'      
+    hide_attributes: true
+    hide_enchantments: true
+    display_name: '&6Задание &f&l№6'
+    lore:
+    - '&fПередать дольки арбуза:'
+    - '&fПередано: &6800&7/&6800'
+    - ''
+    - '&7Задание выполняется автоматически'
+    - '&8&l&m &7&l&m                       &8&l&m &r'
+    - '&6Награда:'
+    - '&8❏ &e48 золотых слитков'
+    - '&8❏ &e+450 XP'
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'company.two.quest.6.yes'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[message] &cЗадание уже выполнено'
+      - '[refresh]'
+    #####################################################################################
+
+  'quest_7_no1':
+    material: BARRIER
+    slot: 30
+    priority: 5
+    display_name: '&c&lНЕДОСТУПНО'
+    lore:
+    - '&cДля начала выполните'
+    - '&cпредыдущие задания'
+  'quest_7_no':
+    material: POWERED_MINECART
+    slot: 30
+    priority: 4
+    display_name: '&6Задание &f&l№7'
+    lore:
+    - '&fПередать кожу:'
+    - '&fПередано: &6%checkitem_amount_mat:LEATHER%&7/&6250'
+    - ''
+    - '&7Задание выполняется автоматически'
+    - '&8&l&m &7&l&m                       &8&l&m &r'
+    - '&6Награда:'
+    - '&8❏ &e128 яиц'
+    - '&8❏ &e+900 XP'
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'company.two.quest.7.no'
+  'quest_7_yes11_':
+    material: EXPLOSIVE_MINECART
+    slot: 30
+    priority: 3
+    enchantments:
+    - 'knockback;1'      
+    hide_attributes: true
+    hide_enchantments: true
+    display_name: '&6Задание &f&l№7 &2[&a&lВЫПОЛНЕНО&2]'
+    lore:
+    - '&7Нажми, чтобы получить награду'
+    view_requirement:
+      requirements:
+        complete:
+         type: javascript
+         expression: '%checkitem_amount_mat:LEATHER% >= 250'
+        complete1:
+         type: has permission
+         permission: 'company.two.quest.7.no'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[close]'
+      - '[console] lp user %player_name% permission unset company.two.quest.7.no'
+      - '[console] lp user %player_name% permission set company.two.quest.7.yes'
+      - '[console] lp user %player_name% permission set company.two.quest.8.no'
+      - '[console] exp %player_name% 900'
+      - '[console] give %player_name% egg 128'
+      - '[console] titlemsg %player_name% &6КАМПАНИЯ&a⇪&f %subtitle%&fЗадание выполнено, Вы получили &nнаграду&f!'
+  'quest_7_yes12':
+    material: EXPLOSIVE_MINECART
+    slot: 30
+    priority: 2
+    enchantments:
+    - 'knockback;1'      
+    hide_attributes: true
+    hide_enchantments: true
+    display_name: '&6Задание &f&l№7'
+    lore:
+    - '&fПередать кожу:'
+    - '&fПередано: &6250&7/&6250'
+    - ''
+    - '&7Задание выполняется автоматически'
+    - '&8&l&m &7&l&m                       &8&l&m &r'
+    - '&6Награда:'
+    - '&8❏ &e128 яиц'
+    - '&8❏ &e+900 XP'
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'company.two.quest.7.yes'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[message] &cЗадание уже выполнено'
+      - '[refresh]'
+    #####################################################################################
+
+  'quest_8_n12(_o1':
+    material: BARRIER
+    slot: 31
+    priority: 5
+    display_name: '&c&lНЕДОСТУПНО'
+    lore:
+    - '&cДля начала выполните'
+    - '&cпредыдущие задания'
+  'quest_8_no':
+    material: POWERED_MINECART
+    slot: 31
+    priority: 4
+    display_name: '&6Задание &f&l№8'
+    lore:
+    - '&fПередать алмазы:'
+    - '&fПередано: &6%checkitem_amount_matdiamond%&7/&61500'
+    - ''
+    - '&7Задание выполняется автоматически'
+    - '&8&l&m &7&l&m                       &8&l&m &r'
+    - '&6Награда:'
+    - '&8❏ &e32 изумруда'
+    - '&8❏ &e+750 XP'
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'company.two.quest.8.no'
+  'quest_8_yesc111_':
+    material: EXPLOSIVE_MINECART
+    slot: 31
+    priority: 3
+    enchantments:
+    - 'knockback;1'      
+    hide_attributes: true
+    hide_enchantments: true
+    display_name: '&6Задание &f&l№8 &2[&a&lВЫПОЛНЕНО&2]'
+    lore:
+    - '&7Нажми, чтобы получить награду'
+    view_requirement:
+      requirements:
+        complete:
+         type: has item
+         material: DIAMOND
+         amount: 1500
+        complete1:
+         type: has permission
+         permission: 'company.two.quest.8.no'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[close]'
+      - '[console] lp user %player_name% permission unset company.two.quest.8.no'
+      - '[console] lp user %player_name% permission set company.two.quest.8.yes'
+      - '[console] lp user %player_name% permission set company.two.quest.9.no'
+      - '[console] exp %player_name% 750'
+      - '[console] give %player_name% emerald 32'
+      - '[console] titlemsg %player_name% &6КАМПАНИЯ&a⇪&f %subtitle%&fЗадание выполнено, Вы получили &nнаграду&f!'
+  'quest_8_yes12':
+    material: EXPLOSIVE_MINECART
+    slot: 31
+    priority: 2
+    enchantments:
+    - 'knockback;1'      
+    hide_attributes: true
+    hide_enchantments: true
+    display_name: '&6Задание &f&l№8'
+    lore:
+    - '&fПередать алмазы:'
+    - '&fПередано: &61500&7/&61500'
+    - ''
+    - '&7Задание выполняется автоматически'
+    - '&8&l&m &7&l&m                       &8&l&m &r'
+    - '&6Награда:'
+    - '&8❏ &e32 изумруда'
+    - '&8❏ &e+750 XP'
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'company.two.quest.8.yes'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[message] &cЗадание уже выполнено'
+      - '[refresh]'
+    #####################################################################################
+
+  'quest_9_no1':
+    material: BARRIER
+    slot: 32
+    priority: 5
+    display_name: '&c&lНЕДОСТУПНО'
+    lore:
+    - '&cДля начала выполните'
+    - '&cпредыдущие задания'
+  'quest_9_no':
+    material: POWERED_MINECART
+    slot: 32
+    priority: 4
+    display_name: '&6Задание &f&l№9'
+    lore:
+    - '&fУбить игроков:'
+    - '&fУбито: &6%statistic_player_kills%&7/&630'
+    - ''
+    - '&7Задание выполняется автоматически'
+    - '&8&l&m &7&l&m                       &8&l&m &r'
+    - '&6Награда:'
+    - '&8❏ &e+400 XP'
+    - '&8❏ &e+16 семян тыквы'
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'company.two.quest.9.no'
+  'quest_9_yes11_':
+    material: EXPLOSIVE_MINECART
+    slot: 32
+    priority: 3
+    enchantments:
+    - 'knockback;1'      
+    hide_attributes: true
+    hide_enchantments: true
+    display_name: '&6Задание &f&l№9 &2[&a&lВЫПОЛНЕНО&2]'
+    lore:
+    - '&7Нажми, чтобы получить награду'
+    view_requirement:
+      requirements:
+        complete:
+         type: javascript
+         expression: '%statistic_player_kills% >= 30'
+        complete1:
+         type: has permission
+         permission: 'company.two.quest.9.no'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[close]'
+      - '[console] lp user %player_name% permission unset company.two.quest.9.no'
+      - '[console] lp user %player_name% permission set company.two.quest.9.yes'
+      - '[console] lp user %player_name% permission set company.two.quest.10.no'
+      - '[console] exp %player_name% 400'
+      - '[console] give %player_name% pumpkin_seeds 16'
+      - '[console] titlemsg %player_name% &6КАМПАНИЯ&a⇪&f %subtitle%&fЗадание выполнено, Вы получили &nнаграду&f!'
+  'quest_9_yes12':
+    material: EXPLOSIVE_MINECART
+    slot: 32
+    priority: 2
+    enchantments:
+    - 'knockback;1'      
+    hide_attributes: true
+    hide_enchantments: true
+    display_name: '&6Задание &f&l№9'
+    lore:
+    - '&fУбить игроков:'
+    - '&fУбито: &630&7/&630'
+    - ''
+    - '&7Задание выполняется автоматически'
+    - '&8&l&m &7&l&m                       &8&l&m &r'
+    - '&6Награда:'
+    - '&8❏ &e+400 XP'
+    - '&8❏ &e+16 семян тыквы'
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'company.two.quest.9.yes'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[message] &cЗадание уже выполнено'
+      - '[refresh]'
+    #####################################################################################
+
+  'quest_10_no1':
+    material: BARRIER
+    slot: 33
+    priority: 5
+    display_name: '&c&lНЕДОСТУПНО'
+    lore:
+    - '&cДля начала выполните'
+    - '&cпредыдущие задания'
+  'quest_10_no':
+    material: POWERED_MINECART
+    slot: 33
+    priority: 4
+    display_name: '&6Задание &f&l№10'
+    lore:
+    - '&fПринести цветы:'
+    - '&fСобрано: &6%checkitem_amount_mat:yellow_flower%&7/&6200'
+    - ''
+    - '&7Задание выполняется автоматически'
+    - '&8&l&m &7&l&m                       &8&l&m &r'
+    - '&6Награда:'
+    - '&8❏ &e+1000 XP'
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'company.two.quest.10.no'
+  'quest_10_yes11_':
+    material: EXPLOSIVE_MINECART
+    slot: 33
+    priority: 3
+    enchantments:
+    - 'knockback;1'      
+    hide_attributes: true
+    hide_enchantments: true
+    display_name: '&6Задание &f&l№10 &2[&a&lВЫПОЛНЕНО&2]'
+    lore:
+    - '&7Нажми, чтобы получить награду'
+    view_requirement:
+      requirements:
+        complete:
+         type: has item
+         material: yellow_flower
+         amount: 200
+        complete1:
+         type: has permission
+         permission: 'company.two.quest.10.no'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[close]'
+      - '[console] lp user %player_name% permission unset company.two.quest.10.no'
+      - '[console] lp user %player_name% permission set company.two.quest.10.yes'
+      - '[console] lp user %player_name% permission set company.two.yes'
+      - '[console] exp %player_name% 2000'
+      - '[console] titlemsg %player_name% &6КАМПАНИЯ&a⇪&f %subtitle%&fЗадание выполнено, Вы получили &nнаграду&f!'
+  'quest_10_yes12':
+    material: EXPLOSIVE_MINECART
+    slot: 33
+    priority: 2
+    enchantments:
+    - 'knockback;1'      
+    hide_attributes: true
+    hide_enchantments: true
+    display_name: '&6Задание &f&l№10'
+    lore:
+    lore:
+    - '&fПринести цветы:'
+    - '&fСобрано: &6200&7/&6200'
+    - ''
+    - '&7Задание выполняется автоматически'
+    - '&8&l&m &7&l&m                       &8&l&m &r'
+    - '&6Награда:'
+    - '&8❏ &e+2000 XP'
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'company.two.quest.10.yes'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[message] &cЗадание уже выполнено'
+      - '[refresh]'
+  'ramka':
+    material: stained_glass_pane
+    data: 4
+    slot: 0
+    display_name: ''       
+  'ramka1':
+    material: stained_glass_pane
+    data: 4
+    slot: 1
+    display_name: ''
+  'ramka2':
+    material: stained_glass_pane
+    data: 4
+    slot: 2
+    display_name: ''
+  'ramka3':
+    material: stained_glass_pane
+    data: 4
+    slot: 3
+    display_name: ''
+  'ramka4':
+    material: stained_glass_pane
+    data: 4
+    slot: 4
+    display_name: ''
+  'ramka5':
+    material: stained_glass_pane
+    data: 4
+    slot: 5
+    display_name: ''
+  'ramka6':
+    material: stained_glass_pane
+    data: 4
+    slot: 6
+    display_name: ''
+  'ramka7':
+    material: stained_glass_pane
+    data: 4
+    slot: 7
+    display_name: ''
+  'ramka8':
+    material: stained_glass_pane
+    data: 4
+    slot: 8
+    display_name: ''
+  'ramka9':
+    material: stained_glass_pane
+    data: 4
+    slot: 9
+    display_name: ''
+  'ramka10':
+    material: stained_glass_pane
+    data: 4
+    slot: 18
+    display_name: ''
+  'ramka11':
+    material: stained_glass_pane
+    data: 4
+    slot: 27
+    display_name: ''
+  'ramka12':
+    material: stained_glass_pane
+    data: 4
+    slot: 36
+    display_name: ''
+  'ramka19':
+    material: stained_glass_pane
+    data: 4
+    slot: 46
+    display_name: ''
+  'ramka20':
+    material: stained_glass_pane
+    data: 4
+    slot: 52
+    display_name: ''
+  'ramka21':
+    material: stained_glass_pane
+    data: 1
+    slot: 47
+    display_name: ''
+  'ramka23':
+    material: stained_glass_pane
+    data: 1
+    slot: 38
+    display_name: ''
+  'ramka24':
+    material: stained_glass_pane
+    data: 1
+    slot: 42
+    display_name: ''
+  'ramka25':
+    material: stained_glass_pane
+    data: 1
+    slot: 39
+    display_name: ''
+  'barrier1':
+    material: barrier
+    data: 1
+    slot: 48
+    display_name: ''
+  'arr':
+    material: arrow
+    slot: 49
+    display_name: "&4&lП&c&lЕРЕХОД"
+    lore: 
+    - ''
+    - '&e• &fВы перейдете на предыдущию страницу'   
+    - ''
+    - '&aНажми, чтобы перейти на предыдущию страницу'
+    left_click_commands:
+    - '[openguimenu] quests_main'
+  'barrier2':
+    material: barrier
+    data: 1
+    slot: 50
+    display_name: ''
+  'ramka26':
+    material: stained_glass_pane
+    data: 1
+    slot: 40
+    display_name: ''
+  'ramka27':
+    material: stained_glass_pane
+    data: 1
+    slot: 41
+    display_name: ''
+  'ramka22':
+    material: stained_glass_pane
+    data: 1
+    slot: 51
+    display_name: ''
+  'ramka13':
+    material: stained_glass_pane
+    data: 4
+    slot: 45
+    display_name: ''
+  'ramka14':
+    material: stained_glass_pane
+    data: 4
+    slot: 53
+    display_name: ''
+  'ramka15':
+    material: stained_glass_pane
+    data: 4
+    slot: 44
+    display_name: ''
+  'ramka16':
+    material: stained_glass_pane
+    data: 4
+    slot: 35
+    display_name: ''
+  'ramka17':
+    material: stained_glass_pane
+    data: 4
+    slot: 26
+    display_name: ''
+  'ramka18':
+    material: stained_glass_pane
+    data: 4
+    slot: 17
+    display_name: ''

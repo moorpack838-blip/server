@@ -1,0 +1,8 @@
+uuid: 200050f4-cb98-3111-bb83-e029b7dcb875
+name: ikirill_YT
+primary-group: default
+parents:
+- default
+suffixes:
+- '&b&nСфинкс ☡':
+    priority: 1

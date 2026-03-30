@@ -1,0 +1,11 @@
+uuid: 21ab83d8-128d-3243-8925-30defee1f632
+name: kiwoh
+primary-group: default
+parents:
+- default
+prefixes:
+- §7§lИГРОК §7:
+    priority: 11
+    context:
+      server: grief
+      world: world

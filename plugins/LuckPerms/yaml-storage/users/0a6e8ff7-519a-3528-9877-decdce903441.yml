@@ -1,0 +1,13 @@
+uuid: 0a6e8ff7-519a-3528-9877-decdce903441
+name: Boota
+primary-group: default
+parents:
+- default
+- elay
+- gladiator
+- hero
+- legend
+- voin
+suffixes:
+- '&a&nКиберспортсмен ☡':
+    priority: 1

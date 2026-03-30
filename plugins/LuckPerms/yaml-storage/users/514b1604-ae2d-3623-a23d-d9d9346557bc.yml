@@ -1,0 +1,12 @@
+uuid: 514b1604-ae2d-3623-a23d-d9d9346557bc
+name: BananaKlil
+primary-group: default
+parents:
+- default
+- elay
+- gladiator
+- hero
+- voin
+suffixes:
+- '&r&nФАНАТ ДИМЫ ☡':
+    priority: 1

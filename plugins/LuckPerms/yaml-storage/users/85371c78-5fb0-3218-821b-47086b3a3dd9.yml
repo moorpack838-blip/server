@@ -1,0 +1,8 @@
+uuid: 85371c78-5fb0-3218-821b-47086b3a3dd9
+name: ColrBu
+primary-group: dhelper
+parents:
+- dhelper
+suffixes:
+- '&a&nКиберспортсмен ☡':
+    priority: 1

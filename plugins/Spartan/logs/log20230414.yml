@@ -1,0 +1,122 @@
+(1)[2023/04/14 14:42:32]: '[Spartan Build 411.1-10352/-9280289409] Aprenik failed
+  Speed (VL: 1) [(Version: Paper 1.12), (C-V: 3) (Silent: false), (Ping: 133ms), (TPS:
+  19.928), (Plib: true), (Online: 1), (t: normal, reason: air, d: 0.387782429345328,
+  dm: 0.3675, dm_s: 0.3675, dy: 0.0, a: 0)]'
+(2)[2023/04/14 14:46:20]: '[Spartan Build 411.1-10352/-9280289409] Aprenik failed
+  MorePackets (VL: 1) [(Version: Paper 1.12), (C-V: -5) (Silent: false), (Ping: 226ms),
+  (TPS: 19.805), (Plib: true), (Online: 1), (at: -3, de: 3.52, lm: 0.15, corr: 0.8,
+  mpt: 11, dis: 9.45/1.219)]'
+(3)[2023/04/14 14:47:39]: '[Spartan Build 411.1-10352/-9280289409] Aprenik failed
+  Jesus (VL: 1) [(Version: Paper 1.12), (C-V: 3) (Silent: false), (Ping: 356ms), (TPS:
+  19.872), (Plib: true), (Online: 1), (t: repeated, ms: 50, d: 0.2547401014039014,
+  l: 0.225, a: false)]'
+(4)[2023/04/14 14:47:41]: '[Spartan Build 411.1-10352/-9280289409] Aprenik failed
+  Jesus (VL: 2) [(Version: Paper 1.12), (C-V: 3) (Silent: false), (Ping: 356ms), (TPS:
+  19.916), (Plib: true), (Online: 1), (t: repeated, ms: 50, d: 0.2547401014039014,
+  l: 0.225, a: false)]'
+(5)[2023/04/14 14:47:49]: '[Spartan Build 411.1-10352/-9280289409] Aprenik failed
+  MorePackets (VL: 1) [(Version: Paper 1.12), (C-V: 5) (Silent: false), (Ping: 301ms),
+  (TPS: 19.661), (Plib: true), (Online: 1), (at: -3, de: 5.02, lm: 0.15, corr: 1.172203997886409,
+  mpt: 10, dis: 0.0/NaN)]'
+(6)[2023/04/14 14:47:49]: '[Spartan Build 411.1-10352/-9280289409] Aprenik failed
+  MorePackets (VL: 2) [(Version: Paper 1.12), (C-V: 5) (Silent: false), (Ping: 301ms),
+  (TPS: 19.623), (Plib: true), (Online: 1), (at: -3, de: 5.02, lm: 0.15, corr: 1.0471599227391082,
+  mpt: 11, dis: 0.0/NaN)]'
+(7)[2023/04/14 14:47:49]: '[Spartan Build 411.1-10352/-9280289409] Aprenik failed
+  MorePackets (VL: 3) [(Version: Paper 1.12), (C-V: 5) (Silent: false), (Ping: 301ms),
+  (TPS: 19.577), (Plib: true), (Online: 1), (at: -2, de: 5.02, lm: 0.15, corr: 0.8,
+  mpt: 4, dis: 0.35/0.007)]'
+(8)[2023/04/14 14:48:04]: '[Spartan Build 411.1-10352/-9280289409] Aprenik failed
+  Jesus (VL: 3) [(Version: Paper 1.12), (C-V: 3) (Silent: false), (Ping: 285ms), (TPS:
+  19.841), (Plib: true), (Online: 1), (t: repeated, ms: 1, d: 0.2599388660210831,
+  l: 0.225, a: false)]'
+(9)[2023/04/14 14:48:06]: '[Spartan Build 411.1-10352/-9280289409] Aprenik failed
+  Jesus (VL: 4) [(Version: Paper 1.12), (C-V: 3) (Silent: false), (Ping: 285ms), (TPS:
+  19.719), (Plib: true), (Online: 1), (t: ypos(attempts), dy: 0.19276081060137074,
+  l: 0.175)]'
+(10)[2023/04/14 14:48:06]: '[Spartan Build 411.1-10352/-9280289409] Aprenik failed
+  Jesus (VL: 5) [(Version: Paper 1.12), (C-V: 3) (Silent: false), (Ping: 285ms), (TPS:
+  19.755), (Plib: true), (Online: 1), (t: ypos(attempts), dy: 0.17884270944254865,
+  l: 0.175)]'
+(11)[2023/04/14 14:48:07]: '[Spartan Build 411.1-10352/-9280289409] Aprenik failed
+  Jesus (VL: 6) [(Version: Paper 1.12), (C-V: 3) (Silent: false), (Ping: 285ms), (TPS:
+  19.751), (Plib: true), (Online: 1), (t: ypos(attempts), dy: 0.18079252157930625,
+  l: 0.175)]'
+(12)[2023/04/14 14:48:08]: '[Spartan Build 411.1-10352/-9280289409] Aprenik failed
+  Jesus (VL: 7) [(Version: Paper 1.12), (C-V: 3) (Silent: false), (Ping: 285ms), (TPS:
+  19.829), (Plib: true), (Online: 1), (t: ypos(attempts), dy: 0.1798626747908969,
+  l: 0.175)]'
+(13)[2023/04/14 14:48:22]: '[Spartan Build 411.1-10352/-9280289409] Aprenik failed
+  MorePackets (VL: 4) [(Version: Paper 1.12), (C-V: -5) (Silent: false), (Ping: 248ms),
+  (TPS: 19.692), (Plib: true), (Online: 1), (at: -1, de: 0.0, lm: 0.15, corr: 0.8,
+  mpt: 30, dis: 0.21/0.152)]'
+(14)[2023/04/14 14:48:32]: '[Spartan Build 411.1-10352/-9280289409] Aprenik failed
+  MorePackets (VL: 1) [(Version: Paper 1.12), (C-V: 5) (Silent: false), (Ping: 241ms),
+  (TPS: 19.634), (Plib: true), (Online: 1), (at: -2, de: 3.82, lm: 0.15, corr: 0.8,
+  mpt: 13, dis: 0.29/0.0)]'
+(15)[2023/04/14 14:48:32]: '[Spartan Build 411.1-10352/-9280289409] Aprenik failed
+  MorePackets (VL: 2) [(Version: Paper 1.12), (C-V: 5) (Silent: false), (Ping: 241ms),
+  (TPS: 19.774), (Plib: true), (Online: 1), (at: -2, de: 3.82, lm: 0.15, corr: 0.8,
+  mpt: 15, dis: 0.29/2.051)]'
+(16)[2023/04/14 14:48:42]: '[Spartan Build 411.1-10352/-9280289409] Aprenik failed
+  MorePackets (VL: 3) [(Version: Paper 1.12), (C-V: -5) (Silent: false), (Ping: 241ms),
+  (TPS: 19.794), (Plib: true), (Online: 1), (at: -3, de: 3.82, lm: 0.15, corr: 1.3,
+  mpt: 12, dis: 0.0/Infinity)]'
+(17)[2023/04/14 14:48:59]: '[Spartan Build 411.1-10352/-9280289409] Aprenik failed
+  MorePackets (VL: 4) [(Version: Paper 1.12), (C-V: 5) (Silent: false), (Ping: 214ms),
+  (TPS: 19.731), (Plib: true), (Online: 1), (at: -3, de: 3.28, lm: 0.15, corr: 0.8,
+  mpt: 11, dis: 9.23/0.128)]'
+(18)[2023/04/14 14:49:27]: '[Spartan Build 411.1-10352/-9280289409] Aprenik failed
+  Jesus (VL: 1) [(Version: Paper 1.12), (C-V: 3) (Silent: false), (Ping: 195ms), (TPS:
+  19.904), (Plib: true), (Online: 1), (t: repeated, ms: 50, d: 0.2546397453428431,
+  l: 0.225, a: false)]'
+(19)[2023/04/14 14:49:36]: '[Spartan Build 411.1-10352/-9280289409] Aprenik failed
+  Jesus (VL: 2) [(Version: Paper 1.12), (C-V: 3) (Silent: false), (Ping: 297ms), (TPS:
+  19.896), (Plib: true), (Online: 1), (t: repeated, ms: 49, d: 0.25460036576474104,
+  l: 0.225, a: false)]'
+(20)[2023/04/14 14:49:37]: '[Spartan Build 411.1-10352/-9280289409] Aprenik failed
+  Jesus (VL: 3) [(Version: Paper 1.12), (C-V: 3) (Silent: false), (Ping: 297ms), (TPS:
+  19.864), (Plib: true), (Online: 1), (t: repeated, ms: 50, d: 0.25460036576474104,
+  l: 0.225, a: false)]'
+(21)[2023/04/14 14:50:02]: '[Spartan Build 411.1-10352/-9280289409] Aprenik failed
+  Jesus (VL: 4) [(Version: Paper 1.12), (C-V: 3) (Silent: false), (Ping: 227ms), (TPS:
+  19.704), (Plib: true), (Online: 1), (t: repeated, ms: 50, d: 0.2599388632271154,
+  l: 0.225, a: false)]'
+(22)[2023/04/14 14:52:33]: '[Spartan Build 411.1-10352/-9280289409] Aprenik failed
+  Velocity (VL: 1) [(Version: Paper 1.12), (C-V: 2) (Silent: false), (Ping: 197ms),
+  (TPS: 19.9), (Plib: true), (Online: 1), (d: 0.7089079332048216, h: 0.3607499999999959,
+  ddiff: 1.1315506645062148, hdiff: -0.12957800814896814, dcorr: 0.9069833584469305,
+  hcorr: 0.0, dthr: 4.2785019058092635, lcorr: 0.4497094201500422, in: 0.3, mp: 0.3,
+  kb: false)]'
+(23)[2023/04/14 14:54:22]: '[Spartan Build 411.1-10352/-9280289409] Aprenik failed
+  Velocity (VL: 1) [(Version: Paper 1.12), (C-V: 2) (Silent: false), (Ping: 198ms),
+  (TPS: 19.884), (Plib: true), (Online: 1), (d: 0.0, h: 0.0, ddiff: 0.2999999999999009,
+  hdiff: -0.15000000000000568, dcorr: 0.0, hcorr: 0.0, dthr: 1.0, lcorr: 0.0, in:
+  0.3, mp: 0.3, kb: false)]'
+(24)[2023/04/14 14:55:24]: '[Spartan Build 411.1-10352/-9280289409] Aprenik failed
+  Velocity (VL: 1) [(Version: Paper 1.12), (C-V: 2) (Silent: false), (Ping: 155ms),
+  (TPS: 19.892), (Plib: true), (Online: 1), (d: 0.0, h: 0.0, ddiff: 0.3000000000000641,
+  hdiff: -0.15000000000000568, dcorr: 0.0, hcorr: 0.0, dthr: 1.0, lcorr: 0.0, in:
+  0.3, mp: 0.3, kb: false)]'
+(25)[2023/04/14 14:55:28]: '[Spartan Build 411.1-10352/-9280289409] Aprenik failed
+  Velocity (VL: 2) [(Version: Paper 1.12), (C-V: 2) (Silent: false), (Ping: 155ms),
+  (TPS: 19.908), (Plib: true), (Online: 1), (d: 0.0, h: 0.0, ddiff: 0.30000000000000077,
+  hdiff: -0.15000000000000568, dcorr: 0.0, hcorr: 0.0, dthr: 1.0, lcorr: 0.0, in:
+  0.3, mp: 0.3, kb: false)]'
+(26)[2023/04/14 14:59:09]: '[Spartan Build 411.1-10352/-9280289409] Aprenik failed
+  Velocity (VL: 1) [(Version: Paper 1.12), (C-V: 2) (Silent: false), (Ping: 118ms),
+  (TPS: 19.88), (Plib: true), (Online: 1), (d: 0.26181453246900677, h: 0.0, ddiff:
+  0.22921359346283998, hdiff: -0.15000000000000568, dcorr: 0.0, hcorr: 0.0, dthr:
+  1.0, lcorr: 0.14992798013182437, in: 0.3, mp: 0.3, kb: false)]'
+(27)[2023/04/14 14:59:20]: '[Spartan Build 411.1-10352/-9280289409] Aprenik failed
+  Velocity (VL: 2) [(Version: Paper 1.12), (C-V: 2) (Silent: false), (Ping: 118ms),
+  (TPS: 19.912), (Plib: true), (Online: 1), (d: 0.5908838194193956, h: 0.0, ddiff:
+  0.0871233279099318, hdiff: -0.15000000000000568, dcorr: 0.0, hcorr: 0.0, dthr: 1.0,
+  lcorr: 0.33836936667606415, in: 0.3, mp: 0.3, kb: false)]'
+(28)[2023/04/14 15:30:57]: '[Spartan Build 411.1-10352/-9280289409] Aprenik failed
+  Exploits (VL: 1) [(Version: Paper 1.12), (C-V: 3) (Silent: false), (Ping: 2420ms),
+  (TPS: 19.778), (Plib: true), (Online: 1), (t: ping-spoof(packets))]'
+(29)[2023/04/14 16:09:30]: '[Spartan Build 411.1-10352/-9280289409] cTPaXoBo failed
+  Speed (VL: 1) [(Version: Paper 1.12), (C-V: 3) (Silent: false), (Ping: 260ms), (TPS:
+  19.888), (Plib: true), (Online: 2), (t: normal, reason: air, d: 0.5804658532142868,
+  dm: 0.3675, dm_s: 0.4515, dy: 0.5, a: 0)]'

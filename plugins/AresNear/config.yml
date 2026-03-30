@@ -1,0 +1,42 @@
+#Пермишен - aresnear.allowuse
+
+SETTINGS:
+  GROUP_RADIUS:
+    default: 150
+    voin: 300
+    elay: 450
+    hero: 600
+    gladiator: 650
+    legend: 700
+    povel: 750
+    ares: 800
+    wise: 950
+    frost: 950
+    dhelper: 950
+    yt: 950
+    yt+: 950
+    helper: 950
+    sthelper: 950
+    moder: 950
+    stmoder: 950
+    mladmin: 950
+    admin: 950
+    vlad: 950
+  DIRS:
+    STRAIGHT: '⇑'
+    LEFT: '⇐'
+    RIGHT: '⇒'
+    BACK: '⇓'
+    STRAIGHT_LEFT: '⇖'
+    STRAIGHT_RIGHT: '⇗'
+    BACK_LEFT: '⇙'
+    BACK_RIGHT: '⇘'
+  INVISIBILITY: false
+
+MESSAGES:
+  PREFIX: '&6&lНЕАР: '
+  PERMS: '&fУ вас недостаточно'
+  NO_PLAYERS: '&fНе найдено игроков в близи'
+  
+  MSG: '&fИгроки рядом: &7({players}&7)'
+  PLAYERS: '&f{player} &a{blocks} блоков &7{dir}'

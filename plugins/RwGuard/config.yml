@@ -1,0 +1,66 @@
+packet-limitter:
+  enabled: true
+  limits:
+    BOOK_Use:
+      cancel-only: false
+      limit: 9
+    BOOK_Edit:
+      cancel-only: false
+      limit: 3
+    BOOK_Place:
+      cancel-only: false
+      limit: 10
+    PacketPlayInWindowClick_InvalidSlot:
+      cancel-only: false
+      limit: 3
+    PacketPlayInPositionLook_InvalidMovement:
+      cancel-only: false
+      limit: 3
+    PacketPlayInPositionLook_SimilarPosition:
+      cancel-only: false
+      limit: 3
+    PacketPlayInWindowClick:
+      limit: 170
+      cancel-only: false
+    PacketPlayInUseEntity:
+      limit: 400
+      cancel-only: false
+    PacketPlayInEntityAction:
+      limit: 250
+      cancel-only: true
+    PacketPlayInUpdateSign:
+      limit: 6
+      cancel-only: false
+    PacketPlayInTabComplete:
+      limit: 45
+      cancel-only: false
+    PacketPlayInFlying:
+      limit: 300
+      cancel-only: true
+    PacketPlayInPositionLook:
+      limit: 130
+      cancel-only: false
+    PacketPlayInArmAnimation:
+      limit: 350
+      cancel-only: false
+    PacketPlayInBlockDig:
+      limit: 120
+      cancel-only: true
+    PacketPlayInBlockPlace:
+      limit: 45
+      cancel-only: false
+    PacketPlayInChat:
+      limit: 20
+      cancel-only: false
+    PacketPlayInSettings:
+      limit: 400
+      cancel-only: true
+    PacketPlayInAbilities:
+      limit: 40
+      cancel-only: false
+    PacketPlayInCustomPayload:
+      limit: 15
+      cancel-only: true
+    PacketPlayInVehicleMove_Invalid_v4:
+      limit: 5
+      cancel-only: false

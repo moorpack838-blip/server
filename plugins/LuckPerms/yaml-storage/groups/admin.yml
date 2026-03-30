@@ -1,0 +1,44 @@
+name: admin
+permissions:
+- '*'
+- Combatlogx.bypass.force.field:
+    value: false
+- antirelog.bypass:
+    value: false
+- clans.create
+- clans.help
+- clans.user
+- cmi.command.gm.spectator
+- cmi.command.gm.survival
+- cmi.command.god:
+    value: false
+- cmi.command.invsave
+- cmi.command.removehome
+- cmi.kit.*.preview
+- cmi.kit.free
+- combatlogx.bypass:
+    value: false
+- essentials.gamemode.creative
+- essentials.keepinv:
+    value: false
+- essentials.pay
+- essentials.sethome.multiple.admin
+- essentials.spawn
+- essentials.tpa
+- essentials.tpacancel
+- essentials.tpaccept
+- greatkits.kits.ares
+- rtp.channel.far
+- rtp.channel.near
+- rtp.channel.normal
+- rtp.channel.safe
+- scoreboard.admin
+- wcontrol.admin
+- weight.999
+- worldedit.calc:
+    value: false
+parents:
+- mladmin
+prefixes:
+- §4§lADMIN §7:
+    priority: 999

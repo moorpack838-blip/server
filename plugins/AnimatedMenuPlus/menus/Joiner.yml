@@ -1,0 +1,213 @@
+Menu-Name: '&0&lＷＧ ∫ ПРИВЕТСТВИЕ'
+Open-Sound: BLOCK_NOTE_XYLOPHONE
+Open-Sound-Pitch: 2
+Rows: 6
+Command: 
+  Name: joiners
+  Fallback: '123'
+Items:
+- Slot:
+  - 1, 1
+  - 1, 2 
+  - 1, 3 
+  - 1, 4 
+  - 1, 5
+  - 1, 6
+  - 2, 1
+  - 2, 6
+  - 9, 1 
+  - 9, 2 
+  - 9, 3  
+  - 9, 4 
+  - 9, 5
+  - 9, 6
+  - 8, 6
+  - 8, 1
+  - 9, 2
+  Material: stained_glass_pane:1:4
+  Name: '&r'
+- Slot:
+  - 2, 5
+  - 2, 2
+  - 3, 1
+  - 4, 1
+  - 5, 1
+  - 6, 1
+  - 7, 1
+  - 8, 2
+  - 3, 6
+  - 7, 6
+  - 8, 5
+  Material: stained_glass_pane:1:1
+  Name: '&r'
+- Slot:
+  - 2, 3
+  - 2, 4
+  - 8, 3 
+  - 8, 4
+  Material: stained_glass_pane:1:7
+  Name: '&r'
+- Slot: 4, 6
+  Material: 'barrier'
+  Name: '§cПУСТО'   
+  Hide-Flags: 63
+- Slot: 6, 6
+  Material: 'barrier'
+  Name: '§cПУСТО'   
+  Hide-Flags: 63
+  Name: '&r'
+- Slot: 5, 6
+  Material: 'arrow'
+  Name: '&4&lП&c&lЕРЕХОД'
+  Lore:
+  - ''
+  - '&e• &fВы перейдете на предыдущию страницу'   
+  - ''
+  - '&aНажми, чтобы перейти на предыдущию страницу'
+  Hide-Flags: 63
+  Commands:
+  - 'menu: BGcustom'
+  
+  ##############################################################
+
+
+- Slot: 3, 3 #число, строка
+  Material: skull:1:3
+  Skull-Owner: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTk1YWNhNzJkY2NlMTI5ODQ3NTM5OGZiN2FkZmY4NDQ3YzlhNjcwZTZjZjY0ZGQzOTMzYmJjOTQ5MThlOTkifX19'
+  Name: '&e↬ &6&lКАСТОМНЫЕ СООБЩЕНИЯ &e↫'
+  Lore:
+  - ''
+  - '&f Данное сообщение доступно от &7§lИГРОК'
+  - '&f Сообщение при входе будет такое:'
+  - ' §r'
+  - ' &e╔ &e&lПРИВЕТСТВИЕ'
+  - ' &e╠ &fИгрок %vault_rankprefix%&f%player_name%'
+  - ' &e╚ &fзашёл на сервер!'
+  - ''
+  - '&aНажми, чтобы установить сообщение'
+  Permission: 'group.default'
+  Permission-message: '&6&lМАГАЗИН:&f Недостаточно прав на это!'
+  close: always
+  Commands:
+  - 'console: tm message %player_name% &a&lУспешно'
+  - 'console: joiner set %player_name% Message1'
+- Slot: 4, 3 #число, строка
+  Material: skull:1:3
+  Skull-Owner: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjg4ZmI2YjJiM2VmYTZhYjI5OWY5ZjRlN2Q4YzFhMWQ3MzM4NzUzYmRmOGZlZjgxMDc1ZjIxNTU5NDNiYzY5In19fQ=='
+  Name: '&e↬ &6&lКАСТОМНЫЕ СООБЩЕНИЯ &e↫'
+  Lore:
+  - ''
+  - '&f Данное сообщение доступно от §c§lГЛАДИАТОР'
+  - '&f Сообщение при входе будет такое:'
+  - ' §r'
+  - ' &e╔ &e&lПРИВЕТСТВИЕ'
+  - ' &e╠ &fИгрок %vault_rankprefix%&f%player_name%'
+  - ' &e╚ &fснёс дверь, присоединился к культурному населению!'
+  - ''
+  - '&aНажми, чтобы установить сообщение'
+  Permission: 'group.gladiator'
+  Permission-message: '&6&lМАГАЗИН:&f Недостаточно прав на это!'
+  close: always
+  Commands:
+  - 'console: tm message %player_name% &a&lУспешно'
+  - 'console: joiner set %player_name% Message2'
+- Slot: 5, 3 #число, строка
+  Material: skull:1:3
+  Skull-Owner: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2U0MjdhZGZmMzU2ZjA5NDVlYmJhMzkxY2EwZWVmNDY1YWUxNzQ2MWVhN2M1M2FkMTczZmJiNmM3ZjM2YTgifX19'
+  Name: '&e↬ &6&lКАСТОМНЫЕ СООБЩЕНИЯ &e↫'
+  Lore:
+  - ''
+  - '&f Данное сообщение доступно от §b§lЛЕГЕНД'
+  - '&f Сообщение при входе будет такое:'
+  - ' §r'
+  - ' &e╔ &e&lПРИВЕТСТВИЕ'
+  - ' &e╠ &fБоженька %vault_rankprefix%&f%player_name%'
+  - ' &e╚ &fприсоединился к серверу!'
+  - ''
+  - '&aНажми, чтобы установить сообщение'
+  Permission: 'group.legend'
+  Permission-message: '&6&lМАГАЗИН:&f Недостаточно прав на это!'
+  close: always
+  Commands:
+  - 'console: tm message %player_name% &a&lУспешно'
+  - 'console: joiner set %player_name% Message3'
+- Slot: 6, 3 #число, строка
+  Material: skull:1:3
+  Skull-Owner: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzhkMjZjNDI5M2ZhYWQ3ZTBmZDFlOTFjNzFkYzU4YjRlYmMzOGM5MGRhYmFjOTE1NTU5NzY4ZDJkOWY0YWYifX19'
+  Name: '&e↬ &6&lКАСТОМНЫЕ СООБЩЕНИЯ &e↫'
+  Lore:
+  - ''
+  - '&f Данное сообщение доступно от §e§lПОВЕЛИТЕЛЬ'
+  - '&f Сообщение при входе будет такое:'
+  - ' §r'
+  - ' &e╔ &e&lПРИВЕТСТВИЕ'
+  - ' &e╠ &fВоу! Это же тот самый'
+  - ' &e╚ &f%vault_rankprefix%&f%player_name%'
+  - ''
+  - '&aНажми, чтобы установить сообщение'
+  Permission: 'group.povel'
+  Permission-message: '&6&lМАГАЗИН:&f Недостаточно прав на это!'
+  close: always
+  Commands:
+  - 'console: tm message %player_name% &a&lУспешно'
+  - 'console: joiner set %player_name% Message4'
+- Slot: 7, 3 #число, строка
+  Material: skull:1:3
+  Skull-Owner: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2FmNTk3NzZmMmYwMzQxMmM3YjU5NDdhNjNhMGNmMjgzZDUxZmU2NWFjNmRmN2YyZjg4MmUwODM0NDU2NWU5In19fQ=='
+  Name: '&e↬ &6&lКАСТОМНЫЕ СООБЩЕНИЯ &e↫'
+  Lore:
+  - ''
+  - '&f Данное сообщение доступно от §4§lАРЕС'
+  - '&f Сообщение при входе будет такое:'
+  - ' §r'
+  - ' &e╔ &e&lПРИВЕТСТВИЕ'
+  - ' &e╠ &fБоже... Опять этот:'
+  - ' &e╚ &f%vault_rankprefix%&f%player_name%'
+  - ''
+  - '&aНажми, чтобы установить сообщение'
+  Permission: 'group.ares'
+  Permission-message: '&6&lМАГАЗИН:&f Недостаточно прав на это!'
+  close: always
+  Commands:
+  - 'console: tm message %player_name% &a&lУспешно'
+  - 'console: joiner set %player_name% Message5'
+- Slot: 4, 4 #число, строка
+  Material: skull:1:3
+  Skull-Owner: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODA2OWNjMTY2NmI0ZWQ3NjU4N2JiMWE0NGZiYjdhNDM3NWVhMDNjMjZkOWE0N2UzNTdiNDEzOWUzZGEyOGQifX19'
+  Name: '&e↬ &6&lКАСТОМНЫЕ СООБЩЕНИЯ &e↫'
+  Lore:
+  - ''
+  - '&f Данное сообщение доступно от §e§lW§6§lISE'
+  - '&f Сообщение при входе будет такое:'
+  - ' §r'
+  - ' &e╔ &e&lПРИВЕТСТВИЕ'
+  - ' &e╠ &fГосподин %vault_rankprefix%&f%player_name%'
+  - ' &e╚ &fвернулся на сервер!'
+  - ''
+  - '&aНажми, чтобы установить сообщение'
+  Permission: 'group.wise'
+  Permission-message: '&6&lМАГАЗИН:&f Недостаточно прав на это!'
+  close: always
+  Commands:
+  - 'console: tm message %player_name% &a&lУспешно'
+  - 'console: joiner set %player_name% Message6'
+- Slot: 6, 4 #число, строка
+  Material: skull:1:3
+  Skull-Owner: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjc5YTIzNzUzNjNiZTg5MTM4MWQ0MmM0NWIzNzc1NTNjMmI2ZTBmYmRjMTZkZWY1ZmJjNmIzMmVkNWNhZDdhNyJ9fX0='
+  Name: '&e↬ &6&lКАСТОМНЫЕ СООБЩЕНИЯ &e↫'
+  Lore:
+  - ''
+  - '&f Данное сообщение доступно от §5§lD.HELPER'
+  - '&f Сообщение при входе будет такое:'
+  - ' §r'
+  - ' &e╔ &e&lПРИВЕТСТВИЕ'
+  - ' &e╠ &fАдминистратор %vault_rankprefix%&f%player_name%'
+  - ' &e╚ &fприсоединился к нашему серверу!'
+  - ''
+  - '&aНажми, чтобы установить сообщение'
+  Permission: 'group.dhelper'
+  Permission-message: '&6&lМАГАЗИН:&f Недостаточно прав на это!'
+  close: always
+  Commands:
+  - 'console: tm message %player_name% &a&lУспешно'
+  - 'console: joiner set %player_name% Message7'

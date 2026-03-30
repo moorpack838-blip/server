@@ -1,0 +1,15 @@
+uuid: 1afb711e-bb5b-3018-abee-c58bde593aa3
+name: LEXA546
+primary-group: default
+parents:
+- default
+- elay
+- gladiator
+- hero
+- voin
+prefixes:
+- §c§lГЛАДИАТОР §7:
+    priority: 15
+    context:
+      server: grief
+      world: lobby

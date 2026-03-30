@@ -1,0 +1,83 @@
+PLAYER:
+  enable: true
+  money: 1%
+LLAMA:
+  enable: true
+  money: 5-10
+  display: 'Ламу' #можно убрать, будет писать просто вы убили LLAMA
+ZOMBIE:
+  enable: true
+  money: 5-10
+  display: 'Зомби' #можно убрать, будет писать просто вы убили LLAMA
+SKELETON:
+  enable: true
+  money: 5-10
+  display: 'Скелета' #можно убрать, будет писать просто вы убили LLAMA
+SPIDER:
+  enable: true
+  money: 5-10
+  display: 'Паука' #можно убрать, будет писать просто вы убили LLAMA
+SQUID:
+  enable: true
+  money: 10-30
+  display: 'Спрута' #можно убрать, будет писать просто вы убили LLAMA
+CAWE_SPIDER:
+  enable: true
+  money: 10-20
+  display: 'Пещерного-паука' #можно убрать, будет писать просто вы убили LLAMA
+ZOMBIE_PIG:
+  enable: true
+  money: 10-20
+  display: 'Свино-зомби' #можно убрать, будет писать просто вы убили LLAMA
+ZOMBIE_PIGMAN:
+  enable: true
+  money: 10-20
+  display: 'Свино-зомби' #можно убрать, будет писать просто вы убили LLAMA
+WITHER:
+  enable: true
+  money: 500-1000
+  display: 'Визера' #можно убрать, будет писать просто вы убили LLAMA
+WITHER_SKELETON:
+  enable: true
+  money: 15-30
+  display: 'Визер-скелета' #можно убрать, будет писать просто вы убили LLAMA
+CREEPER:
+  enable: true
+  money: 10-20
+  display: 'Крипера' #можно убрать, будет писать просто вы убили LLAMA
+ENDERMAN:
+  enable: true
+  money: 10-25
+  display: 'Эндермена' #можно убрать, будет писать просто вы убили LLAMA
+BLAZE:
+  enable: true
+  money: 10-25
+  display: 'Всполоха' #можно убрать, будет писать просто вы убили LLAMA
+GHAST:
+  enable: true
+  money: 10-50
+  display: 'Гаста' #можно убрать, будет писать просто вы убили LLAMA
+COW:
+  enable: true
+  money: 5-10
+  display: 'Корову' #можно убрать, будет писать просто вы убили LLAMA
+PIG:
+  enable: true
+  money: 5-10
+  display: 'Свинью' #можно убрать, будет писать просто вы убили LLAMA
+CHICKEN:
+  enable: true
+  money: 5-10
+  display: 'Курицу' #можно убрать, будет писать просто вы убили LLAMA
+SLIME:
+  enable: true
+  money: 5-15
+  display: 'Слизня' #можно убрать, будет писать просто вы убили LLAMA
+SHULKER:
+  enable: true
+  money: 10-20
+  display: 'Шалкер' #можно убрать, будет писать просто вы убили LLAMA
+MAGMA_CUBE:
+  enable: true
+  money: 5-10
+  display: 'Магма' #можно убрать, будет писать просто вы убили LLAMA

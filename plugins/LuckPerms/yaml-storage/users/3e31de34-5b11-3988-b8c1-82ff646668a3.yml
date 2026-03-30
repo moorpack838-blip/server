@@ -1,0 +1,6 @@
+uuid: 3e31de34-5b11-3988-b8c1-82ff646668a3
+name: kostik_popit
+primary-group: default
+parents:
+- default
+- gladiator

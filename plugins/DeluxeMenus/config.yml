@@ -1,0 +1,22 @@
+# DeluxeMenus 1.13.3-Release main configuration file
+# 
+# A full wiki on how to use this plugin can be found at:
+# https://github.com/help-chat/DeluxeMenus/wiki
+
+debug: false
+check_updates: false
+gui_menus:
+  obmen:
+    file: moneytrade.yml
+  help:
+    file: HELP.yml
+  quests_main:
+    file: quests_main.yml
+  quests_company_one:
+    file: quests_company_one.yml
+  quests_company_two:
+    file: quests_company_two.yml
+  quests_company_three:
+    file: quests_company_three.yml
+  contracts:
+    file: contracts.yml

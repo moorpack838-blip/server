@@ -1,0 +1,93 @@
+name: voin
+permissions:
+- worldguard.region.addmember.own.*:
+    value: false
+- worldguard.region.info.own.*
+- worldguard.region.remove.own.*
+- worldguard.region.removemember.own.*
+- worldguard.region.select.own.*
+- titlemanager.command.scoreboard.*
+- deluxemenus.menu.*
+- adodvrtp.rtp
+- advancedsmelting.smelt
+- antirelog.bypass:
+    value: false
+- auctionhouse.help
+- auctionhouse.menu
+- cases.use
+- chatty.chat
+- chatty.chat.global
+- chatty.chat.global.see
+- chatty.chat.local
+- chatty.chat.local.see
+- chatty.command.ignore
+- chatty.command.msg
+- chatty.command.reply
+- clans.create
+- clans.help
+- clans.user
+- essentials.balance
+- essentials.balancetop
+- essentials.craft
+- essentials.delhome
+- essentials.hat
+- essentials.heal
+- essentials.home
+- essentials.home.voin
+- essentials.kits.voin
+- essentials.msg
+- essentials.pay
+- essentials.sethome
+- essentials.sethome.multiple.voin
+- essentials.spawn
+- essentials.spawn-on-join
+- essentials.tpa
+- essentials.tpacancel
+- essentials.tpaccept
+- essentials.tpdeny
+- essentials.warp
+- essentials.warp.list
+- essentials.workbench
+- great.kits.start
+- great.kits.voin
+- greatkits.kits.start:
+    value: false
+- greatkits.kits.voin
+- kit.vip
+- kit.voin
+- kits.voin
+- litebans.json.hover_text
+- mixshop
+- mixshops.open
+- nte.default
+- nte.lite
+- rtp.channel.far
+- rtp.channel.normal
+- serversigns.use
+- tab.scoreboard.admin
+- titlemanager.command.scoreboard
+- umine.command.salary
+- umine.salary
+- wcode.code
+- wcontrol.control
+- wcutter.salary
+- weight.2
+- westoriasutils.craft
+- westoriasutils.hat
+- westoriasutils.sethome.limit.4
+- westoriasutils.workbench
+- wmines.command.salary
+- woodcutter.salary
+- worldedit.selection.expand
+- worldedit.selection.hpos
+- worldedit.selection.pos
+- worldedit.wand
+- worldguard.region.claim
+- worldguard.region.info.own
+- worldguard.region.list.own
+- worldguard.region.wand
+parents:
+- default
+prefixes:
+- §6§lВОЙН §7:
+    priority: 1

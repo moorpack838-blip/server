@@ -1,0 +1,10 @@
+uuid: c73d79a1-93a0-380f-895c-720eb4852d8d
+name: MoLo
+primary-group: admin
+parents:
+- ares
+- legend
+- povel
+suffixes:
+- '&6&nПозер ☡':
+    priority: 1

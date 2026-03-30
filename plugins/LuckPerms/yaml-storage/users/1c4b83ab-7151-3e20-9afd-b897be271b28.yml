@@ -1,0 +1,6 @@
+uuid: 1c4b83ab-7151-3e20-9afd-b897be271b28
+name: bbnosym
+primary-group: default
+parents:
+- default
+- helper

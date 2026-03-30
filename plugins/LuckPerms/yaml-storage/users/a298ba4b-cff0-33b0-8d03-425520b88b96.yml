@@ -1,0 +1,11 @@
+uuid: a298ba4b-cff0-33b0-8d03-425520b88b96
+name: Banravnodayn
+primary-group: default
+parents:
+- default
+prefixes:
+- §7§lИГРОК §7:
+    priority: 11
+    context:
+      server: grief
+      world: world

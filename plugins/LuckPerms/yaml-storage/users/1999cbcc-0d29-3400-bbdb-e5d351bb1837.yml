@@ -1,0 +1,9 @@
+uuid: 1999cbcc-0d29-3400-bbdb-e5d351bb1837
+name: NightKiller
+primary-group: default
+parents:
+- default
+- elay
+- gladiator
+- hero
+- voin

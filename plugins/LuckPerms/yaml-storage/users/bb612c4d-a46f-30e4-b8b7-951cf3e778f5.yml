@@ -1,0 +1,12 @@
+uuid: bb612c4d-a46f-30e4-b8b7-951cf3e778f5
+name: ZenyYT
+primary-group: default
+parents:
+- default
+- voin
+prefixes:
+- §6§LВОИН §7:
+    priority: 12
+    context:
+      server: grief
+      world: lobby

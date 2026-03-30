@@ -1,0 +1,52 @@
+#Право на создание предмета: easeller.admin
+#Placeholders:
+# %min% - Минуты до обновления меню
+# %sec% - Секунды до обновления меню
+Mitigation-enable: true #То, на сколько дешевле будет становится предмет по мере приобретения
+Mitigation: 10 #То, на сколько дешевле будет становится предмет по мере приобретения
+time-to-update-menu: 3600000
+Hologram-text: '§7%min%:%sec%'
+Settings:
+  gui:
+    name: '§0Купец:'
+    glass:
+      enabled: true
+      material: STAINED_GLASS_PANE
+      data: 1
+      name: ''
+    glass-closed:
+      enabled: true #Не трогать
+      material: DOUBLE_PLANT
+      name: '§6Закрыть меню'
+  guiconfirm:
+    name: '§0Подтвердите обмен:'
+    glass:
+      enabled: true
+      material: STAINED_GLASS_PANE
+      data: 1
+      name: ''
+    glass-closed:
+      enabled: true
+      material: STAINED_GLASS_PANE
+      data: 14
+      name: '§4✖'
+    glass-cancel: LIME_STAINED_GLASS_PANE
+    glass-confirm: RED_STAINED_GLASS_PANE
+messages:
+  noperm: '&7У вас недостаточно прав!'
+  no-items: '&7В вашем инвентаре нет подходящих предметов!'
+  sell-success: '&7Вы успешно продали предмет и получили %price%'
+  not-integer: '&7В 3 аргументе должна быть стоимость товара!'
+  usage-create: '&7Использование: /seller create [имя] [стоимость]'
+  name-exists: '&7Данное имя предмета уже используется'
+  name-not-exists: '&7Данного предмета нету в конфиге'
+  holo-not-exists: '&7Голограмма не создана! Её нельзя переместить'
+  menu-null: '&7Администрация не настроила предметы для меню! Открыть не получится'
+items:
+  lore:
+    - '&fЦена: &6%price% &fмонет'
+    - '&fНачальная цена: &6%price_standart% &fмонет'
+    - ''
+    - '&fСкуплено за час: &6%sells% &fраз.'
+    - ''
+    - '&fНажмите &6ЛКМ&f, для продажи'

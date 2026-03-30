@@ -1,0 +1,11 @@
+uuid: 6d170ec6-9fea-3ea6-bd15-8a6e7bef1cc4
+name: ImBoostYT
+primary-group: default
+parents:
+- default
+prefixes:
+- §7§lИГРОК §7:
+    priority: 11
+    context:
+      server: grief
+      world: lobby

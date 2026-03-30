@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 176.222.167.28
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1680439931966
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1680502458160
+  login: 1680502282494
+money: '686.6999999999999'
+last-account-name: MrDeathGun
+lastlocation:
+  world: f426770c-0cf2-4454-94e7-0f4170382838
+  world-name: lobby
+  x: 985.2934667798457
+  y: 67.0
+  z: -293.22698264166365
+  yaw: 197.4013671875
+  pitch: 15.149982452392578
+logoutlocation:
+  world: f426770c-0cf2-4454-94e7-0f4170382838
+  world-name: lobby
+  x: 953.2669470339424
+  y: 69.0
+  z: -348.08900687389877
+  yaw: -203.99826049804688
+  pitch: 19.649988174438477

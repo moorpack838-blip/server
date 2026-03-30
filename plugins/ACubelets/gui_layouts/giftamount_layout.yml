@@ -1,0 +1,48 @@
+#
+# This is the gui layout file.
+# You can change any messages that are in this file
+#
+# If you want to reset a message back to the default,
+# delete the entire line the message is on and restart the server.
+#
+# IMPORTANT: Slots numbers between 1-9, if not, the plugin will crash
+#
+
+Layout:
+
+  # GUI Title
+  Title: Подарить кейсы
+
+  # GUI items
+  Items:
+
+    # Cubelet item
+    Cubelet:
+      Name: '&a%cubelet_name%'
+      Lore:
+      - '&f Получатель: &e%receiver%'
+      - '&f Количество: &e%gift_amount%'
+      - ''
+      - '&f Приобрести кейсы/привилегии » &eForumCraft.ru'
+      - ''
+      - '&a ► Нажмите, чтобы подарить...'
+      - ''
+
+    # Add 1 to amount
+    Add:
+      Name: '&aДобавить 1'
+
+    # Substract 1 to amount
+    Substract:
+      Name: '&cУбрать 1'
+
+    # Back item
+    Back:
+      Name: '&cОбратно'
+      Material: BOOK
+      Slot: 5
+      Lore:
+      - ''
+      - '&f Закончились или отсутствуют кейсы?'
+      - '&f Приобрести кейсы/привилегии » &eForumCraft.ru'
+      - ''

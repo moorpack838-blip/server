@@ -1,0 +1,7 @@
+uuid: add3b4aa-564e-3bd1-96a6-435c0e5e29b7
+name: deadakyloff
+primary-group: admin
+permissions:
+- '*'
+parents:
+- admin

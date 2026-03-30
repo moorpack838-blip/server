@@ -1,0 +1,17 @@
+locations:
+  '1':
+    world: lobby
+    x: 980
+    y: 69
+    z: -311
+    rotation: SOUTH
+    blockHeight: 0.875
+    permanentBlockHeight: 0.875
+  '2':
+    world: lobby
+    x: 980
+    y: 69
+    z: -308
+    rotation: SOUTH
+    blockHeight: 0.875
+    permanentBlockHeight: 0.875

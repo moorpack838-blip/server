@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 94.140.133.44
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1680536727142
+  login: 1680536664895
+money: '0'
+last-account-name: gavno007
+lastlocation:
+  world: 50e83d7b-bd31-4b59-b085-d04edc199449
+  world-name: world
+  x: 91.5
+  y: 75.0
+  z: 254.5
+  yaw: 3.1848487854003906
+  pitch: 0.0
+logoutlocation:
+  world: f426770c-0cf2-4454-94e7-0f4170382838
+  world-name: lobby
+  x: 1014.0919686723742
+  y: 67.0
+  z: -327.5179541643879
+  yaw: 20.399993896484375
+  pitch: 28.499954223632812

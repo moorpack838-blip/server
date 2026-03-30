@@ -1,0 +1,12 @@
+uuid: 74cb758f-db24-37ed-93b2-ab2891708ac2
+name: yhfudsjfk
+primary-group: default
+parents:
+- default
+- voin
+prefixes:
+- §6§LВОИН §7:
+    priority: 12
+    context:
+      server: grief
+      world: lobby

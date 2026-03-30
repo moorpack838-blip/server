@@ -1,0 +1,12 @@
+uuid: f5c0d03b-fe7b-305a-ab20-395e8c998969
+name: top_z1
+primary-group: default
+parents:
+- default
+- elay
+prefixes:
+- §2§lЭЛЕЙ §7:
+    priority: 13
+    context:
+      server: grief
+      world: lobby

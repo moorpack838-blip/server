@@ -1,0 +1,222 @@
+quests:
+  1:
+    name: 'Осветитель'
+    type: craft
+    variable: spectral_arrow:0
+    required-progress: 128
+    points: 200
+    item:
+      material: book:0
+      amount: 1
+      name: '§6§lНЕДЕЛЬНОЕ ЗАДАНИЕ'
+      lore:
+        - ''
+        - '&6&lИНФОРМАЦИЯ:'
+        - ''
+        - '&fЗадание: &aОсветитель'
+        - '&fОпыт: &6200'
+        - '§fПрогресс: §e%total_progress%§8/§e%required_progress% &f[&7%progress_bar%&f] &7| &e%percentage_progress%&f'
+        - ''
+        - ''
+        - '&6&lЦЕЛЬ:'
+        - ''
+        - '&f- Скрафтить &6%required_progress% &fСпектральных Стрел'
+  2:
+    name: 'Больше света'
+    type: block-break
+    variable: glowstone:0
+    required-progress: 256
+    points: 150
+    item:
+      material: book:0
+      amount: 1
+      name: '§6§lНЕДЕЛЬНОЕ ЗАДАНИЕ'
+      lore:
+        - ''
+        - '&6&lИНФОРМАЦИЯ:'
+        - ''
+        - '&fЗадание: &aБольше света'
+        - '&fОпыт: &6150'
+        - '§fПрогресс: §e%total_progress%§8/§e%required_progress% &f[&7%progress_bar%&f] &7| &e%percentage_progress%&f'
+        - ''
+        - ''
+        - '&6&lЦЕЛЬ:'
+        - ''
+        - '&f- Добыть &6%required_progress% &fсвето-камня'
+  3:
+    name: 'Дровосек'
+    type: block-break
+    variable: log:0
+    required-progress: 128
+    points: 100
+    item:
+      material: book:0
+      amount: 1
+      name: '§6§lНЕДЕЛЬНОЕ ЗАДАНИЕ'
+      lore:
+        - ''
+        - '&6&lИНФОРМАЦИЯ:'
+        - ''
+        - '&fЗадание: &aДровосоек'
+        - '&fОпыт: &6100'
+        - '§fПрогресс: §e%total_progress%§8/§e%required_progress% &f[&7%progress_bar%&f] &7| &e%percentage_progress%&f'
+        - ''
+        - ''
+        - '&6&lЦЕЛЬ:'
+        - ''
+        - '&f- Добыть &6%required_progress% &fдуба'
+  4:
+    name: 'Строитель'
+    type: craft
+    variable: brick:0
+    required-progress: 256
+    points: 250
+    item:
+      material: book:0
+      amount: 1
+      name: '§6§lНЕДЕЛЬНОЕ ЗАДАНИЕ'
+      lore:
+        - ''
+        - '&6&lИНФОРМАЦИЯ:'
+        - ''
+        - '&fЗадание: &aСтроитель'
+        - '&fОпыт: &6250'
+        - '§fПрогресс: §e%total_progress%§8/§e%required_progress% &f[&7%progress_bar%&f] &7| &e%percentage_progress%&f'
+        - ''
+        - ''
+        - '&6&lЦЕЛЬ:'
+        - ''
+        - '&f- Скрафтить &6256 &fкирпичей'
+  5:
+    name: 'Легкое дело'
+    type: kill-mob
+    variable: pig_zombie:0
+    required-progress: 35
+    points: 450
+    item:
+      material: book:0
+      amount: 1
+      name: '§6§lНЕДЕЛЬНОЕ ЗАДАНИЕ'
+      lore:
+        - ''
+        - '&6&lИНФОРМАЦИЯ:'
+        - ''
+        - '&fЗадание: &aЛегкое дело'
+        - '&fОпыт: &6450'
+        - '§fПрогресс: §e%total_progress%§8/§e%required_progress% &f[&7%progress_bar%&f] &7| &e%percentage_progress%&f'
+        - ''
+        - ''
+        - '&6&lЦЕЛЬ:'
+        - ''
+        - '&f- Убить &6%required_progress% &fсвинозомби'
+  6:
+    name: 'Змея'
+    type: fish
+    variable: RAW_FISH:3
+    required-progress: 12
+    points: 250
+    item:
+      material: book:0
+      amount: 1
+      name: '§6§lНЕДЕЛЬНОЕ ЗАДАНИЕ'
+      lore:
+        - ''
+        - '&6&lИНФОРМАЦИЯ:'
+        - ''
+        - '&fЗадание: &aЗмея'
+        - '&fОпыт: &6250'
+        - '§fПрогресс: §e%total_progress%§8/§e%required_progress% &f[&7%progress_bar%&f] &7| &e%percentage_progress%&f'
+        - ''
+        - ''
+        - '&6&lЦЕЛЬ:'
+        - ''
+        - '&f- Выловить &6%required_progress% &fИглоБрюхов'
+  7:
+    name: 'Магия'
+    type: craft
+    variable: ender_chest:0
+    required-progress: 28
+    points: 300
+    item:
+      material: book:0
+      amount: 1
+      name: '§6§lНЕДЕЛЬНОЕ ЗАДАНИЕ'
+      lore:
+        - ''
+        - '&6&lИНФОРМАЦИЯ:'
+        - ''
+        - '&fЗадание: &aМагия'
+        - '&fОпыт: &6300'
+        - '§fПрогресс: §e%total_progress%§8/§e%required_progress% &f[&7%progress_bar%&f] &7| &e%percentage_progress%&f'
+        - ''
+        - ''
+        - '&6&lЦЕЛЬ:'
+        - ''
+        - '&f- Скрафтить &6%required_progress% &fЭндер-Сундуков'
+  8:
+    name: 'Твердая штучка'
+    type: block-break
+    variable: obsidian:0
+    required-progress: 256
+    points: 250
+    item:
+      material: book:0
+      amount: 1
+      name: '§6§lНЕДЕЛЬНОЕ ЗАДАНИЕ'
+      lore:
+        - ''
+        - '&6&lИНФОРМАЦИЯ:'
+        - ''
+        - '&fЗадание: &aТвердая штучка'
+        - '&fОпыт: &6250'
+        - '§fПрогресс: §e%total_progress%§8/§e%required_progress% &f[&7%progress_bar%&f] &7| &e%percentage_progress%&f'
+        - ''
+        - ''
+        - '&6&lЦЕЛЬ:'
+        - ''
+        - '&f- Сломать &6%required_progress% &fобсидиана'
+  9:
+    name: 'Эра музыки'
+    type: craft
+    variable: jukebox:0
+    required-progress: 64
+    points: 450
+    item:
+      material: book:0
+      amount: 1
+      name: '§6§lНЕДЕЛЬНОЕ ЗАДАНИЕ'
+      lore:
+        - ''
+        - '&6&lИНФОРМАЦИЯ:'
+        - ''
+        - '&fЗадание: &aЭра музыки'
+        - '&fОпыт: &6450'
+        - '§fПрогресс: §e%total_progress%§8/§e%required_progress% &f[&7%progress_bar%&f] &7| &e%percentage_progress%&f'
+        - ''
+        - ''
+        - '&6&lЦЕЛЬ:'
+        - ''
+        - '&f- Скрафтить &6%required_progress% &fпроигрывателей'
+  10:
+    name: 'Сытный завтрак'
+    type: consume
+    variable: beef:0
+    required-progress: 24
+    points: 350
+    item:
+      material: book:0
+      amount: 1
+      name: '§6§lНЕДЕЛЬНОЕ ЗАДАНИЕ'
+      lore:
+        - ''
+        - '&6&lИНФОРМАЦИЯ:'
+        - ''
+        - '&fЗадание: &aСытный завтрак'
+        - '&fОпыт: &6350'
+        - '§fПрогресс: §e%total_progress%§8/§e%required_progress% &f[&7%progress_bar%&f] &7| &e%percentage_progress%&f'
+        - ''
+        - ''
+        - '&6&lЦЕЛЬ:'
+        - ''
+        - '&f- Съесть &6%required_progress% &fСырой Говядины'
+        - ''

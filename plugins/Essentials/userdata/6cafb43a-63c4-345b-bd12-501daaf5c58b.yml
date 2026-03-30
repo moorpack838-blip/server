@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 185.132.240.95
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1681063827511
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1681063932527
+  login: 1681063794020
+money: '0'
+last-account-name: ATEpast
+lastlocation:
+  world: f426770c-0cf2-4454-94e7-0f4170382838
+  world-name: lobby
+  x: 1015.2328484423765
+  y: 68.0
+  z: -356.1681269736803
+  yaw: 256.6389465332031
+  pitch: -25.350074768066406
+logoutlocation:
+  world: f426770c-0cf2-4454-94e7-0f4170382838
+  world-name: lobby
+  x: 1005.8593120907141
+  y: 69.0
+  z: -279.5290698796398
+  yaw: 269.0860900878906
+  pitch: -34.95001220703125

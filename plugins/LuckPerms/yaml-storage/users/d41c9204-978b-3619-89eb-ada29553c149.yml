@@ -1,0 +1,11 @@
+uuid: d41c9204-978b-3619-89eb-ada29553c149
+name: Mefrai_YT
+primary-group: default
+parents:
+- default
+prefixes:
+- §7§lИГРОК §7:
+    priority: 11
+    context:
+      server: grief
+      world: lobby

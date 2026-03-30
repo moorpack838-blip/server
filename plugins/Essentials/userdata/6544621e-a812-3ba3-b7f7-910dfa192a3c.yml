@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 193.233.123.124
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1680542171733
+  login: 1680541945823
+money: '0'
+last-account-name: oKaiB
+lastlocation:
+  world: 50e83d7b-bd31-4b59-b085-d04edc199449
+  world-name: world
+  x: 89.5
+  y: 70.0
+  z: 248.5
+  yaw: 2.9673924446105957
+  pitch: 0.0
+logoutlocation:
+  world: f426770c-0cf2-4454-94e7-0f4170382838
+  world-name: lobby
+  x: 1025.3345466612761
+  y: 69.0
+  z: -272.8002049717422
+  yaw: -15.989602088928223
+  pitch: 10.954083442687988

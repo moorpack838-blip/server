@@ -1,0 +1,107 @@
+#
+# This is the gui layout file.
+# You can change any messages that are in this file
+#
+# If you want to reset a message back to the default,
+# delete the entire line the message is on and restart the server.
+#
+# IMPORTANT: Slots numbers between 1-9, if not, the plugin will crash
+#
+
+Layout:
+
+  # GUI Title
+  Title: Анимации
+
+  # GUI items
+  Items:
+
+    # Displayed animation item
+    Animation:
+      Unlocked:
+        Name: '&e%animation%'
+        Lore:
+        - ''
+        - '&f При выборе этой анимации она'
+        - '&f будет показываться при открытии.'
+        - ''
+        - '&f Приобрести кейсы/привилегии » &eForumCraft.ru'
+        - ''
+        - '&a ► Выбрать эту анимацию...'
+        - ''
+
+      Locked:
+        Name: '&c%animation%'
+        Lore:
+        - ''
+        - '&f При выборе этой анимации она'
+        - '&f будет показываться при открытии.'
+        - ''
+        - '&f Приобрести кейсы/привилегии » &eForumCraft.ru'
+        - ''
+        - '&c ► У вас нет этой анимации...'
+        - ''
+
+      Selected:
+        Name: '&a%animation%'
+        Lore:
+        - ''
+        - '&f При выборе этой анимации она'
+        - '&f будет показываться при открытии.'
+        - ''
+        - '&f Приобрести кейсы/привилегии » &eForumCraft.ru'
+        - ''
+        - '&a ► Эта анимация уже выбрана...'
+        - ''
+
+    # Displayed random animation item
+    RandomAnimation:
+      Slot: 3
+      Selected:
+        Name: '&aСлучайная анимация'
+        Lore:
+        - ''
+        - '&f При выборе этого параметра будет'
+        - '&f показываться случайная анимация.'
+        - ''
+        - '&f Приобрести кейсы/привилегии » &eForumCraft.ru'
+        - ''
+        - '&a ► Этот параметр уже включен...'
+        - ''
+
+      NoSelected:
+        Name: '&cСлучайная анимация'
+        Lore:
+        - ''
+        - '&f При выборе этого параметра будет'
+        - '&f показываться случайная анимация.'
+        - ''
+        - '&f Приобрести кейсы/привилегии » &eForumCraft.ru'
+        - ''
+        - '&a ► Нажмите, чтобы включить...'
+        - ''
+
+    # Next page item
+    NextPage:
+      Name: '&fСледующая страница →'
+      Material: ARROW
+      Slot: 9
+      ShowPageNumber: false
+
+    # Previous page item
+    PreviousPage:
+      Name: '&f← Предыдущая страница'
+      Material: ARROW
+      Slot: 1
+      ShowPageNumber: false
+
+    # Back item
+    Back:
+      Name: '&cОбратно'
+      Material: BOOK
+      Slot: 5
+      Lore:
+      - ''
+      - '&f Закончились или отсутствуют кейсы?'
+      - '&f Приобрести кейсы/привилегии » &eForumCraft.ru'
+      - ''

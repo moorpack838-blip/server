@@ -1,0 +1,11 @@
+uuid: 9ba18a41-d0ff-3a3e-aab5-39a5668db119
+name: Lolipopnik
+primary-group: default
+parents:
+- default
+- gladiator
+- hero
+- voin
+suffixes:
+- '&r&nПОЗЕР ☡':
+    priority: 1

@@ -1,0 +1,231 @@
+quests:
+  1:
+    name: 'Отопитель'
+    type: block-break
+    variable: coal_ore:0
+    required-progress: 32
+    points: 50
+    item:
+      material: book:0
+      amount: 1
+      name: '§6§lЕЖЕДНЕВНОЕ ЗАДАНИЕ'
+      lore:
+        - ''
+        - '&6&lИНФОРМАЦИЯ:'
+        - ''
+        - '&fЗадание: &aОтопитель'
+        - '&fОпыт: &650'
+        - '§fПрогресс: §e%total_progress%§8/§e%required_progress% &f[&7%progress_bar%&f] &7| &e%percentage_progress%&f'
+        - ''
+        - ''
+        - '&6&lЦЕЛЬ:'
+        - ''
+        - '&f- Добыть &632 &fугольной руды'
+        - ''
+  2:
+    name: 'Фермер'
+    type: craft
+    variable: hay_block:0
+    required-progress: 48
+    points: 70
+    item:
+      material: book:0
+      amount: 1
+      name: '§6§lЕЖЕДНЕВНОЕ ЗАДАНИЕ'
+      lore:
+        - ''
+        - '&6&lИНФОРМАЦИЯ:'
+        - ''
+        - '&fЗадание: &aФермер'
+        - '&fОпыт: &670'
+        - '§fПрогресс: §e%total_progress%§8/§e%required_progress% &f[&7%progress_bar%&f] &7| &e%percentage_progress%&f'
+        - ''
+        - ''
+        - '&6&lЦЕЛЬ:'
+        - ''
+        - '&f- Скрафтить &6%required_progress% &fстогов сена'
+        - ''
+  3:
+    name: 'Каменьщик'
+    type: block-break
+    variable: stone:0
+    required-progress: 1200
+    points: 100
+    item:
+      material: book:0
+      amount: 1
+      name: '§6§lЕЖЕДНЕВНОЕ ЗАДАНИЕ'
+      lore:
+        - ''
+        - '&6&lИНФОРМАЦИЯ:'
+        - ''
+        - '&fЗадание: &aКаменьщик'
+        - '&fОпыт: &6100'
+        - '§fПрогресс: §e%total_progress%§8/§e%required_progress% &f[&7%progress_bar%&f] &7| &e%percentage_progress%&f'
+        - ''
+        - ''
+        - '&6&lЦЕЛЬ:'
+        - ''
+        - '&f- Добыть &6%required_progress% &fкамня'
+        - ''
+  4:
+    name: 'Переплавщик'
+    type: smelt
+    variable: cooked_fish:0
+    required-progress: 32
+    points: 125
+    item:
+      material: book:0
+      amount: 1
+      name: '§6§lЕЖЕДНЕВНОЕ ЗАДАНИЕ'
+      lore:
+        - ''
+        - '&6&lИНФОРМАЦИЯ:'
+        - ''
+        - '&fЗадание: &aПереплавщик'
+        - '&fОпыт: &6125'
+        - '§fПрогресс: §e%total_progress%§8/§e%required_progress% &f[&7%progress_bar%&f] &7| &e%percentage_progress%&f'
+        - ''
+        - ''
+        - '&6&lЦЕЛЬ:'
+        - ''
+        - '&f- Переплавить &6%required_progress% &fсырого лолося'
+        - ''
+  5:
+    name: 'Пастух'
+    type: shear
+    variable: none:0
+    required-progress: 48
+    points: 125
+    item:
+      material: book:0
+      amount: 1
+      name: '§6§lЕЖЕДНЕВНОЕ ЗАДАНИЕ'
+      lore:
+        - ''
+        - '&6&lИНФОРМАЦИЯ:'
+        - ''
+        - '&fЗадание: &aПастух'
+        - '&fОпыт: &6125'
+        - '§fПрогресс: §e%total_progress%§8/§e%required_progress% &f[&7%progress_bar%&f] &7| &e%percentage_progress%&f'
+        - ''
+        - ''
+        - '&6&lЦЕЛЬ:'
+        - ''
+        - '&f- Постричь &6%required_progress% &fовец'
+        - ''
+  6:
+    name: 'Адский убийца'
+    type: kill-mob
+    variable: blaze:0
+    required-progress: 28
+    points: 70
+    item:
+      material: book:0
+      amount: 1
+      name: '§6§lЕЖЕДНЕВНОЕ ЗАДАНИЕ'
+      lore:
+        - ''
+        - '&6&lИНФОРМАЦИЯ:'
+        - ''
+        - '&fЗадание: &aАдский убийца'
+        - '&fОпыт: &670'
+        - '§fПрогресс: §e%total_progress%§8/§e%required_progress% &f[&7%progress_bar%&f] &7| &e%percentage_progress%&f'
+        - ''
+        - ''
+        - '&6&lЦЕЛЬ:'
+        - ''
+        - '&f- Убить &6%required_progress% &fифритов'
+        - ''
+  7:
+    name: 'Поручитель'
+    type: tame
+    variable: wolf:0
+    required-progress: 16
+    points: 75
+    item:
+      material: book:0
+      amount: 1
+      name: '§6§lЕЖЕДНЕВНОЕ ЗАДАНИЕ'
+      lore:
+        - ''
+        - '&6&lИНФОРМАЦИЯ:'
+        - ''
+        - '&fЗадание: &aПоручитель'
+        - '&fОпыт: &675'
+        - '§fПрогресс: §e%total_progress%§8/§e%required_progress% &f[&7%progress_bar%&f] &7| &e%percentage_progress%&f'
+        - ''
+        - ''
+        - '&6&lЦЕЛЬ:'
+        - ''
+        - '&f- Приручить &6%required_progress% &fволков'
+        - ''
+  8:
+    name: 'Пляжный сезон'
+    type: block-break
+    variable: sand:0
+    required-progress: 650
+    points: 150
+    item:
+      material: book:0
+      amount: 1
+      name: '§6§lЕЖЕДНЕВНОЕ ЗАДАНИЕ'
+      lore:
+        - ''
+        - '&6&lИНФОРМАЦИЯ:'
+        - ''
+        - '&fЗадание: &aПляжный сезон'
+        - '&fОпыт: &6150'
+        - '§fПрогресс: §e%total_progress%§8/§e%required_progress% &f[&7%progress_bar%&f] &7| &e%percentage_progress%&f'
+        - ''
+        - ''
+        - '&6&lЦЕЛЬ:'
+        - ''
+        - '&f- Добыть &6%required_progress% &fпеска'
+        - ''
+  9:
+    name: 'Общительный'
+    type: chat
+    variable: none:0
+    required-progress: 200
+    points: 50
+    item:
+      material: book:0
+      amount: 1
+      name: '§6§lЕЖЕДНЕВНОЕ ЗАДАНИЕ'
+      lore:
+        - ''
+        - '&6&lИНФОРМАЦИЯ:'
+        - ''
+        - '&fЗадание: &aОбщительный'
+        - '&fОпыт: &650'
+        - '§fПрогресс: §e%total_progress%§8/§e%required_progress% &f[&7%progress_bar%&f] &7| &e%percentage_progress%&f'
+        - ''
+        - ''
+        - '&6&lЦЕЛЬ:'
+        - ''
+        - '&f- Добыть &6%required_progress% &fугля'
+        - ''
+  10:
+    name: 'Выживший'
+    type: kill-mob
+    variable: ender_dragon:0
+    required-progress: 1
+    points: 250
+    item:
+      material: book:0
+      amount: 1
+      name: '§6§lЕЖЕДНЕВНОЕ ЗАДАНИЕ'
+      lore:
+        - ''
+        - '&6&lИНФОРМАЦИЯ:'
+        - ''
+        - '&fЗадание: &aВыживший'
+        - '&fОпыт: &6250'
+        - '§fПрогресс: §e%total_progress%§8/§e%required_progress% &f[&7%progress_bar%&f] &7| &e%percentage_progress%&f'
+        - ''
+        - ''
+        - '&6&lЦЕЛЬ:'
+        - ''
+        - '&f- Убить &6%required_progress% &fдракона'
+        - ''

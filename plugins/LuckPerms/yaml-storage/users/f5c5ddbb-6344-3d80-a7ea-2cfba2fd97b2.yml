@@ -1,0 +1,14 @@
+uuid: f5c5ddbb-6344-3d80-a7ea-2cfba2fd97b2
+name: robertmuha_0
+primary-group: default
+parents:
+- default
+- gladiator
+- hero
+- voin
+prefixes:
+- §c§lГЛАДИАТОР §7:
+    priority: 15
+    context:
+      server: grief
+      world: world

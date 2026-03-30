@@ -1,0 +1,11 @@
+uuid: 59c493af-e327-36a0-899b-bbed8367a4e2
+name: Miphunya
+primary-group: frost
+parents:
+- wise
+prefixes:
+- §7§lИГРОК §7:
+    priority: 11
+    context:
+      server: grief
+      world: world

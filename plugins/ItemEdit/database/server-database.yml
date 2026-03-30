@@ -1,0 +1,847 @@
+axe2:
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_AXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §cТопор Берсерка
+      enchants:
+        DAMAGE_ALL: 9
+        DURABILITY: 3
+arrow2:
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    type: TIPPED_ARROW
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: §f§lСТРЕЛА §7§lИССУШЕНИЯ
+      lore:
+      - §cИссушение IV (0:05)
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      - HIDE_UNBREAKABLE
+      - HIDE_DESTROYS
+      - HIDE_PLACED_ON
+      - HIDE_POTION_EFFECTS
+      internal: H4sIAAAAAAAAAONiYGBmEHQuLS7Jzw3IL8nMz3POz8kvYjAyMmIAAGGANtAcAAAA
+      potion-type: minecraft:water
+      custom-color:
+        ==: Color
+        RED: 50
+        BLUE: 50
+        GREEN: 50
+      custom-effects:
+      - ==: PotionEffect
+        effect: 20
+        duration: 100
+        amplifier: 4
+        ambient: true
+        has-particles: true
+arrow3:
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    type: TIPPED_ARROW
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: §f§lСТРЕЛА §9§lУТОМЛЕНИЯ
+      lore:
+      - §cУтомление (0:30)
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      - HIDE_UNBREAKABLE
+      - HIDE_DESTROYS
+      - HIDE_PLACED_ON
+      - HIDE_POTION_EFFECTS
+      internal: H4sIAAAAAAAAAONiYGBmEHQuLS7Jzw3IL8nMz3POz8kvYjBi+M8AAJwYjYkcAAAA
+      potion-type: minecraft:water
+      custom-color:
+        ==: Color
+        RED: 50
+        BLUE: 255
+        GREEN: 0
+      custom-effects:
+      - ==: PotionEffect
+        effect: 4
+        duration: 600
+        amplifier: 0
+        ambient: true
+        has-particles: true
+arrow4:
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    type: TIPPED_ARROW
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: §f§lСТРЕЛА §b§lЗАМОРОЗКИ
+      lore:
+      - §cЗамедление X (0:20)
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      - HIDE_UNBREAKABLE
+      - HIDE_DESTROYS
+      - HIDE_PLACED_ON
+      - HIDE_POTION_EFFECTS
+      internal: H4sIAAAAAAAAAONiYGBmEHQuLS7Jzw3IL8nMz3POz8kvYmD4/58BAFscN20cAAAA
+      potion-type: minecraft:water
+      custom-color:
+        ==: Color
+        RED: 0
+        BLUE: 255
+        GREEN: 255
+      custom-effects:
+      - ==: PotionEffect
+        effect: 2
+        duration: 400
+        amplifier: 9
+        ambient: true
+        has-particles: true
+arrow5:
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    type: TIPPED_ARROW
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: §f§lСТРЕЛА §e§lЛЕВИТАЦИИ
+      lore:
+      - §cЛевитация (0:10)
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      - HIDE_UNBREAKABLE
+      - HIDE_DESTROYS
+      - HIDE_PLACED_ON
+      - HIDE_POTION_EFFECTS
+      internal: H4sIAAAAAAAAAONiYGBmEHQuLS7Jzw3IL8nMz3POz8kvYvj/n4EBANjnFiAcAAAA
+      potion-type: minecraft:water
+      custom-color:
+        ==: Color
+        RED: 255
+        BLUE: 0
+        GREEN: 255
+      custom-effects:
+      - ==: PotionEffect
+        effect: 25
+        duration: 200
+        amplifier: 0
+        ambient: true
+        has-particles: true
+arrow6:
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    type: TIPPED_ARROW
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: §f§lСТРЕЛА §3§lСЛАБОСТИ
+      lore:
+      - §cСлабость II (0:25)
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      - HIDE_UNBREAKABLE
+      - HIDE_DESTROYS
+      - HIDE_PLACED_ON
+      - HIDE_POTION_EFFECTS
+      internal: H4sIAAAAAAAAAONiYGBmEHQuLS7Jzw3IL8nMz3POz8kvYmDQMGIAAO2WpZscAAAA
+      potion-type: minecraft:water
+      custom-color:
+        ==: Color
+        RED: 0
+        BLUE: 50
+        GREEN: 40
+      custom-effects:
+      - ==: PotionEffect
+        effect: 18
+        duration: 500
+        amplifier: 1
+        ambient: true
+        has-particles: true
+arrow7:
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    type: TIPPED_ARROW
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: §f§lСТРЕЛА §4§lПЯТИ ПРОКЛЯТИЙ
+      lore:
+      - §cСлепота X (0:10)
+      - §cСлабость X (0:10)
+      - §cИссушение X (0:05)
+      - §cУтомление (0:20)
+      - §cЗамедление X (0:10)
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      - HIDE_UNBREAKABLE
+      - HIDE_DESTROYS
+      - HIDE_PLACED_ON
+      - HIDE_POTION_EFFECTS
+      internal: H4sIAAAAAAAAAONiYGBmEHQuLS7Jzw3IL8nMz3POz8kvYgABAMTVi0AcAAAA
+      potion-type: minecraft:water
+      custom-color:
+        ==: Color
+        RED: 0
+        BLUE: 0
+        GREEN: 0
+      custom-effects:
+      - ==: PotionEffect
+        effect: 15
+        duration: 200
+        amplifier: 9
+        ambient: true
+        has-particles: true
+      - ==: PotionEffect
+        effect: 18
+        duration: 200
+        amplifier: 9
+        ambient: true
+        has-particles: true
+      - ==: PotionEffect
+        effect: 20
+        duration: 100
+        amplifier: 4
+        ambient: true
+        has-particles: true
+      - ==: PotionEffect
+        effect: 4
+        duration: 400
+        amplifier: 0
+        ambient: true
+        has-particles: true
+      - ==: PotionEffect
+        effect: 2
+        duration: 200
+        amplifier: 9
+        ambient: true
+        has-particles: true
+alch1:
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: §f§lЗЕЛЬE §c§lГЛАДИАТОРА
+      lore:
+      - §9Сила IV (3:00)
+      - §9Замедление V (1:00)
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      - HIDE_UNBREAKABLE
+      - HIDE_DESTROYS
+      - HIDE_PLACED_ON
+      - HIDE_POTION_EFFECTS
+      internal: H4sIAAAAAAAAAONiYGBmEHQuLS7Jzw3IL8nMz3POz8kvYihmZWUAABjsvUIcAAAA
+      potion-type: minecraft:water
+      custom-color:
+        ==: Color
+        RED: 115
+        BLUE: 5
+        GREEN: 5
+      custom-effects:
+      - ==: PotionEffect
+        effect: 5
+        duration: 3600
+        amplifier: 3
+        ambient: true
+        has-particles: true
+      - ==: PotionEffect
+        effect: 2
+        duration: 1200
+        amplifier: 4
+        ambient: true
+        has-particles: true
+alch2:
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: §f§lЗЕЛЬE §a§lЧЕРЕПАШКИ
+      lore:
+      - §9Сопротивление III (5:00)
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      - HIDE_UNBREAKABLE
+      - HIDE_DESTROYS
+      - HIDE_PLACED_ON
+      - HIDE_POTION_EFFECTS
+      internal: H4sIAAAAAAAAAONiYGBmEHQuLS7Jzw3IL8nMz3POz8kvYmCOU2QAAHNsg7gcAAAA
+      potion-type: minecraft:water
+      custom-color:
+        ==: Color
+        RED: 3
+        BLUE: 33
+        GREEN: 94
+      custom-effects:
+      - ==: PotionEffect
+        effect: 11
+        duration: 6000
+        amplifier: 2
+        ambient: true
+        has-particles: true
+alch3:
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: §f§lЗЕЛЬE §d§lМЕДСЕСТРЫ
+      lore:
+      - §9Регенерация IV (3:00)
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      - HIDE_UNBREAKABLE
+      - HIDE_DESTROYS
+      - HIDE_PLACED_ON
+      - HIDE_POTION_EFFECTS
+      internal: H4sIAAAAAAAAAONiYGBmEHQuLS7Jzw3IL8nMz3POz8kvYshnuMcAAADadTwcAAAA
+      potion-type: minecraft:mundane
+      custom-color:
+        ==: Color
+        RED: 111
+        BLUE: 222
+        GREEN: 0
+      custom-effects:
+      - ==: PotionEffect
+        effect: 10
+        duration: 3600
+        amplifier: 3
+        ambient: true
+        has-particles: true
+alch4:
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: §f§lЗЕЛЬE §6§lФЛЭША
+      lore:
+      - §9Скорость III (8:00)
+      - §9Слепота I (0:10)
+      - §9Слабость III (1:00)
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      - HIDE_UNBREAKABLE
+      - HIDE_DESTROYS
+      - HIDE_PLACED_ON
+      - HIDE_POTION_EFFECTS
+      internal: H4sIAAAAAAAAAONiYGBmEHQuLS7Jzw3IL8nMz3POz8kvYkj7z8AAAPZJXuAcAAAA
+      potion-type: minecraft:water
+      custom-color:
+        ==: Color
+        RED: 102
+        BLUE: 0
+        GREEN: 255
+      custom-effects:
+      - ==: PotionEffect
+        effect: 1
+        duration: 9600
+        amplifier: 2
+        ambient: true
+        has-particles: true
+      - ==: PotionEffect
+        effect: 15
+        duration: 200
+        amplifier: 0
+        ambient: true
+        has-particles: true
+      - ==: PotionEffect
+        effect: 18
+        duration: 1200
+        amplifier: 2
+        ambient: true
+        has-particles: true
+alch5:
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: §f§lЗЕЛЬE §2§lТАНКА
+      lore:
+      - §9Сопротивление IV (1:00)
+      - §9Тошнота I (0:20)
+      - §9Замедление VII (0:05)
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      - HIDE_UNBREAKABLE
+      - HIDE_DESTROYS
+      - HIDE_PLACED_ON
+      - HIDE_POTION_EFFECTS
+      internal: H4sIAAAAAAAAAONiYGBmEHQuLS7Jzw3IL8nMz3POz8kvYgABAMTVi0AcAAAA
+      potion-type: minecraft:water
+      custom-color:
+        ==: Color
+        RED: 0
+        BLUE: 0
+        GREEN: 0
+      custom-effects:
+      - ==: PotionEffect
+        effect: 11
+        duration: 1200
+        amplifier: 3
+        ambient: true
+        has-particles: true
+      - ==: PotionEffect
+        effect: 9
+        duration: 400
+        amplifier: 0
+        ambient: true
+        has-particles: true
+      - ==: PotionEffect
+        effect: 2
+        duration: 100
+        amplifier: 6
+        ambient: true
+        has-particles: true
+alch6:
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: §f§lЗЕЛЬE §7§lЧИТЕРА
+      lore:
+      - §9Прилив здоровья V (5:00)
+      - §9Сила III (5:00)
+      - §9Скорость III (5:00)
+      - §9Голод III (3:00)
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      - HIDE_UNBREAKABLE
+      - HIDE_DESTROYS
+      - HIDE_PLACED_ON
+      - HIDE_POTION_EFFECTS
+      internal: H4sIAAAAAAAAAONiYGBmEHQuLS7Jzw3IL8nMz3POz8kvYnBwcGAAADxPfFscAAAA
+      potion-type: minecraft:water
+      custom-color:
+        ==: Color
+        RED: 64
+        BLUE: 64
+        GREEN: 64
+      custom-effects:
+      - ==: PotionEffect
+        effect: 21
+        duration: 6000
+        amplifier: 4
+        ambient: true
+        has-particles: true
+      - ==: PotionEffect
+        effect: 5
+        duration: 6000
+        amplifier: 2
+        ambient: true
+        has-particles: true
+      - ==: PotionEffect
+        effect: 1
+        duration: 6000
+        amplifier: 2
+        ambient: true
+        has-particles: true
+      - ==: PotionEffect
+        effect: 17
+        duration: 3600
+        amplifier: 2
+        ambient: true
+        has-particles: true
+arrow1:
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    type: TIPPED_ARROW
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: §f§lСТРЕЛА §c§lММ3
+      internal: H4sIAAAAAAAAAONiYGBmEHQuLS7Jzw3IL8nMz3POz8kvYjBiYGAAAO7lqRocAAAA
+      potion-type: minecraft:water
+      custom-color:
+        ==: Color
+        RED: 50
+        BLUE: 0
+        GREEN: 0
+      custom-effects:
+      - ==: PotionEffect
+        effect: 7
+        duration: 20
+        amplifier: 2
+        ambient: true
+        has-particles: true
+mag_5:
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §8▪ §f§lМЕЧЬ §6§lВОИНА §8▪
+      enchants:
+        DAMAGE_ALL: 5
+        FIRE_ASPECT: 2
+        LOOT_BONUS_MOBS: 3
+        SWEEPING_EDGE: 3
+        DURABILITY: 3
+        MENDING: 1
+      internal: H4sIAAAAAAAAAHWNMQrCQBBFv0bCJmCj9/AKErARjBYhBxizow66u2EzuYPHs/Y0bizs/N2Dz3slUGBVqUY5j8p1sHIRjkMJYJbBtO1+V4dBgec7QzHhgSnxPMYceeXC6HX7wncGi+YRFMaR+Bt5a7D8qY/kGOsre47SbUiVunvTM9ukPfUcSSX4qZosf7/AB5uQVLGxAAAA
+sword1:
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §8▪ §f§lМЕЧЬ §c§lФАРМИЛЫ §8▪
+      enchants:
+        LOOT_BONUS_MOBS: 5
+        SWEEPING_EDGE: 3
+        DURABILITY: 3
+axe1:
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_AXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §8▪ §f§lТОПОР §6§lЛЕСНИКА §8▪
+      enchants:
+        DIG_SPEED: 10
+        DURABILITY: 5
+        LOOT_BONUS_BLOCKS: 3
+pickaxe1:
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_PICKAXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §8▪ §f§lКИРКА §b§lМАЙНЕРА §8▪
+      enchants:
+        DIG_SPEED: 10
+        DURABILITY: 5
+        LOOT_BONUS_BLOCKS: 3
+armor_1:
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_HELMET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §8▪ §f§lШЛЕМ §c§lГЛАДИАТОРА §8▪
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 5
+        OXYGEN: 3
+        WATER_WORKER: 1
+        DURABILITY: 4
+        MENDING: 1
+      Unbreakable: true
+armor_2:
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §8▪ §f§lНАГРУДНИК §c§lГЛАДИАТОРА §8▪
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 5
+        DURABILITY: 4
+        MENDING: 1
+      Unbreakable: true
+armor_3:
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §8▪ §f§lПОНОЖИ §c§lГЛАДИАТОРА §8▪
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 5
+        DURABILITY: 4
+        MENDING: 1
+      Unbreakable: true
+armor_4:
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §8▪ §f§lБОТИНКИ §c§lГЛАДИАТОРА §8▪
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 5
+        PROTECTION_FALL: 4
+        DEPTH_STRIDER: 3
+        DURABILITY: 4
+        MENDING: 1
+      Unbreakable: true
+sphere1_1:
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    type: SKULL_ITEM
+    damage: 3
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: §8▪ §f§lШАР §6§lСТОЙКОСТИ I §8▪
+      enchants:
+        VANISHING_CURSE: 1
+      internal: H4sIAAAAAAAAAH2QzW6bQBSFb+P+YJRuuugTdOsKBxubRRZWIyWDzLhgsOPZVAMMYWCGiWCof54rL5ddp6pUddXV1dE595POsQFsuN42gxDfO1VywSy4QgV8KYqi9H0vmywztpzM8tydUNdbTDxvvlyUNzPmU2qDbZ6eWac568dgaXbSQ8d6GwDeWPBuR8XA4IWdA4c8Vk7xGIj8jDyjk60jNqh+XqB2d86+IQ9J4z+svPXZ/yc713Q/Fwc3qEgbDZncOWs3FuwhnuYy/Ykv6Rzf4wrv4xrvw5m5PLxBziFpjuQumuGkuYQyEOQ+nRIZNKSOjmGN5eESy4MkEksiwiTmJImOm314InXjonbql9HtrWkwhk8rrTueDZqFquAlZ92faiOw0hTdharXAFc/RjD+LdeMGn19eh3B+5VUQ2tMGFnwdiuUhg+qLCvaFhZ8/EvFVDL4/MRa1vH8K+2k6hI1PFUt63sD3ZhlqeaqNRwwnP/FAX4BVB5zBcoBAAA=
+sphere1_2:
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    type: SKULL_ITEM
+    damage: 3
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: §8▪ §f§lШАР §6§lСТОЙКОСТИ II §8▪
+      enchants:
+        VANISHING_CURSE: 1
+      internal: H4sIAAAAAAAAAH2QzW6bQBSFb+O0xSjddNEn6NYVDjY2iyysRkoGmXHBYMezqQYYwsAME8FQ/zxXX667TlSp6qqrq0/n3COdYwPYcLNtBiG+darkgllwhQr4XBRF6fteNllmbDmZ5bk7oa63mHjefLkob2fMp9QG2zy9sE5z1o/B0uykh471NgC8seDtjoqBwU92DhzyVDnFUyDyM/IMJ1tHbFD9skDt7px9RR6SRn9ceeuz/493rul+Lg5uUJE2GjK5c9ZuLNhjPM1l+gNf0jl+wBXexzXehzNzeXiLnEPSHMl9NMNJcwllIMhDOiUyaEgdHcMay8MllgdJJJZEhEnMSRIdN/vwROrGRe3UL6O7O9NgDB9XWnc8GzQLVcFLzro/1UZgpSm6D1WvAa6+j2D8imtGDd+cfo3g3UqqoTUiWBZcb4XS8F6VZUXbwoIPf1MxlQw+PbOWdTz/QjupukQNz1XL+t6EbsyyVHPVwmsQXP/PDvAbX8vvp8oBAAA=
+sphere2_1:
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    type: SKULL_ITEM
+    damage: 3
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: §8▪ §f§lШАР §4§lСИЛЫ I §8▪
+      enchants:
+        VANISHING_CURSE: 1
+      internal: H4sIAAAAAAAAAHWQzW6bQBSFb/OLUbOp8gjZOgJjk3gRqVamTcayobYBB3bj4Y49ZoAID1Fgk5fq4/RhStqq6qZ3d+4995POMQFM+LjKaqW+VaWQCg04oilcuTdDJoYO7yNP7f7Qdnl/M0TRHwv7doAMmeCuCWb39IyVlnjogaHxVdcVHkwA+GDAacRUjfAdm6mVPO2s9GmqeEPdTgcrS/l0/3xDi6jZ3FOX5t39ceLOmvE/3pFm65GKnekuKRb1Jo+smbNU+Li0eR6++GRrJUHWeGTrxG3seCQb+UEkvTZz5m0q/Ycvo2RNrbhdtH4QWu/7OEiyhCT7hCjpPUR5PAhfvYGXe4TbPlkMaGGPxeLurkvQg08TrSu5qTXOy1QKidXvaMdghCEl8/Kg4fzH12PovcsZsk6firczOJvkZV3ozyfwaww4Wamy85ZC7FiRGnDxl+yxHOFyiwVWkl8zrRnPCMvZFjus33XLtCyLP5T/mwF+AumlZeLKAQAA
+sphere2_2:
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    type: SKULL_ITEM
+    damage: 3
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: §8▪ §f§lШАР §4§lСИЛЫ II §8▪
+      enchants:
+        VANISHING_CURSE: 1
+      internal: H4sIAAAAAAAAAHWQz26bQBCHp3XTYNRcoj5Cro7A2KQ+5GB182ctG+oYSOC2XmbtDQtEeIkCl7xUHicP040qVb30+Jv55pN+YwPY8G1TtEr9amohFVrwmeZw5l9MmJh4fIQ8d0cT1+ej7QTFaCbcH2NkyAT3bbDN0RM2WuJhCJbGF902eLAB4JMFRwlTLcIbdgsne9g7+cNC8Y76JkcbR4X08emCVkm3/Ul9Wpr97dxfdrN/2Klm91OVeot9Vq3bbZk4S+9O4e2dy8v4OSQ7J4uKLiA7L+1TLyDFNIwSGfSFt+pzGd5cTbN76qT9ug+j2PmYp1FWZCR7zIiSwU1SpuP4JRgHZUC4G5L1mFbuTKwvL02DIZzOtW7kttW4qnMpJDZ/qg3AimNKVvVBw/H79QCGH3GJzOQj8TqAr/Oybitt2IEFXzaqNlwtxJ5VuQUnf60BKxG+77DCRvJzpjXjBWEl26FRhuavTMu6MhYwlv/DAL8BPzad5MYBAAA=
+sphere3_1:
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    type: SKULL_ITEM
+    damage: 3
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: §8▪ §f§lШАР §b§lСКОРОСТИ I §8▪
+      enchants:
+        VANISHING_CURSE: 1
+      internal: H4sIAAAAAAAAAH1Qy07CQBS9io/S6MbE+AMuxUwpz5UhQmQIbaU8Ct219FYGZlpSpsbyVX6AO7/JvaMmxpV3d+459+TcowPocDbe5Jw/ZmnMOGpwSCO4bpotEkakVqmTJlZqzQgrrbiNlWAZqnW1ZaBp6qCroy1mkuGuDJrEF5lnuNMB4ECD41nAc4RXLAbEn69INB/wZUEbCk/GhDt0vW3SZFaE97RBheL7ncawaP/R1mXg1fnCHKz8ZJSHYkaGpsux7xpLMX22JrTqTyxir2nNrvYKy3OZL+yV7VHDebBe7O5g4zyMDHvfKxbCXTtdVyjOtL0RsfY94nujYjF52i/WtLDETPiix+K50Vbpy3DRkTJjYS7RSiMWM8x+3iqBNp3SrpXuJBy83ZSg/AWHGCh8/nF1AicdkeaJvHs3v0eDozFPJZymcbwKkkiD819nOxAIl0+YYMaWtyJ9RoGJHG8RI+XrqGIDydLkp82jf9QAn7euXkjIAQAA
+sphere3_2:
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    type: SKULL_ITEM
+    damage: 3
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: §8▪ §f§lШАР §b§lСКОРОСТИ II §8▪
+      enchants:
+        VANISHING_CURSE: 1
+      internal: H4sIAAAAAAAAAH1Qy07CQBS9io/S6MbE+AMuxUwpz5UhQmQIbaU8Ct219FYGZlpSpsbyVX6Af+G3uHfUxLjy7s49556ce3QAHc7Gm5zzxyyNGUcNDmkE102zRcKI1Cp10sRKrRlhpRW3sRIsQ7Wutgw0TR10dbTFTDLclUGT+CLzDHc6ABxocDwLeI7wisWA+PMVieYDvixoQ+HJmHCHrrdNmsyK8J42qFB8v9MYFu0/2roMvDpfmIOVn4zyUMzI0HQ59l1jKabP1oRW/YlF7DWt2dVeYXku84W9sj1qOA/Wi90dbJyHkWHve8VCuGun6wrFmbY3Ita+R3xvVCwmT/vFmhaWmAlf9Fg8N9oqfRkuOlJmLMwlWmnEYobZz1sl0KZT2rXSnYSDt5sSlL/gEAOFzz+uTuCkI9I8kXfv5vdocDTmqYTTNI5XQRJpcP7rbAcC4fIJE8zY8lakzygwkeMtYqR8HVVsIFma/LR59I8a4BPYiwPkyAEAAA==
+sphere4_1:
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    type: SKULL_ITEM
+    damage: 3
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: §8▪ §f§lШАР §d§lЗДОРОВЪЯ I §8▪
+      enchants:
+        VANISHING_CURSE: 1
+      internal: H4sIAAAAAAAAAHWQwW6bQBRFX+u2wahdtN/QrSPGGGwWWbgliccyuNjGNuzAPMLgGYjwEAX/QH4o+/xapqpUZZPl1Tv3SPfpADp8XR9bzv80dc44avCRZvAzS/MDQccZpDaxBqPReDSYTCbGgJiphRMT7cxxdNBV6R4byfDUB03io2wbPOkA8EGDz9uEtwjP2M2NeF8Y2X7ODx21Vd6sDb6k5f2YVtsu/U1tKtR9NrUXnfOGtWSys3hkzou4CtpUbI2FueI4W5GDCB/8868ydu/OkQi7qAyIV1Liu0fTO1MSu0eydEPDOwdDfxcf/U3MYjci0TCw/Ntryx+Go1isRFTelN5uWy43PvPcQtCKOHlwdaUW9OHHVMqGpa1Er85YzrD5N60HWhhS16tPEi422IP+37jAROX+00sPvkxF3VZSsT0NPq15rbg6z4ukyjT49t/qJwLh+x1W2LDDpUgeZ5hwWSjfUj01kayulAKU4h0S4BUinyrgwAEAAA==
+sphere4_2:
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    type: SKULL_ITEM
+    damage: 3
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: §8▪ §f§lШАР §d§lЗДОРОВЪЯ II §8▪
+      enchants:
+        VANISHING_CURSE: 1
+      internal: H4sIAAAAAAAAAHWQwW6bQBRFX+o0wShdtN/QrSPGGGIWWbihiccyONjGDuzAPMLgGYjwEAX/QH6o+/5aJ6oUZZPl1Tv3SPfpADpcrPYt5/dNnTOOGnyhGfzM0nxH0HEGqU2swWh0NRqMx2NjQMzUwrGJduY4Ouiq9ISNZHjogybxRbYNHnQAONHg6ybhLcIf7GZG/FAY2cOM7zpqq7xeGXxBy6crWm269IbaVKj7dGLPO+cDa8lka/HInBVxFbSp2Bhzc8lxuiQ7ET77x19l7D4eIxF2URkQr6TEd/emd6Qkdvdk4YaGdwyG/jbe++uYxW5EomFg+Xe/LX8YjmKxFFF5W3rbTblY+8xzC0Er4uTB9bVa0IcfEykblrYSvTpjOcPm/7QeaGFIXa8+SDhfYw/6b3GOicr91789OJuIuq2kYs80OF3xWnF1nhdJlWnw7d3qJwLh+yNW2LDdpUhepphwWSjfQj01kayulAKU4hMS4B9qKdT1wAEAAA==
+sphere4_3:
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    type: SKULL_ITEM
+    damage: 3
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: §8▪ §f§lШАР §d§lЗДОРОВЪЯ III §8▪
+      enchants:
+        VANISHING_CURSE: 1
+      internal: H4sIAAAAAAAAAHWQwW6bQBRFX+u2wahdtN/QrSPGGGwWWbgliccyuNjGNuzAPMLgGYjwEAX/QH4o+/xapqpUZZPl1Tv3SPfpADp8XR9bzv80dc44avCRZvAzS/MDQccZpDaxBqPReDSYTCbGgJiphRMT7cxxdNBV6R4byfDUB03io2wbPOkA8EGDz9uEtwjP2M2NeF8Y2X7ODx21Vd6sDb6k5f2YVtsu/U1tKtR9NrUXnfOGtWSys3hkzou4CtpUbI2FueI4W5GDCB/8868ydu/OkQi7qAyIV1Liu0fTO1MSu0eydEPDOwdDfxcf/U3MYjci0TCw/Ntryx+Go1isRFTelN5uWy43PvPcQtCKOHlwdaUW9OHHVMqGpa1Er85YzrD5N60HWhhS16tPEi422IP+37jAROX+00sPvkxF3VZSsboGn9a8Vlyd50VSZRp8+2/1E4Hw/Q4rbNjhUiSPM0y4LJRvqZ6aSFZXSgFK8Q4J8Aq1Y61xwAEAAA==
+sphere5_1:
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    type: SKULL_ITEM
+    damage: 3
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: §8▪ §f§lШАР §3§lЛОВКОСТИ I §8▪
+      enchants:
+        VANISHING_CURSE: 1
+      internal: H4sIAAAAAAAAAHWQzU7bQBSFL791rFZI0EfoNpUHOwlZIBRKGiaKbSB2gr2bjK/xJDN26owBp+/UVV+ob1IjJMSG5afzI51jApjwebqqpLwpi1RINGCXJvCN9ZH3eY+3HZtbbYfYpL0gltM+O+1yQggjZ0nPBLMJrbHUAjctMDQ+66rEjQkAOwYczJisEP5iPbbi+8xK7seS17TbcDC1pE+X6x7NZ/XiB+1S1ejXg+6k7r/zdjSbd2Rkj7M4v60WamZN7DuJ13eEq/AxDiLbD1bP/igkroq28TJTrvKySI1FPP+59NSw420jx51HdaNlUTB8iraXwlWh4wYPxA+o41/NMm80fIoDuXKX1KY56ae35+fNghYcD7QuxaLS6BaJSAWWr9P2wAhDeuUWGw07j2QPWi84Qdaw+evoEA4HqqhyfaG3/0Z/vv42YH8qCw2fijTNWJ4Y8OWt2WMK4eQBcywF/860Znw1XSMmTavfXMu0KPLXP/c/9AL8BxM6JH7IAQAA
+sphere5_2:
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    type: SKULL_ITEM
+    damage: 3
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: §8▪ §f§lШАР §3§lЛОВКОСТИ II §8▪
+      enchants:
+        VANISHING_CURSE: 1
+      internal: H4sIAAAAAAAAAHWQzU7bQBSFLz+ljgWqRPsI3aby1E5CFqhKSxomiu1C7AR7Nxlf40lm7NQZAw5bnocVL9Q3qRESYsPy0/mRzjEBTDicriop/5RFKiQasEsT+Mr6yPu8x9uOza22Q2zSXhDLaZ9873JCCCMnSc8EswmtsdQCNy0wNN7pqsSNCQA7BnyYMVkhPGE9tuKrzEquxpLXtNtwMLWkT5frHs1n9eIX7VLV6OeD7qTuv/F2NJt3ZGSPszi/qBZqZk3sS4nnl4Sr8CYOItsPVnf+KCSuirbxMlOu8rJIjUU8/7301LDjbSPHnUd1o2VRMLyNtj+Fq0LHDa6JH1DHP5tl3mh4Gwdy5S6pTXPSTy9OT5sFLTgeaF2KRaXRLRKRCixfpu2BEYb0zC02GnZuyB60nnGCrGHz76cDOBioosr1j4ftv9Hjl3sD9qey0PCxSNOM5YkBR6/NHlMIn68xx1Lwb0xrxlfTNWLStPrNtUyLIn/5c/9dL8B/vMQ2FsgBAAA=
+sphere6_1:
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    type: SKULL_ITEM
+    damage: 3
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: §8▪ §f§lШАР §2§lОТБРАСЫВАНИЯ I §8▪
+      enchants:
+        VANISHING_CURSE: 1
+      internal: H4sIAAAAAAAAAIWQzW7TQBSFLxSKY5UNW7ZsU/knTupFhSJM24nicePUSePd2L6uf8bjyh6X5E1on4OXYMlj8BadCgmx4+4+3XPO1bk6gA4n63rg/Lpr85KjBq9JBp8wsdCYuDh2nKk9nmT5bJzgGRub6ZlrWjabuczUQVeme+xkif0INIl7OXTY6wDwSoO3G8YHhB94WBjxbWFktwueHshU8c3a4AGp7mdEbA7JFzIljdpfzafLg/uP1pFs6/CdvShisRqSZmMs7ZDjVWimTfRAt5EReLs93YYNbYgdX4aNb13U1KtN31vtAy+1Yq/e04qX8aXvBB4tfCsuFBd+c1Htbr5+o1Y0iSti+tudTas7mwjTzVfn56rBCD7MpezKZJDot1mZl9j9qXYEWhQRz297Ce++x0cwesElMsUnv38dw/G8aQchP/98fJknDd6seau0bZ4XTGQavP+bTFmD8PEOBXZlelqLNq0TltYh9mUvmUhRpQfqxUyWrVDHQYX91wPwDG5GyG/YAQAA
+sphere6_2:
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    type: SKULL_ITEM
+    damage: 3
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: §8▪ §f§lШАР §2§lОТБРАСЫВАНИЯ II §8▪
+      enchants:
+        VANISHING_CURSE: 1
+      internal: H4sIAAAAAAAAAIWQzW6bQBSFb5s2xSjddNttto74MXZYRJUV8jOWGWoc7JjdAJcwMEAEQ2O/SR4kL9I36LZv0emPqu56d5/uOUc6RwfQ4WRdDUJ87tqcC9TgNcngFBMLjYmLY8eZ2uNJls/GCZ6zsZmeu6Zls5nLTB10ZXrETnLsR6BJ3Muhw14HgFcavN0wMSC84GFhxPeFkd0vRHogU8V3a0MEpHyckWZzSC7JlNTqfzufLg/uP1pHsq0jdvaiiJvVkNQbY2mHAm9DM62jL3QbGYG329NtWNOa2PFNWPvWdUW9yvS91T7wUiv2qj0tBY9vfCfwaOFbcaG48Ovrcnd39UStaBKXxPS3O5uWDzZpTDdfXVyoBiP4MJey48kg0W8znnPsflc7Ai2KiOe3vYR3z/ERjH7iEpnik+9fj+F4XrdDIz99g1+nwZu1aJW2zfOCNZkG7/8mU1YjfHzABjuenlVNm1YJS6sQe95L1qSo0gM1MZO8bf6E/dcD8AMDGSKh2AEAAA==
+'130':
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    type: SKULL_ITEM
+    damage: 3
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: §c§C§L∻ §6§lРУНА§r §6§lВЕТРА §c§C§L∻
+      lore:
+      - ''
+      - §c§l⚠ §f§lАКТИВИРУЕТСЯ ВО ВТОРОЙ РУКЕ §c§l⚠
+      - ''
+      - §c§l+ §f1 Скорость
+      - §c§l+ §f5 Броня
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      - HIDE_UNBREAKABLE
+      - HIDE_DESTROYS
+      - HIDE_PLACED_ON
+      - HIDE_POTION_EFFECTS
+      internal: H4sIAAAAAAAAAH2Rv2/TUBDHryUUJ6JShcTEwNIRIydx/GMqURNUR7FDEztNvKBn+7l+znt2ZD9XcSvBxMTEwAACiT+BqVIX/hAG/gekihm3gioM9La7+97d5+4aAA24P1kUlL7I0pBQLMCmEcCu15JbnuLpoqbISJRDTRV1WdVEJQxkSfU8rCtBAxpV0RJnnOC8DgLHK15kOG8AwIYAd6eIFhi+4nIgubNICmYD6peGUvn2RKIjI16qRjItvX1DMViVP+gqw1Jf03Y4OurQeXsQuclh4bGpNGyPKT4YN33mnLjxcWnG3XLUGzCTTallLzqW3V/N4zGbn/qSFfdX5pHZsU7NltsLiNVbrFw7IvOWS6z4UJ7bUWTaTsuMF1WP59S1HRLOmnpFL8COX+Q8ZYRjlotFQaqTYOSrvtLURM3326Ks6qGotaVA9AIvRE1fkpHeqcODLucZ8QqOzTQgIcHZ9T02ayA4jtEz05z3f55FO87+eQ3qV6EhRjl/++nLq19nl6+3YKvL0iLhexcfruyjALUJTTncS8MwQkkgwPbNBAsxDA+PcYIz4j9l6QlmOOGTJcbBHaiPqs8gTtIErjeq3aKGNbpHT76fv3xsvVunu/jxZuPb+8vPN3TPdgH+tL2dbvvvPJSxNPsf1b8qgN+4+PpolwIAAA==
+'131':
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    type: SKULL_ITEM
+    damage: 3
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '§c§C§L∻ §6§lРУНА ЛАВЫ§c§C§L ∻ '
+      lore:
+      - ''
+      - §c§l⚠ §f§lАКТИВИРУЕТСЯ ВО ВТОРОЙ РУКЕ §c§l⚠
+      - ''
+      - §C§L+  §fСила 2
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      - HIDE_UNBREAKABLE
+      - HIDE_DESTROYS
+      - HIDE_PLACED_ON
+      - HIDE_POTION_EFFECTS
+      internal: H4sIAAAAAAAAAHVQS07jQBAtIIBjwWbEEdgGdew4JAukMVhAW+kw5EfsXcfuTux025HTBuwbjOYMbDnBLOYIMxdgzWoOwAkwAqHZTG1K9d6rV3qlA+iwN1zmQnzLUh4JpsEmDuGwZRhm0DRoA1khbbSQaTQ6QavboJbFOybvdo65pYNeLa1YpiK2roOm2L3KM7bWAWBDg+0JFTmDn6xwkT9doHDqiqDA7WoeDZG4wvHqGCeTYnaG21hW/KXd7hXdf7SWojeW8Ex34SfX+UxOUM8cCHY5aAZyfOs74zviYItID3k3vuiP3CUZnUoSLy3/wo9I7N2R0itJjFuktFF/ZJekPBfEqbozR57EBYnfMNKseKMfDwQZul0+RSdVgjp8sZXKolmuGEnDiEcse49WA208xg5J1wo//3l8+O3+qEH9Deoxula/Xp7+6vf8+w7s2DLNE/UV3kuD2lCkCnZTzhc0CTXY/7zQp5LBwZwlLIuCI6oUDZYOlXTOtqB+Vf2YqihNPlz+LwZ4BS351HPSAQAA
+'132':
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    type: SKULL_ITEM
+    damage: 3
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: §c§C§L∻ §6§lРУНА§r §6§lВОДЫ §c§C§L∻
+      lore:
+      - ''
+      - §c§l⚠ §f§lАКТИВИРУЕТСЯ ВО ВТОРОЙ РУКЕ §c§l⚠
+      - ''
+      - §C§L+  §fСила 3
+      - §C§L+ § §fCкорость атаки  1
+      - '§C§L+ §fДополнительное здоровье: §c§l❤❤❤'
+      - ''
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      - HIDE_UNBREAKABLE
+      - HIDE_DESTROYS
+      - HIDE_PLACED_ON
+      - HIDE_POTION_EFFECTS
+      internal: H4sIAAAAAAAAAJWRO4/TQBCAh1w4nOiQjgMJOporaIz8ShwXJyXCHHEUJzhxkrO7tb2OnXjtyF7DJbRUFPwC2msRQqKhoEPiF4DoKOjoQIgWc+IRBJFgt9nZ+Wbn02wVoAo7w3keRbfTxA8jzEBJ82Cfd1DDEySFdWQXsxLii1NNkFheFhzk1zyZ98QqVIuiBU5piLMKMBQf0zzFWRUAzjBwdoyiHMMTvOxw9lHAeUedyF1q9SI2h1zU12YLWYvHS+eGVtdIkW+36t2lssbWKJrUIkvsBHZs5A4Zc11xEOH2gHfJ6I5tWmLfjEKbHAa6cHNprYo9MaTeZDDXV65U5AVbHYm2GgV90ysYS+oR424Rk95sWtBGra9aK51YnD0bz7SYV3zj4KCwZ2DXzTOakJBikrF5HhYjcbmGwyPZZUUF8azkyHVWqbsii2WMFUV0a3xDqMBei9I0dHKK9cQL/RCnp/PYKgMzGmmqnmQ017snux+b78pQ+XbVxSijj65eO+yZH/ht2G6RJI9pk4HTxUB5GCUUziW+H6DYY+D8zw49RDBcmuIYp6F7HVGK3LmKCJriLaj0i49BNEzi769shmHN7cXOp7cv3zcvr7s9dZL7bxr7pf93u/h7u+ECY2+T2t/YdTPz2esvtwz1+brZg4efT0qv7j3+ZXblH80u/OhG0HEbo4gGm7z+JAG+At88nDo3AwAA
+'133':
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    type: SKULL_ITEM
+    damage: 3
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '§c§C§L∻ §6§lРУНА ОГНЯ§c§C§L ∻ '
+      lore:
+      - ''
+      - §c§l⚠ §f§lАКТИВИРУЕТСЯ ВО ВТОРОЙ РУКЕ §c§l⚠
+      - ''
+      - '§C§L+ §fДополнительное здоровье: §c§l❤❤❤❤❤'
+      - '§C§L+ §f5 Защита '
+      - §c§l§C§L+ §fСопротивление к отбрасыванию
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      - HIDE_UNBREAKABLE
+      - HIDE_DESTROYS
+      - HIDE_PLACED_ON
+      - HIDE_POTION_EFFECTS
+      internal: H4sIAAAAAAAAAJXRPWzTQBgG4AOa4kQUARIwdGApoyvHzq9EJVLSpo5iu0mTtAks5/O5tnO2g30uMQKJBUERA2KlCCQ22Ap0qcTUDQYGBgYkJNQNiak7pBVBrkRA8Wbf+937+C4BQAKcWOoEhCx6rm4SzICjogameKyilJDJspyQRmwqreXZXEYQWD6bhDzGQlrQuQRI9Ie62KMm9uOAobhHAw/7CQDAEQbEmpAEGLzBYZlrrxictlImKBQz/ff6EkcU0epmRacZqlfEjGj31xcKmUqYj2TTFC6nSUsoG22nGqh2k6sINYIXaklkN9ZaNyVeKWpEspqWbElhy5aJUpo3ZGueSKUqL5ekUC41eKVesyS+SVr1VqgsNw2lXuXaVs1qW9KNdkm2W1bN3p+ViqgnOsm8Xp2Z6f8BA06hwKeubVJs+2wQmP1jyWlJISVoiNVgErOpHMez+RynsiqHM7qazWl5jOLgTIFSz1QDiiVXM3UTewdnEhsDTKMhFiXXp59eKJPuY6k7BuL7nyoY+vTt4trE19iFd+NgvGC7gUMvT4GDhwFjS8Sl4Lir6wZ0NAZM/GmQoY3B6VXsYM9E0zbsLWBIqHEMxJX+zUBqus7vLYYkQUS1e3K9t/tkbjqqerZjvL74oTs7umpi0AU92/WGiQ6nopoHX25/vrVRuB/VPNwkW9df3Xk/uubcoZ66G6waDvb9Yawh8ahv73tnb+fH7EbUd+/8N/7S1tXN0X1nB4Uehsgomj6FDsLDeH9PR3XK9k/j6d25a1Hd+seXpefbsUej6yYHfR3HRR0Vok4N+/8x/msGgF/K+UlDewQAAA==

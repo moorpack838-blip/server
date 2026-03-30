@@ -1,0 +1,8 @@
+uuid: 8199f5a2-01f2-3066-acbd-ee51a82753dd
+name: '1408'
+primary-group: default
+parents:
+- default
+- gladiator
+- hero
+- voin

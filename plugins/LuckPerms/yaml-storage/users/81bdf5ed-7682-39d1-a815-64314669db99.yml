@@ -1,0 +1,11 @@
+uuid: 81bdf5ed-7682-39d1-a815-64314669db99
+name: ImMirrox
+primary-group: default
+parents:
+- default
+prefixes:
+- §7§lИГРОК §7:
+    priority: 11
+    context:
+      server: grief
+      world: lobby

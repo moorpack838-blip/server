@@ -1,0 +1,32 @@
+uuid: 2ab071e8-eb0f-347a-9420-78d6e332d941
+name: __Dima_
+primary-group: admin
+permissions:
+- '*'
+- kit.dhelper
+- kit.elay
+- kit.glad
+- kit.hero
+- kit.legend
+- kit.povel
+- kit.start
+- kit.vip
+parents:
+- admin
+- ares
+- elay
+- gladiator
+- hero
+- legend
+- povel
+- voin
+prefixes:
+- '&c&lDev &f':
+    priority: 1000
+suffixes:
+- '&6&nПупсик':
+    priority: 1
+    context:
+      server: ☡
+- '&6&nЯ Бы Дал ☡':
+    priority: 1

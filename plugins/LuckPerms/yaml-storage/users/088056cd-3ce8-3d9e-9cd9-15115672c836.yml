@@ -1,0 +1,11 @@
+uuid: 088056cd-3ce8-3d9e-9cd9-15115672c836
+name: skray_ne_gey
+primary-group: default
+parents:
+- default
+prefixes:
+- §7§lИГРОК §7:
+    priority: 11
+    context:
+      server: grief
+      world: world

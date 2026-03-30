@@ -1,0 +1,11 @@
+limitDefault: 3
+limits:
+- vip:5
+- premium:7
+- kreativ:10
+- elita:15
+- admin:20
+- op:25
+- vladelec:30
+- osnovatel:35
+- flekser:50

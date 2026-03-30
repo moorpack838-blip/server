@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 95.49.10.4
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1680619606684
+  login: 1680618873792
+money: '0'
+lastlocation:
+  world: 50e83d7b-bd31-4b59-b085-d04edc199449
+  world-name: world
+  x: 90.5
+  y: 71.0
+  z: 262.5
+  yaw: 4.079371929168701
+  pitch: 0.0
+last-account-name: BlackAngelsDeath
+logoutlocation:
+  world: f426770c-0cf2-4454-94e7-0f4170382838
+  world-name: lobby
+  x: 992.9761749512659
+  y: 67.0
+  z: -314.8635559232142
+  yaw: 126.78948974609375
+  pitch: 35.342185974121094

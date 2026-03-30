@@ -1,0 +1,12 @@
+uuid: baef6ae5-d3ff-383a-9ee7-2ba90968cc4a
+name: ReterDragon
+primary-group: default
+parents:
+- default
+- gladiator
+prefixes:
+- §c§lГЛАДИАТОР §7:
+    priority: 15
+    context:
+      server: grief
+      world: lobby

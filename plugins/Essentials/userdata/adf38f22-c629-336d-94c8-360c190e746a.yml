@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 213.155.216.152
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1680443588065
+  login: 1680443008910
+money: '0'
+last-account-name: AriCtoCraT
+lastlocation:
+  world: 50e83d7b-bd31-4b59-b085-d04edc199449
+  world-name: world
+  x: 82.5
+  y: 75.0
+  z: 260.5
+  yaw: 4.376926422119141
+  pitch: 0.0
+logoutlocation:
+  world: f426770c-0cf2-4454-94e7-0f4170382838
+  world-name: lobby
+  x: 986.2691925161915
+  y: 66.9375
+  z: -286.20814180118583
+  yaw: -146.312255859375
+  pitch: 12.583734512329102

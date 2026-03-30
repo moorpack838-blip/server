@@ -1,0 +1,265 @@
+menu_title: '&0&lFC ∫ МЕНЯЛО'
+open_command: обмен
+size: 54
+items:
+  'skull':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjZhNjg4NmU4NGVhZTViYTJiMmI2MDI0MzI0MjljNmZiMjg2OTFmYzAyZTlmOWNjYjVjNTdmMmNkZDBmMWQ4In19fQ==
+    slot: 20
+    display_name: '&6⛂&e100.000 &7- &6ℙ&e100'
+    lore:
+      - '&e• &fРазменяет вам &6⛂&e100.000&f на &6ℙ&e100'
+      - ''
+      - '&aНажми, чтобы разменять'
+    left_click_commands:
+      - '[console] eco take %player_name% 100000'
+      - '[console] p give %player_name% 100'
+    left_click_requirement:
+      requirements:
+        money:
+         type: has money
+         amount: 100000
+      deny_commands:
+       - '[close]'
+       - '[message] &f⎛&c&l!&f⎠ &fНедостаточно монет!'
+       - '[message] &f⎛&c&l!&f⎠ &fНужно&f: &6ℙ &e100.000 &f(У вас &6ℙ &e%vault_eco_balance%&f)'
+  'skull1':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjZhNjg4NmU4NGVhZTViYTJiMmI2MDI0MzI0MjljNmZiMjg2OTFmYzAyZTlmOWNjYjVjNTdmMmNkZDBmMWQ4In19fQ==
+    slot: 21
+    display_name: '&6⛂&e200.000 &7- &6ℙ&e200'
+    lore:
+      - '&e• &fРазменяет вам &6⛂&e200.000&f на &6ℙ&e200'
+      - ''
+      - '&aНажми, чтобы разменять'
+    left_click_commands:
+      - '[console] eco take %player_name% 200000'
+      - '[console] p give %player_name% 200'
+    left_click_requirement:
+      requirements:
+        money:
+         type: has money
+         amount: 200000
+      deny_commands:
+       - '[close]'
+       - '[message] &f⎛&c&l!&f⎠ &fНедостаточно монет!'
+       - '[message] &f⎛&c&l!&f⎠ &fНужно&f: &6ℙ &e200.000 &f(У вас &6ℙ &e%vault_eco_balance%&f)'
+  'skull2':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjZhNjg4NmU4NGVhZTViYTJiMmI2MDI0MzI0MjljNmZiMjg2OTFmYzAyZTlmOWNjYjVjNTdmMmNkZDBmMWQ4In19fQ==
+    slot: 22
+    display_name: '&6⛂&e300.000 &7- &6ℙ&e300'
+    lore:
+      - '&e• &fРазменяет вам &6⛂&e300.000&f на &6ℙ&e300'
+      - ''
+      - '&aНажми, чтобы разменять'
+    left_click_commands:
+      - '[console] eco take %player_name% 300000'
+      - '[console] p give %player_name% 300'
+    left_click_requirement:
+      requirements:
+        money:
+         type: has money
+         amount: 300000
+      deny_commands:
+       - '[close]'
+       - '[message] &f⎛&c&l!&f⎠ &fНедостаточно монет!'
+       - '[message] &f⎛&c&l!&f⎠ &fНужно&f: &6ℙ &e300.000 &f(У вас &6ℙ &e%vault_eco_balance%&f)'
+  'skull3':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjZhNjg4NmU4NGVhZTViYTJiMmI2MDI0MzI0MjljNmZiMjg2OTFmYzAyZTlmOWNjYjVjNTdmMmNkZDBmMWQ4In19fQ==
+    slot: 23
+    display_name: '&6⛂&e400.000 &7- &6ℙ&e400'
+    lore:
+      - '&e• &fРазменяет вам &6⛂&e400.000&f на &6ℙ&e400'
+      - ''
+      - '&aНажми, чтобы разменять'
+    left_click_commands:
+      - '[console] eco take %player_name% 400000'
+      - '[console] p give %player_name% 400'
+    left_click_requirement:
+      requirements:
+        money:
+         type: has money
+         amount: 400000
+      deny_commands:
+       - '[close]'
+       - '[message] &f⎛&c&l!&f⎠ &fНедостаточно монет!'
+       - '[message] &f⎛&c&l!&f⎠ &fНужно&f: &6ℙ &e400.000 &f(У вас &6ℙ &e%vault_eco_balance%&f)'
+  'skull4':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjZhNjg4NmU4NGVhZTViYTJiMmI2MDI0MzI0MjljNmZiMjg2OTFmYzAyZTlmOWNjYjVjNTdmMmNkZDBmMWQ4In19fQ==
+    slot: 24
+    display_name: '&6⛂&e500.000 &7- &6ℙ&e500'
+    lore:
+      - '&e• &fРазменяет вам &6⛂&e500.000&f на &6ℙ&e500'
+      - ''
+      - '&aНажми, чтобы разменять'
+    left_click_commands:
+      - '[console] eco take %player_name% 500000'
+      - '[console] p give %player_name% 500'
+    left_click_requirement:
+      requirements:
+        money:
+         type: has money
+         amount: 500000
+      deny_commands:
+       - '[close]'
+       - '[message] &f⎛&c&l!&f⎠ &fНедостаточно монет!'
+       - '[message] &f⎛&c&l!&f⎠ &fНужно&f: &6ℙ &e500.000 &f(У вас &6ℙ &e%vault_eco_balance%&f)'
+  'ramka':
+    material: stained_glass_pane
+    data: 4
+    slot: 0
+    display_name: ''       
+  'ramka1':
+    material: stained_glass_pane
+    data: 4
+    slot: 1
+    display_name: ''
+  'ramka2':
+    material: stained_glass_pane
+    data: 4
+    slot: 2
+    display_name: ''
+  'ramka3':
+    material: stained_glass_pane
+    data: 4
+    slot: 3
+    display_name: ''
+  'ramka4':
+    material: stained_glass_pane
+    data: 4
+    slot: 4
+    display_name: ''
+  'ramka5':
+    material: stained_glass_pane
+    data: 4
+    slot: 5
+    display_name: ''
+  'ramka6':
+    material: stained_glass_pane
+    data: 4
+    slot: 6
+    display_name: ''
+  'ramka7':
+    material: stained_glass_pane
+    data: 4
+    slot: 7
+    display_name: ''
+  'ramka8':
+    material: stained_glass_pane
+    data: 4
+    slot: 8
+    display_name: ''
+  'ramka9':
+    material: stained_glass_pane
+    data: 4
+    slot: 9
+    display_name: ''
+  'ramka10':
+    material: stained_glass_pane
+    data: 4
+    slot: 18
+    display_name: ''
+  'ramka11':
+    material: stained_glass_pane
+    data: 4
+    slot: 27
+    display_name: ''
+  'ramka12':
+    material: stained_glass_pane
+    data: 4
+    slot: 36
+    display_name: ''
+  'ramka19':
+    material: stained_glass_pane
+    data: 4
+    slot: 46
+    display_name: ''
+  'ramka20':
+    material: stained_glass_pane
+    data: 4
+    slot: 52
+    display_name: ''
+  'ramka21':
+    material: stained_glass_pane
+    data: 1
+    slot: 47
+    display_name: ''
+  'ramka23':
+    material: stained_glass_pane
+    data: 1
+    slot: 38
+    display_name: ''
+  'ramka24':
+    material: stained_glass_pane
+    data: 1
+    slot: 42
+    display_name: ''
+  'ramka25':
+    material: stained_glass_pane
+    data: 1
+    slot: 39
+    display_name: ''
+  'barrier1':
+    material: barrier
+    data: 1
+    slot: 48
+    display_name: ''
+  'arr':
+    material: arrow
+    slot: 49
+    display_name: "&4&LЗ&c&lАКРЫТЬ"
+    lore: 
+     - ''
+     - '&e• &fВы закроете меню меняло.'   
+     - ''
+     - '&aНажми, чтобы закрыть меню'
+    left_click_commands:
+    - '[close]'
+  'barrier2':
+    material: barrier
+    data: 1
+    slot: 50
+    display_name: ''
+  'ramka26':
+    material: stained_glass_pane
+    data: 1
+    slot: 40
+    display_name: ''
+  'ramka27':
+    material: stained_glass_pane
+    data: 1
+    slot: 41
+    display_name: ''
+  'ramka22':
+    material: stained_glass_pane
+    data: 1
+    slot: 51
+    display_name: ''
+  'ramka13':
+    material: stained_glass_pane
+    data: 4
+    slot: 45
+    display_name: ''
+  'ramka14':
+    material: stained_glass_pane
+    data: 4
+    slot: 53
+    display_name: ''
+  'ramka15':
+    material: stained_glass_pane
+    data: 4
+    slot: 44
+    display_name: ''
+  'ramka16':
+    material: stained_glass_pane
+    data: 4
+    slot: 35
+    display_name: ''
+  'ramka17':
+    material: stained_glass_pane
+    data: 4
+    slot: 26
+    display_name: ''
+  'ramka18':
+    material: stained_glass_pane
+    data: 4
+    slot: 17
+    display_name: ''

@@ -1,0 +1,120 @@
+# ru_RU перевод был создан человеком _kirushatko_
+# Префикс плагина в чате
+prefix: '&6&lРУБЛИ&7: &f'
+
+# Валюта
+currency-singular: Point
+currency-plural: Рубли
+currency-separator: ','
+currency-decimal: .
+number-abbreviation-thousands: k
+number-abbreviation-millions: m
+number-abbreviation-billions: b
+
+# Разное
+no-permission: '&cУ вас нет на это разрешения!'
+no-console: '&cТолько игроки могут запускать данную команду.'
+invalid-amount: '&cСумма должна быть целым положительным числом.'
+unknown-player: '&cИгрок не найден: &c%player%'
+unknown-command: '&cНеизвестная команда: &c%input%'
+votifier-voted: '&fСпасибо за голосование на %service%! &c%amount% &fбыло добавлено на ваш баланс.'
+leaderboard-empty-entry: Это мог быть ты!
+
+# Базовое командное сообщение
+base-command-color: '&f'
+base-command-help: '&fИспользуйте &c/пункты справки &fдля информации о команде.'
+
+# Команда помощи
+command-help-description: '&8 - &d/Рубли help &7- Отображает меню помощи'
+command-help-title: '&fДоступные команды:'
+
+# Дать монет
+command-give-description: '&8 - &d/Рубли give &7- Дать игроку монеты'
+command-give-usage: '&cПрименение: &f/Рубли give <player> <amount>'
+command-give-success: '&c%player% &aбыл дан &c%amount% &a%currency%.'
+command-give-received: '&fВы получили &c%amount% &f%currency%.'
+
+# Дать всем монеты
+command-giveall-description: '&8 - &d/Рубли giveall &7- Дать всем онлайн-игрокам монет'
+command-giveall-usage: '&cПрименение: &f/Рубли giveall <amount> [*]'
+command-giveall-success: '&aДал &c%amount% &a%currency% всем онлайн-игрокам'
+
+# Забрать монеты
+command-take-description: '&8 - &d/Рубли take &7- Взять монеты с игрока'
+command-take-usage: '&cПрименение: &f/Рубли take <player> <amount>'
+command-take-success: '&aВзял &c%amount% &a%currency% с &c%player%&a.'
+command-take-lacking-funds: '&c%player% &cне имеет %currency% монет для этого, поэтому их баланс был установлен на 0.'
+
+# Просмотр монет
+command-look-description: '&8 - &d/Рубли look &7- Просмотр монет игрока'
+command-look-usage: '&cПрименение: &f/Рубли look <player>'
+command-look-success: '&c%player% &fимеет &c%amount% &f%currency%.'
+
+# Передавание монет
+command-pay-description: '&8 - &d/Рубли pay &7- Передать игроку'
+command-pay-usage: '&cПрименениe: &f/Рубли pay <player> <amount>'
+command-pay-sent: '&aВы передали &c%player% %amount% &a%currency%.'
+command-pay-received: '&fВам передали &c%amount% &f%currency% игроком &c%player%&f.'
+command-pay-lacking-funds: '&cВам не хватает %currency% для этого.'
+
+# Установка монет
+command-set-description: '&8 - &d/Рубли set &7- Установить монеты игрока'
+command-set-usage: '&cПрименение: &f/Рубли set <player> <amount>'
+command-set-success: '&aПоставить %currency% для &c%player% &aдо &c%amount%&a.'
+
+# Сброс монет
+command-reset-description: '&8 - &d/Рубли reset &7- Сбросить монеты игрока'
+command-reset-usage: '&cПрименение: &f/Рубли reset <player>'
+command-reset-success: '&aВернуть %currency% для %player%&a.'
+
+# Просмотр своих монет
+command-me-description: '&8 - &d/Рубли me &7- Просмотреть свои монеты'
+command-me-usage: '&cПрименение: &d/Рубли me'
+command-me-success: '&fВы имеете &c%amount% &f%currency%.'
+
+# Команды таблицы
+command-lead-description: '&8 - &d/Рубли lead &7- Посмотреть таблицу лидеров'
+command-lead-usage: '&cПрименение: &f/Рубли lead [след.|пред.|#]'
+command-lead-title: '&fТаблица лидеров &7(Страница #%page%/%pages%)'
+command-lead-entry: '&c%position%). &f%player% &7- &6%amount% %currency%'
+
+# Трансляция монет
+command-broadcast-description: '&8 - &d/Рубли broadcast &7- Трансляция монет игрока'
+command-broadcast-usage: '&cПрименение: &f/Рубли broadcast <player>'
+command-broadcast-message: '&c%player% &fимеет &c%amount% &f%currency%.'
+
+# Перезагрузка плагина
+command-reload-description: '&8 - &d/Рубли reload &7- Перезагрузить плагин'
+command-reload-usage: '&cПрименение: &f/Рубли reload'
+command-reload-success: '&aФайлы конфигурации и локация были перезагруженны.'
+
+# Команды экспорта
+command-export-description: '&8 - &d/Рубли export &7- Экспорт данных в storage.yml'
+command-export-usage: '&cПрименение: &f/Рубли export'
+command-export-success: '&aСохраненные данные были экспортированы в storage.yml.'
+command-export-warning: '&cУведомление: storage.yml файл уже существует. Если вы хотите перезаписать его, используйте &c/Рубли export confirm&c.'
+
+# Команды импорта
+command-import-description: '&8 - &d/Рубли import &7- Импорт данных из storage.yml'
+command-import-usage: '&cПрименение: &f/Рубли import'
+command-import-success: '&aСохраненные данные были импортированы из storage.yml.'
+command-import-no-backup: '&cИмпорт невозможен, storage.yml не существует. Вы можете создать его с помощью &c/Рубли export &cи использовать его для передачи данных между типами баз них.'
+command-import-warning: '&cУведомление: Эта операция удалит все данные из активной базы данных и заменит их содержимым storage.yml. &cТекущий активный тип базы данных: &c&o&l%тип%&c. &cЕсли вы абсолютно уверены в этом, используйте &c/Рубли import confirm&c.'
+
+# Конвертировангие с других плагинов
+command-convert-description: '&8 - &d/Рубли convert &7- Загружает данные о валюте из другого плагина'
+command-convert-usage: '&cUsage: &f/Рубли convert <plugin>'
+command-convert-invalid: '&c%plugin% &cэто не имя плагина конвертируемой валюты.'
+command-convert-success: '&aВалютные данные от &c%plugin% &aбыли преобразованы.'
+command-convert-failure: '&cПроизошла ошибка при попытке конвертировать данные. Проверьте свою консоль и сообщите обо всех ошибках автору плагина PlayerРубли.'
+command-convert-warning: '&cУведомление: Эта операция удалит все данные из активной базы данных и заменит их данными из &c%plugin%&c. &cЕсли вы абсолютно уверены в этом, используйте &c/Рубли convert %plugin% confirm&c.'
+
+# Импорт устаревшей таблицы
+command-importlegacy-description: '&8 - &d/Рубли importlegacy &7- Импорт устаревшей таблицы'
+command-importlegacy-usage: '&cПрименение: &f/Рубли importlegacy <table>'
+command-importlegacy-success: '&aУспешно импортированы устаревшие данные из &c%table%&a.'
+command-importlegacy-failure: '&cНе удалось импортировать устаревшие данные из &c%table%&c. Существует ли таблица?'
+command-importlegacy-only-mysql: '&cЭта команда доступна, только если у вас включен MySQL.'
+
+# Просмотр новых версий
+command-version-description: '&8 - &d/Рубли version &7- Показать информацию о версии для PlayerРубли'

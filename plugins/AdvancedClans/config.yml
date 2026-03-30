@@ -1,0 +1,139 @@
+config-version: 1.0.5
+database:
+  type: SQLite
+  host: localhost
+  port: 3306
+  user: root
+  password: ''
+  database: clans
+settings:
+  blacklisted-worlds:
+  - Spawn
+  - example
+  enable-clan-chat: true
+  colors-enabled:
+    red: true
+    dark_green: true
+    light_purple: true
+    aqua: true
+    green: true
+    dark_purple: true
+    dark_aqua: true
+    dark_gray: true
+    gray: true
+    gold: true
+    yellow: true
+  allow-name-in-colors: false
+  create-cost: 35000
+  max-name-length: 5
+  min-name-length: 3
+  default-level: 1
+  default-slots: 6
+  confirm-delete-time: 10
+  max-enemy-clans: 8
+  max-allies: 4
+  permission-to-bypass-base-cooldown: clans.bypass.base
+  base-teleport-delay: 5
+  blacklisted-worlds-for-bases:
+  - example
+  exp-for-kill: 1
+  max-level-clan: 35
+  slots-per-level: 1
+  clan-chest-size: 54
+  clan-chest-name: '&d&l» &8Клановый сундук'
+  save-task:
+    enabled: true
+    time: 1
+  sounds:
+    error: VILLAGER_NO;10;2
+    clan-level-up: LEVEL_UP;10;3
+    chest-break: ITEM_BREAK;10;3
+  chat:
+    clan-chat:
+      clan-chat-format: '&e⚔ Клан-чат: &7%player%&f: &f%msg%'
+      chat-ally-format: '&e⚔ Клан-чат(союзники): &7(%player-clan%) &f%player%: &f%msg%'
+      spy-chat-format: '&6&lSpyChat> &7(%clan%) &e%player%&f: &f%msg%'
+    prefixes:
+      before-player-prefix: true
+      use-placeholder-only: true
+  bank:
+    min-withdraw: 10000
+    max-withdraw: 100000
+    min-deposit: 100
+    max-deposit: 1000000
+  unique-server-name: Survival-2
+  server-sync:
+    enabled: false
+    redis-host: localhost
+    redis-port: 6379
+    redis-password: ''
+  colors-unlock-level:
+    red: 40
+    dark_green: 30
+    light_purple: 25
+    aqua: 20
+    green: 15
+    dark_purple: 12
+    dark_aqua: 10
+    dark_gray: 8
+    gray: 5
+    gold: 3
+    yellow: 1
+  slots-system:
+    level-10: 5
+    level-20: 10
+    level-30: 20
+  debug: true
+  anti-spam-kills:
+    enabled: false
+    kills-to-activate: 5
+    kills-in-time: 120
+    time-to-deactivate: 60
+  default-color: e
+  colors-slots:
+    red: 23
+    dark_green: 22
+    light_purple: 21
+    aqua: 20
+    green: 16
+    dark_purple: 15
+    dark_aqua: 14
+    dark_gray: 13
+    gray: 12
+    gold: 11
+    yellow: 10
+  clans-blacklist:
+  - fuck
+  - fvck
+  - rape
+  - ban
+  - хуй
+  - пизда
+  - ебать
+  - даун
+  - admin
+  - staff
+  - adm
+  - moder
+  - helper
+  - op
+  - server
+  - owner
+  items-blacklist:
+  - BEDROCK
+  - ENDER_PORTAL
+  premium-server: false
+  create-with-items: false
+  item-cost:
+  - BEACON;1
+  disable-pvp-message: false
+  prefix-regex: ^[a-zA-z0-9\s]*$
+  prefix-min-length: 3
+  prefix-max-length: 4
+  color-selector-enabled: true
+  experience-needed-formula: '%level%*50'
+  set-new-color-automatic: false
+  create-regex: '[a-zA-z0-9\s]*$'
+  require-prefix-on-creation: false
+  ignore-pvp-worlds:
+  - no_pvpcheck_world

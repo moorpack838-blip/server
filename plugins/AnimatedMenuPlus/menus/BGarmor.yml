@@ -1,0 +1,259 @@
+Menu-Name: '&0&lFC ∫ БРОНЯ'
+Open-Sound: BLOCK_NOTE_XYLOPHONE
+Open-Sound-Pitch: 2
+Rows: 6
+Items:
+- Slot:
+  - 1, 1
+  - 1, 2 
+  - 1, 3 
+  - 1, 4 
+  - 1, 5
+  - 1, 6
+  - 2, 1
+  - 2, 6
+  - 9, 1 
+  - 9, 2 
+  - 9, 3  
+  - 9, 4 
+  - 9, 5
+  - 9, 6
+  - 8, 6
+  - 3, 1
+  - 7, 1
+  - 8, 1
+  - 3, 5
+  - 4, 5
+  - 5, 5
+  - 7, 5
+  - 6, 5
+  - 4, 1
+  - 5, 1
+  - 6, 1
+  - 9, 2
+  Material: stained_glass_pane:1:4
+  Name: '&r'
+- Slot:
+  - 3, 5
+  - 3, 6
+  - 5, 5
+  - 6, 5
+  - 4, 5
+  - 7, 6
+  - 7, 5
+  Material: stained_glass_pane:1:1
+  Name: '&r'
+- Slot: 4, 6
+  Material: 'barrier'
+  Name: '§cПУСТО'   
+  Hide-Flags: 63
+- Slot: 6, 6
+  Material: 'barrier'
+  Name: '§cПУСТО'   
+  Hide-Flags: 63
+  Name: '&r'
+- Slot: 5, 6
+  Material: 'arrow'
+  Name: '&4&lП&c&lЕРЕХОД'
+  Lore:
+  - ''
+  - '&e• &fВы перейдете на предыдущию страницу'   
+  - ''
+  - '&aНажми, чтобы перейти на предыдущию страницу'
+  Hide-Flags: 63
+  Commands:
+  - 'menu: BGshop'
+- Slot: 3, 2
+  Material: diamond_helmet:1:0
+  Name: '&6&l&nШЛЕМ &e&lW&6&lISE'
+  Lore:
+  - ''
+  - '&e• &fЦена:&e&l 300 &6Р'
+  - '&e• &fКоличество:&e 1&6 шт'
+  - '&r'
+  - '&aНажмите, чтобы купить'
+  Requirement-Script: '%playerpoints_points% >= 300'
+  Script-Message: '&6&lМАГАЗИН&7: &fУ вас недостаточно рублей, купить можно на сайте &a&lForumcraft.ru'
+  Close: on-failure
+  enchantments:
+  - Protection:6
+  - unbreaking:3
+
+  - fire_protection:6
+  - projectile_protection:6
+  - aqua_affinity:6
+  - respiration:4
+  - mending:1
+
+  Commands:
+  - 'give: 310:1:0 {ench:[{id:70,lvl:1},{id:0,lvl:6},{id:1,lvl:6},{id:34,lvl:3},{id:4,lvl:6},{id:6,lvl:1},{id:5,lvl:4}],display:{Name:"&6&l&nШЛЕМ &e&lW&6&lISE&r"}}'
+  - 'console: p take %player_name% 300'
+  - 'message: &6&lМАГАЗИН&7: &fВы купили предмет &aУспешно'
+- Slot: 3, 3
+  Material: diamond_chestplate:1:0
+  Name: '&6&l&nНАГРУДНИК &e&lW&6&lISE'
+  Lore:
+  - ''
+  - '&e• &fЦена:&e&l 450 &6Р'
+  - '&e• &fКоличество:&e 1&6 шт'
+  - '&r'
+  - '&aНажмите, чтобы купить'
+  Requirement-Script: '%playerpoints_points% >= 450'
+  Script-Message: '&6&lМАГАЗИН&7: &fУ вас недостаточно рублей, купить можно на сайте &a&lForumcraft.ru'
+  Close: on-failure
+  enchantments:
+  - Protection:6
+
+  - fire_protection:6
+  - unbreaking:3
+  - projectile_protection:6
+  - mending:1
+
+  Commands:
+  - 'give: 311:1:0 {ench:[{id:70,lvl:1},{id:0,lvl:6},{id:1,lvl:6},{id:34,lvl:3},{id:4,lvl:6}],display:{Name:"&6&l&nНАГРУДНИК &e&lW&6&lISE"}}'
+  - 'console: p take %player_name% 450'
+  - 'message: &6&lМАГАЗИН&7: &fВы купили предмет &aУспешно'
+- Slot: 4, 2
+  Material: diamond_leggings:1:0
+  Name: '&6&l&nПОНОЖИ &e&lW&6&lISE'
+  Lore:
+  - ''
+  - '&e• &fЦена:&e&l 350 &6Р'
+  - '&e• &fКоличество:&e 1&6 шт'
+  - '&r'
+  - '&aНажмите, чтобы купить'
+  Requirement-Script: '%playerpoints_points% >= 350'
+  Script-Message: '&6&lМАГАЗИН&7: &fУ вас недостаточно рублей, купить можно на сайте &a&lForumcraft.ru'
+  Close: on-failure
+  enchantments:
+  - Protection:6
+  - unbreaking:3
+
+  - fire_protection:6
+  - projectile_protection:6
+  - mending:1
+
+  Commands:
+  - 'give: 312:1:0 {ench:[{id:70,lvl:1},{id:0,lvl:6},{id:1,lvl:6},{id:34,lvl:3},{id:4,lvl:6}],display:{Name:"&6&l&nПОНОЖИ &e&lW&6&lISE"}}'
+  - 'console: p take %player_name% 350'
+  - 'message: &6&lМАГАЗИН&7: &fВы купили предмет &aУспешно'
+- Slot: 4, 3
+  Material: diamond_boots:1:0
+  Name: '&6&l&nБОТИНКИ &e&lW&6&lISE'
+  Lore:
+  - ''
+  - '&e• &fЦена:&e&l 190 &6Р'
+  - '&e• &fКоличество:&e 1&6 шт'
+  - '&r'
+  - '&aНажмите, чтобы купить'
+  Requirement-Script: '%playerpoints_points% >= 190'
+  Script-Message: '&6&lМАГАЗИН&7: &fУ вас недостаточно рублей, купить можно на сайте &a&lForumcraft.ru'
+  Close: on-failure
+  enchantments:
+  - Protection:6
+  - unbreaking:3
+
+  - fire_protection:6
+  - feather_falling:6
+  - projectile_protection:6
+  - depth_strider:3
+  - mending:1
+
+  Commands:
+  - 'give: 313:1:0 {ench:[{id:70,lvl:1},{id:0,lvl:6},{id:1,lvl:6},{id:34,lvl:3},{id:4,lvl:6},{id:2,lvl:6},{id:8,lvl:3}],display:{Name:"&6&l&nБОТИНКИ &e&lW&6&lISE"}}'
+  - 'console: p take %player_name% 190'
+  - 'message: &6&lМАГАЗИН&7: &fВы купили предмет &aУспешно'
+- Slot: 6, 2
+  Material: diamond_sword:1:0
+  Name: '&6&l&nМЕЧ &e&lW&6&lISE'
+  Lore:
+  - ''
+  - '&e• &fЦена:&e&l 700 &6Р'
+  - '&e• &fКоличество:&e 1&6 шт'
+  - '&r'
+  - '&aНажмите, чтобы купить'
+  Requirement-Script: '%playerpoints_points% >= 700'
+  Script-Message: '&6&lМАГАЗИН&7: &fУ вас недостаточно рублей, купить можно на сайте &a&lForumcraft.ru'
+  Close: on-failure
+  enchantments:
+  - sharpness:7
+  - unbreaking:6
+  - fire_aspect:3
+  - looting:3
+  - mending:1
+  - vanishing_curse:1
+  Commands:
+  - 'give: 276:1:0 {ench:[{id:71,lvl:1},{id:70,lvl:1},{id:16,lvl:7},{id:34,lvl:6},{id:20,lvl:3},{id:21,lvl:3}],display:{Name:"&6&l&nМЕЧ &e&lW&6&lISE"}}'
+  - 'console: p take %player_name% 700'
+  - 'message: &6&lМАГАЗИН&7: &fВы купили предмет &aУспешно'
+- Slot: 6, 3
+  Material: diamond_axe:1:0
+  Name: '&6&lТОПОР &e&lW&6&lISE'
+  Lore:
+  - ''
+  - '&e• &fЦена:&e&l 300 &6Р'
+  - '&e• &fКоличество:&e 1&6 шт'
+  - '&r'
+  - '&aНажмите, чтобы купить'
+  Requirement-Script: '%playerpoints_points% >= 300'
+  Script-Message: '&6&lМАГАЗИН&7: &fУ вас недостаточно рублей, купить можно на сайте &a&lForumcraft.ru'
+  Close: on-failure
+  enchantments: 
+  - sharpness:8
+  - unbreaking:6
+  - fire_aspect:3
+  - looting:5
+  - mending:1
+  - vanishing_curse:1
+  Commands:
+  - 'give: 279:1:0 {ench:[{id:71,lvl:1},{id:70,lvl:1},{id:16,lvl:8},{id:34,lvl:6},{id:20,lvl:3},{id:21,lvl:5}],display:{Name:"&6&l&nТОПОР &e&lW&6&lISE"}}'
+  - 'console: p take %player_name% 300'
+  - 'message: &6&lМАГАЗИН&7: &fВы купили предмет &aУспешно'
+- Slot: 7, 2
+  Material: diamond_pickaxe:1:0
+  Name: '&6&l&nКИРКА &e&lW&6&lISE'
+  Lore:
+  - ''
+  - '&e• &fЦена:&e&l 400 &6Р'
+  - '&e• &fКоличество:&e 1&6 шт'
+  - '&r'
+  - '&aНажмите, чтобы купить'
+  Requirement-Script: '%playerpoints_points% >= 400'
+  Script-Message: '&6&lМАГАЗИН&7: &fУ вас недостаточно рублей, купить можно на сайте &a&lForumcraft.ru'
+  Close: on-failure
+  enchantments: 
+  - efficiency:10
+  - unbreaking:6
+  - fortune:4
+  - mending:1
+  - vanishing_curse:1
+  Commands:
+  - 'menu: shop'
+  - 'give: 278:1:0 {ench:[{id:71,lvl:1},{id:70,lvl:1},{id:32,lvl:10},{id:34,lvl:6},{id:35,lvl:4}],display:{Name:"&6&l&nКИРКА &e&lW&6&lISE"}}'
+  - 'console: p take %player_name% 400'
+  - 'message: &6&lМАГАЗИН&7: &fВы купили предмет &aУспешно'
+- Slot: 7, 3
+  Material: bow:1:0
+  Name: '&6&l&nЛУК &e&lW&6&lISE'
+  Lore:
+  - ''
+  - '&e• &fЦена:&e&l 350 &6Р'
+  - '&e• &fКоличество:&e 1&6 шт'
+  - '&r'
+  - '&aНажмите, чтобы купить'
+  Requirement-Script: '%playerpoints_points% >= 350'
+  Script-Message: '&6&lМАГАЗИН&7: &fУ вас недостаточно рублей, купить можно на сайте &a&lForumcraft.ru'
+  Close: on-failure
+  enchantments:
+  - power:10
+  - unbreaking:6
+  - infinity:1
+  - flame:2
+  - mending:1
+  - vanishing_curse:1
+  Commands:
+  - 'give: 261:1:0 {ench:[{id:71,lvl:1},{id:70,lvl:1},{id:48,lvl:10},{id:34,lvl:6},{id:51,lvl:1},{id:50,lvl:2}],display:{Name:"&6&l&nЛУК &e&lW&6&lISE"}}'
+  - 'console: p take %player_name% 350'
+  - 'message: &6&lМАГАЗИН&7: &fВы купили предмет &aУспешно'
+  - '&fДанный слот &6в разработке'
+  - ''

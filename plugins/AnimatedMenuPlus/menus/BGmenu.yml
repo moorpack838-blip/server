@@ -1,0 +1,169 @@
+Menu-Name: '&0&lFC ∫ МЕНЮ'
+Open-Sound: BLOCK_NOTE_PLING
+Open-Sound-Pitch: 2
+Rows: 6
+Command:
+  Name: menu; меню
+Items:
+- Slot:
+  - 1, 1
+  - 1, 2 
+  - 1, 3 
+  - 1, 4 
+  - 1, 5
+  - 1, 6
+  - 2, 1
+  - 2, 6
+  - 9, 1 
+  - 9, 2 
+  - 9, 3  
+  - 9, 4 
+  - 9, 5
+  - 9, 6
+  - 8, 6
+  - 8, 1
+  - 9, 2
+  Material: stained_glass_pane:1:4
+  Name: '&r'
+- Slot:
+  - 2, 5
+  - 2, 2
+  - 3, 1
+  - 4, 1
+  - 5, 1
+  - 6, 1
+  - 7, 1
+  - 8, 2
+  - 3, 6
+  - 7, 6
+  - 8, 5
+  Material: stained_glass_pane:1:1
+  Name: '&r'
+- Slot:
+  - 2, 3
+  - 2, 4
+  - 8, 3 
+  - 8, 4
+  Material: stained_glass_pane:1:7
+  Name: '&r'
+- Slot: 4, 6
+  Material: 'barrier'
+  Name: '§cПУСТО'   
+  Hide-Flags: 63
+- Slot: 6, 6
+  Material: 'barrier'
+  Name: '§cПУСТО'   
+  Hide-Flags: 63
+  Name: '&r'
+- Slot: 5, 6
+  Material: 'arrow'
+  Name: '&4&LЗ&c&lАКРЫТЬ'
+  Lore:
+  - ''
+  - '&e• &fВы закроете меню сервера.'   
+  - ''
+  - '&aНажми, чтобы закрыть меню'
+  Hide-Flags: 63
+  close: always
+  Commands:
+  - ''
+- Slot: 4, 4
+  Material: lead
+  Name: '&e↬ &6&lРАБОТЫ &e↫'
+  Lore:
+  - ''
+  - '&e╔ &fЕсли вам срочно нужны §6монеты&f'
+  - '&e╚ &fТо тут их можно подзаработать!'    
+  - ''
+  - '&aНажми, чтобы перейти в меню'
+  Commands:
+  - 'menu: BGjobs'      
+- Slot: 5, 4
+  Material: ender_eye
+  Name: '&e↬ &6&lУНИКАЛЬНЫЙ МАГАЗИН &e↫'
+  Lore:
+  - ''
+  - '&e╔ &fПокупайте &6самые лучшие&f вещи сервера'
+  - '&e╠ &fПриобретите себе оружие, стрелы, бафы и т.д'
+  - '&e╚ &fЭти вещи помогут вам в &6&nпвп&f!'    
+  - ''
+  - '&aНажми, чтобы перейти в меню'
+  Commands:
+  - 'menu: BGshop'
+- Slot: 4, 3
+  Material: chest
+  Name: '&e↬ &6&lНАБОРЫ &e↫'
+  Lore:
+  - ''
+  - '&e╔ &fТут можно взять &6свой уникальный&f'
+  - '&e╚ &fнабор для начала развития.'  
+  - ''
+  - '&aНажми, чтобы перейти в меню'
+  Commands:
+  - 'kits'      
+- Slot: 6, 3
+  Material: compass
+  Name: '&e↬ &6&lВАРПЫ &e↫'
+  Lore:
+    - ''
+    - '&e╔ &fЗдесь вы сможете узнать'
+    - '&e╚ &fВсе &6варпы&f сервера'
+    - ''
+    - '&aНажми, чтобы перейти в меню'
+  Commands:
+  - 'menu: BGwarps'
+- Slot: 3, 3
+  Material: emerald
+  Name: '&e↬ &6&lДОНАТЫ &e↫'
+  Lore:
+    - ''
+    - '&e╔ &fПолучите &6кучу возможностей&f и &6плюшек'
+    - '&e╚ &fНачините &6&nвыделяться среди других&f игроков сервера!'
+    - ''
+    - '&aНажми, чтобы перейти в меню'
+  Commands:
+  - 'menu: BGdonate'
+- Slot: 5, 3
+  Material: shield
+  Name: '&e↬ &6&lКЛАНЫ &e↫'
+  Lore:
+    - ''
+    - '&e╔ &fОбъединяйтесь в &6кланы&f, устраивайте битвы'
+    - '&e╚ &6Защищайте&f клановые дома, нападайте на врагов'
+    - ''
+    - '&aНажми, чтобы перейти в меню'
+  Commands:
+  - 'clans'
+- Slot: 7, 3
+  Material: double_plant
+  Name: '&e↬ &6&lЗАРПЛАТЫ &e↫'
+  Lore:
+  - ''
+  - ' &e╔ &fВы можете &6ежедневно&f получать зарплату!'
+  - ' &e╚ &fЧем &6круче&f донат тем лучше зарплата'
+  - ''
+  - '&aНажми, чтобы перейти в меню'
+  Commands:
+  - 'menu: BGrub'
+- Slot: 6, 4
+  Material: paper
+  Name: '&e↬ &6&lКАСТОМИЗАЦИЯ &e↫'
+  Lore:
+  - ''
+  - ' &e╔ &fУлучшай &6свой&f стиль, титулом!'
+  - ' &e╚ &fЧем круче донат, чем круче &6титул'
+  - ''
+  - '&aНажми, чтобы перейти в меню'
+  Commands:
+  - 'menu: BGcustom'
+- Slot: 5, 2
+  Material: fishing_rod
+  Name: '&e↬ &c&lNEW &a↝ &6&lКОНТРАКТЫ &e↫'
+  Lore:
+  - ''
+  - ' &e╔ &fБери &6контракт&f, на радомную цель'
+  - ' &e╚ &fНа сервере, и получай &6прибыль'
+  - ''
+  - '&aНажми, чтобы перейти в меню'
+  Commands:
+  - 'dm open contracts'

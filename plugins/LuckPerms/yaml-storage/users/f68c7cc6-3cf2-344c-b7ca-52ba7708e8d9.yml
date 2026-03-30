@@ -1,0 +1,11 @@
+uuid: f68c7cc6-3cf2-344c-b7ca-52ba7708e8d9
+name: ShaurmaYT
+primary-group: default
+parents:
+- default
+prefixes:
+- §7§lИГРОК §7:
+    priority: 11
+    context:
+      server: grief
+      world: world

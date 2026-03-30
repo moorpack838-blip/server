@@ -1,0 +1,42 @@
+(1)[2023/04/11 18:41:45]: '[Spartan Build 411.1-10352/-9280289409] Freeze failed InventoryClicks
+  (VL: 1) [(Version: Paper 1.12), (C-V: 1) (Silent: false), (Ping: 86ms), (TPS: 19.972),
+  (Plib: true), (Online: 1), (t: speed, s: fast, ms: 1, i: golden-apple)]'
+(2)[2023/04/11 18:41:45]: '[Spartan Build 411.1-10352/-9280289409] Freeze failed InventoryClicks
+  (VL: 2) [(Version: Paper 1.12), (C-V: 1) (Silent: false), (Ping: 86ms), (TPS: 19.92),
+  (Plib: true), (Online: 1), (t: speed, s: fast, ms: 12, i: diamond-pickaxe)]'
+(3)[2023/04/11 18:41:45]: '[Spartan Build 411.1-10352/-9280289409] Freeze failed InventoryClicks
+  (VL: 3) [(Version: Paper 1.12), (C-V: 1) (Silent: false), (Ping: 86ms), (TPS: 19.896),
+  (Plib: true), (Online: 1), (t: speed, s: fast, ms: 7, i: diamond-spade)]'
+(4)[2023/04/11 18:41:45]: '[Spartan Build 411.1-10352/-9280289409] Freeze failed InventoryClicks
+  (VL: 4) [(Version: Paper 1.12), (C-V: 1) (Silent: false), (Ping: 86ms), (TPS: 19.972),
+  (Plib: true), (Online: 1), (t: speed, s: fast, ms: 0, i: chest)]'
+(5)[2023/04/11 18:41:45]: '[Spartan Build 411.1-10352/-9280289409] Freeze was kicked
+  for InventoryClicks'
+(6)[2023/04/11 18:42:10]: '[Spartan Build 411.1-10352/-9280289409] Freeze failed InventoryClicks
+  (VL: 5) [(Version: Paper 1.12), (C-V: 1) (Silent: false), (Ping: 0ms), (TPS: 19.972),
+  (Plib: true), (Online: 1), (t: speed, s: fast, ms: 1, i: diamond-boots)]'
+(7)[2023/04/11 18:52:21]: '[Spartan Build 411.1-10352/-9280289409] Freeze failed InventoryClicks
+  (VL: 1) [(Version: Paper 1.12), (C-V: 1) (Silent: false), (Ping: 89ms), (TPS: 19.956),
+  (Plib: true), (Online: 1), (t: speed, s: fast, ms: 1, i: golden-carrot)]'
+(8)[2023/04/11 18:52:22]: '[Spartan Build 411.1-10352/-9280289409] Freeze failed InventoryClicks
+  (VL: 2) [(Version: Paper 1.12), (C-V: 1) (Silent: false), (Ping: 89ms), (TPS: 19.972),
+  (Plib: true), (Online: 1), (t: speed, s: fast, ms: 1, i: totem)]'
+(9)[2023/04/11 18:52:22]: '[Spartan Build 411.1-10352/-9280289409] Freeze failed InventoryClicks
+  (VL: 3) [(Version: Paper 1.12), (C-V: 1) (Silent: false), (Ping: 89ms), (TPS: 19.948),
+  (Plib: true), (Online: 1), (t: speed, s: fast, ms: 6, i: diamond-pickaxe)]'
+(10)[2023/04/11 18:59:34]: '[Spartan Build 411.1-10352/-9280289409] sasha26082012
+  failed IrregularMovements (VL: 1) [(Version: Paper 1.12), (C-V: 4) (Silent: false),
+  (Ping: 39ms), (TPS: 19.916), (Plib: true), (Online: 2), (t: jump(illegal), d: 0.08307781780646906,
+  od: 0.1647732818260721, a: 33, r: 0.24918707874468282, c: (jump movement must remain
+  on ground), diff: 0.02830946401960304, f: false)]'
+(11)[2023/04/11 19:06:05]: '[Spartan Build 411.1-10352/-9280289409] Freeze failed
+  InventoryClicks (VL: 1) [(Version: Paper 1.12), (C-V: 1) (Silent: false), (Ping:
+  120ms), (TPS: 19.972), (Plib: true), (Online: 1), (t: speed, s: average, ms: 99,
+  i: tipped-arrow)]'
+(12)[2023/04/11 19:06:05]: '[Spartan Build 411.1-10352/-9280289409] Freeze failed
+  InventoryClicks (VL: 2) [(Version: Paper 1.12), (C-V: 1) (Silent: false), (Ping:
+  120ms), (TPS: 19.976), (Plib: true), (Online: 1), (t: speed, s: fast, ms: 49, i:
+  diamond-spade)]'
+(13)[2023/04/11 19:07:20]: '[Spartan Build 411.1-10352/-9280289409] Freeze failed
+  GhostHand (VL: 1) [(Version: Paper 1.12), (C-V: 1) (Silent: false), (Ping: 97ms),
+  (TPS: 19.956), (Plib: true), (Online: 1), (t: break, c: chest, r: air)]'

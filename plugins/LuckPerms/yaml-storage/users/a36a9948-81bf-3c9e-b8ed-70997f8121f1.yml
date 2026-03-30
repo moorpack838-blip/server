@@ -1,0 +1,11 @@
+uuid: a36a9948-81bf-3c9e-b8ed-70997f8121f1
+name: Waste
+primary-group: default
+parents:
+- default
+prefixes:
+- §7§lИГРОК §7:
+    priority: 11
+    context:
+      server: grief
+      world: lobby

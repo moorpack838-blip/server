@@ -1,0 +1,38 @@
+ranks:
+  leader:
+    id: 2
+    display-name: "&aLeader"
+    prefix: "&8[%color%**%clan%&8] &r"
+    ladderPosition: 2
+    permissions:
+    - 'ALL'
+  coleader:
+    id: 1
+    display-name: "&cColeader"
+    prefix: "&8[%color%*%clan%&8] &r"
+    ladderPosition: 1
+    permissions:
+    - 'INVITE'
+    - 'COLORS'
+    - 'BREAKALLY'
+    - 'ALLY'
+    - 'NEUTRAL'
+    - 'BANK_LOGS'
+    - 'SETBASE'
+    - 'DELBASE'
+    - 'PVP'
+    - 'BANK_LOGS'
+    - 'PRIVACY'
+  member:
+    id: 0
+    display-name: "&9Member"
+    prefix: "&8[%color%%clan%&8] &r"
+    ladderPosition: 0
+    default: true
+    permissions:
+    - 'BANK_DEPOSIT'
+    - 'BANK_WITHDRAW'
+    - 'BANK_BALANCE'
+    - 'BASE'
+    - 'CHEST'
+    - 'CHAT'

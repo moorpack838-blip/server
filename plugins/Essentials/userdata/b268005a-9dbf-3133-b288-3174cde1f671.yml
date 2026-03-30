@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 37.112.206.200
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1681141113648
+  login: 1681141103577
+money: '0'
+last-account-name: LoSAS
+lastlocation:
+  world: 50e83d7b-bd31-4b59-b085-d04edc199449
+  world-name: world
+  x: 87.5
+  y: 68.0
+  z: 260.5
+  yaw: 1.4775493144989014
+  pitch: 0.0
+logoutlocation:
+  world: f426770c-0cf2-4454-94e7-0f4170382838
+  world-name: lobby
+  x: 1003.7510513129967
+  y: 67.0
+  z: -310.138583457359
+  yaw: 281.6998291015625
+  pitch: 45.90003204345703

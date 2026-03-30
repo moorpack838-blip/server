@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 216.131.68.11
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1680533652298
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1680535535952
+  login: 1680535533124
+money: '27.0'
+last-account-name: BEFF
+lastlocation:
+  world: 50e83d7b-bd31-4b59-b085-d04edc199449
+  world-name: world
+  x: 1650.8323014687894
+  y: 70.0
+  z: -3958.7427260664786
+  yaw: -61.38740539550781
+  pitch: 4.789888381958008
+logoutlocation:
+  world: f426770c-0cf2-4454-94e7-0f4170382838
+  world-name: lobby
+  x: 1001.7086312204312
+  y: 68.0
+  z: -287.9805640742339
+  yaw: -320.29302978515625
+  pitch: 11.344444274902344

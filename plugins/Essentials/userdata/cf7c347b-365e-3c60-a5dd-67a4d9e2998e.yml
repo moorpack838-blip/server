@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 176.98.48.69
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1681202771743
+  login: 1681202760776
+money: '0'
+last-account-name: YummyIcemilk
+lastlocation:
+  world: 50e83d7b-bd31-4b59-b085-d04edc199449
+  world-name: world
+  x: 83.5
+  y: 78.0
+  z: 266.5
+  yaw: 0.8391119241714478
+  pitch: 0.0
+logoutlocation:
+  world: f426770c-0cf2-4454-94e7-0f4170382838
+  world-name: lobby
+  x: 998.9069852952638
+  y: 67.0
+  z: -306.0500517804638
+  yaw: 180.59988403320312
+  pitch: 2.4000234603881836

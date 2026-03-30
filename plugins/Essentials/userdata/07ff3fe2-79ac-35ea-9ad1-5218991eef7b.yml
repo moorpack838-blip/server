@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 193.233.123.124
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1680541183349
+  login: 1680541061647
+money: '0'
+last-account-name: ORbYg
+lastlocation:
+  world: 50e83d7b-bd31-4b59-b085-d04edc199449
+  world-name: world
+  x: 102.5
+  y: 68.0
+  z: 255.5
+  yaw: 4.111370086669922
+  pitch: 0.0
+logoutlocation:
+  world: f426770c-0cf2-4454-94e7-0f4170382838
+  world-name: lobby
+  x: 1013.652412977866
+  y: 67.0
+  z: -342.80192640408615
+  yaw: -223.23960876464844
+  pitch: 15.411314010620117

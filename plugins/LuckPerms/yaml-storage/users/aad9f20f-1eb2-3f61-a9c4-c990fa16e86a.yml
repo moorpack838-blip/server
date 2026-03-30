@@ -1,0 +1,7 @@
+uuid: aad9f20f-1eb2-3f61-a9c4-c990fa16e86a
+name: asetic
+primary-group: default
+parents:
+- default
+- elay
+- hero

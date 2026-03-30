@@ -1,0 +1,222 @@
+quests:
+  1:
+    name: 'Дизайнер'
+    type: craft
+    variable: end_bricks:0
+    required-progress: 640
+    points: 200
+    item:
+      material: book:0
+      amount: 1
+      name: '§6§lНЕДЕЛЬНОЕ ЗАДАНИЕ'
+      lore:
+        - ''
+        - '&6&lИНФОРМАЦИЯ:'
+        - ''
+        - '&fЗадание: &aДизайнер'
+        - '&fОпыт: &6200'
+        - '§fПрогресс: §e%total_progress%§8/§e%required_progress% &f[&7%progress_bar%&f] &7| &e%percentage_progress%&f'
+        - ''
+        - ''
+        - '&6&lЦЕЛЬ:'
+        - ''
+        - '&f- Скрафтить &6%required_progress% &fэндерняковых кирпичей'
+  2:
+    name: 'Восставший из пепла'
+    type: block-break
+    variable: magma:0
+    required-progress: 650
+    points: 150
+    item:
+      material: book:0
+      amount: 1
+      name: '§6§lНЕДЕЛЬНОЕ ЗАДАНИЕ'
+      lore:
+        - ''
+        - '&6&lИНФОРМАЦИЯ:'
+        - ''
+        - '&fЗадание: &aВосставший из пепла'
+        - '&fОпыт: &6150'
+        - '§fПрогресс: §e%total_progress%§8/§e%required_progress% &f[&7%progress_bar%&f] &7| &e%percentage_progress%&f'
+        - ''
+        - ''
+        - '&6&lЦЕЛЬ:'
+        - ''
+        - '&f- Добыть &6%required_progress% &fмагмы'
+  3:
+    name: 'Бумажный магнат'
+    type: block-break
+    variable: SUGAR_CANE_BLOCK:0
+    required-progress: 200
+    points: 100
+    item:
+      material: book:0
+      amount: 1
+      name: '§6§lНЕДЕЛЬНОЕ ЗАДАНИЕ'
+      lore:
+        - ''
+        - '&6&lИНФОРМАЦИЯ:'
+        - ''
+        - '&fЗадание: &aБумажный магнат'
+        - '&fОпыт: &6100'
+        - '§fПрогресс: §e%total_progress%§8/§e%required_progress% &f[&7%progress_bar%&f] &7| &e%percentage_progress%&f'
+        - ''
+        - ''
+        - '&6&lЦЕЛЬ:'
+        - ''
+        - '&f- Добыть &6%required_progress% &fсахарного тростника'
+  4:
+    name: 'Опытный'
+    type: gain-experience
+    variable: none:0
+    required-progress: 2045
+    points: 250
+    item:
+      material: book:0
+      amount: 1
+      name: '§6§lНЕДЕЛЬНОЕ ЗАДАНИЕ'
+      lore:
+        - ''
+        - '&6&lИНФОРМАЦИЯ:'
+        - ''
+        - '&fЗадание: &aОпытный'
+        - '&fОпыт: &6250'
+        - '§fПрогресс: §e%total_progress%§8/§e%required_progress% &f[&7%progress_bar%&f] &7| &e%percentage_progress%&f'
+        - ''
+        - ''
+        - '&6&lЦЕЛЬ:'
+        - ''
+        - '&f- Получить &635 &fуровень'
+  5:
+    name: 'Крайности'
+    type: craft
+    variable: purple_shulker_box:0
+    required-progress: 15
+    points: 450
+    item:
+      material: book:0
+      amount: 1
+      name: '§6§lНЕДЕЛЬНОЕ ЗАДАНИЕ'
+      lore:
+        - ''
+        - '&6&lИНФОРМАЦИЯ:'
+        - ''
+        - '&fЗадание: &aКрайности'
+        - '&fОпыт: &6450'
+        - '§fПрогресс: §e%total_progress%§8/§e%required_progress% &f[&7%progress_bar%&f] &7| &e%percentage_progress%&f'
+        - ''
+        - ''
+        - '&6&lЦЕЛЬ:'
+        - ''
+        - '&f- Скрафтить &6%required_progress% &fшалкеровых ящиков'
+  6:
+    name: 'Колющий'
+    type: block-break
+    variable: cactus:0
+    required-progress: 600
+    points: 250
+    item:
+      material: book:0
+      amount: 1
+      name: '§6§lНЕДЕЛЬНОЕ ЗАДАНИЕ'
+      lore:
+        - ''
+        - '&6&lИНФОРМАЦИЯ:'
+        - ''
+        - '&fЗадание: &aКолющий'
+        - '&fОпыт: &6250'
+        - '§fПрогресс: §e%total_progress%§8/§e%required_progress% &f[&7%progress_bar%&f] &7| &e%percentage_progress%&f'
+        - ''
+        - ''
+        - '&6&lЦЕЛЬ:'
+        - ''
+        - '&f- Добыть &6%required_progress% &fкактусов'
+  7:
+    name: 'Душегуб'
+    type: block-break
+    variable: WEB:0
+    required-progress: 320
+    points: 300
+    item:
+      material: book:0
+      amount: 1
+      name: '§6§lНЕДЕЛЬНОЕ ЗАДАНИЕ'
+      lore:
+        - ''
+        - '&6&lИНФОРМАЦИЯ:'
+        - ''
+        - '&fЗадание: &aДушегуб'
+        - '&fОпыт: &6300'
+        - '§fПрогресс: §e%total_progress%§8/§e%required_progress% &f[&7%progress_bar%&f] &7| &e%percentage_progress%&f'
+        - ''
+        - ''
+        - '&6&lЦЕЛЬ:'
+        - ''
+        - '&f- Добыть &6%required_progress% &fпаутины'
+  8:
+    name: 'Мастер зачарования'
+    type: enchant
+    variable: diamond_pickaxe:0
+    required-progress: 320
+    points: 250
+    item:
+      material: book:0
+      amount: 1
+      name: '§6§lНЕДЕЛЬНОЕ ЗАДАНИЕ'
+      lore:
+        - ''
+        - '&6&lИНФОРМАЦИЯ:'
+        - ''
+        - '&fЗадание: &aМастер зачарования'
+        - '&fОпыт: &6250'
+        - '§fПрогресс: §e%total_progress%§8/§e%required_progress% &f[&7%progress_bar%&f] &7| &e%percentage_progress%&f'
+        - ''
+        - ''
+        - '&6&lЦЕЛЬ:'
+        - ''
+        - '&f- Зачаровать &6%required_progress% &fалмазных кирок'
+  9:
+    name: 'Разоритель'
+    type: craft
+    variable: end_crystal:0
+    required-progress: 28
+    points: 450
+    item:
+      material: book:0
+      amount: 1
+      name: '§6§lНЕДЕЛЬНОЕ ЗАДАНИЕ'
+      lore:
+        - ''
+        - '&6&lИНФОРМАЦИЯ:'
+        - ''
+        - '&fЗадание: &aРазоритель'
+        - '&fОпыт: &6450'
+        - '§fПрогресс: §e%total_progress%§8/§e%required_progress% &f[&7%progress_bar%&f] &7| &e%percentage_progress%&f'
+        - ''
+        - ''
+        - '&6&lЦЕЛЬ:'
+        - ''
+        - '&f- Скрафтить &6%required_progress% &fкристаллов энда'
+  10:
+    name: 'Искатель сокровищ'
+    type: block-break
+    variable: quartz_ore:0
+    required-progress: 128
+    points: 350
+    item:
+      material: book:0
+      amount: 1
+      name: '§6§lНЕДЕЛЬНОЕ ЗАДАНИЕ'
+      lore:
+        - ''
+        - '&6&lИНФОРМАЦИЯ:'
+        - ''
+        - '&fЗадание: &aИскатель сокровищ'
+        - '&fОпыт: &6350'
+        - '§fПрогресс: §e%total_progress%§8/§e%required_progress% &f[&7%progress_bar%&f] &7| &e%percentage_progress%&f'
+        - ''
+        - ''
+        - '&6&lЦЕЛЬ:'
+        - ''
+        - '&f- Добыть &6%required_progress% &fкварцовой руды'
+        - ''

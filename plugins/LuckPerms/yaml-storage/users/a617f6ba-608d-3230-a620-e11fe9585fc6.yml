@@ -1,0 +1,8 @@
+uuid: a617f6ba-608d-3230-a620-e11fe9585fc6
+name: SDSDSS
+primary-group: default
+parents:
+- default
+- elay
+- hero
+- voin

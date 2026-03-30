@@ -1,0 +1,58 @@
+enable-bar: true
+combat-len: 15
+vanish-timeout: 5
+busy-message: '&cDo not log out before&7: &r{timeleft} secs.'
+free-message: '&aYou can now log out'
+busy-color: red
+free-color: green
+bar-style: segmented_6
+broadcast-message: '&b[AntiRelog] &6Player &2{displayname} &6has left while in combat!'
+busy-chat: '&c[AntiRelog] &fYou are now in &6combat&f! It time out in {timeout} seconds.'
+free-chat: '&a[AntiRelog] &6Combat&f timed out!'
+subjects:
+- Player
+- Zombie
+- Husk
+- Zombie_Villager
+config-version: '1.3'
+messages:
+  pvp-started: '&6&lF&e&lC&7: &fВы теперь в режиме PvP'
+  pvp-started-title: '&6&lСРАЖЕНИЕ'
+  pvp-started-subtitle: '&fВы вошли в режим &6PvP&f.'
+  pvp-stopped: '&6&lF&e&lC&7: &fPvP окончено'
+  pvp-stopped-title: '&6&lСРАЖЕНИЕ'
+  pvp-stopped-subtitle: '&fРежим &6PvP&f окончен.'
+  pvp-stopped-actionbar: ''
+  in-pvp-bossbar: '&f&lВЫ ПОПАЛИ &E&lPVP&f&l РЕЖИМ ВЫ СМОЖЕТЕ &E&lВЫЙТИ&f&l ЧЕРЕЗ
+    &e&l%time% &f&lСЕКУНД'
+  in-pvp-actionbar: ''
+  pvp-leaved: ''
+  commands-disabled: '&6&lF&e&lC&7: &fКоманды во время &6PvP &fотключены.'
+  item-cooldown: '&6&lC&e&lC&7: &fВы сможете использовать этот предмет через &6%time%
+    &f%formated-sec%.'
+  item-disabled-in-pvp: '&6&lF&e&lC&7: &fВы не можете использовать этот предмет в
+    &6PVP &fрежиме'
+  pvp-started-with-powerups: ''
+golden-apple-cooldown: 10
+enchanted-golden-apple-cooldown: 10
+ender-pearl-cooldown: 15
+chorus-cooldown: 5
+pvp-time: 30
+disable-commands-in-pvp: true
+commands-whitelist: []
+kill-on-leave: true
+kill-on-kick: true
+run-commands-on-kick: false
+kick-messages: []
+commands-on-leave: []
+disable-powerups: true
+commands-on-powerups-disable: []
+disable-teleports-in-pvp: true
+ignore-worldguard: false
+join-pvp-in-worldguard: false
+hide-join-message: false
+hide-leave-message: false
+hide-death-message: false
+disabledWorlds:
+- world1
+- world2
